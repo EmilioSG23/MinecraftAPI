@@ -6,7 +6,12 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "bamboo_jungle",
@@ -15,7 +20,13 @@
         "downfall": 0.9,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "jungle_temple",
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "basalt_deltas",
@@ -24,7 +35,10 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "nether_fortress",
+            "ruined_portal"
+        ]
     },
     {
         "id": "beach",
@@ -33,7 +47,14 @@
         "downfall": 0.4,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "buried_treasure",
+            "mineshaft",
+            "ruined_portal",
+            "shipwreck",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "birch_forest",
@@ -42,7 +63,12 @@
         "downfall": 0.6,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "cherry_grove",
@@ -51,7 +77,13 @@
         "downfall": 0.8,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "cold_ocean",
@@ -60,7 +92,14 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ocean_ruin_cold",
+            "ruined_portal",
+            "shipwreck",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "crimson_forest",
@@ -69,7 +108,11 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "bastion_remnant",
+            "nether_fortress",
+            "ruined_portal"
+        ]
     },
     {
         "id": "dark_forest",
@@ -78,7 +121,13 @@
         "downfall": 0.8,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers",
+            "woodland_mansion"
+        ]
     },
     {
         "id": "deep_cold_ocean",
@@ -87,7 +136,15 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ocean_monument",
+            "ocean_ruin_cold",
+            "ruined_portal",
+            "shipwreck",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "deep_dark",
@@ -96,7 +153,10 @@
         "downfall": 0.4,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "ancient_city",
+            "stronghold"
+        ]
     },
     {
         "id": "deep_frozen_ocean",
@@ -105,7 +165,15 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ocean_monument",
+            "ocean_ruin_cold",
+            "ruined_portal",
+            "shipwreck",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "deep_lukewarm_ocean",
@@ -114,7 +182,15 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ocean_monument",
+            "ocean_ruin_warm",
+            "ruined_portal",
+            "shipwreck",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "deep_ocean",
@@ -123,7 +199,15 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ocean_monument",
+            "ocean_ruin_cold",
+            "ruined_portal",
+            "shipwreck",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "desert",
@@ -132,7 +216,15 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "desert_pyramid",
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers",
+            "village"
+        ]
     },
     {
         "id": "dripstone_caves",
@@ -141,7 +233,12 @@
         "downfall": 0.4,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "end_barrens",
@@ -159,7 +256,9 @@
         "downfall": 0.5,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "end_city"
+        ]
     },
     {
         "id": "end_midlands",
@@ -168,7 +267,9 @@
         "downfall": 0.5,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "end_city"
+        ]
     },
     {
         "id": "eroded_badlands",
@@ -177,7 +278,12 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "flower_forest",
@@ -186,7 +292,12 @@
         "downfall": 0.8,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "forest",
@@ -195,7 +306,12 @@
         "downfall": 0.8,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "frozen_ocean",
@@ -204,7 +320,14 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ocean_ruin_cold",
+            "ruined_portal",
+            "shipwreck",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "frozen_peaks",
@@ -213,7 +336,13 @@
         "downfall": 0.9,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "frozen_river",
@@ -222,7 +351,12 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "grove",
@@ -231,7 +365,13 @@
         "downfall": 0.8,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "ice_spikes",
@@ -240,7 +380,12 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "jagged_peaks",
@@ -249,7 +394,13 @@
         "downfall": 0.9,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "jungle",
@@ -258,7 +409,14 @@
         "downfall": 0.9,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "jungle_temple",
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trail_ruins",
+            "trial_chambers"
+        ]
     },
     {
         "id": "lukewarm_ocean",
@@ -267,7 +425,14 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ocean_ruin_warm",
+            "ruined_portal",
+            "shipwreck",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "lush_caves",
@@ -276,7 +441,12 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "mangrove_swamp",
@@ -285,7 +455,12 @@
         "downfall": 0.9,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "meadow",
@@ -294,7 +469,14 @@
         "downfall": 0.8,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers",
+            "village"
+        ]
     },
     {
         "id": "mushroom_fields",
@@ -303,7 +485,12 @@
         "downfall": 1.0,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "nether_wastes",
@@ -312,7 +499,11 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "bastion_remnant",
+            "nether_fortress",
+            "ruined_portal"
+        ]
     },
     {
         "id": "ocean",
@@ -321,7 +512,14 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ocean_ruin_cold",
+            "ruined_portal",
+            "shipwreck",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "old_growth_birch_forest",
@@ -330,7 +528,13 @@
         "downfall": 0.6,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trail_ruins",
+            "trial_chambers"
+        ]
     },
     {
         "id": "old_growth_pine_taiga",
@@ -339,7 +543,13 @@
         "downfall": 0.8,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trail_ruins",
+            "trial_chambers"
+        ]
     },
     {
         "id": "old_growth_spruce_taiga",
@@ -348,7 +558,13 @@
         "downfall": 0.8,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trail_ruins",
+            "trial_chambers"
+        ]
     },
     {
         "id": "pale_garden",
@@ -357,7 +573,12 @@
         "downfall": 0.8,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "plains",
@@ -366,7 +587,14 @@
         "downfall": 0.4,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers",
+            "village"
+        ]
     },
     {
         "id": "river",
@@ -375,7 +603,12 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "savanna",
@@ -384,7 +617,14 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers",
+            "village"
+        ]
     },
     {
         "id": "savanna_plateau",
@@ -393,7 +633,12 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "small_end_islands",
@@ -411,7 +656,14 @@
         "downfall": 0.3,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "buried_treasure",
+            "mineshaft",
+            "ruined_portal",
+            "shipwreck",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "snowy_plains",
@@ -420,7 +672,15 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "igloo",
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers",
+            "village"
+        ]
     },
     {
         "id": "snowy_slopes",
@@ -429,7 +689,14 @@
         "downfall": 0.9,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "igloo",
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "snowy_taiga",
@@ -438,7 +705,14 @@
         "downfall": 0.4,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "igloo",
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trail_ruins",
+            "trial_chambers"
+        ]
     },
     {
         "id": "soul_sand_valley",
@@ -447,7 +721,12 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "bastion_remnant",
+            "nether_fortress",
+            "nether_fossil",
+            "ruined_portal"
+        ]
     },
     {
         "id": "sparse_jungle",
@@ -456,7 +735,12 @@
         "downfall": 0.8,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "stony_peaks",
@@ -465,7 +749,13 @@
         "downfall": 0.3,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "stony_shore",
@@ -474,7 +764,12 @@
         "downfall": 0.3,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "sunflower_plains",
@@ -483,7 +778,12 @@
         "downfall": 0.4,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "swamp",
@@ -492,7 +792,13 @@
         "downfall": 0.9,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "swamp_hut",
+            "trial_chambers"
+        ]
     },
     {
         "id": "taiga",
@@ -501,7 +807,15 @@
         "downfall": 0.8,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "pillager_outpost",
+            "ruined_portal",
+            "stronghold",
+            "trail_ruins",
+            "trial_chambers",
+            "village"
+        ]
     },
     {
         "id": "the_end",
@@ -528,7 +842,14 @@
         "downfall": 0.5,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ocean_ruin_warm",
+            "ruined_portal",
+            "shipwreck",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "warped_forest",
@@ -537,7 +858,11 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "bastion_remnant",
+            "nether_fortress",
+            "ruined_portal"
+        ]
     },
     {
         "id": "windswept_forest",
@@ -546,7 +871,12 @@
         "downfall": 0.3,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "windswept_gravelly_hills",
@@ -555,7 +885,12 @@
         "downfall": 0.3,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "windswept_hills",
@@ -564,7 +899,12 @@
         "downfall": 0.3,
         "precipitation": true,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "windswept_savanna",
@@ -573,7 +913,12 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     },
     {
         "id": "wooded_badlands",
@@ -582,6 +927,11 @@
         "downfall": 0.0,
         "precipitation": false,
         "blocks": [],
-        "structures": []
+        "structures": [
+            "mineshaft",
+            "ruined_portal",
+            "stronghold",
+            "trial_chambers"
+        ]
     }
 ]

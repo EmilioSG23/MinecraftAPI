@@ -48,7 +48,6 @@ def merge_json(data1, data2):
 
 
 def merge_json_biomes(data1, data2):
-    print("================")
     for structure in data1:
         biomes = structure["biomes"]
         for biome in structure["biomes"]:
@@ -64,9 +63,18 @@ def merge_json_biomes(data1, data2):
         structure["biomes"] = filterBiomes
     save_json_in_file("E:\Proyectos\MinecraftAPI/new_datas.json", data1)
 
+def merge_json_biomes_structures (biomes, structures):
+    for biome in biomes:
+        for structure in structures:
+            for biome_structure in structure["biomes"]:
+                print(biome_structure)
+                if biome_structure == biome["id"]:
+                    biome["structures"].append(structure["id"])
+    save_json_in_file("E:\Proyectos\MinecraftAPI/new_datas.json", biomes)
+
 # Uso
-data1 = load_json("E:\Proyectos\MinecraftAPI\src\data/structures.json")
-data2 = load_json("E:\Proyectos\MinecraftAPI\datas.json")
+data1 = load_json("E:\Proyectos\MinecraftAPI\src\data/biomes.json")
+data2 = load_json("E:\Proyectos\MinecraftAPI\src\data/structures.json")
 
 #merge_json_files ("E:\Proyectos/1.21.4\data\minecraft/tags\worldgen/biome", "E:\Proyectos\MinecraftAPI\datas.json")
-merge_json_biomes(data1,data2)
+merge_json_biomes_structures(data1,data2)
