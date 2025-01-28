@@ -1,0 +1,11 @@
+[
+    {
+        "id": "allay",
+        "name": "Allay",
+        "health_points": 20,
+        "behavior": "Passive",
+        "type": [],
+        "speed": 0.1,
+        "drop": []
+    }
+]

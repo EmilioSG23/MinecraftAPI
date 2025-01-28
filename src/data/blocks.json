@@ -1,0 +1,24 @@
+[
+    {
+        "id": "acacia_button",
+        "name": "Acacia Button",
+        "tier": "Common",
+        "renewable": true,
+        "tool": "Axe",
+        "stackable": 64,
+        "blastResistance": 0.5,
+        "hardness": 0.5,
+        "luminous": false,
+        "transparent": true,
+        "flammable": false,
+        "waterloggeable": false,
+        "image": "",
+        "recipe": {
+            "ingredient_id": 
+            ["acacia_planks",null,null,
+            null,null,null,
+            null,null,null],
+            "shaped": false
+        }
+    }
+]
