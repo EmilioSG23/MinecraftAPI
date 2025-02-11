@@ -1,0 +1,94 @@
+import { Router, Request, Response } from "express";
+import path from "path";
+
+const generalRouter = <T extends {id:string} >(datas: T[], message: string) => {
+    const IMAGE_EXTENSION: {[api:string]: string} = {
+        advancements: "",
+        biomes: "webp",
+        blocks: "png",
+        items: "png",
+        mobs: "webp",
+        structures: "webp"
+    }
+    const router = Router();
+
+    //Main Page
+    router.get("/", (req: Request, res: Response) => {
+        const dataWithImage = datas.map((data) => {
+            return {...data, image: `${req.baseUrl}/${data.id}/image`};
+        })
+        res.json(dataWithImage)
+    });
+
+    //Data ID
+    router.get("/:id/", (req: Request, res: Response) => {
+        const id = req.params.id;
+        const data: any = datas.find((data: {id: string}) => data.id === id);
+        if (!data){
+            res.status(404).json ({message: `${message} with id ${req.params.id} not found.`});
+            return;
+        }
+        res.json (data); 
+    });
+
+    //Image of Data
+    router.get("/:id/image", (req: Request, res: Response) => {
+        const id = req.params.id;
+        const data: any = datas.find((data: {id: string}) => data.id === id);
+        const type: string = req.originalUrl.split("/")[2];
+        if (!data){
+            res.status(404).json ({message: `${message} with id ${req.params.id} not found.`});
+            return;
+        }
+        if (type == "advancements"){
+            res.status(404).json ({message: `Advancement has not texture.`});
+            return;
+        }
+        res.sendFile(path.join(__dirname, "/images")+`/${type}/${data.id}.${IMAGE_EXTENSION[type]}`, (err) => {
+            if (err) res.status(500).json ({message: `${message} with ${id} has not image.`})
+        });
+    });
+
+    //Show all datas only with a key
+    router.get("/all/:key", (req: Request, res: Response) => {
+        const key = req.params.key;
+        const datasByKey = datas.map((data: Record<string,any>) => ({id: data["id"], [key]: data[key]}))
+            .filter(value => value[key] !== undefined);
+
+        if (datasByKey.length > 0)
+            res.status(200).json(datasByKey);
+        else
+            res.status(400).json({message: `Key ${key} not exists.`});
+    });
+
+    //Filter datas by a key and value
+    router.get("/all/:key/:value", (req: Request, res: Response) => {
+        const key = req.params.key;
+        const valueReq = req.params.value
+        const datasByKey = datas.filter((value: any) => ((value[key] !== undefined) && value[key] === valueReq));
+
+        if (datasByKey.length > 0)
+            res.status(200).json(datasByKey);
+        else
+            res.status(400).json({message: `Key ${key} not exists.`});
+    });
+
+    //Show the key of an data
+    router.get("/:id/:key", (req: Request, res: Response) => {
+        const id = req.params.id;
+        const key = req.params.key;
+        const data: any = datas.find((data: {id: string}) => data.id === id);
+        if (!data){
+            res.status(404).json ({message: `${message} with id ${req.params.id} not found.`});
+            return;
+        }
+        if (key && data.hasOwnProperty(key))
+            res.status(200).json ({id: id, [key]: data[key]});
+        else
+            res.status(200).json (data);
+    });
+    
+    return router;
+};
+
+export default generalRouter;

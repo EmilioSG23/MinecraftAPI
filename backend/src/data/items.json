@@ -1,0 +1,8241 @@
+[
+    {
+        "id": "acacia_boat",
+        "name": "Acacia Boat",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "acacia_button",
+        "name": "Acacia Button",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_door",
+        "name": "Acacia Door",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_fence",
+        "name": "Acacia Fence",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_fence_gate",
+        "name": "Acacia Fence Gate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_leaves",
+        "name": "Acacia Leaves",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_log",
+        "name": "Acacia Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_planks",
+        "name": "Acacia Planks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_pressure_plate",
+        "name": "Acacia Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_sapling",
+        "name": "Acacia Sapling",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_sign",
+        "name": "Acacia Sign",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "acacia_slab",
+        "name": "Acacia Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_stairs",
+        "name": "Acacia Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_trapdoor",
+        "name": "Acacia Trapdoor",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "acacia_wood",
+        "name": "Acacia Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "activator_rail",
+        "name": "Activator Rail",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "allium",
+        "name": "Allium",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "amethyst_cluster",
+        "name": "Amethyst Cluster",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "amethyst_shard",
+        "name": "Amethyst Shard",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "ancient_debris",
+        "name": "Ancient Debris",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "andesite",
+        "name": "Andesite",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "andesite_slab",
+        "name": "Andesite Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "andesite_stairs",
+        "name": "Andesite Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "andesite_wall",
+        "name": "Andesite Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "anvil",
+        "name": "Anvil",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "apple",
+        "name": "Apple",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "armor_stand",
+        "name": "Armor Stand",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "arrow",
+        "name": "Arrow",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Fire Resistance",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Harming",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Healing",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Invisibility",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Leaping",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Luck",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Night Vision",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Poison",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Regeneration",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Slow Falling",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Slowness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Splashing",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Strength",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Swiftness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Water Breathing",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of Weakness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Arrow of the Turtle Master",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Awkward Lingering Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Awkward Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Awkward Splash Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "axolotl_spawn_egg",
+        "name": "Axolotl Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "azalea",
+        "name": "Azalea",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "azalea_leaves",
+        "name": "Azalea Leaves",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "azure_bluet",
+        "name": "Azure Bluet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "baked_potato",
+        "name": "Baked Potato",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bamboo",
+        "name": "Bamboo",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "creeper_banner_pattern",
+        "name": "Banner Pattern (Creeper Charge)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "flower_banner_pattern",
+        "name": "Banner Pattern (Flower Charge)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "globe_banner_pattern",
+        "name": "Banner Pattern (Globe)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "skull_banner_pattern",
+        "name": "Banner Pattern (Skull Charge)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "piglin_banner_pattern",
+        "name": "Banner Pattern (Snout)",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "mojang_banner_pattern",
+        "name": "Banner Pattern (Thing)",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "barrel",
+        "name": "Barrel",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "barrier",
+        "name": "Barrier",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "basalt",
+        "name": "Basalt",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bat_spawn_egg",
+        "name": "Bat Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "beacon",
+        "name": "Beacon",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bedrock",
+        "name": "Bedrock",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "bee_nest",
+        "name": "Bee Nest",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bee_spawn_egg",
+        "name": "Bee Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "beehive",
+        "name": "Beehive",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "beetroot",
+        "name": "Beetroot",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "beetroot_seeds",
+        "name": "Beetroot Seeds",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "beetroot_soup",
+        "name": "Beetroot Soup",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "bell",
+        "name": "Bell",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "big_dripleaf",
+        "name": "Big Dripleaf",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_boat",
+        "name": "Birch Boat",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "birch_button",
+        "name": "Birch Button",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_door",
+        "name": "Birch Door",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_fence",
+        "name": "Birch Fence",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_fence_gate",
+        "name": "Birch Fence Gate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_leaves",
+        "name": "Birch Leaves",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_log",
+        "name": "Birch Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_planks",
+        "name": "Birch Planks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_pressure_plate",
+        "name": "Birch Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_sapling",
+        "name": "Birch Sapling",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_sign",
+        "name": "Birch Sign",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "birch_slab",
+        "name": "Birch Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_stairs",
+        "name": "Birch Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_trapdoor",
+        "name": "Birch Trapdoor",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "birch_wood",
+        "name": "Birch Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "black_banner",
+        "name": "Black Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "black_bed",
+        "name": "Black Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "black_candle",
+        "name": "Black Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "black_carpet",
+        "name": "Black Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "black_concrete",
+        "name": "Black Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "black_concrete_powder",
+        "name": "Black Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "black_dye",
+        "name": "Black Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "black_glazed_terracotta",
+        "name": "Black Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "black_shulker_box",
+        "name": "Black Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "black_stained_glass",
+        "name": "Black Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "black_stained_glass_pane",
+        "name": "Black Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "black_terracotta",
+        "name": "Black Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "black_wool",
+        "name": "Black Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blackstone",
+        "name": "Blackstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blackstone_slab",
+        "name": "Blackstone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blackstone_stairs",
+        "name": "Blackstone Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blackstone_wall",
+        "name": "Blackstone Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blast_furnace",
+        "name": "Blast Furnace",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blaze_powder",
+        "name": "Blaze Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blaze_rod",
+        "name": "Blaze Rod",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blaze_spawn_egg",
+        "name": "Blaze Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "amethyst_block",
+        "name": "Block of Amethyst",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "coal_block",
+        "name": "Block of Coal",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "copper_block",
+        "name": "Block of Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "diamond_block",
+        "name": "Block of Diamond",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "emerald_block",
+        "name": "Block of Emerald",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gold_block",
+        "name": "Block of Gold",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "iron_block",
+        "name": "Block of Iron",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lapis_block",
+        "name": "Block of Lapis Lazuli",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "netherite_block",
+        "name": "Block of Netherite",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "quartz_block",
+        "name": "Block of Quartz",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "raw_copper_block",
+        "name": "Block of Raw Copper",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "raw_gold_block",
+        "name": "Block of Raw Gold",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "raw_iron_block",
+        "name": "Block of Raw Iron",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "redstone_block",
+        "name": "Block of Redstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blue_banner",
+        "name": "Blue Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "blue_bed",
+        "name": "Blue Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "blue_candle",
+        "name": "Blue Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blue_carpet",
+        "name": "Blue Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blue_concrete",
+        "name": "Blue Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blue_concrete_powder",
+        "name": "Blue Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blue_dye",
+        "name": "Blue Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blue_glazed_terracotta",
+        "name": "Blue Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "blue_ice",
+        "name": "Blue Ice",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blue_orchid",
+        "name": "Blue Orchid",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blue_shulker_box",
+        "name": "Blue Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "blue_stained_glass",
+        "name": "Blue Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blue_stained_glass_pane",
+        "name": "Blue Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "blue_terracotta",
+        "name": "Blue Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "blue_wool",
+        "name": "Blue Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bone",
+        "name": "Bone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bone_block",
+        "name": "Bone Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bone_meal",
+        "name": "Bone Meal",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "book",
+        "name": "Book",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "writable_book",
+        "name": "Book and Quill",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "bookshelf",
+        "name": "Bookshelf",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "experience_bottle",
+        "name": "Bottle o' Enchanting",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bow",
+        "name": "Bow",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "bowl",
+        "name": "Bowl",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brain_coral",
+        "name": "Brain Coral",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brain_coral_block",
+        "name": "Brain Coral Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brain_coral_fan",
+        "name": "Brain Coral Fan",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bread",
+        "name": "Bread",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brewing_stand",
+        "name": "Brewing Stand",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brick",
+        "name": "Brick",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brick_slab",
+        "name": "Brick Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brick_stairs",
+        "name": "Brick Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brick_wall",
+        "name": "Brick Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bricks",
+        "name": "Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brown_banner",
+        "name": "Brown Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "brown_bed",
+        "name": "Brown Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "brown_candle",
+        "name": "Brown Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brown_carpet",
+        "name": "Brown Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brown_concrete",
+        "name": "Brown Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brown_concrete_powder",
+        "name": "Brown Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brown_dye",
+        "name": "Brown Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brown_glazed_terracotta",
+        "name": "Brown Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "brown_mushroom",
+        "name": "Brown Mushroom",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brown_mushroom_block",
+        "name": "Brown Mushroom Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brown_shulker_box",
+        "name": "Brown Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "brown_stained_glass",
+        "name": "Brown Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brown_stained_glass_pane",
+        "name": "Brown Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "brown_terracotta",
+        "name": "Brown Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "brown_wool",
+        "name": "Brown Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bubble_coral",
+        "name": "Bubble Coral",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bubble_coral_block",
+        "name": "Bubble Coral Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bubble_coral_fan",
+        "name": "Bubble Coral Fan",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "bucket",
+        "name": "Bucket",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "axolotl_bucket",
+        "name": "Bucket of Axolotl",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "cod_bucket",
+        "name": "Bucket of Cod",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "pufferfish_bucket",
+        "name": "Bucket of Pufferfish",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "salmon_bucket",
+        "name": "Bucket of Salmon",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "tropical_fish_bucket",
+        "name": "Bucket of Tropical Fish",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "budding_amethyst",
+        "name": "Budding Amethyst",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "bundle",
+        "name": "Bundle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "filled_map",
+        "name": "Buried Treasure Map",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cactus",
+        "name": "Cactus",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cake",
+        "name": "Cake",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "calcite",
+        "name": "Calcite",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "campfire",
+        "name": "Campfire",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "candle",
+        "name": "Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "carrot",
+        "name": "Carrot",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "carrot_on_a_stick",
+        "name": "Carrot on a Stick",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "cartography_table",
+        "name": "Cartography Table",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "carved_pumpkin",
+        "name": "Carved Pumpkin",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cat_spawn_egg",
+        "name": "Cat Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cauldron",
+        "name": "Cauldron",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cave_spider_spawn_egg",
+        "name": "Cave Spider Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "chain",
+        "name": "Chain",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chain_command_block",
+        "name": "Chain Command Block",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "chainmail_boots",
+        "name": "Chainmail Boots",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "chainmail_chestplate",
+        "name": "Chainmail Chestplate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "chainmail_helmet",
+        "name": "Chainmail Helmet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "chainmail_leggings",
+        "name": "Chainmail Leggings",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "charcoal",
+        "name": "Charcoal",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chest",
+        "name": "Chest",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chicken_spawn_egg",
+        "name": "Chicken Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "chipped_anvil",
+        "name": "Chipped Anvil",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chiseled_deepslate",
+        "name": "Chiseled Deepslate",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "chiseled_nether_bricks",
+        "name": "Chiseled Nether Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chiseled_polished_blackstone",
+        "name": "Chiseled Polished Blackstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chiseled_quartz_block",
+        "name": "Chiseled Quartz Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chiseled_red_sandstone",
+        "name": "Chiseled Red Sandstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chiseled_sandstone",
+        "name": "Chiseled Sandstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chiseled_stone_bricks",
+        "name": "Chiseled Stone Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chorus_flower",
+        "name": "Chorus Flower",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chorus_fruit",
+        "name": "Chorus Fruit",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "clay",
+        "name": "Clay",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "clay_ball",
+        "name": "Clay Ball",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "clock",
+        "name": "Clock",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "coal",
+        "name": "Coal",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "coal_ore",
+        "name": "Coal Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "coarse_dirt",
+        "name": "Coarse Dirt",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cobbled_deepslate",
+        "name": "Cobbled Deepslate",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cobbled_deepslate_slab",
+        "name": "Cobbled Deepslate Slab",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cobbled_deepslate_stairs",
+        "name": "Cobbled Deepslate Stairs",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cobbled_deepslate_wall",
+        "name": "Cobbled Deepslate Wall",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cobblestone",
+        "name": "Cobblestone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cobblestone_slab",
+        "name": "Cobblestone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cobblestone_stairs",
+        "name": "Cobblestone Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cobblestone_wall",
+        "name": "Cobblestone Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cobweb",
+        "name": "Cobweb",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cocoa_beans",
+        "name": "Cocoa Beans",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cod_spawn_egg",
+        "name": "Cod Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "command_block",
+        "name": "Command Block",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "compass",
+        "name": "Compass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "composter",
+        "name": "Composter",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "conduit",
+        "name": "Conduit",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cooked_chicken",
+        "name": "Cooked Chicken",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cooked_cod",
+        "name": "Cooked Cod",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cooked_mutton",
+        "name": "Cooked Mutton",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cooked_porkchop",
+        "name": "Cooked Porkchop",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cooked_rabbit",
+        "name": "Cooked Rabbit",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cooked_salmon",
+        "name": "Cooked Salmon",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cookie",
+        "name": "Cookie",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "copper_ingot",
+        "name": "Copper Ingot",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "copper_ore",
+        "name": "Copper Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cornflower",
+        "name": "Cornflower",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cow_spawn_egg",
+        "name": "Cow Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cracked_deepslate_bricks",
+        "name": "Cracked Deepslate Bricks",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cracked_deepslate_tiles",
+        "name": "Cracked Deepslate Tiles",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cracked_nether_bricks",
+        "name": "Cracked Nether Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cracked_polished_blackstone_bricks",
+        "name": "Cracked Polished Blackstone Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cracked_stone_bricks",
+        "name": "Cracked Stone Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crafting_table",
+        "name": "Crafting Table",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "creeper_head",
+        "name": "Creeper Head",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "creeper_spawn_egg",
+        "name": "Creeper Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_button",
+        "name": "Crimson Button",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_door",
+        "name": "Crimson Door",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_fence",
+        "name": "Crimson Fence",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_fence_gate",
+        "name": "Crimson Fence Gate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_fungus",
+        "name": "Crimson Fungus",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_hyphae",
+        "name": "Crimson Hyphae",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_nylium",
+        "name": "Crimson Nylium",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_planks",
+        "name": "Crimson Planks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_pressure_plate",
+        "name": "Crimson Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_roots",
+        "name": "Crimson Roots",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_sign",
+        "name": "Crimson Sign",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "crimson_slab",
+        "name": "Crimson Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_stairs",
+        "name": "Crimson Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_stem",
+        "name": "Crimson Stem",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crimson_trapdoor",
+        "name": "Crimson Trapdoor",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "crossbow",
+        "name": "Crossbow",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "crying_obsidian",
+        "name": "Crying Obsidian",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cut_copper",
+        "name": "Cut Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cut_copper_slab",
+        "name": "Cut Copper Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cut_copper_stairs",
+        "name": "Cut Copper Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cut_red_sandstone",
+        "name": "Cut Red Sandstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cut_red_sandstone_slab",
+        "name": "Cut Red Sandstone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cut_sandstone",
+        "name": "Cut Sandstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cut_sandstone_slab",
+        "name": "Cut Sandstone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cyan_banner",
+        "name": "Cyan Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "cyan_bed",
+        "name": "Cyan Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "cyan_candle",
+        "name": "Cyan Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cyan_carpet",
+        "name": "Cyan Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cyan_concrete",
+        "name": "Cyan Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cyan_concrete_powder",
+        "name": "Cyan Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cyan_dye",
+        "name": "Cyan Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cyan_glazed_terracotta",
+        "name": "Cyan Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cyan_shulker_box",
+        "name": "Cyan Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "cyan_stained_glass",
+        "name": "Cyan Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cyan_stained_glass_pane",
+        "name": "Cyan Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cyan_terracotta",
+        "name": "Cyan Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cyan_wool",
+        "name": "Cyan Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "damaged_anvil",
+        "name": "Damaged Anvil",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dandelion",
+        "name": "Dandelion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_boat",
+        "name": "Dark Oak Boat",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "dark_oak_button",
+        "name": "Dark Oak Button",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_door",
+        "name": "Dark Oak Door",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_fence",
+        "name": "Dark Oak Fence",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_fence_gate",
+        "name": "Dark Oak Fence Gate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_leaves",
+        "name": "Dark Oak Leaves",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_log",
+        "name": "Dark Oak Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_planks",
+        "name": "Dark Oak Planks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_pressure_plate",
+        "name": "Dark Oak Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_sapling",
+        "name": "Dark Oak Sapling",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_sign",
+        "name": "Dark Oak Sign",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "dark_oak_slab",
+        "name": "Dark Oak Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_stairs",
+        "name": "Dark Oak Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_trapdoor",
+        "name": "Dark Oak Trapdoor",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_oak_wood",
+        "name": "Dark Oak Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_prismarine",
+        "name": "Dark Prismarine",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_prismarine_slab",
+        "name": "Dark Prismarine Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dark_prismarine_stairs",
+        "name": "Dark Prismarine Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "daylight_detector",
+        "name": "Daylight Detector",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_brain_coral",
+        "name": "Dead Brain Coral",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_brain_coral_block",
+        "name": "Dead Brain Coral Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_brain_coral_fan",
+        "name": "Dead Brain Coral Fan",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_bubble_coral",
+        "name": "Dead Bubble Coral",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_bubble_coral_block",
+        "name": "Dead Bubble Coral Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_bubble_coral_fan",
+        "name": "Dead Bubble Coral Fan",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_bush",
+        "name": "Dead Bush",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "dead_fire_coral",
+        "name": "Dead Fire Coral",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_fire_coral_block",
+        "name": "Dead Fire Coral Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_fire_coral_fan",
+        "name": "Dead Fire Coral Fan",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_horn_coral",
+        "name": "Dead Horn Coral",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_horn_coral_block",
+        "name": "Dead Horn Coral Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_horn_coral_fan",
+        "name": "Dead Horn Coral Fan",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_tube_coral",
+        "name": "Dead Tube Coral",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_tube_coral_block",
+        "name": "Dead Tube Coral Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dead_tube_coral_fan",
+        "name": "Dead Tube Coral Fan",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "debug_stick",
+        "name": "Debug Stick",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "deepslate",
+        "name": "Deepslate",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_brick_slab",
+        "name": "Deepslate Brick Slab",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_brick_stairs",
+        "name": "Deepslate Brick Stairs",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_brick_wall",
+        "name": "Deepslate Brick Wall",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_bricks",
+        "name": "Deepslate Bricks",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_coal_ore",
+        "name": "Deepslate Coal Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_copper_ore",
+        "name": "Deepslate Copper Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_diamond_ore",
+        "name": "Deepslate Diamond Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_emerald_ore",
+        "name": "Deepslate Emerald Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_gold_ore",
+        "name": "Deepslate Gold Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_iron_ore",
+        "name": "Deepslate Iron Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_lapis_ore",
+        "name": "Deepslate Lapis Lazuli Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "deepslate_redstone_ore",
+        "name": "Deepslate Redstone Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "detector_rail",
+        "name": "Detector Rail",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "diamond",
+        "name": "Diamond",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "diamond_axe",
+        "name": "Diamond Axe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "diamond_boots",
+        "name": "Diamond Boots",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "diamond_chestplate",
+        "name": "Diamond Chestplate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "diamond_helmet",
+        "name": "Diamond Helmet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "diamond_hoe",
+        "name": "Diamond Hoe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "diamond_horse_armor",
+        "name": "Diamond Horse Armor",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "diamond_leggings",
+        "name": "Diamond Leggings",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "diamond_ore",
+        "name": "Diamond Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "diamond_pickaxe",
+        "name": "Diamond Pickaxe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "diamond_shovel",
+        "name": "Diamond Shovel",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "diamond_sword",
+        "name": "Diamond Sword",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "diorite",
+        "name": "Diorite",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "diorite_slab",
+        "name": "Diorite Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "diorite_stairs",
+        "name": "Diorite Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "diorite_wall",
+        "name": "Diorite Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dirt",
+        "name": "Dirt",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dirt_path",
+        "name": "Dirt Path",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "dispenser",
+        "name": "Dispenser",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dolphin_spawn_egg",
+        "name": "Dolphin Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "donkey_spawn_egg",
+        "name": "Donkey Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "dragon_egg",
+        "name": "Dragon Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "dragon_head",
+        "name": "Dragon Head",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "dragon_breath",
+        "name": "Dragon's Breath",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dried_kelp",
+        "name": "Dried Kelp",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dried_kelp_block",
+        "name": "Dried Kelp Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dripstone_block",
+        "name": "Dripstone Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "dropper",
+        "name": "Dropper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "drowned_spawn_egg",
+        "name": "Drowned Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "egg",
+        "name": "Egg",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "elder_guardian_spawn_egg",
+        "name": "Elder Guardian Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "elytra",
+        "name": "Elytra",
+        "tier": "Epic",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "emerald",
+        "name": "Emerald",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "emerald_ore",
+        "name": "Emerald Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "map",
+        "name": "Empty Map",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "filled_map",
+        "name": "Empty Map",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "enchanted_book",
+        "name": "Enchanted Book",
+        "tier": "Uncommon",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "enchanted_golden_apple",
+        "name": "Enchanted Golden Apple",
+        "tier": "Rare",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "enchanting_table",
+        "name": "Enchanting Table",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "end_crystal",
+        "name": "End Crystal",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "end_portal_frame",
+        "name": "End Portal Frame",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "end_rod",
+        "name": "End Rod",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "end_stone",
+        "name": "End Stone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "end_stone_brick_slab",
+        "name": "End Stone Brick Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "end_stone_brick_stairs",
+        "name": "End Stone Brick Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "end_stone_brick_wall",
+        "name": "End Stone Brick Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "end_stone_bricks",
+        "name": "End Stone Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "ender_chest",
+        "name": "Ender Chest",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "ender_pearl",
+        "name": "Ender Pearl",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "enderman_spawn_egg",
+        "name": "Enderman Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "endermite_spawn_egg",
+        "name": "Endermite Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "evoker_spawn_egg",
+        "name": "Evoker Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "exposed_copper",
+        "name": "Exposed Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "exposed_cut_copper",
+        "name": "Exposed Cut Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "exposed_cut_copper_slab",
+        "name": "Exposed Cut Copper Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "exposed_cut_copper_stairs",
+        "name": "Exposed Cut Copper Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "ender_eye",
+        "name": "Eye of Ender",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "farmland",
+        "name": "Farmland",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "feather",
+        "name": "Feather",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "fermented_spider_eye",
+        "name": "Fermented Spider Eye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "fern",
+        "name": "Fern",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "fire_charge",
+        "name": "Fire Charge",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "fire_coral",
+        "name": "Fire Coral",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "fire_coral_block",
+        "name": "Fire Coral Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "fire_coral_fan",
+        "name": "Fire Coral Fan",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "firework_rocket",
+        "name": "Firework Rocket",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "firework_star",
+        "name": "Firework Star",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "fishing_rod",
+        "name": "Fishing Rod",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "fletching_table",
+        "name": "Fletching Table",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "flint",
+        "name": "Flint",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "flint_and_steel",
+        "name": "Flint and Steel",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "flower_pot",
+        "name": "Flower Pot",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "flowering_azalea",
+        "name": "Flowering Azalea",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "flowering_azalea_leaves",
+        "name": "Flowering Azalea Leaves",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "fox_spawn_egg",
+        "name": "Fox Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "furnace",
+        "name": "Furnace",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "ghast_spawn_egg",
+        "name": "Ghast Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "ghast_tear",
+        "name": "Ghast Tear",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gilded_blackstone",
+        "name": "Gilded Blackstone",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "glass",
+        "name": "Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "glass_bottle",
+        "name": "Glass Bottle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "glass_pane",
+        "name": "Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "glistering_melon_slice",
+        "name": "Glistering Melon Slice",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "glow_berries",
+        "name": "Glow Berries",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "glow_ink_sac",
+        "name": "Glow Ink Sac",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "glow_item_frame",
+        "name": "Glow Item Frame",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "glow_lichen",
+        "name": "Glow Lichen",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "glow_squid_spawn_egg",
+        "name": "Glow Squid Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "glowstone",
+        "name": "Glowstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "glowstone_dust",
+        "name": "Glowstone Dust",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "goat_spawn_egg",
+        "name": "Goat Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "gold_ingot",
+        "name": "Gold Ingot",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gold_nugget",
+        "name": "Gold Nugget",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gold_ore",
+        "name": "Gold Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "golden_apple",
+        "name": "Golden Apple",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "golden_axe",
+        "name": "Golden Axe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "golden_boots",
+        "name": "Golden Boots",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "golden_carrot",
+        "name": "Golden Carrot",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "golden_chestplate",
+        "name": "Golden Chestplate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "golden_helmet",
+        "name": "Golden Helmet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "golden_hoe",
+        "name": "Golden Hoe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "golden_horse_armor",
+        "name": "Golden Horse Armor",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "golden_leggings",
+        "name": "Golden Leggings",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "golden_pickaxe",
+        "name": "Golden Pickaxe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "golden_shovel",
+        "name": "Golden Shovel",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "golden_sword",
+        "name": "Golden Sword",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "granite",
+        "name": "Granite",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "granite_slab",
+        "name": "Granite Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "granite_stairs",
+        "name": "Granite Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "granite_wall",
+        "name": "Granite Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "grass",
+        "name": "Grass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "grass_block",
+        "name": "Grass Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gravel",
+        "name": "Gravel",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gray_banner",
+        "name": "Gray Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "gray_bed",
+        "name": "Gray Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "gray_candle",
+        "name": "Gray Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gray_carpet",
+        "name": "Gray Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gray_concrete",
+        "name": "Gray Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gray_concrete_powder",
+        "name": "Gray Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gray_dye",
+        "name": "Gray Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gray_glazed_terracotta",
+        "name": "Gray Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "gray_shulker_box",
+        "name": "Gray Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "gray_stained_glass",
+        "name": "Gray Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gray_stained_glass_pane",
+        "name": "Gray Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "gray_terracotta",
+        "name": "Gray Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "gray_wool",
+        "name": "Gray Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "green_banner",
+        "name": "Green Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "green_bed",
+        "name": "Green Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "green_candle",
+        "name": "Green Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "green_carpet",
+        "name": "Green Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "green_concrete",
+        "name": "Green Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "green_concrete_powder",
+        "name": "Green Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "green_dye",
+        "name": "Green Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "green_glazed_terracotta",
+        "name": "Green Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "green_shulker_box",
+        "name": "Green Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "green_stained_glass",
+        "name": "Green Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "green_stained_glass_pane",
+        "name": "Green Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "green_terracotta",
+        "name": "Green Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "green_wool",
+        "name": "Green Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "grindstone",
+        "name": "Grindstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "guardian_spawn_egg",
+        "name": "Guardian Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "gunpowder",
+        "name": "Gunpowder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "hanging_roots",
+        "name": "Hanging Roots",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "hay_block",
+        "name": "Hay Bale",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "heart_of_the_sea",
+        "name": "Heart of the Sea",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "heavy_weighted_pressure_plate",
+        "name": "Heavy Weighted Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "hoglin_spawn_egg",
+        "name": "Hoglin Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "honey_block",
+        "name": "Honey Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "honey_bottle",
+        "name": "Honey Bottle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "honeycomb",
+        "name": "Honeycomb",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "honeycomb_block",
+        "name": "Honeycomb Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "hopper",
+        "name": "Hopper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "horn_coral",
+        "name": "Horn Coral",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "horn_coral_block",
+        "name": "Horn Coral Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "horn_coral_fan",
+        "name": "Horn Coral Fan",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "horse_spawn_egg",
+        "name": "Horse Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "husk_spawn_egg",
+        "name": "Husk Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "ice",
+        "name": "Ice",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "infested_chiseled_stone_bricks",
+        "name": "Infested Chiseled Stone Bricks",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "infested_cobblestone",
+        "name": "Infested Cobblestone",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "infested_cracked_stone_bricks",
+        "name": "Infested Cracked Stone Bricks",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "infested_deepslate",
+        "name": "Infested Deepslate",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "infested_mossy_stone_bricks",
+        "name": "Infested Mossy Stone Bricks",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "infested_stone",
+        "name": "Infested Stone",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "infested_stone_bricks",
+        "name": "Infested Stone Bricks",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "ink_sac",
+        "name": "Ink Sac",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "iron_axe",
+        "name": "Iron Axe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "iron_bars",
+        "name": "Iron Bars",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "iron_boots",
+        "name": "Iron Boots",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "iron_chestplate",
+        "name": "Iron Chestplate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "iron_door",
+        "name": "Iron Door",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "iron_helmet",
+        "name": "Iron Helmet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "iron_hoe",
+        "name": "Iron Hoe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "iron_horse_armor",
+        "name": "Iron Horse Armor",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "iron_ingot",
+        "name": "Iron Ingot",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "iron_leggings",
+        "name": "Iron Leggings",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "iron_nugget",
+        "name": "Iron Nugget",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "iron_ore",
+        "name": "Iron Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "iron_pickaxe",
+        "name": "Iron Pickaxe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "iron_shovel",
+        "name": "Iron Shovel",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "iron_sword",
+        "name": "Iron Sword",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "iron_trapdoor",
+        "name": "Iron Trapdoor",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "item_frame",
+        "name": "Item Frame",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jack_o_lantern",
+        "name": "Jack o'Lantern",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jigsaw",
+        "name": "Jigsaw Block",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "jukebox",
+        "name": "Jukebox",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_boat",
+        "name": "Jungle Boat",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "jungle_button",
+        "name": "Jungle Button",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_door",
+        "name": "Jungle Door",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_fence",
+        "name": "Jungle Fence",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_fence_gate",
+        "name": "Jungle Fence Gate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_leaves",
+        "name": "Jungle Leaves",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_log",
+        "name": "Jungle Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_planks",
+        "name": "Jungle Planks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_pressure_plate",
+        "name": "Jungle Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_sapling",
+        "name": "Jungle Sapling",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_sign",
+        "name": "Jungle Sign",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "jungle_slab",
+        "name": "Jungle Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_stairs",
+        "name": "Jungle Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_trapdoor",
+        "name": "Jungle Trapdoor",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "jungle_wood",
+        "name": "Jungle Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "kelp",
+        "name": "Kelp",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "knowledge_book",
+        "name": "Knowledge Book",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "ladder",
+        "name": "Ladder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lantern",
+        "name": "Lantern",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lapis_lazuli",
+        "name": "Lapis Lazuli",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lapis_ore",
+        "name": "Lapis Lazuli Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "large_amethyst_bud",
+        "name": "Large Amethyst Bud",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "large_fern",
+        "name": "Large Fern",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "lava_bucket",
+        "name": "Lava Bucket",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lead",
+        "name": "Lead",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "leather",
+        "name": "Leather",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "leather_boots",
+        "name": "Leather Boots",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "leather_helmet",
+        "name": "Leather Cap",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "leather_horse_armor",
+        "name": "Leather Horse Armor",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "leather_leggings",
+        "name": "Leather Pants",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "leather_chestplate",
+        "name": "Leather Tunic",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lectern",
+        "name": "Lectern",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lever",
+        "name": "Lever",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light",
+        "name": "Light",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "light_blue_banner",
+        "name": "Light Blue Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "light_blue_bed",
+        "name": "Light Blue Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "light_blue_candle",
+        "name": "Light Blue Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_blue_carpet",
+        "name": "Light Blue Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_blue_concrete",
+        "name": "Light Blue Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_blue_concrete_powder",
+        "name": "Light Blue Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_blue_dye",
+        "name": "Light Blue Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_blue_glazed_terracotta",
+        "name": "Light Blue Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "light_blue_shulker_box",
+        "name": "Light Blue Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "light_blue_stained_glass",
+        "name": "Light Blue Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_blue_stained_glass_pane",
+        "name": "Light Blue Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_blue_terracotta",
+        "name": "Light Blue Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "light_blue_wool",
+        "name": "Light Blue Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_gray_banner",
+        "name": "Light Gray Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "light_gray_bed",
+        "name": "Light Gray Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "light_gray_candle",
+        "name": "Light Gray Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_gray_carpet",
+        "name": "Light Gray Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_gray_concrete",
+        "name": "Light Gray Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_gray_concrete_powder",
+        "name": "Light Gray Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_gray_dye",
+        "name": "Light Gray Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_gray_glazed_terracotta",
+        "name": "Light Gray Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "light_gray_shulker_box",
+        "name": "Light Gray Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "light_gray_stained_glass",
+        "name": "Light Gray Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_gray_stained_glass_pane",
+        "name": "Light Gray Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_gray_terracotta",
+        "name": "Light Gray Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "light_gray_wool",
+        "name": "Light Gray Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "light_weighted_pressure_plate",
+        "name": "Light Weighted Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lightning_rod",
+        "name": "Lightning Rod",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lilac",
+        "name": "Lilac",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lily_pad",
+        "name": "Lily Pad",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lily_of_the_valley",
+        "name": "Lily of the Valley",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lime_banner",
+        "name": "Lime Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "lime_bed",
+        "name": "Lime Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lime_candle",
+        "name": "Lime Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lime_carpet",
+        "name": "Lime Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lime_concrete",
+        "name": "Lime Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lime_concrete_powder",
+        "name": "Lime Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lime_dye",
+        "name": "Lime Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lime_glazed_terracotta",
+        "name": "Lime Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "lime_shulker_box",
+        "name": "Lime Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lime_stained_glass",
+        "name": "Lime Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lime_stained_glass_pane",
+        "name": "Lime Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lime_terracotta",
+        "name": "Lime Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "lime_wool",
+        "name": "Lime Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Fire Resistance",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Harming",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Healing",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Invisibility",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Leaping",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Luck",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Night Vision",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Poison",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Regeneration",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Slow Falling",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Slowness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Strength",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Swiftness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Water Breathing",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of Weakness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Potion of the Turtle Master",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Lingering Water Bottle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "llama_spawn_egg",
+        "name": "Llama Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "lodestone",
+        "name": "Lodestone",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "loom",
+        "name": "Loom",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "magenta_banner",
+        "name": "Magenta Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "magenta_bed",
+        "name": "Magenta Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "magenta_candle",
+        "name": "Magenta Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "magenta_carpet",
+        "name": "Magenta Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "magenta_concrete",
+        "name": "Magenta Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "magenta_concrete_powder",
+        "name": "Magenta Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "magenta_dye",
+        "name": "Magenta Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "magenta_glazed_terracotta",
+        "name": "Magenta Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "magenta_shulker_box",
+        "name": "Magenta Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "magenta_stained_glass",
+        "name": "Magenta Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "magenta_stained_glass_pane",
+        "name": "Magenta Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "magenta_terracotta",
+        "name": "Magenta Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "magenta_wool",
+        "name": "Magenta Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "magma_block",
+        "name": "Magma Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "magma_cream",
+        "name": "Magma Cream",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "magma_cube_spawn_egg",
+        "name": "Magma Cube Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "filled_map",
+        "name": "Map",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "medium_amethyst_bud",
+        "name": "Medium Amethyst Bud",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "melon",
+        "name": "Melon",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "melon_seeds",
+        "name": "Melon Seeds",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "melon_slice",
+        "name": "Melon Slice",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "milk_bucket",
+        "name": "Milk Bucket",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "minecart",
+        "name": "Minecart",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "chest_minecart",
+        "name": "Minecart with Chest",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "command_block_minecart",
+        "name": "Minecart with Command Block",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "furnace_minecart",
+        "name": "Minecart with Furnace",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "hopper_minecart",
+        "name": "Minecart with Hopper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "tnt_minecart",
+        "name": "Minecart with TNT",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "mooshroom_spawn_egg",
+        "name": "Mooshroom Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "moss_block",
+        "name": "Moss Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "moss_carpet",
+        "name": "Moss Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "mossy_cobblestone",
+        "name": "Mossy Cobblestone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "mossy_cobblestone_slab",
+        "name": "Mossy Cobblestone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "mossy_cobblestone_stairs",
+        "name": "Mossy Cobblestone Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "mossy_cobblestone_wall",
+        "name": "Mossy Cobblestone Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "mossy_stone_brick_slab",
+        "name": "Mossy Stone Brick Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "mossy_stone_brick_stairs",
+        "name": "Mossy Stone Brick Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "mossy_stone_brick_wall",
+        "name": "Mossy Stone Brick Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "mossy_stone_bricks",
+        "name": "Mossy Stone Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "mule_spawn_egg",
+        "name": "Mule Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Mundane Lingering Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Mundane Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Mundane Splash Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "mushroom_stem",
+        "name": "Mushroom Stem",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "mushroom_stew",
+        "name": "Mushroom Stew",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_11",
+        "name": "Music Disc (C418 - 11)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_13",
+        "name": "Music Disc (C418 - 13)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_blocks",
+        "name": "Music Disc (C418 - blocks)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_cat",
+        "name": "Music Disc (C418 - cat)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_chirp",
+        "name": "Music Disc (C418 - chirp)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_far",
+        "name": "Music Disc (C418 - far)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_mall",
+        "name": "Music Disc (C418 - mall)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_mellohi",
+        "name": "Music Disc (C418 - mellohi)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_stal",
+        "name": "Music Disc (C418 - stal)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_strad",
+        "name": "Music Disc (C418 - strad)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_wait",
+        "name": "Music Disc (C418 - wait)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_ward",
+        "name": "Music Disc (C418 - ward)",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_pigstep",
+        "name": "Music Disc (Lena Raine - Pigstep)",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "music_disc_otherside",
+        "name": "Music Disc (Lena Raine - otherside)",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "mycelium",
+        "name": "Mycelium",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "name_tag",
+        "name": "Name Tag",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nautilus_shell",
+        "name": "Nautilus Shell",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nether_brick",
+        "name": "Nether Brick",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nether_brick_fence",
+        "name": "Nether Brick Fence",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nether_brick_slab",
+        "name": "Nether Brick Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nether_brick_stairs",
+        "name": "Nether Brick Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nether_brick_wall",
+        "name": "Nether Brick Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nether_bricks",
+        "name": "Nether Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nether_gold_ore",
+        "name": "Nether Gold Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "quartz",
+        "name": "Nether Quartz",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nether_quartz_ore",
+        "name": "Nether Quartz Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "nether_sprouts",
+        "name": "Nether Sprouts",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nether_star",
+        "name": "Nether Star",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nether_wart",
+        "name": "Nether Wart",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "nether_wart_block",
+        "name": "Nether Wart Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "netherite_axe",
+        "name": "Netherite Axe",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "netherite_boots",
+        "name": "Netherite Boots",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "netherite_chestplate",
+        "name": "Netherite Chestplate",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "netherite_helmet",
+        "name": "Netherite Helmet",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "netherite_hoe",
+        "name": "Netherite Hoe",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "netherite_ingot",
+        "name": "Netherite Ingot",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "netherite_leggings",
+        "name": "Netherite Leggings",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "netherite_pickaxe",
+        "name": "Netherite Pickaxe",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "netherite_scrap",
+        "name": "Netherite Scrap",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "netherite_shovel",
+        "name": "Netherite Shovel",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "netherite_sword",
+        "name": "Netherite Sword",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "netherrack",
+        "name": "Netherrack",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "note_block",
+        "name": "Note Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_boat",
+        "name": "Oak Boat",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "oak_button",
+        "name": "Oak Button",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_door",
+        "name": "Oak Door",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_fence",
+        "name": "Oak Fence",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_fence_gate",
+        "name": "Oak Fence Gate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_leaves",
+        "name": "Oak Leaves",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_log",
+        "name": "Oak Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_planks",
+        "name": "Oak Planks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_pressure_plate",
+        "name": "Oak Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_sapling",
+        "name": "Oak Sapling",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_sign",
+        "name": "Oak Sign",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "oak_slab",
+        "name": "Oak Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_stairs",
+        "name": "Oak Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_trapdoor",
+        "name": "Oak Trapdoor",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oak_wood",
+        "name": "Oak Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "observer",
+        "name": "Observer",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "obsidian",
+        "name": "Obsidian",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "filled_map",
+        "name": "Ocean Explorer Map",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "ocelot_spawn_egg",
+        "name": "Ocelot Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "orange_banner",
+        "name": "Orange Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "orange_bed",
+        "name": "Orange Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "orange_candle",
+        "name": "Orange Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "orange_carpet",
+        "name": "Orange Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "orange_concrete",
+        "name": "Orange Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "orange_concrete_powder",
+        "name": "Orange Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "orange_dye",
+        "name": "Orange Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "orange_glazed_terracotta",
+        "name": "Orange Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "orange_shulker_box",
+        "name": "Orange Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "orange_stained_glass",
+        "name": "Orange Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "orange_stained_glass_pane",
+        "name": "Orange Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "orange_terracotta",
+        "name": "Orange Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "orange_tulip",
+        "name": "Orange Tulip",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "orange_wool",
+        "name": "Orange Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oxeye_daisy",
+        "name": "Oxeye Daisy",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oxidized_copper",
+        "name": "Oxidized Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oxidized_cut_copper",
+        "name": "Oxidized Cut Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oxidized_cut_copper_slab",
+        "name": "Oxidized Cut Copper Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "oxidized_cut_copper_stairs",
+        "name": "Oxidized Cut Copper Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "packed_ice",
+        "name": "Packed Ice",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "painting",
+        "name": "Painting",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "panda_spawn_egg",
+        "name": "Panda Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "paper",
+        "name": "Paper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "parrot_spawn_egg",
+        "name": "Parrot Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "peony",
+        "name": "Peony",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "petrified_oak_slab",
+        "name": "Petrified Oak Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "phantom_membrane",
+        "name": "Phantom Membrane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "phantom_spawn_egg",
+        "name": "Phantom Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "pig_spawn_egg",
+        "name": "Pig Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "piglin_brute_spawn_egg",
+        "name": "Piglin Brute Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "piglin_spawn_egg",
+        "name": "Piglin Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "pillager_spawn_egg",
+        "name": "Pillager Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "pink_banner",
+        "name": "Pink Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "pink_bed",
+        "name": "Pink Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "pink_candle",
+        "name": "Pink Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pink_carpet",
+        "name": "Pink Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pink_concrete",
+        "name": "Pink Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pink_concrete_powder",
+        "name": "Pink Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pink_dye",
+        "name": "Pink Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pink_glazed_terracotta",
+        "name": "Pink Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "pink_shulker_box",
+        "name": "Pink Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "pink_stained_glass",
+        "name": "Pink Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pink_stained_glass_pane",
+        "name": "Pink Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pink_terracotta",
+        "name": "Pink Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "pink_tulip",
+        "name": "Pink Tulip",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pink_wool",
+        "name": "Pink Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "piston",
+        "name": "Piston",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "player_head",
+        "name": "Player Head",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "podzol",
+        "name": "Podzol",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pointed_dripstone",
+        "name": "Pointed Dripstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "poisonous_potato",
+        "name": "Poisonous Potato",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polar_bear_spawn_egg",
+        "name": "Polar Bear Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "polished_andesite",
+        "name": "Polished Andesite",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_andesite_slab",
+        "name": "Polished Andesite Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_andesite_stairs",
+        "name": "Polished Andesite Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_basalt",
+        "name": "Polished Basalt",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_blackstone",
+        "name": "Polished Blackstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_blackstone_brick_slab",
+        "name": "Polished Blackstone Brick Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_blackstone_brick_stairs",
+        "name": "Polished Blackstone Brick Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_blackstone_brick_wall",
+        "name": "Polished Blackstone Brick Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_blackstone_bricks",
+        "name": "Polished Blackstone Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_blackstone_button",
+        "name": "Polished Blackstone Button",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_blackstone_pressure_plate",
+        "name": "Polished Blackstone Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_blackstone_slab",
+        "name": "Polished Blackstone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_blackstone_stairs",
+        "name": "Polished Blackstone Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_blackstone_wall",
+        "name": "Polished Blackstone Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_deepslate",
+        "name": "Polished Deepslate",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "polished_deepslate_slab",
+        "name": "Polished Deepslate Slab",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "polished_deepslate_stairs",
+        "name": "Polished Deepslate Stairs",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "polished_deepslate_wall",
+        "name": "Polished Deepslate Wall",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "polished_diorite",
+        "name": "Polished Diorite",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_diorite_slab",
+        "name": "Polished Diorite Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_diorite_stairs",
+        "name": "Polished Diorite Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_granite",
+        "name": "Polished Granite",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_granite_slab",
+        "name": "Polished Granite Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "polished_granite_stairs",
+        "name": "Polished Granite Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "popped_chorus_fruit",
+        "name": "Popped Chorus Fruit",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "poppy",
+        "name": "Poppy",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "potato",
+        "name": "Potato",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Fire Resistance",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Harming",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Healing",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Invisibility",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Leaping",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Luck",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Night Vision",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Poison",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Regeneration",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Slow Falling",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Slowness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Strength",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Swiftness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Water Breathing",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of Weakness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Potion of the Turtle Master",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "powder_snow_bucket",
+        "name": "Powder Snow Bucket",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "powered_rail",
+        "name": "Powered Rail",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "prismarine",
+        "name": "Prismarine",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "prismarine_brick_slab",
+        "name": "Prismarine Brick Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "prismarine_brick_stairs",
+        "name": "Prismarine Brick Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "prismarine_bricks",
+        "name": "Prismarine Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "prismarine_crystals",
+        "name": "Prismarine Crystals",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "prismarine_shard",
+        "name": "Prismarine Shard",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "prismarine_slab",
+        "name": "Prismarine Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "prismarine_stairs",
+        "name": "Prismarine Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "prismarine_wall",
+        "name": "Prismarine Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pufferfish",
+        "name": "Pufferfish",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pufferfish_spawn_egg",
+        "name": "Pufferfish Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "pumpkin",
+        "name": "Pumpkin",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pumpkin_pie",
+        "name": "Pumpkin Pie",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "pumpkin_seeds",
+        "name": "Pumpkin Seeds",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purple_banner",
+        "name": "Purple Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "purple_bed",
+        "name": "Purple Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "purple_candle",
+        "name": "Purple Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purple_carpet",
+        "name": "Purple Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purple_concrete",
+        "name": "Purple Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purple_concrete_powder",
+        "name": "Purple Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purple_dye",
+        "name": "Purple Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purple_glazed_terracotta",
+        "name": "Purple Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "purple_shulker_box",
+        "name": "Purple Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "purple_stained_glass",
+        "name": "Purple Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purple_stained_glass_pane",
+        "name": "Purple Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purple_terracotta",
+        "name": "Purple Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "purple_wool",
+        "name": "Purple Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purpur_block",
+        "name": "Purpur Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purpur_pillar",
+        "name": "Purpur Pillar",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purpur_slab",
+        "name": "Purpur Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "purpur_stairs",
+        "name": "Purpur Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "quartz_bricks",
+        "name": "Quartz Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "quartz_pillar",
+        "name": "Quartz Pillar",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "quartz_slab",
+        "name": "Quartz Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "quartz_stairs",
+        "name": "Quartz Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "rabbit_hide",
+        "name": "Rabbit Hide",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "rabbit_spawn_egg",
+        "name": "Rabbit Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "rabbit_stew",
+        "name": "Rabbit Stew",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "rabbit_foot",
+        "name": "Rabbit's Foot",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "rail",
+        "name": "Rail",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "ravager_spawn_egg",
+        "name": "Ravager Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "beef",
+        "name": "Raw Beef",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "chicken",
+        "name": "Raw Chicken",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "cod",
+        "name": "Raw Cod",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "raw_copper",
+        "name": "Raw Copper",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "raw_gold",
+        "name": "Raw Gold",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "raw_iron",
+        "name": "Raw Iron",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "mutton",
+        "name": "Raw Mutton",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "porkchop",
+        "name": "Raw Porkchop",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "rabbit",
+        "name": "Raw Rabbit",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "salmon",
+        "name": "Raw Salmon",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_banner",
+        "name": "Red Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "red_bed",
+        "name": "Red Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "red_candle",
+        "name": "Red Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_carpet",
+        "name": "Red Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_concrete",
+        "name": "Red Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_concrete_powder",
+        "name": "Red Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_dye",
+        "name": "Red Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_glazed_terracotta",
+        "name": "Red Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "red_mushroom",
+        "name": "Red Mushroom",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_mushroom_block",
+        "name": "Red Mushroom Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_nether_brick_slab",
+        "name": "Red Nether Brick Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_nether_brick_stairs",
+        "name": "Red Nether Brick Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_nether_brick_wall",
+        "name": "Red Nether Brick Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_nether_bricks",
+        "name": "Red Nether Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_sand",
+        "name": "Red Sand",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_sandstone",
+        "name": "Red Sandstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_sandstone_slab",
+        "name": "Red Sandstone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_sandstone_stairs",
+        "name": "Red Sandstone Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_sandstone_wall",
+        "name": "Red Sandstone Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_shulker_box",
+        "name": "Red Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "red_stained_glass",
+        "name": "Red Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_stained_glass_pane",
+        "name": "Red Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_terracotta",
+        "name": "Red Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "red_tulip",
+        "name": "Red Tulip",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "red_wool",
+        "name": "Red Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "comparator",
+        "name": "Redstone Comparator",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "redstone",
+        "name": "Redstone Dust",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "redstone_lamp",
+        "name": "Redstone Lamp",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "redstone_ore",
+        "name": "Redstone Ore",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "repeater",
+        "name": "Redstone Repeater",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "redstone_torch",
+        "name": "Redstone Torch",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "repeating_command_block",
+        "name": "Repeating Command Block",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "respawn_anchor",
+        "name": "Respawn Anchor",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "rooted_dirt",
+        "name": "Rooted Dirt",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "rose_bush",
+        "name": "Rose Bush",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "rotten_flesh",
+        "name": "Rotten Flesh",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "saddle",
+        "name": "Saddle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "salmon_spawn_egg",
+        "name": "Salmon Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "sand",
+        "name": "Sand",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "sandstone",
+        "name": "Sandstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "sandstone_slab",
+        "name": "Sandstone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "sandstone_stairs",
+        "name": "Sandstone Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "sandstone_wall",
+        "name": "Sandstone Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "scaffolding",
+        "name": "Scaffolding",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "sculk_sensor",
+        "name": "Sculk Sensor",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "scute",
+        "name": "Scute",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "sea_lantern",
+        "name": "Sea Lantern",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "sea_pickle",
+        "name": "Sea Pickle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "seagrass",
+        "name": "Seagrass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "shears",
+        "name": "Shears",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "sheep_spawn_egg",
+        "name": "Sheep Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "shield",
+        "name": "Shield",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "shroomlight",
+        "name": "Shroomlight",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "shulker_box",
+        "name": "Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "shulker_shell",
+        "name": "Shulker Shell",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "shulker_spawn_egg",
+        "name": "Shulker Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "silverfish_spawn_egg",
+        "name": "Silverfish Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "skeleton_horse_spawn_egg",
+        "name": "Skeleton Horse Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "skeleton_skull",
+        "name": "Skeleton Skull",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "skeleton_spawn_egg",
+        "name": "Skeleton Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "slime_block",
+        "name": "Slime Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "slime_spawn_egg",
+        "name": "Slime Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "slime_ball",
+        "name": "Slimeball",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "small_amethyst_bud",
+        "name": "Small Amethyst Bud",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "small_dripleaf",
+        "name": "Small Dripleaf",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smithing_table",
+        "name": "Smithing Table",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smoker",
+        "name": "Smoker",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_basalt",
+        "name": "Smooth Basalt",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_quartz",
+        "name": "Smooth Quartz Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_quartz_slab",
+        "name": "Smooth Quartz Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_quartz_stairs",
+        "name": "Smooth Quartz Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_red_sandstone",
+        "name": "Smooth Red Sandstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_red_sandstone_slab",
+        "name": "Smooth Red Sandstone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_red_sandstone_stairs",
+        "name": "Smooth Red Sandstone Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_sandstone",
+        "name": "Smooth Sandstone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_sandstone_slab",
+        "name": "Smooth Sandstone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_sandstone_stairs",
+        "name": "Smooth Sandstone Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_stone",
+        "name": "Smooth Stone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "smooth_stone_slab",
+        "name": "Smooth Stone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "snow",
+        "name": "Snow",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "snow_block",
+        "name": "Snow Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "snowball",
+        "name": "Snowball",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "soul_campfire",
+        "name": "Soul Campfire",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "soul_lantern",
+        "name": "Soul Lantern",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "soul_sand",
+        "name": "Soul Sand",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "soul_soil",
+        "name": "Soul Soil",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "soul_torch",
+        "name": "Soul Torch",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spawner",
+        "name": "Spawner",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "spectral_arrow",
+        "name": "Spectral Arrow",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spider_eye",
+        "name": "Spider Eye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spider_spawn_egg",
+        "name": "Spider Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Fire Resistance",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Harming",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Healing",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Invisibility",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Leaping",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Luck",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Night Vision",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Poison",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Regeneration",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Slow Falling",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Slowness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Strength",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Swiftness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Water Breathing",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of Weakness",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Potion of the Turtle Master",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Splash Water Bottle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "sponge",
+        "name": "Sponge",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "spore_blossom",
+        "name": "Spore Blossom",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_boat",
+        "name": "Spruce Boat",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "spruce_button",
+        "name": "Spruce Button",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_door",
+        "name": "Spruce Door",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_fence",
+        "name": "Spruce Fence",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_fence_gate",
+        "name": "Spruce Fence Gate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_leaves",
+        "name": "Spruce Leaves",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_log",
+        "name": "Spruce Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_planks",
+        "name": "Spruce Planks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_pressure_plate",
+        "name": "Spruce Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_sapling",
+        "name": "Spruce Sapling",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_sign",
+        "name": "Spruce Sign",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "spruce_slab",
+        "name": "Spruce Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_stairs",
+        "name": "Spruce Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_trapdoor",
+        "name": "Spruce Trapdoor",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spruce_wood",
+        "name": "Spruce Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "spyglass",
+        "name": "Spyglass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "squid_spawn_egg",
+        "name": "Squid Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "cooked_beef",
+        "name": "Steak",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stick",
+        "name": "Stick",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "sticky_piston",
+        "name": "Sticky Piston",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stone",
+        "name": "Stone",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stone_axe",
+        "name": "Stone Axe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "stone_brick_slab",
+        "name": "Stone Brick Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stone_brick_stairs",
+        "name": "Stone Brick Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stone_brick_wall",
+        "name": "Stone Brick Wall",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stone_bricks",
+        "name": "Stone Bricks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stone_button",
+        "name": "Stone Button",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stone_hoe",
+        "name": "Stone Hoe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "stone_pickaxe",
+        "name": "Stone Pickaxe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "stone_pressure_plate",
+        "name": "Stone Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stone_shovel",
+        "name": "Stone Shovel",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "stone_slab",
+        "name": "Stone Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stone_stairs",
+        "name": "Stone Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stone_sword",
+        "name": "Stone Sword",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "stonecutter",
+        "name": "Stonecutter",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stray_spawn_egg",
+        "name": "Stray Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "strider_spawn_egg",
+        "name": "Strider Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "string",
+        "name": "String",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_acacia_log",
+        "name": "Stripped Acacia Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_acacia_wood",
+        "name": "Stripped Acacia Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_birch_log",
+        "name": "Stripped Birch Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_birch_wood",
+        "name": "Stripped Birch Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_crimson_hyphae",
+        "name": "Stripped Crimson Hyphae",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_crimson_stem",
+        "name": "Stripped Crimson Stem",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_dark_oak_log",
+        "name": "Stripped Dark Oak Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_dark_oak_wood",
+        "name": "Stripped Dark Oak Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_jungle_log",
+        "name": "Stripped Jungle Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_jungle_wood",
+        "name": "Stripped Jungle Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_oak_log",
+        "name": "Stripped Oak Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_oak_wood",
+        "name": "Stripped Oak Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_spruce_log",
+        "name": "Stripped Spruce Log",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_spruce_wood",
+        "name": "Stripped Spruce Wood",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_warped_hyphae",
+        "name": "Stripped Warped Hyphae",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "stripped_warped_stem",
+        "name": "Stripped Warped Stem",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "structure_block",
+        "name": "Structure Block",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "structure_void",
+        "name": "Structure Void",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "sugar",
+        "name": "Sugar",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "sugar_cane",
+        "name": "Sugar Cane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "sunflower",
+        "name": "Sunflower",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "suspicious_stew",
+        "name": "Suspicious Stew",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "sweet_berries",
+        "name": "Sweet Berries",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tnt",
+        "name": "TNT",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tall_grass",
+        "name": "Tall Grass",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "target",
+        "name": "Target",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "terracotta",
+        "name": "Terracotta",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Thick Lingering Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Thick Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Thick Splash Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "tinted_glass",
+        "name": "Tinted Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Tipped Arrow",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "torch",
+        "name": "Torch",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "totem_of_undying",
+        "name": "Totem of Undying",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "trader_llama_spawn_egg",
+        "name": "Trader Llama Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "trapped_chest",
+        "name": "Trapped Chest",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "trident",
+        "name": "Trident",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "tripwire_hook",
+        "name": "Tripwire Hook",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tropical_fish",
+        "name": "Tropical Fish",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tropical_fish_spawn_egg",
+        "name": "Tropical Fish Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "tube_coral",
+        "name": "Tube Coral",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tube_coral_block",
+        "name": "Tube Coral Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tube_coral_fan",
+        "name": "Tube Coral Fan",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "tuff",
+        "name": "Tuff",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "turtle_egg",
+        "name": "Turtle Egg",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "turtle_helmet",
+        "name": "Turtle Shell",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "turtle_spawn_egg",
+        "name": "Turtle Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "twisting_vines",
+        "name": "Twisting Vines",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "lingering_potion",
+        "name": "Uncraftable Lingering Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "potion",
+        "name": "Uncraftable Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "splash_potion",
+        "name": "Uncraftable Splash Potion",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "tipped_arrow",
+        "name": "Uncraftable Tipped Arrow",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "vex_spawn_egg",
+        "name": "Vex Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "villager_spawn_egg",
+        "name": "Villager Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "vindicator_spawn_egg",
+        "name": "Vindicator Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "vine",
+        "name": "Vines",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "wandering_trader_spawn_egg",
+        "name": "Wandering Trader Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "warped_button",
+        "name": "Warped Button",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_door",
+        "name": "Warped Door",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_fence",
+        "name": "Warped Fence",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_fence_gate",
+        "name": "Warped Fence Gate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_fungus",
+        "name": "Warped Fungus",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_fungus_on_a_stick",
+        "name": "Warped Fungus on a Stick",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "warped_hyphae",
+        "name": "Warped Hyphae",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_nylium",
+        "name": "Warped Nylium",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "warped_planks",
+        "name": "Warped Planks",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_pressure_plate",
+        "name": "Warped Pressure Plate",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_roots",
+        "name": "Warped Roots",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_sign",
+        "name": "Warped Sign",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "warped_slab",
+        "name": "Warped Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_stairs",
+        "name": "Warped Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_stem",
+        "name": "Warped Stem",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_trapdoor",
+        "name": "Warped Trapdoor",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "warped_wart_block",
+        "name": "Warped Wart Block",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "potion",
+        "name": "Water Bottle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "water_bucket",
+        "name": "Water Bucket",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "waxed_copper_block",
+        "name": "Waxed Block of Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_cut_copper",
+        "name": "Waxed Cut Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_cut_copper_slab",
+        "name": "Waxed Cut Copper Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_cut_copper_stairs",
+        "name": "Waxed Cut Copper Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_exposed_copper",
+        "name": "Waxed Exposed Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_exposed_cut_copper",
+        "name": "Waxed Exposed Cut Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_exposed_cut_copper_slab",
+        "name": "Waxed Exposed Cut Copper Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_exposed_cut_copper_stairs",
+        "name": "Waxed Exposed Cut Copper Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_oxidized_copper",
+        "name": "Waxed Oxidized Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_oxidized_cut_copper",
+        "name": "Waxed Oxidized Cut Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_oxidized_cut_copper_slab",
+        "name": "Waxed Oxidized Cut Copper Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_oxidized_cut_copper_stairs",
+        "name": "Waxed Oxidized Cut Copper Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_weathered_copper",
+        "name": "Waxed Weathered Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_weathered_cut_copper",
+        "name": "Waxed Weathered Cut Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_weathered_cut_copper_slab",
+        "name": "Waxed Weathered Cut Copper Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "waxed_weathered_cut_copper_stairs",
+        "name": "Waxed Weathered Cut Copper Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "weathered_copper",
+        "name": "Weathered Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "weathered_cut_copper",
+        "name": "Weathered Cut Copper",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "weathered_cut_copper_slab",
+        "name": "Weathered Cut Copper Slab",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "weathered_cut_copper_stairs",
+        "name": "Weathered Cut Copper Stairs",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "weeping_vines",
+        "name": "Weeping Vines",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "wet_sponge",
+        "name": "Wet Sponge",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "wheat",
+        "name": "Wheat",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "wheat_seeds",
+        "name": "Wheat Seeds",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "white_banner",
+        "name": "White Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "white_bed",
+        "name": "White Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "white_candle",
+        "name": "White Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "white_carpet",
+        "name": "White Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "white_concrete",
+        "name": "White Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "white_concrete_powder",
+        "name": "White Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "white_dye",
+        "name": "White Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "white_glazed_terracotta",
+        "name": "White Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "white_shulker_box",
+        "name": "White Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "white_stained_glass",
+        "name": "White Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "white_stained_glass_pane",
+        "name": "White Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "white_terracotta",
+        "name": "White Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "white_tulip",
+        "name": "White Tulip",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "white_wool",
+        "name": "White Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "witch_spawn_egg",
+        "name": "Witch Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "wither_rose",
+        "name": "Wither Rose",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "wither_skeleton_skull",
+        "name": "Wither Skeleton Skull",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "wither_skeleton_spawn_egg",
+        "name": "Wither Skeleton Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "wolf_spawn_egg",
+        "name": "Wolf Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "wooden_axe",
+        "name": "Wooden Axe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "wooden_hoe",
+        "name": "Wooden Hoe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "wooden_pickaxe",
+        "name": "Wooden Pickaxe",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "wooden_shovel",
+        "name": "Wooden Shovel",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "wooden_sword",
+        "name": "Wooden Sword",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "filled_map",
+        "name": "Woodland Explorer Map",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "written_book",
+        "name": "Written Book",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "yellow_banner",
+        "name": "Yellow Banner",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 16
+    },
+    {
+        "id": "yellow_bed",
+        "name": "Yellow Bed",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "yellow_candle",
+        "name": "Yellow Candle",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "yellow_carpet",
+        "name": "Yellow Carpet",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "yellow_concrete",
+        "name": "Yellow Concrete",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "yellow_concrete_powder",
+        "name": "Yellow Concrete Powder",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "yellow_dye",
+        "name": "Yellow Dye",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "yellow_glazed_terracotta",
+        "name": "Yellow Glazed Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "yellow_shulker_box",
+        "name": "Yellow Shulker Box",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 1
+    },
+    {
+        "id": "yellow_stained_glass",
+        "name": "Yellow Stained Glass",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "yellow_stained_glass_pane",
+        "name": "Yellow Stained Glass Pane",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "yellow_terracotta",
+        "name": "Yellow Terracotta",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "yellow_wool",
+        "name": "Yellow Wool",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "zoglin_spawn_egg",
+        "name": "Zoglin Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "zombie_head",
+        "name": "Zombie Head",
+        "tier": "Common",
+        "renewable": true,
+        "stackable": 64
+    },
+    {
+        "id": "zombie_horse_spawn_egg",
+        "name": "Zombie Horse Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "zombie_spawn_egg",
+        "name": "Zombie Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "zombie_villager_spawn_egg",
+        "name": "Zombie Villager Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    },
+    {
+        "id": "zombified_piglin_spawn_egg",
+        "name": "Zombified Piglin Spawn Egg",
+        "tier": "Common",
+        "renewable": false,
+        "stackable": 64
+    }
+]
