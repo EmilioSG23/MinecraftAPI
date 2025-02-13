@@ -1,15 +1,9 @@
 import { Router, Request, Response } from "express";
 import path from "path";
+import fs from "fs";
 
 const generalRouter = <T extends {id:string} >(datas: T[], message: string) => {
-    const IMAGE_EXTENSION: {[api:string]: string} = {
-        advancements: "",
-        biomes: "webp",
-        blocks: "png",
-        items: "png",
-        mobs: "webp",
-        structures: "webp"
-    }
+    const IMAGE_EXTENSIONS = ["png", "webp", "gif"];
     const router = Router();
 
     //Main Page
@@ -44,9 +38,14 @@ const generalRouter = <T extends {id:string} >(datas: T[], message: string) => {
             res.status(404).json ({message: `Advancement has not texture.`});
             return;
         }
-        res.sendFile(path.join(__dirname, "/images")+`/${type}/${data.id}.${IMAGE_EXTENSION[type]}`, (err) => {
-            if (err) res.status(500).json ({message: `${message} with ${id} has not image.`})
-        });
+        const basePath = path.join(__dirname, "/images", type, data.id);
+        const imagePath = IMAGE_EXTENSIONS.map(ext => `${basePath}.${ext}`).find(file => fs.existsSync(file));
+
+        if (imagePath) {
+            return res.sendFile(imagePath);
+        }
+
+        res.status(404).json({ message: `Image for ${id} not found.` });
     });
 
     //Show all datas only with a key

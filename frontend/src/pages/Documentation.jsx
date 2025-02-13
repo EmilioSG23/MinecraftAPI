@@ -1,9 +1,9 @@
-import { Header } from "../components/Header";
+import { useChangeSection } from "../hooks/useSection.jsx";
 
 export function Documentation(){
+    useChangeSection("documentation")
     return(
         <>
-        <Header initialSection = "documentation"/>
         </>
     )
 }

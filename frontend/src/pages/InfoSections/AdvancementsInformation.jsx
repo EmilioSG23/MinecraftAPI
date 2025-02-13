@@ -1,23 +1,30 @@
 import { API_URL, FETCH_STATUS } from "../../consts";
-import { AlertErrorMessage, AlertLoadingMessage } from "../../components/AlertMessage";
+import { AlertErrorMessage, AlertImageLoading, AlertLoadingMessage } from "../../components/AlertMessage";
 import { useAdvancements } from "../../services/useDatas";
+import { useImageLoaded } from "../../hooks/useImageLoaded";
+import { Filter } from "../../components/Filter";
+import { useFilterData } from "../../hooks/useFilterData";
 
 export function AdvancementsInformation() {
   const {datas, status} = useAdvancements()
+  const {filteredDatas, filter, setFilter} = useFilterData(datas, "title")
+  const {isAllImageLoaded, addImageLoaded} = useImageLoaded(datas.length)
 
   return (
     <>
     {status === FETCH_STATUS.LOADING && <AlertLoadingMessage/>}
     {status === FETCH_STATUS.ERROR && <AlertErrorMessage />}
     {status === FETCH_STATUS.LOADED &&
-      <div className='mc-container mx-auto max-w-6xl mt-7 flex flex-col justify-center p-8'>
+    <>
+    
+      <div className='mc-container mx-auto max-w-6xl mt-7 flex flex-col justify-center items-center p-8'>
         <h1 className='font-bold text-[40px] text-center'>Advancements</h1>
         <div className='w-full my-5'>
-          <input className='bg-black/50 w-[80%] text-[24px] text-white'></input>
+          <Filter data = "advancement" value = {filter} onChange={setFilter}/>
           <div className='flex flex-col overflow-y-scroll h-[512px] my-5 gap-y-10'>
-            {datas.map((data) => {
+            {filteredDatas.map((data) => {
               return(
-                <div key={data.id} className='flex gap-x-1'>
+                <div key={data.id} className='flex gap-x-1' style = {{display: data.hidden ? "none" : "flex"}}>
                   <div className='flex-1 [&>*]:px-5'>
                     <h2 className='bg-[#046a95] border-4 border-black text-white rounded-lg text-[32px]'>
                       {data.title}
@@ -44,6 +51,7 @@ export function AdvancementsInformation() {
           </div>
         </div>
       </div>
+      </>
     }
     </>
   )

@@ -1,5 +1,3 @@
-import { useTooltip } from "../hooks/useTooltip";
-
 export function MCTooltip({tooltip}) {
     if (!tooltip.visible || !tooltip.content) return null;
 

@@ -36,7 +36,7 @@
 
 /*Background*/
 div.background{
-  background-image: url("/panorama.png");
+  
   animation: moving 120s linear infinite;
 }
 
@@ -44,20 +44,20 @@ div.background{
   from{
       background-position: 0 0;
   }to{
-      background-position: 192% 0;
+      background-position: 189% 0;
   }
 }
 
 /*Selector*/
 a.mc-selector{
-  background-image: url("/gui/selector.png");
+  background-image: url("/gui/selector.webp");
   image-rendering: pixelated;
   object-fit: cover;
   background-size: 100% 100%;
 }
 
 a.mc-selector:hover{
-  background-image: url("/gui/selector-selected.png");
+  background-image: url("/gui/selector-selected.webp");
 }
 
 /*Header*/
@@ -76,7 +76,7 @@ img{
 }
 
 .mc-container{
-  background-image: url("/gui/container.png");
+  background-image: url("/gui/container.webp");
   image-rendering: pixelated;
   object-fit: cover;
   background-size: 100% 100%;

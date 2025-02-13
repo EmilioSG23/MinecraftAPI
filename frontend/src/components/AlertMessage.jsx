@@ -11,6 +11,10 @@ export function AlertLoadingMessage(){
   return(<AlertMessage message = "Loading the information..." />)
 }
 
+export function AlertImageLoading(){
+  return(<AlertMessage message = "Loading the images..." />)
+}
+
 export function AlertErrorMessage(){
   return(<AlertMessage message = "Error with the fetching of the datas :(, go back and try again..." fontSize = "text-[32px]" borderColor = "border-red-900"/>)
 }

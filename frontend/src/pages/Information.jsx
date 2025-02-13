@@ -1,11 +1,12 @@
 import { Routes, Route, Link } from 'react-router-dom'
-import { Header } from '../components/Header'
 import { DATAS_TYPE } from '../consts'
 import {AdvancementsInformation} from './InfoSections/AdvancementsInformation'
 import {BiomesInformation} from './InfoSections/BiomesInformation'
+import {BlocksInformation} from './InfoSections/BlocksInformation'
 import {ItemsInformation} from './InfoSections/ItemsInformation'
 import {StructuresInformation} from './InfoSections/StructuresInformation'
 import { AlertMessage } from '../components/AlertMessage'
+import { useChangeSection } from '../hooks/useSection.jsx'
 
 function InfoHomeCard({ id }) {
   return (
@@ -22,29 +23,30 @@ function InfoHomeCard({ id }) {
 function InformationHome() {
   return (
     <div className="mc-container mx-auto max-w-3xl mt-7 flex flex-col justify-center p-8">
-        <h2 className="text-red-700 text-[32px] font-bold text-center">Choose a section for information</h2>
-        <div className="flex flex-col gap-y-2 mt-5">
+        <h1 className="text-red-700 text-[32px] font-bold text-center">Choose a section for information</h1>
+        <article className="flex flex-col gap-y-2 mt-5">
           {DATAS_TYPE.map(dataType => (
             <InfoHomeCard key={dataType} id={dataType} />
           ))}
-        </div>
+        </article>
     </div>
   )
 }
 
 export function Information() {
+  useChangeSection("information")
+  
   return (
-    <>
-      <Header initialSection="information" />
+    <section>
       <Routes>
         <Route index element={<InformationHome />} />
         <Route path="/advancements" element = {<AdvancementsInformation />}/>
         <Route path="/biomes" element = {<BiomesInformation />}/>
-        <Route path="/blocks" element = {<AlertMessage message = "There is not information available yet :("/>}/>
+        <Route path="/blocks" element = {<BlocksInformation />}/>
         <Route path="/items" element = {<ItemsInformation/>}/>
         <Route path="/mobs" element = {<AlertMessage message = "There is not information available yet :("/>}/>
         <Route path="/structures" element = {<StructuresInformation />}/>
       </Routes>
-    </>
+    </section>
   )
 }

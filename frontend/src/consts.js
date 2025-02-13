@@ -19,4 +19,6 @@ export const FETCH_STATUS = {
     ERROR: "error"
 }
 
+export const PREFIX_MC = "minecraft:"
+
 export const DATAS_TYPE = ["advancements","biomes","blocks","items","mobs","structures"];

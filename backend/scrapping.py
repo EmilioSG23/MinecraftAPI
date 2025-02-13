@@ -109,10 +109,28 @@ def request_to_api (api):
     else:
         print("Error")
 
+def deleteBlocksFromItems ():
+    items = load_json("E:\Proyectos\MinecraftAPI/backend/src\data/items.json")
+    blocks = load_json("E:\Proyectos\MinecraftAPI/backend/src\data/blocks.json")
+    mergedData = []
+
+    for item in items:
+        founded = False
+        for block in blocks:
+            if (item["id"] == block["id"]):
+                founded = True
+                break
+        if not founded:
+            mergedData.append(item)
+
+    save_json_in_file("E:\Proyectos\MinecraftAPI/new_datas.json", mergedData)
+
+
 # Uso
 #data1 = load_json("E:\Proyectos\MinecraftAPI\src\data/biomes.json")
 #data2 = load_json("E:\Proyectos\MinecraftAPI\src\data/structures.json")
 
 #merge_json_files ("E:\Proyectos/1.21.4\data\minecraft/tags\worldgen/biome", "E:\Proyectos\MinecraftAPI\datas.json")
 
-request_to_api("https://minecraft-api.vercel.app/api/blocks")
+#request_to_api("https://minecraft-api.vercel.app/api/blocks")
+deleteBlocksFromItems()

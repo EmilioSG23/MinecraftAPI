@@ -5,7 +5,8 @@ import { Terminal } from './pages/Terminal'
 import { Documentation } from './pages/Documentation'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Background } from './components/Background'
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
+import { Header } from './components/Header'
 
 function SelectionSoundEffect(){
   useEffect(() => {
@@ -25,10 +26,11 @@ function SelectionSoundEffect(){
 
 function App() {
   return (
-    <>
+    <main>
     <SelectionSoundEffect/>
     <Background/>
     <BrowserRouter>
+    <Header />
     <Routes>
       <Route path = "/" element={<Menu/>}/>
       <Route path = "/information/*" element={<Information />}/>
@@ -36,7 +38,7 @@ function App() {
       <Route path = "/documentation" element={<Documentation />}/>
     </Routes>
     </BrowserRouter>
-    </>
+    </main>
   )
 }
 

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { FETCH_STATUS } from "../consts";
 
 function useDatas(type){
-    const [datas, setDatas] = useState(null);
+    const [datas, setDatas] = useState([]);
     const [status, setStatus] = useState(FETCH_STATUS.LOADING)
 
     useEffect(() => {
