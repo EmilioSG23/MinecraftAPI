@@ -25,7 +25,7 @@ function InformationHome() {
     <div className="mc-container mx-auto max-w-3xl mt-7 flex flex-col justify-center p-8">
         <h1 className="text-red-700 text-[32px] font-bold text-center">Choose a section for information</h1>
         <article className="flex flex-col gap-y-2 mt-5">
-          {DATAS_TYPE.map(dataType => (
+          {Object.values(DATAS_TYPE).map(dataType => (
             <InfoHomeCard key={dataType} id={dataType} />
           ))}
         </article>

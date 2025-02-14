@@ -7,6 +7,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Background } from './components/Background'
 import { useEffect } from 'react'
 import { Header } from './components/Header'
+import { ConfigButton } from './components/ConfigButton'
+import { useConfigBackground } from './hooks/useConfigBackground'
 
 function SelectionSoundEffect(){
   useEffect(() => {
@@ -25,10 +27,12 @@ function SelectionSoundEffect(){
 }
 
 function App() {
+  const {panorama, blur, displayMode, changePanorama, changeBlur, changeDisplayMode} = useConfigBackground()
+
   return (
     <main>
     <SelectionSoundEffect/>
-    <Background/>
+    <Background panorama = {panorama} blur = {blur}/>
     <BrowserRouter>
     <Header />
     <Routes>
@@ -38,6 +42,7 @@ function App() {
       <Route path = "/documentation" element={<Documentation />}/>
     </Routes>
     </BrowserRouter>
+    <ConfigButton panorama = {panorama} blur = {blur} setPanorama = {changePanorama} setBlur = {changeBlur} display={displayMode} setDisplayMode={changeDisplayMode}/>
     </main>
   )
 }

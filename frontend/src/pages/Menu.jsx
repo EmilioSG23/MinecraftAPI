@@ -1,6 +1,5 @@
 import { Logo } from "../components/Logo"
 import { Link } from 'react-router-dom'
-import {SECTIONS} from '../consts.js'
 import { useChangeSection } from "../hooks/useSection.jsx";
 
 
@@ -20,9 +19,9 @@ export function Menu(){
     <div className="py-20">
         <Logo />
         <div className='flex flex-col justify-center items-center my-32 gap-y-5'>
-        {SECTIONS.map(section => {
-            return (<Selector key={section.id} id={section.id} name={section.name}/>)
-        })}
+        <Selector id="information" name="Information"/>
+        <Selector id="terminal" name="Terminal"/>
+        <Selector id="documentation" name="Documentation"/>
         </div>
     </div>
     )

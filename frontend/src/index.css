@@ -36,7 +36,7 @@
 
 /*Background*/
 div.background{
-  
+  background-image: url("panorama/panorama_10.webp");
   animation: moving 120s linear infinite;
 }
 
@@ -49,14 +49,14 @@ div.background{
 }
 
 /*Selector*/
-a.mc-selector{
+a.mc-selector, button.mc-selector{
   background-image: url("/gui/selector.webp");
   image-rendering: pixelated;
   object-fit: cover;
   background-size: 100% 100%;
 }
 
-a.mc-selector:hover{
+a.mc-selector:hover, button.mc-selector:hover{
   background-image: url("/gui/selector-selected.webp");
 }
 
