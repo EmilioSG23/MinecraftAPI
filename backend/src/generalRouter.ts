@@ -14,6 +14,14 @@ const generalRouter = <T extends {id:string} >(datas: T[], message: string) => {
         res.json(dataWithImage)
     });
 
+    router.get("/count", (req: Request, res: Response) => {
+        res.json(datas.length)
+    })
+    router.get("/keys", (req: Request, res: Response) => {
+        //TEMPORAL
+        res.json(Object.keys(datas[0]))
+    })
+
     //Data ID
     router.get("/:id/", (req: Request, res: Response) => {
         const id = req.params.id;

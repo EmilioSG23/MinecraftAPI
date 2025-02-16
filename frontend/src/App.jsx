@@ -38,7 +38,7 @@ function App() {
     <Routes>
       <Route path = "/" element={<Menu/>}/>
       <Route path = "/information/*" element={<Information />}/>
-      <Route path = "/terminal" element={<Terminal />}/>
+      <Route path = "/terminal" element={<Terminal setPanorama = {changePanorama} setBlur = {changeBlur} setDisplayMode = {changeDisplayMode}/>}/>
       <Route path = "/documentation" element={<Documentation />}/>
     </Routes>
     </BrowserRouter>

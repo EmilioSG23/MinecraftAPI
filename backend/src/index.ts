@@ -27,7 +27,11 @@ app.use (express.json());
 
 //CONSUMOS
 app.get('/', (req: Request, res: Response) => {
-    res.json({"message": "Welcome to Minecraft API"}); });
+    res.json({"message": "Welcome to Minecraft API"});
+});
+app.get('/api', (req: Request, res: Response) => {
+    res.json({"message": "Welcome to Minecraft API"});
+});
 
 //In case of GET custom, discomment this
 /*app.use("/api/advancements", advancements);

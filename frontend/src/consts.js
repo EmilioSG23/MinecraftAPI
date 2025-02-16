@@ -1,5 +1,8 @@
 export const API_URL = "localhost:3000/api"
 
+export const MC_VERSION = "1.19"
+export const API_VERSION = "1.0"
+
 export const FETCH_STATUS = {
     LOADED: "loaded",
     LOADING: "loading",
