@@ -1,9 +1,12 @@
+type AdvancementTier = "Advancement" | "Goal" | "Challenge"
+type AdvancementInterface = "Minecraft" | "Nether" | "The End" | "Adventure" | "Husbandry"
+
 export interface Advancements{
     id: string,
     title: string,
     description: string,
-    tier: string,
-    interface: string,
+    tier: AdvancementTier, //Advancement, Goal, Challenge
+    interface: AdvancementInterface, //Minecraft, Nether, The End, Adventure, Husbandry
     parent: string,
 }
 
@@ -17,12 +20,15 @@ export interface Biomes{
     structures?: string[],
 }
 
+type Tier = "Uncommon" | "Common" | "Rare" | "Epic"
+type Tool = "Axe" | "Hoe" | "Pickaxe" | "Shears" | "Sword" | "Shovel" | ""
+
 export interface Blocks{
     id: string,
     name: string,
-    tier: string,
+    tier: Tier, //Uncommon, Common, Rare, Epic
     renewable: boolean,
-    tool: string,
+    tool: Tool, //Axe, Hoe, Pickaxe, Shears, Sword Shovel
     stackable: number,
     blastResistance: number,
     hardness: number,
@@ -36,12 +42,14 @@ export interface Blocks{
     }
 }
 
+type Stackable = 1 | 16 | 64
+
 export interface Items{
     id: string,
     name: string,
-    tier: string,
+    tier: Tier, //Uncommon, Common, Rare, Epic
     renewable: boolean,
-    stackable: number,
+    stackable: Stackable, //1, 16, 64
     armor?: number,
     durability?: number,
     flammable?: boolean,
@@ -52,12 +60,15 @@ export interface Items{
     }
 }
 
+type Behavior = "Passive" | "Neutral" | "Hostile" | "Boss"
+type Type = "Animal" | "Monster" | "Aquatic" | "Illager"
+
 export interface Mobs{
     id: string,
     name: string,
     health_points: number,
-    behavior: string,
-    type: Array<string>,
+    behavior: Behavior,
+    type: Array<Type>,
     speed?: number,
     drop: Array<{
         id: string,

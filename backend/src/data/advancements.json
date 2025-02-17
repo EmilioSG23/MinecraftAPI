@@ -139,8 +139,8 @@
         "id": "return_to_sender",
         "title": "Return to Sender",
         "description": "Destroy a Ghast with a fireball",
-        "tier": "Advancement",
-        "interface": "Challenge",
+        "tier": "Challenge",
+        "interface": "Nether",
         "parent": "nether-root"
     },
     {
