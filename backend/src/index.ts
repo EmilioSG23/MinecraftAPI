@@ -1,5 +1,6 @@
 import express, { Request, Response } from "express";
 import generalRoute from "./generalRouter";
+import cors from "cors";
 
 import { Advancements, Biomes, Blocks, Items, Mobs, Structures } from "./data/interfaces";
 import { advancements, biomes, blocks, items, mobs, structures } from "./validations";
@@ -10,6 +11,15 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.use(express.json());
+
+const corsOptions = {
+	origin: "*",
+	methods: "GET",
+	allowedHeaders: "*",
+};
+
+app.use(cors(corsOptions));
+
 app.use(express.static(path.join(__dirname, "../../frontend/dist")));
 
 app.get("/api", (req: Request, res: Response) => {
@@ -27,7 +37,6 @@ app.get("/api/*", (req: Request, res: Response) => {
 	res.json({ message: "The route you try to access doesn't exists in API." });
 });
 
-//Show FRONTEND
 app.get("*", (req: Request, res: Response) => {
 	res.sendFile(path.join(__dirname, "../../frontend/dist/index.html"));
 });

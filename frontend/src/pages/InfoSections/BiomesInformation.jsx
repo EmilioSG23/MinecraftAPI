@@ -76,7 +76,7 @@ export function BiomesInformation() {
 											</BiomeItemInformation>
 										</div>
 										<a
-											className="flex items-center self-center justify-center w-1/2 mb-2 text-center bg-gray-300 border-2 border-black rounded-lg hover:border-white"
+											className="flex items-center self-center justify-center w-1/2 mb-2 text-center bg-gray-300 border-2 border-black rounded-lg cursor-pointer hover:border-white"
 											onClick={() => {
 												const path = `${API_URL}/biomes/${data.id}`;
 												navigator.clipboard.writeText(path);

@@ -40,12 +40,12 @@ export function AdvancementsInformation() {
 													{data.description}
 												</p>
 											</div>
-											<a className="flex flex-col bg-gray-300 text-center border-2 border-black rounded-lg items-center justify-center w-[64] hover:border-white">
+											<a className="cursor-pointer flex flex-col bg-gray-300 text-center border-2 border-black rounded-lg items-center justify-center w-[64] hover:border-white">
 												<i className="fa-solid fa-magnifying-glass text-[56px] px-2" />
 												<span>See</span>
 											</a>
 											<a
-												className="flex flex-col bg-gray-300 text-center border-2 border-black rounded-lg items-center justify-center w-[64] hover:border-white"
+												className="cursor-pointer flex flex-col bg-gray-300 text-center border-2 border-black rounded-lg items-center justify-center w-[64] hover:border-white"
 												onClick={() => {
 													const path = `${API_URL}/advancements/${data.id}`;
 													navigator.clipboard.writeText(path);

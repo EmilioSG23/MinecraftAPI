@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-import { DATAS_TYPE, FETCH_STATUS } from "../consts";
+import { API_URL, DATAS_TYPE, FETCH_STATUS } from "../consts";
 
 export async function obtainDatasByURL(url) {
 	try {
-		const response = await fetch(`/api/${url}`);
+		const response = await fetch(`${API_URL}/${url}`);
 		const data = await response.json();
 		return { data, status: response.status };
 	} catch (e) {
-		return { data: "Unexpected Error 400 occurred. Check again your input command or use /help.", status: 400 };
+		return { data: "Unexpected Error 400 occurred.", status: 400 };
 	}
 }
 

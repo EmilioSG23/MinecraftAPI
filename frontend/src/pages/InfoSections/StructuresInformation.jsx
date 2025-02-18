@@ -45,7 +45,7 @@ export function StructuresInformation() {
 										</h2>
 										<span className="text-center text-gray-300 -translate-y-2">{`${PREFIX_MC}${data.id}`}</span>
 										<a
-											className="flex items-center self-center justify-center w-1/2 mb-2 text-center bg-gray-300 border-2 border-black rounded-lg hover:border-white"
+											className="flex items-center self-center justify-center w-1/2 mb-2 text-center bg-gray-300 border-2 border-black rounded-lg cursor-pointer hover:border-white"
 											onClick={() => {
 												const path = `${API_URL}/structures/${data.id}`;
 												navigator.clipboard.writeText(path);

@@ -12,7 +12,7 @@ function InfoHomeCard({ id }) {
 	return (
 		<Link
 			to={`/information/${id}`}
-			className="flex items-center p-1 bg-green-500 border-green-900 rounded-lg gap-x-5 border-3 hover:outline-4 outline-black"
+			className="flex items-center p-1 bg-green-500 border-green-900 rounded-lg gap-x-5 border-3 hover:bg-green-400 hover:border-green-700"
 		>
 			<img src={`/information/${id}.png`} className="info-card w-[96px] h-[96px]" />
 			<div className="text-left">

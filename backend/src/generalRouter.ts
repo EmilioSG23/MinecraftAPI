@@ -2,6 +2,8 @@ import { Router, Request, Response } from "express";
 import path from "path";
 import fs from "fs";
 
+const apiURL = process.env.NODE_ENV === "production" ? "" : "http://localhost:3000";
+
 const generalRouter = <T extends { id: string }>(datas: T[], message: string) => {
 	const IMAGE_EXTENSIONS = ["png", "webp", "gif"];
 	const router = Router();
@@ -9,7 +11,7 @@ const generalRouter = <T extends { id: string }>(datas: T[], message: string) =>
 	//Main Page
 	router.get("/", (req: Request, res: Response) => {
 		const dataWithImage = datas.map((data) => {
-			return { ...data, image: `${req.baseUrl}/${data.id}/image` };
+			return { ...data, image: `${apiURL}${req.baseUrl}/${data.id}/image` };
 		});
 		res.json(dataWithImage);
 	});

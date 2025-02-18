@@ -1,5 +1,4 @@
-/* eslint-disable no-constant-binary-expression */
-import { useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export const DISPLAY_MODE = {
 	RANDOM: "random",
@@ -20,9 +19,9 @@ const VALUES = {
 
 export function useConfigBackground() {
 	const { initialPanorama, initialDisplayMode, initialBlur } = {
-		initialPanorama: Number(window.localStorage.getItem(VALUES.PANORAMA)) ?? DEFAULT.panorama,
+		initialPanorama: Number(window.localStorage.getItem(VALUES.PANORAMA) ?? DEFAULT.panorama),
 		initialDisplayMode: window.localStorage.getItem(VALUES.DISPLAY_MODE) ?? DEFAULT.displayMode,
-		initialBlur: Number(window.localStorage.getItem(VALUES.BLUR)) ?? DEFAULT.blur,
+		initialBlur: Number(window.localStorage.getItem(VALUES.BLUR) ?? DEFAULT.blur),
 	};
 
 	const [panorama, setPanorama] = useState(initialPanorama);
@@ -43,7 +42,7 @@ export function useConfigBackground() {
 		window.localStorage.setItem(VALUES.BLUR, blur);
 	};
 
-	useLayoutEffect(() => {
+	useEffect(() => {
 		if (displayMode === DISPLAY_MODE.RANDOM) {
 			const rng = Math.floor(Math.random() * 10) + 1;
 			setPanorama(rng);
