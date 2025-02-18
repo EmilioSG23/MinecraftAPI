@@ -1,87 +1,89 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: "Minecraft";
-  font-style: normal;
-  font-weight: normal;
-  src: url("/fonts/MinecraftRegular.otf") format("opentype");
+	font-family: "Minecraft";
+	font-style: normal;
+	font-weight: normal;
+	src: url("/fonts/MinecraftRegular.otf") format("opentype");
 }
 @font-face {
-  font-family: "Minecraft";
-  font-style: normal;
-  font-weight: bold;
-  src: url("/fonts/MinecraftBold.otf") format("opentype");
+	font-family: "Minecraft";
+	font-style: normal;
+	font-weight: bold;
+	src: url("/fonts/MinecraftBold.otf") format("opentype");
 }
 @font-face {
-  font-family: "Minecraft";
-  font-style: italic;
-  font-weight: normal;
-  src: url("/fonts/MinecraftItalic.otf") format("opentype");
+	font-family: "Minecraft";
+	font-style: italic;
+	font-weight: normal;
+	src: url("/fonts/MinecraftItalic.otf") format("opentype");
 }
 @font-face {
-  font-family: "Minecraft";
-  font-style: italic;
-  font-weight: bold;
-  src: url("/fonts/MinecraftBoldItalic.otf") format("opentype");
+	font-family: "Minecraft";
+	font-style: italic;
+	font-weight: bold;
+	src: url("/fonts/MinecraftBoldItalic.otf") format("opentype");
 }
 
-@theme{
-  --font-main: "Minecraft", "JetBrains Mono", "monospace";
+@theme {
+	--font-main: "Minecraft", "JetBrains Mono", "monospace";
 }
 
-:root{
-  font-family: "Minecraft";
-  
+:root {
+	font-family: "Minecraft";
 }
 
 /*Background*/
-div.background{
-  background-image: url("panorama/panorama_10.webp");
-  animation: moving 120s linear infinite;
+div.background {
+	background-image: url("panorama/panorama_10.webp");
+	animation: moving 120s linear infinite;
 }
 
 @keyframes moving {
-  from{
-      background-position: 0 0;
-  }to{
-      background-position: 189% 0;
-  }
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 189% 0;
+	}
 }
 
 /*Selector*/
-a.mc-selector, button.mc-selector{
-  background-image: url("/gui/selector.webp");
-  image-rendering: pixelated;
-  object-fit: cover;
-  background-size: 100% 100%;
+a.mc-selector,
+button.mc-selector {
+	background-image: url("/gui/selector.webp");
+	image-rendering: pixelated;
+	object-fit: cover;
+	background-size: 100% 100%;
 }
 
-a.mc-selector:hover, button.mc-selector:hover{
-  background-image: url("/gui/selector-selected.webp");
+a.mc-selector:hover,
+button.mc-selector:hover {
+	background-image: url("/gui/selector-selected.webp");
 }
 
 /*Header*/
-nav a.active{
-  background-color: transparent;
-  text-decoration-line: underline;
-  outline-color: white;
-  margin-top: 3px;
+nav a.active {
+	background-color: transparent;
+	text-decoration-line: underline;
+	outline-color: white;
+	margin-top: 3px;
 }
-nav a.active div{
-  @apply py-[3px] sm:py-2
-}
-
-img{
-  image-rendering: pixelated;
+nav a.active div {
+	@apply py-[3px] sm:py-2;
 }
 
-.mc-container{
-  background-image: url("/gui/container.webp");
-  image-rendering: pixelated;
-  object-fit: cover;
-  background-size: 100% 100%;
+img {
+	image-rendering: pixelated;
 }
 
-span.mc-tooltip{
-  @apply z-[1] fixed text-center text-white text-[12px] py-1 px-2 rounded-lg bg-black border-2 border-purple-900;
+.mc-container {
+	background-image: url("/gui/container.webp");
+	image-rendering: pixelated;
+	object-fit: cover;
+	background-size: 100% 100%;
+}
+
+span.mc-tooltip {
+	@apply z-[1] fixed text-center text-white text-[12px] py-1 px-2 rounded-lg bg-black border-2 border-purple-900;
 }

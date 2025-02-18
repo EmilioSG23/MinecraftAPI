@@ -1,27 +1,27 @@
-export const API_URL = "localhost:3000/api"
+export const API_URL = "localhost:3000/api";
 
-export const MC_VERSION = "1.19"
-export const API_VERSION = "1.0"
+export const MC_VERSION = "1.19";
+export const API_VERSION = "1.0";
 
 export const FETCH_STATUS = {
-    LOADED: "loaded",
-    LOADING: "loading",
-    ERROR: "error"
-}
+	LOADED: "loaded",
+	LOADING: "loading",
+	ERROR: "error",
+};
 
 export const SECTIONS = {
-    information: "information",
-    terminal: "terminal",
-    documentation: "documentation"
-}
+	information: "information",
+	terminal: "terminal",
+	documentation: "documentation",
+};
 
-export const PREFIX_MC = "minecraft:"
+export const PREFIX_MC = "minecraft:";
 
 export const DATAS_TYPE = {
-    advancements: "advancements",
-    biomes: "biomes",
-    blocks: "blocks",
-    items: "items",
-    mobs: "mobs",
-    structures: "structures"
-}
+	advancements: "advancements",
+	biomes: "biomes",
+	blocks: "blocks",
+	items: "items",
+	mobs: "mobs",
+	structures: "structures",
+};

@@ -1,2886 +1,2886 @@
 [
-    {
-        "id": "acacia_boat",
-        "name": "Acacia Boat",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "amethyst_shard",
-        "name": "Amethyst Shard",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "apple",
-        "name": "Apple",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "armor_stand",
-        "name": "Armor Stand",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 16
-    },
-    {
-        "id": "arrow",
-        "name": "Arrow",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_fire_resistance",
-        "name": "Arrow of Fire Resistance",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_harming",
-        "name": "Arrow of Harming",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_healing",
-        "name": "Arrow of Healing",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_invisibility",
-        "name": "Arrow of Invisibility",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_leaping",
-        "name": "Arrow of Leaping",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_luck",
-        "name": "Arrow of Luck",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_night_vision",
-        "name": "Arrow of Night Vision",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_poison",
-        "name": "Arrow of Poison",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_regeneration",
-        "name": "Arrow of Regeneration",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_slow_falling",
-        "name": "Arrow of Slow Falling",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_slowness",
-        "name": "Arrow of Slowness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_splashing",
-        "name": "Arrow of Splashing",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_strength",
-        "name": "Arrow of Strength",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_swiftness",
-        "name": "Arrow of Swiftness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_water_breathing",
-        "name": "Arrow of Water Breathing",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_weakness",
-        "name": "Arrow of Weakness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "arrow_of_the_turtle_master",
-        "name": "Arrow of the Turtle Master",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "awkward_lingering_potion",
-        "name": "Awkward Lingering Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "awkward_potion",
-        "name": "Awkward Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "awkward_splash_potion",
-        "name": "Awkward Splash Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "axolotl_spawn_egg",
-        "name": "Axolotl Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "baked_potato",
-        "name": "Baked Potato",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "creeper_banner_pattern",
-        "name": "Banner Pattern (Creeper Charge)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "flower_banner_pattern",
-        "name": "Banner Pattern (Flower Charge)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "globe_banner_pattern",
-        "name": "Banner Pattern (Globe)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "skull_banner_pattern",
-        "name": "Banner Pattern (Skull Charge)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "piglin_banner_pattern",
-        "name": "Banner Pattern (Snout)",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "mojang_banner_pattern",
-        "name": "Banner Pattern (Thing)",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "bat_spawn_egg",
-        "name": "Bat Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "bee_spawn_egg",
-        "name": "Bee Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "beetroot",
-        "name": "Beetroot",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "beetroot_seeds",
-        "name": "Beetroot Seeds",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "beetroot_soup",
-        "name": "Beetroot Soup",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "birch_boat",
-        "name": "Birch Boat",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "black_dye",
-        "name": "Black Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "blaze_powder",
-        "name": "Blaze Powder",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "blaze_rod",
-        "name": "Blaze Rod",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "blaze_spawn_egg",
-        "name": "Blaze Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "blue_dye",
-        "name": "Blue Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "bone",
-        "name": "Bone",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "bone_meal",
-        "name": "Bone Meal",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "book",
-        "name": "Book",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "writable_book",
-        "name": "Book and Quill",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "experience_bottle",
-        "name": "Bottle o' Enchanting",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "bow",
-        "name": "Bow",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "bowl",
-        "name": "Bowl",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "bread",
-        "name": "Bread",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "brown_dye",
-        "name": "Brown Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "bucket",
-        "name": "Bucket",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 16
-    },
-    {
-        "id": "axolotl_bucket",
-        "name": "Bucket of Axolotl",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "cod_bucket",
-        "name": "Bucket of Cod",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "pufferfish_bucket",
-        "name": "Bucket of Pufferfish",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "salmon_bucket",
-        "name": "Bucket of Salmon",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "tropical_fish_bucket",
-        "name": "Bucket of Tropical Fish",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "bundle",
-        "name": "Bundle",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "filled_map",
-        "name": "Buried Treasure Map",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "carrot",
-        "name": "Carrot",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "carrot_on_a_stick",
-        "name": "Carrot on a Stick",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "cat_spawn_egg",
-        "name": "Cat Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "cave_spider_spawn_egg",
-        "name": "Cave Spider Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "chainmail_boots",
-        "name": "Chainmail Boots",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "chainmail_chestplate",
-        "name": "Chainmail Chestplate",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "chainmail_helmet",
-        "name": "Chainmail Helmet",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "chainmail_leggings",
-        "name": "Chainmail Leggings",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "charcoal",
-        "name": "Charcoal",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "chicken_spawn_egg",
-        "name": "Chicken Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "chorus_fruit",
-        "name": "Chorus Fruit",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "clay_ball",
-        "name": "Clay Ball",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "clock",
-        "name": "Clock",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "coal",
-        "name": "Coal",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "cocoa_beans",
-        "name": "Cocoa Beans",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "cod_spawn_egg",
-        "name": "Cod Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "compass",
-        "name": "Compass",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "cooked_chicken",
-        "name": "Cooked Chicken",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "cooked_cod",
-        "name": "Cooked Cod",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "cooked_mutton",
-        "name": "Cooked Mutton",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "cooked_porkchop",
-        "name": "Cooked Porkchop",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "cooked_rabbit",
-        "name": "Cooked Rabbit",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "cooked_salmon",
-        "name": "Cooked Salmon",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "cookie",
-        "name": "Cookie",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "copper_ingot",
-        "name": "Copper Ingot",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "cow_spawn_egg",
-        "name": "Cow Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "creeper_spawn_egg",
-        "name": "Creeper Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "crossbow",
-        "name": "Crossbow",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "cyan_dye",
-        "name": "Cyan Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "dark_oak_boat",
-        "name": "Dark Oak Boat",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "debug_stick",
-        "name": "Debug Stick",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "diamond",
-        "name": "Diamond",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "diamond_axe",
-        "name": "Diamond Axe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "diamond_boots",
-        "name": "Diamond Boots",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "diamond_chestplate",
-        "name": "Diamond Chestplate",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "diamond_helmet",
-        "name": "Diamond Helmet",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "diamond_hoe",
-        "name": "Diamond Hoe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "diamond_horse_armor",
-        "name": "Diamond Horse Armor",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "diamond_leggings",
-        "name": "Diamond Leggings",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "diamond_pickaxe",
-        "name": "Diamond Pickaxe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "diamond_shovel",
-        "name": "Diamond Shovel",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "diamond_sword",
-        "name": "Diamond Sword",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "dolphin_spawn_egg",
-        "name": "Dolphin Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "donkey_spawn_egg",
-        "name": "Donkey Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "dragon_breath",
-        "name": "Dragon's Breath",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "dried_kelp",
-        "name": "Dried Kelp",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "drowned_spawn_egg",
-        "name": "Drowned Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "egg",
-        "name": "Egg",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 16
-    },
-    {
-        "id": "elder_guardian_spawn_egg",
-        "name": "Elder Guardian Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "elytra",
-        "name": "Elytra",
-        "tier": "Epic",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "emerald",
-        "name": "Emerald",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "map",
-        "name": "Empty Map",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "filled_map",
-        "name": "Empty Map",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "enchanted_book",
-        "name": "Enchanted Book",
-        "tier": "Uncommon",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "enchanted_golden_apple",
-        "name": "Enchanted Golden Apple",
-        "tier": "Rare",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "end_crystal",
-        "name": "End Crystal",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "ender_pearl",
-        "name": "Ender Pearl",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 16
-    },
-    {
-        "id": "enderman_spawn_egg",
-        "name": "Enderman Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "endermite_spawn_egg",
-        "name": "Endermite Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "evoker_spawn_egg",
-        "name": "Evoker Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "ender_eye",
-        "name": "Eye of Ender",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "feather",
-        "name": "Feather",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "fermented_spider_eye",
-        "name": "Fermented Spider Eye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "fire_charge",
-        "name": "Fire Charge",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "firework_rocket",
-        "name": "Firework Rocket",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "firework_star",
-        "name": "Firework Star",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "fishing_rod",
-        "name": "Fishing Rod",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "flint",
-        "name": "Flint",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "flint_and_steel",
-        "name": "Flint and Steel",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "fox_spawn_egg",
-        "name": "Fox Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "ghast_spawn_egg",
-        "name": "Ghast Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "ghast_tear",
-        "name": "Ghast Tear",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "glass_bottle",
-        "name": "Glass Bottle",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "glistering_melon_slice",
-        "name": "Glistering Melon Slice",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "glow_berries",
-        "name": "Glow Berries",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "glow_ink_sac",
-        "name": "Glow Ink Sac",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "glow_item_frame",
-        "name": "Glow Item Frame",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "glow_lichen",
-        "name": "Glow Lichen",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "glow_squid_spawn_egg",
-        "name": "Glow Squid Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "glowstone_dust",
-        "name": "Glowstone Dust",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "goat_spawn_egg",
-        "name": "Goat Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "gold_ingot",
-        "name": "Gold Ingot",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "gold_nugget",
-        "name": "Gold Nugget",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "golden_apple",
-        "name": "Golden Apple",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "golden_axe",
-        "name": "Golden Axe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "golden_boots",
-        "name": "Golden Boots",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "golden_carrot",
-        "name": "Golden Carrot",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "golden_chestplate",
-        "name": "Golden Chestplate",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "golden_helmet",
-        "name": "Golden Helmet",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "golden_hoe",
-        "name": "Golden Hoe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "golden_horse_armor",
-        "name": "Golden Horse Armor",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "golden_leggings",
-        "name": "Golden Leggings",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "golden_pickaxe",
-        "name": "Golden Pickaxe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "golden_shovel",
-        "name": "Golden Shovel",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "golden_sword",
-        "name": "Golden Sword",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "gray_dye",
-        "name": "Gray Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "green_dye",
-        "name": "Green Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "guardian_spawn_egg",
-        "name": "Guardian Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "gunpowder",
-        "name": "Gunpowder",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "heart_of_the_sea",
-        "name": "Heart of the Sea",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "hoglin_spawn_egg",
-        "name": "Hoglin Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "honey_bottle",
-        "name": "Honey Bottle",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 16
-    },
-    {
-        "id": "honeycomb",
-        "name": "Honeycomb",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "horse_spawn_egg",
-        "name": "Horse Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "husk_spawn_egg",
-        "name": "Husk Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "ink_sac",
-        "name": "Ink Sac",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "iron_axe",
-        "name": "Iron Axe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "iron_boots",
-        "name": "Iron Boots",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "iron_chestplate",
-        "name": "Iron Chestplate",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "iron_helmet",
-        "name": "Iron Helmet",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "iron_hoe",
-        "name": "Iron Hoe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "iron_horse_armor",
-        "name": "Iron Horse Armor",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "iron_ingot",
-        "name": "Iron Ingot",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "iron_leggings",
-        "name": "Iron Leggings",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "iron_nugget",
-        "name": "Iron Nugget",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "iron_pickaxe",
-        "name": "Iron Pickaxe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "iron_shovel",
-        "name": "Iron Shovel",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "iron_sword",
-        "name": "Iron Sword",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "item_frame",
-        "name": "Item Frame",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "jungle_boat",
-        "name": "Jungle Boat",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "knowledge_book",
-        "name": "Knowledge Book",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "lapis_lazuli",
-        "name": "Lapis Lazuli",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "lava_bucket",
-        "name": "Lava Bucket",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lead",
-        "name": "Lead",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "leather",
-        "name": "Leather",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "leather_boots",
-        "name": "Leather Boots",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "leather_helmet",
-        "name": "Leather Cap",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "leather_horse_armor",
-        "name": "Leather Horse Armor",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "leather_leggings",
-        "name": "Leather Pants",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "leather_chestplate",
-        "name": "Leather Tunic",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "light_blue_dye",
-        "name": "Light Blue Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "light_gray_dye",
-        "name": "Light Gray Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "lime_dye",
-        "name": "Lime Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "lingering_potion_of_fire_resistance",
-        "name": "Lingering Potion of Fire Resistance",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_harming",
-        "name": "Lingering Potion of Harming",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_healing",
-        "name": "Lingering Potion of Healing",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_invisibility",
-        "name": "Lingering Potion of Invisibility",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_leaping",
-        "name": "Lingering Potion of Leaping",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_luck",
-        "name": "Lingering Potion of Luck",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_night_vision",
-        "name": "Lingering Potion of Night Vision",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_poison",
-        "name": "Lingering Potion of Poison",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_regeneration",
-        "name": "Lingering Potion of Regeneration",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_slow_falling",
-        "name": "Lingering Potion of Slow Falling",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_slowness",
-        "name": "Lingering Potion of Slowness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_strength",
-        "name": "Lingering Potion of Strength",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_swiftness",
-        "name": "Lingering Potion of Swiftness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_water_breathing",
-        "name": "Lingering Potion of Water Breathing",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_weakness",
-        "name": "Lingering Potion of Weakness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_potion_of_the_turtle_master",
-        "name": "Lingering Potion of the Turtle Master",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "lingering_water_bottle",
-        "name": "Lingering Water Bottle",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "llama_spawn_egg",
-        "name": "Llama Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "magenta_dye",
-        "name": "Magenta Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "magma_cream",
-        "name": "Magma Cream",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "magma_cube_spawn_egg",
-        "name": "Magma Cube Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "filled_map",
-        "name": "Map",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "melon_seeds",
-        "name": "Melon Seeds",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "melon_slice",
-        "name": "Melon Slice",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "milk_bucket",
-        "name": "Milk Bucket",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "minecart",
-        "name": "Minecart",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "chest_minecart",
-        "name": "Minecart with Chest",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "command_block_minecart",
-        "name": "Minecart with Command Block",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "furnace_minecart",
-        "name": "Minecart with Furnace",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "hopper_minecart",
-        "name": "Minecart with Hopper",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "tnt_minecart",
-        "name": "Minecart with TNT",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "mooshroom_spawn_egg",
-        "name": "Mooshroom Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "mule_spawn_egg",
-        "name": "Mule Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "mundane_lingering_potion",
-        "name": "Mundane Lingering Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "mundane_potion",
-        "name": "Mundane Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "mundane_splash_potion",
-        "name": "Mundane Splash Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "mushroom_stew",
-        "name": "Mushroom Stew",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_11",
-        "name": "Music Disc (C418 - 11)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_13",
-        "name": "Music Disc (C418 - 13)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_blocks",
-        "name": "Music Disc (C418 - blocks)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_cat",
-        "name": "Music Disc (C418 - cat)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_chirp",
-        "name": "Music Disc (C418 - chirp)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_far",
-        "name": "Music Disc (C418 - far)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_mall",
-        "name": "Music Disc (C418 - mall)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_mellohi",
-        "name": "Music Disc (C418 - mellohi)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_stal",
-        "name": "Music Disc (C418 - stal)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_strad",
-        "name": "Music Disc (C418 - strad)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_wait",
-        "name": "Music Disc (C418 - wait)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_ward",
-        "name": "Music Disc (C418 - ward)",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_pigstep",
-        "name": "Music Disc (Lena Raine - Pigstep)",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "music_disc_otherside",
-        "name": "Music Disc (Lena Raine - otherside)",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "name_tag",
-        "name": "Name Tag",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "nautilus_shell",
-        "name": "Nautilus Shell",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "nether_brick",
-        "name": "Nether Brick",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "quartz",
-        "name": "Nether Quartz",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "nether_star",
-        "name": "Nether Star",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "netherite_axe",
-        "name": "Netherite Axe",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "netherite_boots",
-        "name": "Netherite Boots",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "netherite_chestplate",
-        "name": "Netherite Chestplate",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "netherite_helmet",
-        "name": "Netherite Helmet",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "netherite_hoe",
-        "name": "Netherite Hoe",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "netherite_ingot",
-        "name": "Netherite Ingot",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "netherite_leggings",
-        "name": "Netherite Leggings",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "netherite_pickaxe",
-        "name": "Netherite Pickaxe",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "netherite_scrap",
-        "name": "Netherite Scrap",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "netherite_shovel",
-        "name": "Netherite Shovel",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "netherite_sword",
-        "name": "Netherite Sword",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "oak_boat",
-        "name": "Oak Boat",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "filled_map",
-        "name": "Ocean Explorer Map",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "ocelot_spawn_egg",
-        "name": "Ocelot Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "orange_dye",
-        "name": "Orange Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "painting",
-        "name": "Painting",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "panda_spawn_egg",
-        "name": "Panda Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "paper",
-        "name": "Paper",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "parrot_spawn_egg",
-        "name": "Parrot Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "phantom_membrane",
-        "name": "Phantom Membrane",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "phantom_spawn_egg",
-        "name": "Phantom Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "pig_spawn_egg",
-        "name": "Pig Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "piglin_brute_spawn_egg",
-        "name": "Piglin Brute Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "piglin_spawn_egg",
-        "name": "Piglin Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "pillager_spawn_egg",
-        "name": "Pillager Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "pink_dye",
-        "name": "Pink Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "poisonous_potato",
-        "name": "Poisonous Potato",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "polar_bear_spawn_egg",
-        "name": "Polar Bear Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "popped_chorus_fruit",
-        "name": "Popped Chorus Fruit",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "potato",
-        "name": "Potato",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "potion_of_fire_resistance",
-        "name": "Potion of Fire Resistance",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_harming",
-        "name": "Potion of Harming",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_healing",
-        "name": "Potion of Healing",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_invisibility",
-        "name": "Potion of Invisibility",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_leaping",
-        "name": "Potion of Leaping",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_luck",
-        "name": "Potion of Luck",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_night_vision",
-        "name": "Potion of Night Vision",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_poison",
-        "name": "Potion of Poison",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_regeneration",
-        "name": "Potion of Regeneration",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_slow_falling",
-        "name": "Potion of Slow Falling",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_slowness",
-        "name": "Potion of Slowness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_strength",
-        "name": "Potion of Strength",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_swiftness",
-        "name": "Potion of Swiftness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_water_breathing",
-        "name": "Potion of Water Breathing",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_weakness",
-        "name": "Potion of Weakness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "potion_of_the_turtle_master",
-        "name": "Potion of the Turtle Master",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "powder_snow_bucket",
-        "name": "Powder Snow Bucket",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "prismarine_crystals",
-        "name": "Prismarine Crystals",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "prismarine_shard",
-        "name": "Prismarine Shard",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "pufferfish",
-        "name": "Pufferfish",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "pufferfish_spawn_egg",
-        "name": "Pufferfish Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "pumpkin_pie",
-        "name": "Pumpkin Pie",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "pumpkin_seeds",
-        "name": "Pumpkin Seeds",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "purple_dye",
-        "name": "Purple Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "rabbit_hide",
-        "name": "Rabbit Hide",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "rabbit_spawn_egg",
-        "name": "Rabbit Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "rabbit_stew",
-        "name": "Rabbit Stew",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "rabbit_foot",
-        "name": "Rabbit's Foot",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "ravager_spawn_egg",
-        "name": "Ravager Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "beef",
-        "name": "Raw Beef",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "chicken",
-        "name": "Raw Chicken",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "cod",
-        "name": "Raw Cod",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "raw_copper",
-        "name": "Raw Copper",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "raw_gold",
-        "name": "Raw Gold",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "raw_iron",
-        "name": "Raw Iron",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "mutton",
-        "name": "Raw Mutton",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "porkchop",
-        "name": "Raw Porkchop",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "rabbit",
-        "name": "Raw Rabbit",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "salmon",
-        "name": "Raw Salmon",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "red_dye",
-        "name": "Red Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "redstone",
-        "name": "Redstone Dust",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "rotten_flesh",
-        "name": "Rotten Flesh",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "saddle",
-        "name": "Saddle",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "salmon_spawn_egg",
-        "name": "Salmon Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "turtle_scute",
-        "name": "Turtle Scute",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "shears",
-        "name": "Shears",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "sheep_spawn_egg",
-        "name": "Sheep Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "shield",
-        "name": "Shield",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "shulker_shell",
-        "name": "Shulker Shell",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "shulker_spawn_egg",
-        "name": "Shulker Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "silverfish_spawn_egg",
-        "name": "Silverfish Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "skeleton_horse_spawn_egg",
-        "name": "Skeleton Horse Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "skeleton_spawn_egg",
-        "name": "Skeleton Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "slime_spawn_egg",
-        "name": "Slime Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "slime_ball",
-        "name": "Slimeball",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "snowball",
-        "name": "Snowball",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 16
-    },
-    {
-        "id": "spectral_arrow",
-        "name": "Spectral Arrow",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "spider_eye",
-        "name": "Spider Eye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "spider_spawn_egg",
-        "name": "Spider Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "splash_potion_of_fire_resistance",
-        "name": "Splash Potion of Fire Resistance",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_harming",
-        "name": "Splash Potion of Harming",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_healing",
-        "name": "Splash Potion of Healing",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_invisibility",
-        "name": "Splash Potion of Invisibility",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_leaping",
-        "name": "Splash Potion of Leaping",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_luck",
-        "name": "Splash Potion of Luck",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_night_vision",
-        "name": "Splash Potion of Night Vision",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_poison",
-        "name": "Splash Potion of Poison",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_regeneration",
-        "name": "Splash Potion of Regeneration",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_slow_falling",
-        "name": "Splash Potion of Slow Falling",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_slowness",
-        "name": "Splash Potion of Slowness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_strength",
-        "name": "Splash Potion of Strength",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_swiftness",
-        "name": "Splash Potion of Swiftness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_water_breathing",
-        "name": "Splash Potion of Water Breathing",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_weakness",
-        "name": "Splash Potion of Weakness",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_potion_of_the_turtle_master",
-        "name": "Splash Potion of the Turtle Master",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "splash_water_bottle",
-        "name": "Splash Water Bottle",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "spruce_boat",
-        "name": "Spruce Boat",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "spyglass",
-        "name": "Spyglass",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "squid_spawn_egg",
-        "name": "Squid Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "cooked_beef",
-        "name": "Steak",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "stick",
-        "name": "Stick",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "stone_axe",
-        "name": "Stone Axe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "stone_hoe",
-        "name": "Stone Hoe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "stone_pickaxe",
-        "name": "Stone Pickaxe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "stone_shovel",
-        "name": "Stone Shovel",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "stone_sword",
-        "name": "Stone Sword",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "stray_spawn_egg",
-        "name": "Stray Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "strider_spawn_egg",
-        "name": "Strider Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "string",
-        "name": "String",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "sugar",
-        "name": "Sugar",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "suspicious_stew",
-        "name": "Suspicious Stew",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "sweet_berries",
-        "name": "Sweet Berries",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "thick_lingering_potion",
-        "name": "Thick Lingering Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "thick_potion",
-        "name": "Thick Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "thick_splash_potion",
-        "name": "Thick Splash Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "tipped_arrow",
-        "name": "Tipped Arrow",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "totem_of_undying",
-        "name": "Totem of Undying",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "trader_llama_spawn_egg",
-        "name": "Trader Llama Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "trident",
-        "name": "Trident",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "tropical_fish",
-        "name": "Tropical Fish",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "tropical_fish_spawn_egg",
-        "name": "Tropical Fish Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "turtle_helmet",
-        "name": "Turtle Shell",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "turtle_spawn_egg",
-        "name": "Turtle Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "uncraftable_lingering_potion",
-        "name": "Uncraftable Lingering Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "uncraftable_potion",
-        "name": "Uncraftable Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "uncraftable_splash_potion",
-        "name": "Uncraftable Splash Potion",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "uncraftable_tipped_arrow",
-        "name": "Uncraftable Tipped Arrow",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "vex_spawn_egg",
-        "name": "Vex Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "villager_spawn_egg",
-        "name": "Villager Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "vindicator_spawn_egg",
-        "name": "Vindicator Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "wandering_trader_spawn_egg",
-        "name": "Wandering Trader Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "warped_fungus_on_a_stick",
-        "name": "Warped Fungus on a Stick",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "water_bottle",
-        "name": "Water Bottle",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "water_bucket",
-        "name": "Water Bucket",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "wheat_seeds",
-        "name": "Wheat Seeds",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "white_dye",
-        "name": "White Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "witch_spawn_egg",
-        "name": "Witch Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "wither_skeleton_spawn_egg",
-        "name": "Wither Skeleton Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "wolf_spawn_egg",
-        "name": "Wolf Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "wooden_axe",
-        "name": "Wooden Axe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "wooden_hoe",
-        "name": "Wooden Hoe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "wooden_pickaxe",
-        "name": "Wooden Pickaxe",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "wooden_shovel",
-        "name": "Wooden Shovel",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "wooden_sword",
-        "name": "Wooden Sword",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 1
-    },
-    {
-        "id": "filled_map",
-        "name": "Woodland Explorer Map",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "written_book",
-        "name": "Written Book",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 16
-    },
-    {
-        "id": "yellow_dye",
-        "name": "Yellow Dye",
-        "tier": "Common",
-        "renewable": true,
-        "stackable": 64
-    },
-    {
-        "id": "zoglin_spawn_egg",
-        "name": "Zoglin Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "zombie_horse_spawn_egg",
-        "name": "Zombie Horse Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "zombie_spawn_egg",
-        "name": "Zombie Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "zombie_villager_spawn_egg",
-        "name": "Zombie Villager Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    },
-    {
-        "id": "zombified_piglin_spawn_egg",
-        "name": "Zombified Piglin Spawn Egg",
-        "tier": "Common",
-        "renewable": false,
-        "stackable": 64
-    }
+	{
+		"id": "acacia_boat",
+		"name": "Acacia Boat",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "amethyst_shard",
+		"name": "Amethyst Shard",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "apple",
+		"name": "Apple",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "armor_stand",
+		"name": "Armor Stand",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 16
+	},
+	{
+		"id": "arrow",
+		"name": "Arrow",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_fire_resistance",
+		"name": "Arrow of Fire Resistance",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_harming",
+		"name": "Arrow of Harming",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_healing",
+		"name": "Arrow of Healing",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_invisibility",
+		"name": "Arrow of Invisibility",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_leaping",
+		"name": "Arrow of Leaping",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_luck",
+		"name": "Arrow of Luck",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_night_vision",
+		"name": "Arrow of Night Vision",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_poison",
+		"name": "Arrow of Poison",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_regeneration",
+		"name": "Arrow of Regeneration",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_slow_falling",
+		"name": "Arrow of Slow Falling",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_slowness",
+		"name": "Arrow of Slowness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_splashing",
+		"name": "Arrow of Splashing",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_strength",
+		"name": "Arrow of Strength",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_swiftness",
+		"name": "Arrow of Swiftness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_water_breathing",
+		"name": "Arrow of Water Breathing",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_weakness",
+		"name": "Arrow of Weakness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "arrow_of_the_turtle_master",
+		"name": "Arrow of the Turtle Master",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "awkward_lingering_potion",
+		"name": "Awkward Lingering Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "awkward_potion",
+		"name": "Awkward Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "awkward_splash_potion",
+		"name": "Awkward Splash Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "axolotl_spawn_egg",
+		"name": "Axolotl Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "baked_potato",
+		"name": "Baked Potato",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "creeper_banner_pattern",
+		"name": "Banner Pattern (Creeper Charge)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "flower_banner_pattern",
+		"name": "Banner Pattern (Flower Charge)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "globe_banner_pattern",
+		"name": "Banner Pattern (Globe)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "skull_banner_pattern",
+		"name": "Banner Pattern (Skull Charge)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "piglin_banner_pattern",
+		"name": "Banner Pattern (Snout)",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "mojang_banner_pattern",
+		"name": "Banner Pattern (Thing)",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "bat_spawn_egg",
+		"name": "Bat Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "bee_spawn_egg",
+		"name": "Bee Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "beetroot",
+		"name": "Beetroot",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "beetroot_seeds",
+		"name": "Beetroot Seeds",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "beetroot_soup",
+		"name": "Beetroot Soup",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "birch_boat",
+		"name": "Birch Boat",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "black_dye",
+		"name": "Black Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "blaze_powder",
+		"name": "Blaze Powder",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "blaze_rod",
+		"name": "Blaze Rod",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "blaze_spawn_egg",
+		"name": "Blaze Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "blue_dye",
+		"name": "Blue Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "bone",
+		"name": "Bone",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "bone_meal",
+		"name": "Bone Meal",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "book",
+		"name": "Book",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "writable_book",
+		"name": "Book and Quill",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "experience_bottle",
+		"name": "Bottle o' Enchanting",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "bow",
+		"name": "Bow",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "bowl",
+		"name": "Bowl",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "bread",
+		"name": "Bread",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "brown_dye",
+		"name": "Brown Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "bucket",
+		"name": "Bucket",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 16
+	},
+	{
+		"id": "axolotl_bucket",
+		"name": "Bucket of Axolotl",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "cod_bucket",
+		"name": "Bucket of Cod",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "pufferfish_bucket",
+		"name": "Bucket of Pufferfish",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "salmon_bucket",
+		"name": "Bucket of Salmon",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "tropical_fish_bucket",
+		"name": "Bucket of Tropical Fish",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "bundle",
+		"name": "Bundle",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "filled_map",
+		"name": "Buried Treasure Map",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "carrot",
+		"name": "Carrot",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "carrot_on_a_stick",
+		"name": "Carrot on a Stick",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "cat_spawn_egg",
+		"name": "Cat Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "cave_spider_spawn_egg",
+		"name": "Cave Spider Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "chainmail_boots",
+		"name": "Chainmail Boots",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "chainmail_chestplate",
+		"name": "Chainmail Chestplate",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "chainmail_helmet",
+		"name": "Chainmail Helmet",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "chainmail_leggings",
+		"name": "Chainmail Leggings",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "charcoal",
+		"name": "Charcoal",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "chicken_spawn_egg",
+		"name": "Chicken Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "chorus_fruit",
+		"name": "Chorus Fruit",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "clay_ball",
+		"name": "Clay Ball",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "clock",
+		"name": "Clock",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "coal",
+		"name": "Coal",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "cocoa_beans",
+		"name": "Cocoa Beans",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "cod_spawn_egg",
+		"name": "Cod Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "compass",
+		"name": "Compass",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "cooked_chicken",
+		"name": "Cooked Chicken",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "cooked_cod",
+		"name": "Cooked Cod",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "cooked_mutton",
+		"name": "Cooked Mutton",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "cooked_porkchop",
+		"name": "Cooked Porkchop",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "cooked_rabbit",
+		"name": "Cooked Rabbit",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "cooked_salmon",
+		"name": "Cooked Salmon",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "cookie",
+		"name": "Cookie",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "copper_ingot",
+		"name": "Copper Ingot",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "cow_spawn_egg",
+		"name": "Cow Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "creeper_spawn_egg",
+		"name": "Creeper Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "crossbow",
+		"name": "Crossbow",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "cyan_dye",
+		"name": "Cyan Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "dark_oak_boat",
+		"name": "Dark Oak Boat",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "debug_stick",
+		"name": "Debug Stick",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "diamond",
+		"name": "Diamond",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "diamond_axe",
+		"name": "Diamond Axe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "diamond_boots",
+		"name": "Diamond Boots",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "diamond_chestplate",
+		"name": "Diamond Chestplate",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "diamond_helmet",
+		"name": "Diamond Helmet",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "diamond_hoe",
+		"name": "Diamond Hoe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "diamond_horse_armor",
+		"name": "Diamond Horse Armor",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "diamond_leggings",
+		"name": "Diamond Leggings",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "diamond_pickaxe",
+		"name": "Diamond Pickaxe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "diamond_shovel",
+		"name": "Diamond Shovel",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "diamond_sword",
+		"name": "Diamond Sword",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "dolphin_spawn_egg",
+		"name": "Dolphin Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "donkey_spawn_egg",
+		"name": "Donkey Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "dragon_breath",
+		"name": "Dragon's Breath",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "dried_kelp",
+		"name": "Dried Kelp",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "drowned_spawn_egg",
+		"name": "Drowned Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "egg",
+		"name": "Egg",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 16
+	},
+	{
+		"id": "elder_guardian_spawn_egg",
+		"name": "Elder Guardian Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "elytra",
+		"name": "Elytra",
+		"tier": "Epic",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "emerald",
+		"name": "Emerald",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "map",
+		"name": "Empty Map",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "filled_map",
+		"name": "Empty Map",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "enchanted_book",
+		"name": "Enchanted Book",
+		"tier": "Uncommon",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "enchanted_golden_apple",
+		"name": "Enchanted Golden Apple",
+		"tier": "Rare",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "end_crystal",
+		"name": "End Crystal",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "ender_pearl",
+		"name": "Ender Pearl",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 16
+	},
+	{
+		"id": "enderman_spawn_egg",
+		"name": "Enderman Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "endermite_spawn_egg",
+		"name": "Endermite Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "evoker_spawn_egg",
+		"name": "Evoker Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "ender_eye",
+		"name": "Eye of Ender",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "feather",
+		"name": "Feather",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "fermented_spider_eye",
+		"name": "Fermented Spider Eye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "fire_charge",
+		"name": "Fire Charge",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "firework_rocket",
+		"name": "Firework Rocket",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "firework_star",
+		"name": "Firework Star",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "fishing_rod",
+		"name": "Fishing Rod",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "flint",
+		"name": "Flint",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "flint_and_steel",
+		"name": "Flint and Steel",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "fox_spawn_egg",
+		"name": "Fox Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "ghast_spawn_egg",
+		"name": "Ghast Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "ghast_tear",
+		"name": "Ghast Tear",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "glass_bottle",
+		"name": "Glass Bottle",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "glistering_melon_slice",
+		"name": "Glistering Melon Slice",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "glow_berries",
+		"name": "Glow Berries",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "glow_ink_sac",
+		"name": "Glow Ink Sac",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "glow_item_frame",
+		"name": "Glow Item Frame",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "glow_lichen",
+		"name": "Glow Lichen",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "glow_squid_spawn_egg",
+		"name": "Glow Squid Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "glowstone_dust",
+		"name": "Glowstone Dust",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "goat_spawn_egg",
+		"name": "Goat Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "gold_ingot",
+		"name": "Gold Ingot",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "gold_nugget",
+		"name": "Gold Nugget",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "golden_apple",
+		"name": "Golden Apple",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "golden_axe",
+		"name": "Golden Axe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "golden_boots",
+		"name": "Golden Boots",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "golden_carrot",
+		"name": "Golden Carrot",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "golden_chestplate",
+		"name": "Golden Chestplate",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "golden_helmet",
+		"name": "Golden Helmet",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "golden_hoe",
+		"name": "Golden Hoe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "golden_horse_armor",
+		"name": "Golden Horse Armor",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "golden_leggings",
+		"name": "Golden Leggings",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "golden_pickaxe",
+		"name": "Golden Pickaxe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "golden_shovel",
+		"name": "Golden Shovel",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "golden_sword",
+		"name": "Golden Sword",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "gray_dye",
+		"name": "Gray Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "green_dye",
+		"name": "Green Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "guardian_spawn_egg",
+		"name": "Guardian Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "gunpowder",
+		"name": "Gunpowder",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "heart_of_the_sea",
+		"name": "Heart of the Sea",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "hoglin_spawn_egg",
+		"name": "Hoglin Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "honey_bottle",
+		"name": "Honey Bottle",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 16
+	},
+	{
+		"id": "honeycomb",
+		"name": "Honeycomb",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "horse_spawn_egg",
+		"name": "Horse Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "husk_spawn_egg",
+		"name": "Husk Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "ink_sac",
+		"name": "Ink Sac",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "iron_axe",
+		"name": "Iron Axe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "iron_boots",
+		"name": "Iron Boots",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "iron_chestplate",
+		"name": "Iron Chestplate",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "iron_helmet",
+		"name": "Iron Helmet",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "iron_hoe",
+		"name": "Iron Hoe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "iron_horse_armor",
+		"name": "Iron Horse Armor",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "iron_ingot",
+		"name": "Iron Ingot",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "iron_leggings",
+		"name": "Iron Leggings",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "iron_nugget",
+		"name": "Iron Nugget",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "iron_pickaxe",
+		"name": "Iron Pickaxe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "iron_shovel",
+		"name": "Iron Shovel",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "iron_sword",
+		"name": "Iron Sword",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "item_frame",
+		"name": "Item Frame",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "jungle_boat",
+		"name": "Jungle Boat",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "knowledge_book",
+		"name": "Knowledge Book",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "lapis_lazuli",
+		"name": "Lapis Lazuli",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "lava_bucket",
+		"name": "Lava Bucket",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lead",
+		"name": "Lead",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "leather",
+		"name": "Leather",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "leather_boots",
+		"name": "Leather Boots",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "leather_helmet",
+		"name": "Leather Cap",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "leather_horse_armor",
+		"name": "Leather Horse Armor",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "leather_leggings",
+		"name": "Leather Pants",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "leather_chestplate",
+		"name": "Leather Tunic",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "light_blue_dye",
+		"name": "Light Blue Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "light_gray_dye",
+		"name": "Light Gray Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "lime_dye",
+		"name": "Lime Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "lingering_potion_of_fire_resistance",
+		"name": "Lingering Potion of Fire Resistance",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_harming",
+		"name": "Lingering Potion of Harming",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_healing",
+		"name": "Lingering Potion of Healing",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_invisibility",
+		"name": "Lingering Potion of Invisibility",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_leaping",
+		"name": "Lingering Potion of Leaping",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_luck",
+		"name": "Lingering Potion of Luck",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_night_vision",
+		"name": "Lingering Potion of Night Vision",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_poison",
+		"name": "Lingering Potion of Poison",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_regeneration",
+		"name": "Lingering Potion of Regeneration",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_slow_falling",
+		"name": "Lingering Potion of Slow Falling",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_slowness",
+		"name": "Lingering Potion of Slowness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_strength",
+		"name": "Lingering Potion of Strength",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_swiftness",
+		"name": "Lingering Potion of Swiftness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_water_breathing",
+		"name": "Lingering Potion of Water Breathing",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_weakness",
+		"name": "Lingering Potion of Weakness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_potion_of_the_turtle_master",
+		"name": "Lingering Potion of the Turtle Master",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "lingering_water_bottle",
+		"name": "Lingering Water Bottle",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "llama_spawn_egg",
+		"name": "Llama Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "magenta_dye",
+		"name": "Magenta Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "magma_cream",
+		"name": "Magma Cream",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "magma_cube_spawn_egg",
+		"name": "Magma Cube Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "filled_map",
+		"name": "Map",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "melon_seeds",
+		"name": "Melon Seeds",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "melon_slice",
+		"name": "Melon Slice",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "milk_bucket",
+		"name": "Milk Bucket",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "minecart",
+		"name": "Minecart",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "chest_minecart",
+		"name": "Minecart with Chest",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "command_block_minecart",
+		"name": "Minecart with Command Block",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "furnace_minecart",
+		"name": "Minecart with Furnace",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "hopper_minecart",
+		"name": "Minecart with Hopper",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "tnt_minecart",
+		"name": "Minecart with TNT",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "mooshroom_spawn_egg",
+		"name": "Mooshroom Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "mule_spawn_egg",
+		"name": "Mule Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "mundane_lingering_potion",
+		"name": "Mundane Lingering Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "mundane_potion",
+		"name": "Mundane Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "mundane_splash_potion",
+		"name": "Mundane Splash Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "mushroom_stew",
+		"name": "Mushroom Stew",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_11",
+		"name": "Music Disc (C418 - 11)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_13",
+		"name": "Music Disc (C418 - 13)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_blocks",
+		"name": "Music Disc (C418 - blocks)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_cat",
+		"name": "Music Disc (C418 - cat)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_chirp",
+		"name": "Music Disc (C418 - chirp)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_far",
+		"name": "Music Disc (C418 - far)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_mall",
+		"name": "Music Disc (C418 - mall)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_mellohi",
+		"name": "Music Disc (C418 - mellohi)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_stal",
+		"name": "Music Disc (C418 - stal)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_strad",
+		"name": "Music Disc (C418 - strad)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_wait",
+		"name": "Music Disc (C418 - wait)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_ward",
+		"name": "Music Disc (C418 - ward)",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_pigstep",
+		"name": "Music Disc (Lena Raine - Pigstep)",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "music_disc_otherside",
+		"name": "Music Disc (Lena Raine - otherside)",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "name_tag",
+		"name": "Name Tag",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "nautilus_shell",
+		"name": "Nautilus Shell",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "nether_brick",
+		"name": "Nether Brick",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "quartz",
+		"name": "Nether Quartz",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "nether_star",
+		"name": "Nether Star",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "netherite_axe",
+		"name": "Netherite Axe",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "netherite_boots",
+		"name": "Netherite Boots",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "netherite_chestplate",
+		"name": "Netherite Chestplate",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "netherite_helmet",
+		"name": "Netherite Helmet",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "netherite_hoe",
+		"name": "Netherite Hoe",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "netherite_ingot",
+		"name": "Netherite Ingot",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "netherite_leggings",
+		"name": "Netherite Leggings",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "netherite_pickaxe",
+		"name": "Netherite Pickaxe",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "netherite_scrap",
+		"name": "Netherite Scrap",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "netherite_shovel",
+		"name": "Netherite Shovel",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "netherite_sword",
+		"name": "Netherite Sword",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "oak_boat",
+		"name": "Oak Boat",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "filled_map",
+		"name": "Ocean Explorer Map",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "ocelot_spawn_egg",
+		"name": "Ocelot Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "orange_dye",
+		"name": "Orange Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "painting",
+		"name": "Painting",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "panda_spawn_egg",
+		"name": "Panda Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "paper",
+		"name": "Paper",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "parrot_spawn_egg",
+		"name": "Parrot Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "phantom_membrane",
+		"name": "Phantom Membrane",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "phantom_spawn_egg",
+		"name": "Phantom Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "pig_spawn_egg",
+		"name": "Pig Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "piglin_brute_spawn_egg",
+		"name": "Piglin Brute Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "piglin_spawn_egg",
+		"name": "Piglin Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "pillager_spawn_egg",
+		"name": "Pillager Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "pink_dye",
+		"name": "Pink Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "poisonous_potato",
+		"name": "Poisonous Potato",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "polar_bear_spawn_egg",
+		"name": "Polar Bear Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "popped_chorus_fruit",
+		"name": "Popped Chorus Fruit",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "potato",
+		"name": "Potato",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "potion_of_fire_resistance",
+		"name": "Potion of Fire Resistance",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_harming",
+		"name": "Potion of Harming",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_healing",
+		"name": "Potion of Healing",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_invisibility",
+		"name": "Potion of Invisibility",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_leaping",
+		"name": "Potion of Leaping",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_luck",
+		"name": "Potion of Luck",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_night_vision",
+		"name": "Potion of Night Vision",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_poison",
+		"name": "Potion of Poison",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_regeneration",
+		"name": "Potion of Regeneration",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_slow_falling",
+		"name": "Potion of Slow Falling",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_slowness",
+		"name": "Potion of Slowness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_strength",
+		"name": "Potion of Strength",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_swiftness",
+		"name": "Potion of Swiftness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_water_breathing",
+		"name": "Potion of Water Breathing",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_weakness",
+		"name": "Potion of Weakness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "potion_of_the_turtle_master",
+		"name": "Potion of the Turtle Master",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "powder_snow_bucket",
+		"name": "Powder Snow Bucket",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "prismarine_crystals",
+		"name": "Prismarine Crystals",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "prismarine_shard",
+		"name": "Prismarine Shard",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "pufferfish",
+		"name": "Pufferfish",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "pufferfish_spawn_egg",
+		"name": "Pufferfish Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "pumpkin_pie",
+		"name": "Pumpkin Pie",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "pumpkin_seeds",
+		"name": "Pumpkin Seeds",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "purple_dye",
+		"name": "Purple Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "rabbit_hide",
+		"name": "Rabbit Hide",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "rabbit_spawn_egg",
+		"name": "Rabbit Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "rabbit_stew",
+		"name": "Rabbit Stew",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "rabbit_foot",
+		"name": "Rabbit's Foot",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "ravager_spawn_egg",
+		"name": "Ravager Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "beef",
+		"name": "Raw Beef",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "chicken",
+		"name": "Raw Chicken",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "cod",
+		"name": "Raw Cod",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "raw_copper",
+		"name": "Raw Copper",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "raw_gold",
+		"name": "Raw Gold",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "raw_iron",
+		"name": "Raw Iron",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "mutton",
+		"name": "Raw Mutton",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "porkchop",
+		"name": "Raw Porkchop",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "rabbit",
+		"name": "Raw Rabbit",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "salmon",
+		"name": "Raw Salmon",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "red_dye",
+		"name": "Red Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "redstone",
+		"name": "Redstone Dust",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "rotten_flesh",
+		"name": "Rotten Flesh",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "saddle",
+		"name": "Saddle",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "salmon_spawn_egg",
+		"name": "Salmon Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "turtle_scute",
+		"name": "Turtle Scute",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "shears",
+		"name": "Shears",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "sheep_spawn_egg",
+		"name": "Sheep Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "shield",
+		"name": "Shield",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "shulker_shell",
+		"name": "Shulker Shell",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "shulker_spawn_egg",
+		"name": "Shulker Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "silverfish_spawn_egg",
+		"name": "Silverfish Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "skeleton_horse_spawn_egg",
+		"name": "Skeleton Horse Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "skeleton_spawn_egg",
+		"name": "Skeleton Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "slime_spawn_egg",
+		"name": "Slime Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "slime_ball",
+		"name": "Slimeball",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "snowball",
+		"name": "Snowball",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 16
+	},
+	{
+		"id": "spectral_arrow",
+		"name": "Spectral Arrow",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "spider_eye",
+		"name": "Spider Eye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "spider_spawn_egg",
+		"name": "Spider Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "splash_potion_of_fire_resistance",
+		"name": "Splash Potion of Fire Resistance",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_harming",
+		"name": "Splash Potion of Harming",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_healing",
+		"name": "Splash Potion of Healing",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_invisibility",
+		"name": "Splash Potion of Invisibility",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_leaping",
+		"name": "Splash Potion of Leaping",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_luck",
+		"name": "Splash Potion of Luck",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_night_vision",
+		"name": "Splash Potion of Night Vision",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_poison",
+		"name": "Splash Potion of Poison",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_regeneration",
+		"name": "Splash Potion of Regeneration",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_slow_falling",
+		"name": "Splash Potion of Slow Falling",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_slowness",
+		"name": "Splash Potion of Slowness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_strength",
+		"name": "Splash Potion of Strength",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_swiftness",
+		"name": "Splash Potion of Swiftness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_water_breathing",
+		"name": "Splash Potion of Water Breathing",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_weakness",
+		"name": "Splash Potion of Weakness",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_potion_of_the_turtle_master",
+		"name": "Splash Potion of the Turtle Master",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "splash_water_bottle",
+		"name": "Splash Water Bottle",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "spruce_boat",
+		"name": "Spruce Boat",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "spyglass",
+		"name": "Spyglass",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "squid_spawn_egg",
+		"name": "Squid Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "cooked_beef",
+		"name": "Steak",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "stick",
+		"name": "Stick",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "stone_axe",
+		"name": "Stone Axe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "stone_hoe",
+		"name": "Stone Hoe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "stone_pickaxe",
+		"name": "Stone Pickaxe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "stone_shovel",
+		"name": "Stone Shovel",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "stone_sword",
+		"name": "Stone Sword",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "stray_spawn_egg",
+		"name": "Stray Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "strider_spawn_egg",
+		"name": "Strider Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "string",
+		"name": "String",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "sugar",
+		"name": "Sugar",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "suspicious_stew",
+		"name": "Suspicious Stew",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "sweet_berries",
+		"name": "Sweet Berries",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "thick_lingering_potion",
+		"name": "Thick Lingering Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "thick_potion",
+		"name": "Thick Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "thick_splash_potion",
+		"name": "Thick Splash Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "tipped_arrow",
+		"name": "Tipped Arrow",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "totem_of_undying",
+		"name": "Totem of Undying",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "trader_llama_spawn_egg",
+		"name": "Trader Llama Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "trident",
+		"name": "Trident",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "tropical_fish",
+		"name": "Tropical Fish",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "tropical_fish_spawn_egg",
+		"name": "Tropical Fish Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "turtle_helmet",
+		"name": "Turtle Shell",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "turtle_spawn_egg",
+		"name": "Turtle Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "uncraftable_lingering_potion",
+		"name": "Uncraftable Lingering Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "uncraftable_potion",
+		"name": "Uncraftable Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "uncraftable_splash_potion",
+		"name": "Uncraftable Splash Potion",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "uncraftable_tipped_arrow",
+		"name": "Uncraftable Tipped Arrow",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "vex_spawn_egg",
+		"name": "Vex Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "villager_spawn_egg",
+		"name": "Villager Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "vindicator_spawn_egg",
+		"name": "Vindicator Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "wandering_trader_spawn_egg",
+		"name": "Wandering Trader Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "warped_fungus_on_a_stick",
+		"name": "Warped Fungus on a Stick",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "water_bottle",
+		"name": "Water Bottle",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "water_bucket",
+		"name": "Water Bucket",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "wheat_seeds",
+		"name": "Wheat Seeds",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "white_dye",
+		"name": "White Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "witch_spawn_egg",
+		"name": "Witch Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "wither_skeleton_spawn_egg",
+		"name": "Wither Skeleton Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "wolf_spawn_egg",
+		"name": "Wolf Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "wooden_axe",
+		"name": "Wooden Axe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "wooden_hoe",
+		"name": "Wooden Hoe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "wooden_pickaxe",
+		"name": "Wooden Pickaxe",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "wooden_shovel",
+		"name": "Wooden Shovel",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "wooden_sword",
+		"name": "Wooden Sword",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 1
+	},
+	{
+		"id": "filled_map",
+		"name": "Woodland Explorer Map",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "written_book",
+		"name": "Written Book",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 16
+	},
+	{
+		"id": "yellow_dye",
+		"name": "Yellow Dye",
+		"tier": "Common",
+		"renewable": true,
+		"stackable": 64
+	},
+	{
+		"id": "zoglin_spawn_egg",
+		"name": "Zoglin Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "zombie_horse_spawn_egg",
+		"name": "Zombie Horse Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "zombie_spawn_egg",
+		"name": "Zombie Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "zombie_villager_spawn_egg",
+		"name": "Zombie Villager Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	},
+	{
+		"id": "zombified_piglin_spawn_egg",
+		"name": "Zombified Piglin Spawn Egg",
+		"tier": "Common",
+		"renewable": false,
+		"stackable": 64
+	}
 ]
