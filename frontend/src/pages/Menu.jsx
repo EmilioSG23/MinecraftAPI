@@ -1,6 +1,6 @@
 import { Logo } from "../components/Logo";
 import { Link } from "react-router-dom";
-import { useChangeSection } from "../hooks/useSection.jsx";
+import { useChangeSection } from "../hooks/useSection";
 
 function Selector(props) {
 	const { id, name } = props;

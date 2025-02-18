@@ -96,7 +96,7 @@ const generalRouter = <T extends { id: string }>(datas: T[], message: string) =>
 			return;
 		}
 		if (key && data.hasOwnProperty(key)) res.status(200).json({ id: id, [key]: data[key] });
-		else res.status(200).json(data);
+		else res.status(400).json({ message: `Key ${key} not exists in ${id}.` });
 	});
 
 	return router;

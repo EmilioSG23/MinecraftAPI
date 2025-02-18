@@ -1,17 +1,34 @@
-import { useChangeSection } from "../hooks/useSection.jsx";
-import * as commands from "../services/commands.jsx";
+import { useEffect, useRef } from "react";
+import { useChangeSection } from "../hooks/useSection";
+import { useCommands } from "../components/useCommands";
+import { executeCommand } from "../components/commands";
 
 export function Terminal({ setPanorama, setBlur, setDisplayMode }) {
 	const {
 		inputCommand,
 		setInputCommand,
-		displayAuto,
 		historyCommands,
 		displayCommands,
-		executeInputCommand,
+		setDisplayCommands,
+		addHistoryCommand,
+		addResultCommand,
+		setHistoryIndex,
 		previousHistoryCommand,
 		nextHistoryCommand,
-	} = commands.useCommands({ setPanorama, setBlur, setDisplayMode });
+	} = useCommands();
+
+	const scrollRef = useRef(null);
+	useEffect(() => {
+		if (scrollRef.current) scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
+	}, [displayCommands]);
+
+	const executeInputCommand = (command) => {
+		addHistoryCommand(command);
+		setHistoryIndex(historyCommands.length + 1);
+		const result = executeCommand(command, { setDisplayCommands, setBlur, setDisplayMode, setPanorama });
+		setInputCommand("");
+		if (result) addResultCommand(result);
+	};
 
 	useChangeSection("terminal");
 
@@ -20,11 +37,11 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }) {
 			<h2 className="flex-none text-white w-full border-b-4 border-gray-400 p-2 text-[24px] bg-gray-700 font-bold text-center">
 				Minecraft API - Terminal
 			</h2>
-			<div className="flex-1 w-full p-1 overflow-y-scroll text-left">
+			<div ref={scrollRef} className="flex-1 w-full p-1 overflow-y-scroll text-left">
 				{displayCommands.map((display, index) => (
-					<div className="mb-1" key={index}>
+					<article className="mb-1" key={index}>
 						{display}
-					</div>
+					</article>
 				))}
 			</div>
 			<input

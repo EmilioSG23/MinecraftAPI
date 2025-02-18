@@ -38,7 +38,6 @@ function App() {
 			<BrowserRouter>
 				<Header />
 				<Routes>
-					<Route path="/" element={<Menu />} />
 					<Route path="/information/*" element={<Information />} />
 					<Route
 						path="/terminal"
@@ -47,6 +46,7 @@ function App() {
 						}
 					/>
 					<Route path="/documentation" element={<Documentation />} />
+					<Route path="/*" element={<Menu />} />
 				</Routes>
 			</BrowserRouter>
 			<ConfigButton

@@ -48,7 +48,7 @@ export function useConfigBackground() {
 			const rng = Math.floor(Math.random() * 10) + 1;
 			setPanorama(rng);
 		}
-	}, []);
+	}, [displayMode]);
 
 	return {
 		panorama,

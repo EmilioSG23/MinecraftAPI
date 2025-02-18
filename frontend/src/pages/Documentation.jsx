@@ -1,4 +1,4 @@
-import { useChangeSection } from "../hooks/useSection.jsx";
+import { useChangeSection } from "../hooks/useSection";
 
 export function Documentation() {
 	useChangeSection("documentation");

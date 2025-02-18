@@ -1,8 +1,8 @@
-import { useState } from "react";
 import { API_VERSION, DATAS_TYPE, MC_VERSION, PREFIX_MC } from "../consts.js";
-import { DISPLAY_MODE } from "../hooks/useConfigBackground.jsx";
+import { DISPLAY_MODE } from "../hooks/useConfigBackground";
+import { obtainDatasByURL } from "../services/useDatas";
 
-export const COMMANDS = {
+const COMMANDS = {
 	"/list": () => executeList(),
 	"/get": (args) => executeGet(args),
 	"/key": (args) => executeKey(args),
@@ -17,64 +17,6 @@ export const COMMANDS = {
 	"/setdisplay": (args, { setDisplayMode }) => executeDisplay(args, setDisplayMode),
 	"/setpanorama": (args, { setPanorama }) => executePanorama(args, setPanorama),
 };
-
-async function obtainDatasByURL(url) {
-	try {
-		const response = await fetch(`api/${url}`);
-		const data = await response.json();
-		return { data, status: response.status };
-	} catch (e) {
-		return { data: "Unexpected Error 400 occurred. Check again your input command or use /help.", status: 400 };
-	}
-}
-
-export function useCommands({ setPanorama, setBlur, setDisplayMode }) {
-	const [inputCommand, setInputCommand] = useState("");
-	const [displayAuto, setDisplayAuto] = useState(false);
-	const [historyCommands, setHistoryCommands] = useState([]);
-	const [displayCommands, setDisplayCommands] = useState([]);
-	const [historyIndex, setHistoryIndex] = useState(-1);
-
-	const addHistoryCommand = (command) => {
-		setHistoryCommands((prevHistory) => [...prevHistory, command]);
-		setHistoryIndex((prev) => prev + 1);
-	};
-
-	const addResultCommand = (result) => {
-		setDisplayCommands((prevDisplay) => [...prevDisplay, result]);
-	};
-
-	const executeInputCommand = (command) => {
-		addHistoryCommand(command);
-		setHistoryIndex(historyCommands.length + 1);
-		const result = executeCommand(command, { setDisplayCommands, setBlur, setDisplayMode, setPanorama });
-		setInputCommand("");
-		if (result) addResultCommand(result);
-	};
-
-	const previousHistoryCommand = () => {
-		const index = historyIndex > 0 ? historyIndex - 1 : historyIndex;
-		setHistoryIndex(index);
-		setInputCommand(historyCommands[index] ?? "");
-	};
-	const nextHistoryCommand = () => {
-		const index = historyIndex < historyCommands.length ? historyIndex + 1 : historyIndex;
-		setHistoryIndex(index);
-		setInputCommand(historyCommands[index] ?? "");
-	};
-
-	return {
-		inputCommand,
-		setInputCommand,
-		displayAuto,
-		historyCommands,
-		displayCommands,
-		executeInputCommand,
-		previousHistoryCommand,
-		nextHistoryCommand,
-		setDisplayCommands,
-	};
-}
 
 export function executeCommand(inputCommand, context) {
 	const [command, ...args] = inputCommand.split(" ");
@@ -112,13 +54,11 @@ async function executeGet(args) {
 		(status === 200 && (
 			<>
 				<h2 className="font-bold">{PREFIX_MC + data.id} has the next information:</h2>
-				{Object.entries(data).map(([key, value]) => {
-					return (
-						<p key={key + "-" + value}>
-							<span className="underline">{key}:</span> {value.toString()}
-						</p>
-					);
-				})}
+				{Object.entries(data).map(([key, value]) => (
+					<p key={key + "-" + value}>
+						<span className="underline">{key}:</span> {value.toString()}
+					</p>
+				))}
 			</>
 		)) ||
 		(status === 404 && <p className="text-red-500">Data not found. {data.message}.</p>) ||
@@ -141,13 +81,11 @@ async function executeKey(args) {
 		(status === 200 && (
 			<>
 				<h2 className="font-bold">{PREFIX_MC + data.id} has the next information:</h2>
-				{Object.entries(data).map(([key, value]) => {
-					return (
-						<p key={key + "-" + value}>
-							<span className="underline">{key}:</span> {value.toString()}
-						</p>
-					);
-				})}
+				{Object.entries(data).map(([key, value]) => (
+					<p key={key + "-" + value}>
+						<span className="underline">{key}:</span> {value.toString()}
+					</p>
+				))}
 			</>
 		)) ||
 		(status === 404 && <p className="text-red-500">This data doesn&apos;t have this key. {data.message}.</p>) ||
@@ -157,7 +95,7 @@ async function executeKey(args) {
 
 // - /filter <type> <filter> Devuelve ids de datos de cierto tipo que cumplan con el filtro
 function executeFilter(args) {
-	// Execute command
+	return <p>This command is not available at this moment.</p>;
 }
 
 // - /count <type> Cantidad de elementos de tipo de dato
@@ -208,7 +146,7 @@ function executeHelp() {
 	return (
 		<>
 			<p>{"/list Obtain all the data types: advancements, biomes, ..."}</p>
-			<p>{"/find o /get <type> <id> Obtain data information in JSON format."}</p>
+			<p>{"/get <type> <id> Obtain data information in JSON format."}</p>
 			<p>{"/key <type> <id> <key> Obtain data information by a key."}</p>
 			<p>{"/filter <type> <filter> Returns IDs of data of a certain type that match the filter"}</p>
 			<p>{"/count <type> Returns the number of elements of a given data type"}</p>

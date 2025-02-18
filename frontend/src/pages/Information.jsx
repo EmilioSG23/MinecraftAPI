@@ -6,7 +6,7 @@ import { BlocksInformation } from "./InfoSections/BlocksInformation";
 import { ItemsInformation } from "./InfoSections/ItemsInformation";
 import { StructuresInformation } from "./InfoSections/StructuresInformation";
 import { AlertMessage } from "../components/AlertMessage";
-import { useChangeSection } from "../hooks/useSection.jsx";
+import { useChangeSection } from "../hooks/useSection";
 
 function InfoHomeCard({ id }) {
 	return (
