@@ -28,7 +28,7 @@ export function ConfigButton({ panorama, blur, display, setPanorama, setBlur, se
 	return (
 		<>
 			<button
-				className="fixed bg-[#a0a0a0] border-3 border-black hover:border-white bottom-5 left-5 cursor-pointer"
+				className="mc-mini-selector fixed bottom-5 left-5 cursor-pointer"
 				onClick={() => {
 					setDisplayOption(!displayOption);
 				}}

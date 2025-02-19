@@ -62,6 +62,19 @@ button.mc-selector:hover {
 	background-image: url("/gui/selector-selected.webp");
 }
 
+a.mc-mini-selector,
+button.mc-mini-selector {
+	background-image: url("/gui/mini-selector.webp");
+	image-rendering: pixelated;
+	object-fit: cover;
+	background-size: 100% 100%;
+}
+
+a.mc-mini-selector:hover,
+button.mc-mini-selector:hover {
+	background-image: url("/gui/mini-selector-selected.webp");
+}
+
 /*Header*/
 nav a.active {
 	background-color: transparent;
