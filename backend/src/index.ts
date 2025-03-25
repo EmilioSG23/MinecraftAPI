@@ -8,7 +8,7 @@ import path from "path";
 
 const app = express();
 
-const port = process.env.PORT || 3000;
+export const port = process.env.PORT || 4000;
 
 app.use(express.json());
 

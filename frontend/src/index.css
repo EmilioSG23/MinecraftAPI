@@ -36,7 +36,7 @@
 /*Background*/
 div.background {
 	background-image: url("panorama/panorama_10.webp");
-	animation: moving 120s linear infinite;
+	animation: moving 120s ease-out infinite alternate;
 }
 
 @keyframes moving {
@@ -44,7 +44,7 @@ div.background {
 		background-position: 0 0;
 	}
 	to {
-		background-position: 189% 0;
+		background-position: 200% 0;
 	}
 }
 
@@ -99,4 +99,25 @@ img {
 
 span.mc-tooltip {
 	@apply z-[1] fixed text-center text-white text-[12px] py-1 px-2 rounded-lg bg-black border-2 border-purple-900;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 1.5rem;
+}
+::-webkit-scrollbar-thumb {
+	background-image: url("/gui/scroller.png");
+	image-rendering: pixelated;
+	background-size: 100% 100%;
+}
+::-webkit-scrollbar-track {
+	background-image: url("/gui/scroll-background.png");
+	image-rendering: pixelated;
+	background-size: 100% 100%;
+}
+
+@media screen and (max-width: 640px) {
+	::-webkit-scrollbar {
+		width: 1rem;
+	}
 }

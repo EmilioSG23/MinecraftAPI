@@ -29,10 +29,11 @@ function SelectionSoundEffect() {
 }
 
 function App() {
-	const { panorama, blur, displayMode, changePanorama, changeBlur, changeDisplayMode } = useConfigBackground();
+	const { panorama, blur, displayMode, changePanorama, changeBlur, changeDisplayMode } =
+		useConfigBackground();
 
 	return (
-		<main>
+		<main className="overflow-x-hidden">
 			<SelectionSoundEffect />
 			<Background panorama={panorama} blur={blur} />
 			<BrowserRouter>
@@ -42,7 +43,11 @@ function App() {
 					<Route
 						path="/terminal"
 						element={
-							<Terminal setPanorama={changePanorama} setBlur={changeBlur} setDisplayMode={changeDisplayMode} />
+							<Terminal
+								setPanorama={changePanorama}
+								setBlur={changeBlur}
+								setDisplayMode={changeDisplayMode}
+							/>
 						}
 					/>
 					<Route path="/documentation" element={<Documentation />} />

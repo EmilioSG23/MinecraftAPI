@@ -2,7 +2,7 @@ import { Router, Request, Response } from "express";
 import path from "path";
 import fs from "fs";
 
-const apiURL = process.env.NODE_ENV === "production" ? "" : "http://localhost:3000";
+const apiURL = process.env.NODE_ENV === "production" ? "" : `http://localhost:${process.env.PORT ?? 4000}`;
 
 const generalRouter = <T extends { id: string }>(datas: T[], message: string) => {
 	const IMAGE_EXTENSIONS = ["png", "webp", "gif"];
@@ -46,10 +46,6 @@ const generalRouter = <T extends { id: string }>(datas: T[], message: string) =>
 			res.status(404).json({
 				message: `${message} with id ${req.params.id} not found.`,
 			});
-			return;
-		}
-		if (type == "advancements") {
-			res.status(404).json({ message: `Advancement has not texture.` });
 			return;
 		}
 		const basePath = path.join(__dirname, "/images", type, data.id);

@@ -9,7 +9,7 @@ function Selector(props) {
 		<>
 			<Link
 				to={"/" + id}
-				className="mc-selector text-[40px] bg-gray-300 text-center min-w-3xl p-2 text-white cursor-default"
+				className="mc-selector text-[20px] sm:text-[30px] lg:text-[40px] bg-gray-300 text-center min-w-[85%] sm:min-w-xl lg:min-w-3xl p-2 text-white cursor-default"
 			>
 				{name}
 			</Link>

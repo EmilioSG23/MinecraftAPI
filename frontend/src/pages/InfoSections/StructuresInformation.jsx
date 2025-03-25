@@ -4,10 +4,12 @@ import { useStructures } from "../../services/useDatas";
 import { useImageLoaded } from "../../hooks/useImageLoaded";
 import { Filter } from "../../components/Filter";
 import { useFilterData } from "../../hooks/useFilterData";
+import { useQueryFilter } from "../../hooks/useQueryFilter";
 
 export function StructuresInformation() {
 	const { datas, status } = useStructures();
 	const { filteredDatas, filter, setFilter } = useFilterData(datas);
+	const { updateFilter } = useQueryFilter("structure", setFilter);
 	const { isAllImageLoaded, addImageLoaded } = useImageLoaded(datas.length);
 
 	return (
@@ -23,7 +25,7 @@ export function StructuresInformation() {
 						}`}
 					>
 						<h1 className="font-bold text-[40px] text-center">Structures</h1>
-						<Filter data="structure" value={filter} onChange={setFilter} />
+						<Filter data="structure" value={filter} onChange={updateFilter} />
 						<div className="w-full flex flex-wrap overflow-y-scroll h-[624px] my-5 gap-y-10 justify-center">
 							{filteredDatas.map((data) => {
 								return (

@@ -6,6 +6,7 @@ import { useTooltip } from "../../hooks/useTooltip";
 import { useImageLoaded } from "../../hooks/useImageLoaded";
 import { Filter } from "../../components/Filter";
 import { useFilterData } from "../../hooks/useFilterData";
+import { useQueryFilter } from "../../hooks/useQueryFilter";
 
 const TIER_COLOR = {
 	COMMON: "text-white",
@@ -70,6 +71,7 @@ function ItemInformation({ data, tooltip, onLoad }) {
 export function ItemsInformation() {
 	const { datas, status } = useItems();
 	const { filteredDatas, filter, setFilter } = useFilterData(datas);
+	const { updateFilter } = useQueryFilter("item", setFilter);
 	const tooltip = useTooltip();
 	const { isAllImageLoaded, addImageLoaded } = useImageLoaded(datas.length);
 
@@ -87,7 +89,7 @@ export function ItemsInformation() {
 						}`}
 					>
 						<h1 className="font-bold text-[40px] text-center">Items</h1>
-						<Filter data="item" value={filter} onChange={setFilter} />
+						<Filter data="item" value={filter} onChange={updateFilter} />
 						<div className="w-full flex flex-wrap overflow-y-scroll h-[624px] my-5 gap-y-2 justify-center">
 							{filteredDatas.map((data) => (
 								<ItemInformation key={data.id} data={data} tooltip={tooltip} onLoad={addImageLoaded} />

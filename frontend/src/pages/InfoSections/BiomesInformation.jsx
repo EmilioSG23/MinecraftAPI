@@ -6,6 +6,7 @@ import { useTooltip } from "../../hooks/useTooltip";
 import { useImageLoaded } from "../../hooks/useImageLoaded";
 import { useFilterData } from "../../hooks/useFilterData";
 import { Filter } from "../../components/Filter";
+import { useQueryFilter } from "../../hooks/useQueryFilter";
 
 function BiomeItemInformation({ children, label, tooltip }) {
 	return (
@@ -25,6 +26,7 @@ function BiomeItemInformation({ children, label, tooltip }) {
 export function BiomesInformation() {
 	const { datas, status } = useBiomes();
 	const { filteredDatas, filter, setFilter } = useFilterData(datas);
+	const { updateFilter } = useQueryFilter("biome", setFilter);
 	const tooltip = useTooltip();
 	const { isAllImageLoaded, addImageLoaded } = useImageLoaded(datas.length);
 
@@ -42,7 +44,7 @@ export function BiomesInformation() {
 						}`}
 					>
 						<h1 className="font-bold text-[40px] text-center">Biomes</h1>
-						<Filter data="biome" value={filter} onChange={setFilter} />
+						<Filter data="biome" value={filter} onChange={updateFilter} />
 						<div className="w-full flex flex-wrap overflow-y-scroll h-[624px] my-5 gap-y-10 justify-center">
 							{filteredDatas.map((data) => {
 								return (
