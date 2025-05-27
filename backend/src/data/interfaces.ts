@@ -1,5 +1,5 @@
-type AdvancementTier = "Advancement" | "Goal" | "Challenge";
-type AdvancementInterface = "Minecraft" | "Nether" | "The End" | "Adventure" | "Husbandry";
+export type AdvancementTier = "Advancement" | "Goal" | "Challenge";
+export type AdvancementInterface = "Minecraft" | "Nether" | "The End" | "Adventure" | "Husbandry";
 
 export interface Advancements {
 	id: string;
@@ -62,6 +62,11 @@ export interface Items {
 
 type Behavior = "Passive" | "Neutral" | "Hostile" | "Boss";
 type Type = "Animal" | "Monster" | "Aquatic" | "Illager";
+export type Drop = {
+	id: string;
+	min: number;
+	max: number;
+};
 
 export interface Mobs {
 	id: string;
@@ -70,19 +75,16 @@ export interface Mobs {
 	behavior: Behavior;
 	type: Array<Type>;
 	speed?: number;
-	drop: Array<{
-		id: string;
-		min: number;
-		max: number;
-	}>;
+	drop: Drop[];
 }
 
+export type LootBox = {
+	id: string;
+	chance: number;
+};
 export interface Structures {
 	id: string;
 	name: string;
 	biomes: string[];
-	lootBox?: Array<{
-		id: string;
-		chance: number;
-	}>;
+	lootBox?: LootBox[];
 }
