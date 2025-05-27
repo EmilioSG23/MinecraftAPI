@@ -19,7 +19,7 @@ export function ErrorPage() {
 	};
 
 	return (
-		<div className={`${!finishAnimation ? "cursor-[url(flint_and_steel.png),_pointer]" : ""}`}>
+		<div className={`${!finishAnimation ? "cursor-[url(flint_and_steel.png),_auto]" : ""}`}>
 			{!finishAnimation && (
 				<>
 					<div className="fixed -z-10 bg-red-500/0 h-full w-full" />
