@@ -49,6 +49,7 @@ async function executeGet(args) {
 		);
 	}
 	const { data, status } = await obtainDatasByURL(`${args.join("/")}`);
+	console.log(data, status);
 
 	return (
 		(status === 200 && (
@@ -62,7 +63,7 @@ async function executeGet(args) {
 			</>
 		)) ||
 		(status === 404 && <p className="text-red-500">Data not found. {data.message}.</p>) ||
-		(status === 400 && <p className="text-red-500">{data}</p>)
+		(status === 400 && <p className="text-red-500">{data.message}</p>)
 	);
 }
 
@@ -92,7 +93,7 @@ async function executeKey(args) {
 		(status === 404 && (
 			<p className="text-red-500">This data doesn&apos;t have this key. {data.message}.</p>
 		)) ||
-		(status === 400 && <p className="text-red-500">{data}</p>)
+		(status === 400 && <p className="text-red-500">{data.message}</p>)
 	);
 }
 
