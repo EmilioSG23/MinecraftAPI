@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import { Header } from "./components/Header";
 import { ConfigButton } from "./components/ConfigButton";
 import { useConfigBackground } from "./hooks/useConfigBackground";
+import { ErrorPage } from "./pages/InfoSections/ErrorPage";
 
 function SelectionSoundEffect() {
 	useEffect(() => {
@@ -40,6 +41,7 @@ function App() {
 			<BrowserRouter>
 				<Header />
 				<Routes>
+					<Route path="/" element={<Menu />} />
 					<Route path="/information/*" element={<Information />} />
 					<Route
 						path="/terminal"
@@ -52,7 +54,7 @@ function App() {
 						}
 					/>
 					<Route path="/documentation" element={<Documentation />} />
-					<Route path="/*" element={<Menu />} />
+					<Route path="/*" element={<ErrorPage />} />
 				</Routes>
 			</BrowserRouter>
 			<ConfigButton

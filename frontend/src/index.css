@@ -27,10 +27,50 @@
 
 @theme {
 	--font-main: "Minecraft", "JetBrains Mono", "monospace";
+	--animate-creeper: creeper-scale 1.5s ease-in 1 forwards, creeper-spawn 1.5s steps(1) 1 forwards,
+		creeper-exploting 1.5s steps(4) 1 forwards;
+	--animate-death-screen: death-screen 1.5s steps(1) 1 forwards;
+
+	@keyframes creeper-scale {
+		100% {
+			transform: scale(2.5, 2);
+		}
+	}
+	@keyframes creeper-spawn {
+		0% {
+			opacity: 100%;
+		}
+		100% {
+			opacity: 0%;
+		}
+	}
+	@keyframes creeper-exploting {
+		0%,
+		25%,
+		50%,
+		75% {
+			filter: brightness(1);
+		}
+		12.5%,
+		37.5%,
+		62.5%,
+		87.5%,
+		100% {
+			filter: brightness(3); /* se ve más blanco */
+		}
+	}
+	@keyframes death-screen {
+		0% {
+			opacity: 0%;
+		}
+		100% {
+			opacity: 100%;
+		}
+	}
 }
 
 :root {
-	font-family: "Minecraft";
+	font-family: "Minecraft", monospace;
 }
 
 /*Background*/
@@ -60,6 +100,7 @@ button.mc-selector {
 a.mc-selector:hover,
 button.mc-selector:hover {
 	background-image: url("/gui/selector-selected.webp");
+	cursor: pointer;
 }
 
 a.mc-mini-selector,
