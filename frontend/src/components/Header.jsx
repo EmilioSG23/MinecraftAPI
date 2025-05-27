@@ -7,9 +7,11 @@ function HeaderLink({ path, section, children, width = "min-w-12 sm:min-w-32 lg:
 	return (
 		<Link
 			to={path}
-			className={`${section === activeSection ? "active" : ""} mt-4 text-white text-center bg-black/50 text-[16px] xl:text-[24px] ${width} outline-2 outline-gray-400 py-1`}
+			className={`group ${section === activeSection ? "active" : ""}
+			mt-5 text-white text-center bg-black/50 text-[16px] xl:text-[24px] 
+			${width} outline-2 outline-gray-400 py-1`}
 		>
-			<div className="mx-1 outline-2 outline-transparent hover:outline-2 hover:outline-white">
+			<div className="mx-1 outline-2 outline-transparent group-hover:outline-2 group-hover:outline-white">
 				{children}
 			</div>
 		</Link>
