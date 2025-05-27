@@ -1,5 +1,9 @@
 import { API_URL, FETCH_STATUS, PREFIX_MC } from "../../consts";
-import { AlertErrorMessage, AlertImageLoading, AlertLoadingMessage } from "../../components/AlertMessage";
+import {
+	AlertErrorMessage,
+	AlertImageLoading,
+	AlertLoadingMessage,
+} from "../../components/AlertMessage";
 import { useStructures } from "../../services/useDatas";
 import { useImageLoaded } from "../../hooks/useImageLoaded";
 import { Filter } from "../../components/Filter";
@@ -41,12 +45,14 @@ export function StructuresInformation() {
 											className="bg-[#c7c7c7] object-contain h-[200px]"
 											onLoad={addImageLoaded}
 											onError={addImageLoaded}
+											alt={`${data.id} sprite`}
 										/>
 										<h2 className="text-center font-bold text-[26px] text-white border-t-3 border-gray-800">
 											{data.name}
 										</h2>
 										<span className="text-center text-gray-300 -translate-y-2">{`${PREFIX_MC}${data.id}`}</span>
-										<a
+										<button
+											type="button"
 											className="flex items-center self-center justify-center w-1/2 mb-2 text-center bg-gray-300 border-2 border-black rounded-lg cursor-pointer hover:border-white"
 											onClick={() => {
 												const path = `${API_URL}/structures/${data.id}`;
@@ -55,7 +61,7 @@ export function StructuresInformation() {
 										>
 											<i className="fa-regular fa-copy text-[16px] px-2" />
 											<span className="text-[20px]">GET</span>
-										</a>
+										</button>
 									</div>
 								);
 							})}

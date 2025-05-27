@@ -12,7 +12,7 @@ export function useTooltip() {
 		if (visible) document.addEventListener("mousemove", handleMouseMove);
 		else document.removeEventListener("mousemove", handleMouseMove);
 		return () => document.removeEventListener("mousemove", handleMouseMove);
-	}, [visible, position]);
+	}, [visible]);
 
 	return { visible, setVisible, content, setContent, position };
 }

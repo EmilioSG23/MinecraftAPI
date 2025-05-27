@@ -28,12 +28,17 @@ export function ConfigButton({ panorama, blur, display, setPanorama, setBlur, se
 	return (
 		<>
 			<button
+				type="button"
 				className="mc-mini-selector fixed bottom-5 left-5 cursor-pointer"
 				onClick={() => {
 					setDisplayOption(!displayOption);
 				}}
 			>
-				<img src="/gui/config.png" className="p-2 w-[48x] h-[48px]" />
+				<img
+					src="/gui/config.png"
+					className="p-2 w-[48x] h-[48px]"
+					alt="Config button for custom blur, panorama and display mode"
+				/>
 			</button>
 			<div
 				id="configuration"
@@ -44,6 +49,7 @@ export function ConfigButton({ panorama, blur, display, setPanorama, setBlur, se
 					<h2 className="underline">Initial Display Mode</h2>
 					<div className="flex justify-center w-full px-1 gap-x-1">
 						<button
+							type="button"
 							className={`w-1/2 ${display === DISPLAY_MODE.RANDOM ? "bg-[#8f8f8f]" : "bg-[#5f5f5f]"} hover:outline-2 hover:outline-white cursor-pointer`}
 							onClick={() => {
 								if (display !== DISPLAY_MODE.RANDOM) setDisplayMode(DISPLAY_MODE.RANDOM);
@@ -52,6 +58,7 @@ export function ConfigButton({ panorama, blur, display, setPanorama, setBlur, se
 							Random
 						</button>
 						<button
+							type="button"
 							className={`w-1/2 ${display === DISPLAY_MODE.SELECT ? "bg-[#8f8f8f]" : "bg-[#5f5f5f]"} hover:outline-2 hover:outline-white cursor-pointer`}
 							onClick={() => {
 								if (display !== DISPLAY_MODE.SELECT) setDisplayMode(DISPLAY_MODE.SELECT);
@@ -61,10 +68,13 @@ export function ConfigButton({ panorama, blur, display, setPanorama, setBlur, se
 						</button>
 					</div>
 				</section>
-				<section className={`mb-2 ${display === DISPLAY_MODE.SELECT ? "opacity-100" : "opacity-50"}`}>
+				<section
+					className={`mb-2 ${display === DISPLAY_MODE.SELECT ? "opacity-100" : "opacity-50"}`}
+				>
 					<h2 className="underline">Select Panorama</h2>
 					<div className="flex justify-center">
 						<button
+							type="button"
 							className={`flex-1 bg-black/25 ${display === DISPLAY_MODE.SELECT ? "cursor-pointer hover:outline-2 hover:outline-white" : ""}`}
 							disabled={display === DISPLAY_MODE.RANDOM}
 							onClick={() => {
@@ -78,6 +88,7 @@ export function ConfigButton({ panorama, blur, display, setPanorama, setBlur, se
 						</button>
 						<p className="text-center flex-2">{panorama}</p>
 						<button
+							type="button"
 							className={`flex-1 bg-black/25 ${display === DISPLAY_MODE.SELECT ? "cursor-pointer hover:outline-2 hover:outline-white" : ""}`}
 							disabled={display === DISPLAY_MODE.RANDOM}
 							onClick={() => {

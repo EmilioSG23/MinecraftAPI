@@ -17,6 +17,7 @@ function InfoHomeCard({ id }) {
 			<img
 				src={`/information/${id}.png`}
 				className="info-card size-[64px] sm:size-[84px] lg:size-[96px]"
+				alt={id}
 			/>
 			<div className="text-left">
 				<h2 className="uppercase text-white text-[20px] sm:text-[30px] lg:text-[40px] font-bold">

@@ -7,7 +7,7 @@ export async function obtainDatasByURL(url) {
 		const data = await response.json();
 		return { data, status: response.status };
 	} catch (e) {
-		return { data: "Unexpected Error 400 occurred.", status: 400 };
+		return { data: `Unexpected Error 400 occurred. ${e}.`, status: 400 };
 	}
 }
 

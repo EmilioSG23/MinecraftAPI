@@ -1,5 +1,9 @@
 import { API_URL, FETCH_STATUS } from "../../consts";
-import { AlertErrorMessage, AlertImageLoading, AlertLoadingMessage } from "../../components/AlertMessage";
+import {
+	AlertErrorMessage,
+	AlertImageLoading,
+	AlertLoadingMessage,
+} from "../../components/AlertMessage";
 import { useAdvancements } from "../../services/useDatas";
 import { useImageLoaded } from "../../hooks/useImageLoaded";
 import { Filter } from "../../components/Filter";
@@ -49,7 +53,7 @@ export function AdvancementsInformation() {
 							<div className="flex flex-col overflow-y-scroll h-[512px] my-5 gap-y-10 px-2">
 								{filteredDatas.map((data) => {
 									const { bg, bgHover } = getFrame(data.tier);
-									const bgClass = bg + " " + bgHover;
+									const bgClass = `${bg} ${bgHover}`;
 									return (
 										<div
 											key={data.id}
@@ -59,10 +63,7 @@ export function AdvancementsInformation() {
 											}}
 										>
 											<figure
-												className={
-													`flex justify-center items-center p-3 h-[100px] w-[100px] group-hover:scale-110 ` +
-													bgClass
-												}
+												className={`flex justify-center items-center p-3 h-[100px] w-[100px] group-hover:scale-110 ${bgClass}`}
 												style={{
 													imageRendering: "pixelated",
 													objectFit: "cover",
@@ -74,6 +75,7 @@ export function AdvancementsInformation() {
 													className="h-[64px]"
 													onLoad={addImageLoaded}
 													onError={addImageLoaded}
+													alt={`${data.id} sprite`}
 												/>
 											</figure>
 											<div className="flex-1 [&>*]:px-5">
@@ -86,11 +88,12 @@ export function AdvancementsInformation() {
 													{data.description}
 												</p>
 											</div>
-											<a className="hidden cursor-pointer flex flex-col bg-gray-300 text-center border-2 border-black rounded-lg items-center justify-center w-[64] hover:border-white">
+											{/*<a className="hidden cursor-pointer flex flex-col bg-gray-300 text-center border-2 border-black rounded-lg items-center justify-center w-[64] hover:border-white">
 												<i className="fa-solid fa-magnifying-glass text-[56px] px-2" />
 												<span>See</span>
-											</a>
-											<a
+											</a>*/}
+											<button
+												type="button"
 												className="cursor-pointer flex flex-col bg-gray-300 text-center border-2 border-black rounded-lg items-center justify-center w-[64] hover:border-white"
 												onClick={() => {
 													const path = `${API_URL}/advancements/${data.id}`;
@@ -99,7 +102,7 @@ export function AdvancementsInformation() {
 											>
 												<i className="fa-regular fa-copy text-[56px] px-2" />
 												<span>GET</span>
-											</a>
+											</button>
 										</div>
 									);
 								})}

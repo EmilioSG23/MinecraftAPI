@@ -5,7 +5,8 @@ function Code({ code }) {
 	return (
 		<code className="flex items-center justify-center p-2 text-white text-[12px] bg-black border-2 border-purple-700 gap-x-2 rounded-xl">
 			{code}
-			<a
+			<button
+				type="button"
 				className="flex flex-col items-center justify-center p-1 text-center border-2 border-black rounded-lg bg-white/25"
 				onClick={() => {
 					const path = `${API_URL}`;
@@ -13,7 +14,7 @@ function Code({ code }) {
 				}}
 			>
 				<i className="fa-regular fa-copy text-[20px]" />
-			</a>
+			</button>
 		</code>
 	);
 }
@@ -26,19 +27,21 @@ export function Documentation() {
 			<div className="overflow-x-hidden overflow-y-scroll">
 				<header className="flex flex-col items-center justify-center">
 					<p className="text-[20px]">
-						Welcome to the <b>Minecraft API</b> documentation. Here you will find all the information you need to
-						use our API and application.This API only make GET actions because we only give information about
-						Minecraft datas. You can access to the API using the next <b>endpoint</b>.
+						Welcome to the <b>Minecraft API</b> documentation. Here you will find all the
+						information you need to use our API and application.This API only make GET actions
+						because we only give information about Minecraft datas. You can access to the API using
+						the next <b>endpoint</b>.
 					</p>
 					<Code code={`${API_URL}/`} />
 				</header>
 				<section className="text-[20px]">
 					<h2 className="font-bold text-[24px] mt-5">Introduction</h2>
 					<p>
-						The Minecraft API allows you to access various data types related to the game, such as advancements,
-						biomes, blocks, items, mobs, and structures. There are two components: This that show all information
-						of the game where you can access to this with the information section or with the terminal, and the
-						API which you can use into your projects.
+						The Minecraft API allows you to access various data types related to the game, such as
+						advancements, biomes, blocks, items, mobs, and structures. There are two components:
+						This that show all information of the game where you can access to this with the
+						information section or with the terminal, and the API which you can use into your
+						projects.
 					</p>
 				</section>
 				<section className="text-[20px]">

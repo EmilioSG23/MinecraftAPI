@@ -1,5 +1,9 @@
 import { API_URL, FETCH_STATUS, PREFIX_MC } from "../../consts";
-import { AlertErrorMessage, AlertImageLoading, AlertLoadingMessage } from "../../components/AlertMessage";
+import {
+	AlertErrorMessage,
+	AlertImageLoading,
+	AlertLoadingMessage,
+} from "../../components/AlertMessage";
 import { useItems } from "../../services/useDatas";
 import { MCTooltip } from "../../components/MCTooltip";
 import { useTooltip } from "../../hooks/useTooltip";
@@ -31,12 +35,13 @@ function getTierColor(tier) {
 function ItemInformation({ data, tooltip, onLoad }) {
 	return (
 		<button
+			type="button"
 			className="flex relative group cursor-pointer w-[56px] h-[56px]"
 			style={{ display: data.hidden ? "none" : "flex" }}
 			onMouseEnter={() => {
 				tooltip.setContent(
 					<div className="text-left">
-						<h3 className={getTierColor(data.tier) + " text-[16px]"}>{data.name}</h3>
+						<h3 className={`${getTierColor(data.tier)} text-[16px]`}>{data.name}</h3>
 						<span className="text-[#545454]">
 							{PREFIX_MC}
 							{data.id}
@@ -62,6 +67,7 @@ function ItemInformation({ data, tooltip, onLoad }) {
 					className="object-contain w-[48px] h-[48px] m-auto"
 					onLoad={onLoad}
 					onError={onLoad}
+					alt={`${data.id} sprite`}
 				/>
 			</figure>
 		</button>
@@ -92,7 +98,12 @@ export function ItemsInformation() {
 						<Filter data="item" value={filter} onChange={updateFilter} />
 						<div className="w-full flex flex-wrap overflow-y-scroll h-[624px] my-5 gap-y-2 justify-center">
 							{filteredDatas.map((data) => (
-								<ItemInformation key={data.id} data={data} tooltip={tooltip} onLoad={addImageLoaded} />
+								<ItemInformation
+									key={data.id}
+									data={data}
+									tooltip={tooltip}
+									onLoad={addImageLoaded}
+								/>
 							))}
 						</div>
 					</div>

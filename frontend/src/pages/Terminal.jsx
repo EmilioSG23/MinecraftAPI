@@ -20,7 +20,7 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }) {
 	const scrollRef = useRef(null);
 	useEffect(() => {
 		if (scrollRef.current) scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
-	}, [displayCommands]);
+	}, []);
 
 	const executeInputCommand = (command) => {
 		addHistoryCommand(command);

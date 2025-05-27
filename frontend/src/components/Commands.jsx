@@ -55,7 +55,7 @@ async function executeGet(args) {
 			<>
 				<h2 className="font-bold">{PREFIX_MC + data.id} has the next information:</h2>
 				{Object.entries(data).map(([key, value]) => (
-					<p key={key + "-" + value}>
+					<p key={`${key} - ${value}`}>
 						<span className="underline">{key}:</span> {value.toString()}
 					</p>
 				))}
@@ -71,7 +71,8 @@ async function executeKey(args) {
 	if (args.length !== 3) {
 		return (
 			<p className="text-red-500">
-				Syntax Error: /key needs only three arguments. The correct syntax is: /key {"<type> <id> <key>"}
+				Syntax Error: /key needs only three arguments. The correct syntax is: /key{" "}
+				{"<type> <id> <key>"}
 			</p>
 		);
 	}
@@ -82,13 +83,15 @@ async function executeKey(args) {
 			<>
 				<h2 className="font-bold">{PREFIX_MC + data.id} has the next information:</h2>
 				{Object.entries(data).map(([key, value]) => (
-					<p key={key + "-" + value}>
+					<p key={`${key} - ${value}`}>
 						<span className="underline">{key}:</span> {value.toString()}
 					</p>
 				))}
 			</>
 		)) ||
-		(status === 404 && <p className="text-red-500">This data doesn&apos;t have this key. {data.message}.</p>) ||
+		(status === 404 && (
+			<p className="text-red-500">This data doesn&apos;t have this key. {data.message}.</p>
+		)) ||
 		(status === 400 && <p className="text-red-500">{data}</p>)
 	);
 }
@@ -130,11 +133,7 @@ async function executeKeys(args) {
 	const { data, status } = await obtainDatasByURL(`${args[0]}/keys`);
 
 	return (
-		(status === 200 && (
-			<>
-				<p>{args[0] + " has the next keys: " + data.join(", ")}</p>
-			</>
-		)) ||
+		(status === 200 && <p>{`${args[0]} has the next keys: ${data.join(", ")}`}</p>) ||
 		((status === 404 || status === 400) && (
 			<p className="text-red-500">{`${args[0]} is not a valid data type. Check the available data types with /list.`}</p>
 		))
@@ -155,7 +154,9 @@ function executeHelp() {
 			<p>{"/help Displays the list of available commands"}</p>
 			<p>{"/clear Clears the terminal screen"}</p>
 			<p>{"/status Displays the current API status"}</p>
-			<p>{"/version <mc|api> Shows the API version or the latest available Minecraft data version"}</p>
+			<p>
+				{"/version <mc|api> Shows the API version or the latest available Minecraft data version"}
+			</p>
 			<br />
 			<p>{"/setblur <value> Adjusts the blur intensity of the terminal background"}</p>
 			<p>{"/setdisplay <mode> Changes the display mode of the terminal interface"}</p>
@@ -173,7 +174,7 @@ function executeClear(setDisplayCommands) {
 // - /status Muestra estado API
 async function executeStatus() {
 	// Execute command
-	const { status } = await obtainDatasByURL(``);
+	const { status } = await obtainDatasByURL("");
 	return status === 200 ? (
 		<p>You are connected with the Minecraft API! Status: 200</p>
 	) : (
@@ -186,13 +187,20 @@ function executeVersion(args) {
 	if (args.length !== 1) {
 		return (
 			<p className="text-red-500">
-				{"Syntax Error: /version needs only one argument between <mc|api>. The correct syntax is: /version <type>"}
+				{
+					"Syntax Error: /version needs only one argument between <mc|api>. The correct syntax is: /version <type>"
+				}
 			</p>
 		);
 	}
-	if (args[0].toLowerCase() === "mc") return <p>{`Minecraft API has all game datas until version: ${MC_VERSION}`}</p>;
+	if (args[0].toLowerCase() === "mc")
+		return <p>{`Minecraft API has all game datas until version: ${MC_VERSION}`}</p>;
 	if (args[0].toLowerCase() === "api") return <p>{`Minecraft API version: ${API_VERSION}`}</p>;
-	return <p className="text-red-500">{"Syntax Error: You have to use only <mc> or <api> as an argument."}</p>;
+	return (
+		<p className="text-red-500">
+			{"Syntax Error: You have to use only <mc> or <api> as an argument."}
+		</p>
+	);
 }
 
 // - /setblur <value>
@@ -200,16 +208,22 @@ function executeBlur(args, setBlur) {
 	if (args.length !== 1) {
 		return (
 			<p className="text-red-500">
-				{"Syntax Error: /setblur needs only one value between 0 and 10. The correct syntax is: /setblur <value>"}
+				{
+					"Syntax Error: /setblur needs only one value between 0 and 10. The correct syntax is: /setblur <value>"
+				}
 			</p>
 		);
 	}
-	const value = parseInt(args[0]);
+	const value = Number(args[0]);
 	if (value >= 0 && value <= 10) {
 		setBlur(value);
 		return <p>{`The blur has changed to a new value: ${value}`}</p>;
 	}
-	return <p className="text-red-500">{"Args Error: The input value must be a number betwwen 0 and 10."}</p>;
+	return (
+		<p className="text-red-500">
+			{"Args Error: The input value must be a number betwwen 0 and 10."}
+		</p>
+	);
 }
 
 // - /setdisplay <mode>
@@ -246,10 +260,14 @@ function executePanorama(args, setPanorama) {
 			</p>
 		);
 	}
-	const panorama = parseInt(args[0]);
+	const panorama = Number(args[0]);
 	if (panorama >= 0 && panorama <= 10) {
 		setPanorama(panorama);
 		return <p>{`The panorama has changed to a new panorama: ${panorama}`}</p>;
 	}
-	return <p className="text-red-500">{"Input Error: The input value must be a number betwwen 0 and 10."}</p>;
+	return (
+		<p className="text-red-500">
+			{"Input Error: The input value must be a number betwwen 0 and 10."}
+		</p>
+	);
 }

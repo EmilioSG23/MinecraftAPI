@@ -2,13 +2,8 @@ export function AlertMessage(props) {
 	const { message, fontSize = "text-[48px]", borderColor = "border-white-900" } = props;
 	return (
 		<div
-			className={
-				"fixed left-1/2 top-1/2 -translate-1/2 bg-black/25 border-4 text-white/100 text-center py-10 px-20" +
-				" " +
-				fontSize +
-				" " +
-				borderColor
-			}
+			className={`fixed left-1/2 top-1/2 -translate-1/2 bg-black/25
+				border-4 text-white/100 text-center py-10 px-20 ${fontSize} ${borderColor}`}
 		>
 			{message}
 		</div>

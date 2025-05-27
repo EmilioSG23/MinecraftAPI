@@ -13,6 +13,7 @@ import { useConfigBackground } from "./hooks/useConfigBackground";
 function SelectionSoundEffect() {
 	useEffect(() => {
 		const sound = new Audio("/gui/selection.m4a");
+		sound.volume = 0.5;
 		const handleClick = (event) => {
 			const anchor = event.target.closest("a, button");
 			if (anchor) {

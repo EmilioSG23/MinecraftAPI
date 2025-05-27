@@ -1,5 +1,9 @@
 import { API_URL, FETCH_STATUS, PREFIX_MC } from "../../consts";
-import { AlertErrorMessage, AlertImageLoading, AlertLoadingMessage } from "../../components/AlertMessage";
+import {
+	AlertErrorMessage,
+	AlertImageLoading,
+	AlertLoadingMessage,
+} from "../../components/AlertMessage";
 import { useBiomes } from "../../services/useDatas";
 import { MCTooltip } from "../../components/MCTooltip";
 import { useTooltip } from "../../hooks/useTooltip";
@@ -14,7 +18,7 @@ function BiomeItemInformation({ children, label, tooltip }) {
 			className="flex relative gap-x-2 border-2 border-white px-1 rounded-lg w-[20%] justify-center items-center"
 			onMouseEnter={() => {
 				tooltip.setVisible(true);
-				tooltip.setContent(<>{label}</>);
+				tooltip.setContent(<p>{label}</p>);
 			}}
 			onMouseLeave={() => tooltip.setVisible(false)}
 		>
@@ -58,6 +62,7 @@ export function BiomesInformation() {
 											className="w-[384px] h-[200px]"
 											onLoad={addImageLoaded}
 											onError={addImageLoaded}
+											alt={`${data.id} sprite`}
 										/>
 										<h2 className="text-center font-bold text-[26px] text-white border-t-3 border-green-900">
 											{data.name}
@@ -77,7 +82,8 @@ export function BiomesInformation() {
 												<span>{data.precipitation ? "Yes" : "No"}</span>
 											</BiomeItemInformation>
 										</div>
-										<a
+										<button
+											type="button"
 											className="flex items-center self-center justify-center w-1/2 mb-2 text-center bg-gray-300 border-2 border-black rounded-lg cursor-pointer hover:border-white"
 											onClick={() => {
 												const path = `${API_URL}/biomes/${data.id}`;
@@ -86,7 +92,7 @@ export function BiomesInformation() {
 										>
 											<i className="fa-regular fa-copy text-[16px] px-2" />
 											<span className="text-[20px]">GET</span>
-										</a>
+										</button>
 									</article>
 								);
 							})}

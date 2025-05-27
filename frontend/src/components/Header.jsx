@@ -1,12 +1,7 @@
 import { Link } from "react-router-dom";
 import { useActiveSection } from "../hooks/useSection";
 
-function HeaderLink({
-	path,
-	section,
-	children,
-	width = "min-w-12 sm:min-w-32 lg:min-w-64",
-}) {
+function HeaderLink({ path, section, children, width = "min-w-12 sm:min-w-32 lg:min-w-64" }) {
 	const { activeSection } = useActiveSection();
 
 	return (
@@ -53,7 +48,7 @@ export function Header() {
 							<p className="hidden sm:block">Documentation</p>
 						</HeaderLink>
 					</div>
-					<div className="w-8"></div>
+					<div className="w-8" />
 				</div>
 			</nav>
 		</header>
