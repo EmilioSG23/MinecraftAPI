@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import { Header } from "./components/Header";
 import { ConfigButton } from "./components/ConfigButton";
 import { useConfigBackground } from "./hooks/useConfigBackground";
-import { ErrorPage } from "./pages/InfoSections/ErrorPage";
+import { ErrorPage } from "./pages/ErrorPage";
 
 function SelectionSoundEffect() {
 	useEffect(() => {
