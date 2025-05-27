@@ -1,10 +1,11 @@
-import express, { Request, Response } from "express";
+import express from "express";
+import type { Request, Response } from "express";
 import generalRoute from "./generalRouter";
 import cors from "cors";
 
-import { Advancements, Biomes, Blocks, Items, Mobs, Structures } from "./data/interfaces";
+import type { Advancements, Biomes, Blocks, Items, Mobs, Structures } from "./data/interfaces";
 import { advancements, biomes, blocks, items, mobs, structures } from "./validations";
-import path from "path";
+import path from "node:path";
 
 const app = express();
 
@@ -23,7 +24,7 @@ app.use(cors(corsOptions));
 app.use(express.static(path.join(__dirname, "../../frontend/dist")));
 
 app.get("/api", (req: Request, res: Response) => {
-	res.json({ message: "Welcome to Minecraft API" });
+	res.status(200).json({ message: "Welcome to Minecraft API" });
 });
 
 app.use("/api/advancements", generalRoute<Advancements>(advancements, "Advancement"));
@@ -34,7 +35,7 @@ app.use("/api/mobs", generalRoute<Mobs>(mobs, "Mobs"));
 app.use("/api/structures", generalRoute<Structures>(structures, "Structure"));
 
 app.get("/api/*", (req: Request, res: Response) => {
-	res.json({ message: "The route you try to access doesn't exists in API." });
+	res.status(400).json({ message: "The route you try to access doesn't exists in API." });
 });
 
 app.get("*", (req: Request, res: Response) => {
