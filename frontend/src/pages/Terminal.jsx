@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import { useChangeSection } from "../hooks/useSection";
-import { useCommands } from "../components/useCommands";
+import { useCommands } from "../hooks/useCommands";
 import { executeCommand } from "../components/commands";
 
 export function Terminal({ setPanorama, setBlur, setDisplayMode }) {
@@ -44,6 +44,7 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }) {
 			</h2>
 			<div ref={scrollRef} className="flex-1 w-full p-1 overflow-y-scroll text-left">
 				{displayCommands.map((display, index) => (
+					// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 					<article className="mb-1 text-[12px] sm:text-[16px]" key={index}>
 						{display}
 					</article>
