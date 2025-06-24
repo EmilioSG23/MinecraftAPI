@@ -1,6 +1,7 @@
 export type AdvancementTier = "Advancement" | "Goal" | "Challenge";
 export type AdvancementInterface = "Minecraft" | "Nether" | "The End" | "Adventure" | "Husbandry";
 
+/* In the future: include minecraftId: string */
 export interface Advancements {
 	id: string;
 	title: string;
@@ -61,7 +62,22 @@ export interface Items {
 }
 
 type Behavior = "Passive" | "Neutral" | "Hostile" | "Boss";
-type Type = "Animal" | "Monster" | "Aquatic" | "Illager";
+type Type =
+	| "Animal"
+	| "Monster"
+	| "Aquatic"
+	| "Illager"
+	| "Ambient"
+	| "Undead"
+	| "Golem"
+	| "NPC"
+	| "Arthropod";
+
+type Hitbox = {
+	state?: string;
+	height: number;
+	width: number;
+};
 export type Drop = {
 	id: string;
 	min: number;
@@ -73,8 +89,9 @@ export interface Mobs {
 	name: string;
 	health_points: number;
 	behavior: Behavior;
-	type: Array<Type>;
+	type: Type[];
 	speed?: number;
+	hitbox: Hitbox[];
 	drop: Drop[];
 }
 
