@@ -71,6 +71,69 @@
 		"drop": []
 	},
 	{
+		"id": "bee",
+		"name": "Bee",
+		"health_points": 10,
+		"behavior": "Neutral",
+		"type": ["Animal", "Arthropod"],
+		"speed": 0.6,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 0.6,
+				"width": 0.7
+			},
+			{
+				"state": "Baby",
+				"height": 0.3,
+				"width": 0.35
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "blaze",
+		"name": "Blaze",
+		"health_points": 20,
+		"behavior": "Hostile",
+		"type": ["Monster"],
+		"hitbox": [
+			{
+				"height": 1.8,
+				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "bogged",
+		"name": "Bogged",
+		"health_points": 16,
+		"behavior": "Hostile",
+		"type": ["Monster", "Undead"],
+		"hitbox": [
+			{
+				"height": 1.99,
+				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "breeze",
+		"name": "Breeze",
+		"health_points": 30,
+		"behavior": "Hostile",
+		"type": ["Monster"],
+		"hitbox": [
+			{
+				"height": 1.77,
+				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
 		"id": "camel",
 		"name": "Camel",
 		"health_points": 32,
@@ -113,11 +176,25 @@
 				"height": 0.7,
 				"width": 0.6
 			},
-
 			{
 				"state": "Baby",
 				"height": 0.35,
 				"width": 0.3
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "cave_spider",
+		"name": "Cave Spider",
+		"health_points": 12,
+		"behavior": "Neutral",
+		"type": ["Monster", "Arthropod"],
+		"speed": 0.3,
+		"hitbox": [
+			{
+				"height": 0.5,
+				"width": 0.7
 			}
 		],
 		"drop": []
@@ -135,7 +212,6 @@
 				"height": 0.7,
 				"width": 0.4
 			},
-
 			{
 				"state": "Baby",
 				"height": 0.35,
@@ -181,6 +257,56 @@
 		"drop": []
 	},
 	{
+		"id": "creaking",
+		"name": "Creaking",
+		"health_points": 1,
+		"behavior": "Hostile",
+		"type": ["Monster"],
+		"speed": 0.3,
+		"hitbox": [
+			{
+				"height": 2.7,
+				"width": 0.9
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "creeper",
+		"name": "Creeper",
+		"health_points": 20,
+		"behavior": "Hostile",
+		"type": ["Monster"],
+		"hitbox": [
+			{
+				"height": 1.7,
+				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "dolphin",
+		"name": "Dolphin",
+		"health_points": 10,
+		"behavior": "Neutral",
+		"type": ["Animal", "Aquatic"],
+		"speed": 1.2,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 0.6,
+				"width": 0.9
+			},
+			{
+				"state": "Baby",
+				"height": 0.39,
+				"width": 0.585
+			}
+		],
+		"drop": []
+	},
+	{
 		"id": "donkey",
 		"name": "Donkey",
 		"health_points": 15,
@@ -201,6 +327,120 @@
 		"drop": []
 	},
 	{
+		"id": "drowned",
+		"name": "Drowned",
+		"health_points": 20,
+		"behavior": "Neutral",
+		"type": ["Monster", "Undead"],
+		"speed": 0.23,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.95,
+				"width": 0.6
+			},
+			{
+				"state": "Baby",
+				"height": 0.975,
+				"width": 0.3
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "elder_guardian",
+		"name": "Elder Guardian",
+		"health_points": 80,
+		"behavior": "Hostile",
+		"type": ["Monster", "Aquatic"],
+		"hitbox": [
+			{
+				"height": 1.9975,
+				"width": 1.9975
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "ender_dragon",
+		"name": "Ender Dragon",
+		"health_points": 200,
+		"behavior": "Boss",
+		"type": ["Monster"],
+		"speed": 0.7,
+		"hitbox": [
+			{
+				"height": 8,
+				"width": 16
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "enderman",
+		"name": "Enderman",
+		"health_points": 40,
+		"behavior": "Neutral",
+		"type": ["Monster"],
+		"speed": 0.3,
+		"hitbox": [
+			{
+				"height": 2.9,
+				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "endermite",
+		"name": "Endermite",
+		"health_points": 8,
+		"behavior": "Hostile",
+		"type": ["Monster", "Arthropod"],
+		"hitbox": [
+			{
+				"height": 0.3,
+				"width": 0.4
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "evoker",
+		"name": "Evoker",
+		"health_points": 24,
+		"behavior": "Hostile",
+		"type": ["Monster", "Illager"],
+		"hitbox": [
+			{
+				"height": 1.95,
+				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "fox",
+		"name": "Fox",
+		"health_points": 10,
+		"behavior": "Neutral",
+		"type": ["Animal"],
+		"speed": 0.3,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 0.7,
+				"width": 0.6
+			},
+			{
+				"state": "Baby",
+				"height": 0.35,
+				"width": 0.3
+			}
+		],
+		"drop": []
+	},
+	{
 		"id": "frog",
 		"name": "Frog",
 		"health_points": 10,
@@ -211,6 +451,35 @@
 			{
 				"height": 0.5,
 				"width": 0.5
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "ghast",
+		"name": "Ghast",
+		"health_points": 10,
+		"behavior": "Hostile",
+		"type": ["Monster"],
+		"speed": 0.7,
+		"hitbox": [
+			{
+				"height": 4,
+				"width": 4
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "giant",
+		"name": "Giant",
+		"health_points": 100,
+		"behavior": "Hostile",
+		"type": ["Monster"],
+		"hitbox": [
+			{
+				"height": 12,
+				"width": 3.6
 			}
 		],
 		"drop": []
@@ -231,6 +500,41 @@
 				"state": "Baby",
 				"height": 0.4,
 				"width": 0.4
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "goat",
+		"name": "Goat",
+		"health_points": 10,
+		"behavior": "Neutral",
+		"type": ["Animal"],
+		"speed": 0.2,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.3,
+				"width": 0.9
+			},
+			{
+				"state": "Baby",
+				"height": 0.65,
+				"width": 0.45
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "guardian",
+		"name": "Guardian",
+		"health_points": 30,
+		"behavior": "Hostile",
+		"type": ["Monster", "Aquatic"],
+		"hitbox": [
+			{
+				"height": 0.85,
+				"width": 0.85
 			}
 		],
 		"drop": []
@@ -257,6 +561,27 @@
 		"drop": []
 	},
 	{
+		"id": "hoglin",
+		"name": "Hoglin",
+		"health_points": 40,
+		"behavior": "Hostile",
+		"type": ["Monster", "Animal"],
+		"speed": 0.3,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.4,
+				"width": 1.3965
+			},
+			{
+				"state": "Adult",
+				"height": 0.7,
+				"width": 0.6982
+			}
+		],
+		"drop": []
+	},
+	{
 		"id": "horse",
 		"name": "Horse",
 		"health_points": 15,
@@ -272,6 +597,101 @@
 				"state": "Baby",
 				"height": 0.8,
 				"width": 0.6982
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "husk",
+		"name": "Husk",
+		"health_points": 20,
+		"behavior": "Hostile",
+		"type": ["Monster", "Undead"],
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.95,
+				"width": 0.6
+			},
+			{
+				"state": "Baby",
+				"height": 0.975,
+				"width": 0.3
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "illusioner",
+		"name": "Illusioner",
+		"health_points": 32,
+		"behavior": "Hostile",
+		"type": ["Monster", "Illager"],
+		"hitbox": [
+			{
+				"height": 1.95,
+				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "iron_golem",
+		"name": "Iron Golem",
+		"health_points": 100,
+		"behavior": "Neutral",
+		"type": ["Golem"],
+		"speed": 0.25,
+		"hitbox": [
+			{
+				"height": 2.7,
+				"width": 1.4
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "llama",
+		"name": "Llama",
+		"health_points": 15,
+		"behavior": "Neutral",
+		"type": ["Animal"],
+		"speed": 0.175,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.87,
+				"width": 0.9
+			},
+			{
+				"state": "Baby",
+				"height": 0.935,
+				"width": 0.45
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "magma_cube",
+		"name": "Magma Cube",
+		"health_points": 16,
+		"behavior": "Hostile",
+		"type": ["Monster"],
+		"hitbox": [
+			{
+				"state": "Big",
+				"height": 2.08,
+				"width": 2.0808
+			},
+			{
+				"state": "Medium",
+				"height": 1.04,
+				"width": 1.0404
+			},
+			{
+				"state": "Small",
+				"height": 0.52,
+				"width": 0.5202
 			}
 		],
 		"drop": []
@@ -339,6 +759,27 @@
 		"drop": []
 	},
 	{
+		"id": "panda",
+		"name": "Panda",
+		"health_points": 20,
+		"behavior": "Neutral",
+		"type": ["Animal"],
+		"speed": 0.15,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.25,
+				"width": 1.3
+			},
+			{
+				"state": "Baby",
+				"height": 0.625,
+				"width": 0.65
+			}
+		],
+		"drop": []
+	},
+	{
 		"id": "parrot",
 		"name": "Parrot",
 		"health_points": 6,
@@ -349,6 +790,21 @@
 			{
 				"height": 0.9,
 				"width": 0.5
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "phantom",
+		"name": "Phantom",
+		"health_points": 20,
+		"behavior": "Hostile",
+		"type": ["Monster", "Undead"],
+		"speed": 0.7,
+		"hitbox": [
+			{
+				"height": 0.5,
+				"width": 0.9
 			}
 		],
 		"drop": []
@@ -366,7 +822,75 @@
 				"height": 0.9,
 				"width": 0.9
 			},
-			{ "state": "Baby", "height": 0.45, "width": 0.45 }
+			{
+				"state": "Baby",
+				"height": 0.45,
+				"width": 0.45
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "piglin",
+		"name": "Piglin",
+		"health_points": 16,
+		"behavior": "Neutral",
+		"type": ["Monster"],
+		"speed": 0.35,
+		"hitbox": [
+			{
+				"height": 1.95,
+				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "piglin_brute",
+		"name": "Piglin Brute",
+		"health_points": 50,
+		"behavior": "Hostile",
+		"type": ["Monster"],
+		"hitbox": [
+			{
+				"height": 1.95,
+				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "pillager",
+		"name": "Pillager",
+		"health_points": 24,
+		"behavior": "Hostile",
+		"type": ["Monster", "Illager"],
+		"hitbox": [
+			{
+				"height": 1.95,
+				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "polar_bear",
+		"name": "Polar Bear",
+		"health_points": 30,
+		"behavior": "Neutral",
+		"type": ["Animal"],
+		"speed": 0.25,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.4,
+				"width": 1.4
+			},
+			{
+				"state": "Baby",
+				"height": 0.7,
+				"width": 0.7
+			}
 		],
 		"drop": []
 	},
@@ -418,6 +942,21 @@
 		"drop": []
 	},
 	{
+		"id": "ravager",
+		"name": "Ravager",
+		"health_points": 100,
+		"behavior": "Hostile",
+		"type": ["Monster"],
+		"speed": 0.4,
+		"hitbox": [
+			{
+				"height": 2.2,
+				"width": 1.95
+			}
+		],
+		"drop": []
+	},
+	{
 		"id": "salmon",
 		"name": "Salmon",
 		"health_points": 3,
@@ -460,763 +999,6 @@
 				"state": "Baby",
 				"height": 0.65,
 				"width": 0.45
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "skeleton_horse",
-		"name": "Skeleton Horse",
-		"health_points": 15,
-		"behavior": "Passive",
-		"type": ["Animal", "Monster", "Undead"],
-		"speed": 0.2,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.6,
-				"width": 1.3965
-			},
-			{
-				"state": "Baby",
-				"height": 0.8,
-				"width": 0.6982
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "sniffer",
-		"name": "Sniffer",
-		"health_points": 14,
-		"behavior": "Passive",
-		"type": ["Animal"],
-		"speed": 0.1,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.75,
-				"width": 1.9
-			},
-			{
-				"state": "Baby",
-				"height": 0.875,
-				"width": 0.95
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "snow_golem",
-		"name": "Snow Golem",
-		"health_points": 4,
-		"behavior": "Passive",
-		"type": ["Golem"],
-		"speed": 0.2,
-		"hitbox": [
-			{
-				"height": 1.9,
-				"width": 0.7
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "squid",
-		"name": "Squid",
-		"health_points": 10,
-		"behavior": "Passive",
-		"type": ["Animal", "Aquatic"],
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 0.8,
-				"width": 0.8
-			},
-			{
-				"state": "Baby",
-				"height": 0.4,
-				"width": 0.4
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "strider",
-		"name": "Strider",
-		"health_points": 20,
-		"behavior": "Passive",
-		"type": ["Animal"],
-		"speed": 0.175,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.7,
-				"width": 0.9
-			},
-			{
-				"state": "Adult",
-				"height": 0.85,
-				"width": 0.45
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "tadpole",
-		"name": "Tadpole",
-		"health_points": 6,
-		"behavior": "Passive",
-		"type": ["Animal", "Aquatic"],
-		"speed": 1,
-		"hitbox": [
-			{
-				"height": 0.3,
-				"width": 0.4
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "tropical_fish",
-		"name": "Tropical Fish",
-		"health_points": 3,
-		"behavior": "Passive",
-		"type": ["Animal", "Aquatic"],
-		"speed": 0.7,
-		"hitbox": [
-			{
-				"height": 0.4,
-				"width": 0.5
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "turtle",
-		"name": "Turtle",
-		"health_points": 30,
-		"behavior": "Passive",
-		"type": ["Animal", "Aquatic"],
-		"speed": 0.25,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 0.4,
-				"width": 1.2
-			},
-			{
-				"state": "Baby",
-				"height": 0.12,
-				"width": 0.36
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "villager",
-		"name": "Villager",
-		"health_points": 20,
-		"behavior": "Passive",
-		"type": ["NPC"],
-		"speed": 0.5,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.95,
-				"width": 0.6
-			},
-			{
-				"state": "Baby",
-				"height": 0.975,
-				"width": 0.3
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "wandering_trader",
-		"name": "Wandering Trader",
-		"health_points": 20,
-		"behavior": "Passive",
-		"type": ["NPC"],
-		"speed": 0.7,
-		"hitbox": [
-			{
-				"height": 1.95,
-				"width": 0.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "bee",
-		"name": "Bee",
-		"health_points": 10,
-		"behavior": "Neutral",
-		"type": ["Animal", "Arthropod"],
-		"speed": 0.6,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 0.6,
-				"width": 0.7
-			},
-			{
-				"state": "Baby",
-				"height": 0.3,
-				"width": 0.35
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "cave_spider",
-		"name": "Cave Spider",
-		"health_points": 12,
-		"behavior": "Neutral",
-		"type": ["Monster", "Arthropod"],
-		"speed": 0.3,
-		"hitbox": [
-			{
-				"height": 0.5,
-				"width": 0.7
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "dolphin",
-		"name": "Dolphin",
-		"health_points": 10,
-		"behavior": "Neutral",
-		"type": ["Animal", "Aquatic"],
-		"speed": 1.2,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 0.6,
-				"width": 0.9
-			},
-			{
-				"state": "Baby",
-				"height": 0.39,
-				"width": 0.585
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "drowned",
-		"name": "Drowned",
-		"health_points": 20,
-		"behavior": "Neutral",
-		"type": ["Monster", "Undead"],
-		"speed": 0.23,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.95,
-				"width": 0.6
-			},
-			{
-				"state": "Baby",
-				"height": 0.975,
-				"width": 0.3
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "enderman",
-		"name": "Enderman",
-		"health_points": 40,
-		"behavior": "Neutral",
-		"type": ["Monster"],
-		"speed": 0.3,
-		"hitbox": [
-			{
-				"height": 2.9,
-				"width": 0.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "fox",
-		"name": "Fox",
-		"health_points": 10,
-		"behavior": "Neutral",
-		"type": ["Animal"],
-		"speed": 0.3,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 0.7,
-				"width": 0.6
-			},
-			{
-				"state": "Baby",
-				"height": 0.35,
-				"width": 0.3
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "goat",
-		"name": "Goat",
-		"health_points": 10,
-		"behavior": "Neutral",
-		"type": ["Animal"],
-		"speed": 0.2,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.3,
-				"width": 0.9
-			},
-			{
-				"state": "Baby",
-				"height": 0.65,
-				"width": 0.45
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "iron_golem",
-		"name": "Iron Golem",
-		"health_points": 100,
-		"behavior": "Neutral",
-		"type": ["Golem"],
-		"speed": 0.25,
-		"hitbox": [
-			{
-				"height": 2.7,
-				"width": 1.4
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "llama",
-		"name": "Llama",
-		"health_points": 15,
-		"behavior": "Neutral",
-		"type": ["Animal"],
-		"speed": 0.175,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.87,
-				"width": 0.9
-			},
-			{
-				"state": "Baby",
-				"height": 0.935,
-				"width": 0.45
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "panda",
-		"name": "Panda",
-		"health_points": 20,
-		"behavior": "Neutral",
-		"type": ["Animal"],
-		"speed": 0.15,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.25,
-				"width": 1.3
-			},
-			{
-				"state": "Baby",
-				"height": 0.625,
-				"width": 0.65
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "piglin",
-		"name": "Piglin",
-		"health_points": 16,
-		"behavior": "Neutral",
-		"type": ["Monster"],
-		"speed": 0.35,
-		"hitbox": [
-			{
-				"height": 1.95,
-				"width": 0.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "polar_bear",
-		"name": "Polar Bear",
-		"health_points": 30,
-		"behavior": "Neutral",
-		"type": ["Animal"],
-		"speed": 0.25,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.4,
-				"width": 1.4
-			},
-			{
-				"state": "Baby",
-				"height": 0.7,
-				"width": 0.7
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "spider",
-		"name": "Spider",
-		"health_points": 16,
-		"behavior": "Neutral",
-		"type": ["Monster", "Arthropod"],
-		"speed": 0.3,
-		"hitbox": [
-			{
-				"height": 0.9,
-				"width": 1.4
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "trader_llama",
-		"name": "Trader Llama",
-		"health_points": 15,
-		"behavior": "Neutral",
-		"type": ["Animal"],
-		"speed": 0.175,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.87,
-				"width": 0.9
-			},
-			{
-				"state": "Baby",
-				"height": 0.935,
-				"width": 0.45
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "wolf",
-		"name": "Wolf",
-		"health_points": 8,
-		"behavior": "Neutral",
-		"type": ["Animal"],
-		"speed": 0.3,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 0.85,
-				"width": 0.6
-			},
-			{
-				"state": "Baby",
-				"height": 0.425,
-				"width": 0.3
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "zombifield_piglin",
-		"name": "Zombifield Piglin",
-		"health_points": 20,
-		"behavior": "Neutral",
-		"type": ["Monster", "Undead"],
-		"speed": 0.23,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.95,
-				"width": 0.6
-			},
-			{
-				"state": "Baby",
-				"height": 0.975,
-				"width": 0.3
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "blaze",
-		"name": "Blaze",
-		"health_points": 20,
-		"behavior": "Hostile",
-		"type": ["Monster"],
-		"hitbox": [
-			{
-				"height": 1.8,
-				"width": 0.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "bogged",
-		"name": "Bogged",
-		"health_points": 16,
-		"behavior": "Hostile",
-		"type": ["Monster", "Undead"],
-		"hitbox": [
-			{
-				"height": 1.99,
-				"width": 0.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "breeze",
-		"name": "Breeze",
-		"health_points": 30,
-		"behavior": "Hostile",
-		"type": ["Monster"],
-		"hitbox": [
-			{
-				"height": 1.77,
-				"width": 0.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "creaking",
-		"name": "Creaking",
-		"health_points": 1,
-		"behavior": "Hostile",
-		"type": ["Monster"],
-		"speed": 0.3,
-		"hitbox": [
-			{
-				"height": 2.7,
-				"width": 0.9
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "creeper",
-		"name": "Creeper",
-		"health_points": 20,
-		"behavior": "Hostile",
-		"type": ["Monster"],
-		"hitbox": [
-			{
-				"height": 1.7,
-				"width": 0.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "elder_guardian",
-		"name": "Elder Guardian",
-		"health_points": 80,
-		"behavior": "Hostile",
-		"type": ["Monster", "Aquatic"],
-		"hitbox": [
-			{
-				"height": 1.9975,
-				"width": 1.9975
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "endermite",
-		"name": "Endermite",
-		"health_points": 8,
-		"behavior": "Hostile",
-		"type": ["Monster", "Arthropod"],
-		"hitbox": [
-			{
-				"height": 0.3,
-				"width": 0.4
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "evoker",
-		"name": "Evoker",
-		"health_points": 24,
-		"behavior": "Hostile",
-		"type": ["Monster", "Illager"],
-		"hitbox": [
-			{
-				"height": 1.95,
-				"width": 0.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "ghast",
-		"name": "Ghast",
-		"health_points": 10,
-		"behavior": "Hostile",
-		"type": ["Monster"],
-		"speed": 0.7,
-		"hitbox": [
-			{
-				"height": 4,
-				"width": 4
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "guardian",
-		"name": "Guardian",
-		"health_points": 30,
-		"behavior": "Hostile",
-		"type": ["Monster", "Aquatic"],
-		"hitbox": [
-			{
-				"height": 0.85,
-				"width": 0.85
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "hoglin",
-		"name": "Hoglin",
-		"health_points": 40,
-		"behavior": "Hostile",
-		"type": ["Monster", "Animal"],
-		"speed": 0.3,
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.4,
-				"width": 1.3965
-			},
-			{
-				"state": "Adult",
-				"height": 0.7,
-				"width": 0.6982
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "husk",
-		"name": "Husk",
-		"health_points": 20,
-		"behavior": "Hostile",
-		"type": ["Monster", "Undead"],
-		"hitbox": [
-			{
-				"state": "Adult",
-				"height": 1.95,
-				"width": 0.6
-			},
-			{
-				"state": "Baby",
-				"height": 0.975,
-				"width": 0.3
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "magma_cube",
-		"name": "Magma Cube",
-		"health_points": 16,
-		"behavior": "Hostile",
-		"type": ["Monster"],
-		"hitbox": [
-			{
-				"state": "Big",
-				"height": 2.08,
-				"width": 2.0808
-			},
-			{
-				"state": "Medium",
-				"height": 1.04,
-				"width": 1.0404
-			},
-			{
-				"state": "Small",
-				"height": 0.52,
-				"width": 0.5202
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "phantom",
-		"name": "Phantom",
-		"health_points": 20,
-		"behavior": "Hostile",
-		"type": ["Monster", "Undead"],
-		"speed": 0.7,
-		"hitbox": [
-			{
-				"height": 0.5,
-				"width": 0.9
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "piglin_brute",
-		"name": "Piglin Brute",
-		"health_points": 50,
-		"behavior": "Hostile",
-		"type": ["Monster"],
-		"hitbox": [
-			{
-				"height": 1.95,
-				"width": 0.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "pillager",
-		"name": "Pillager",
-		"health_points": 24,
-		"behavior": "Hostile",
-		"type": ["Monster", "Illager"],
-		"hitbox": [
-			{
-				"height": 1.95,
-				"width": 0.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "ravager",
-		"name": "Ravager",
-		"health_points": 100,
-		"behavior": "Hostile",
-		"type": ["Monster"],
-		"speed": 0.4,
-		"hitbox": [
-			{
-				"height": 2.2,
-				"width": 1.95
 			}
 		],
 		"drop": []
@@ -1277,6 +1059,27 @@
 		"drop": []
 	},
 	{
+		"id": "skeleton_horse",
+		"name": "Skeleton Horse",
+		"health_points": 15,
+		"behavior": "Passive",
+		"type": ["Animal", "Monster", "Undead"],
+		"speed": 0.2,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.6,
+				"width": 1.3965
+			},
+			{
+				"state": "Baby",
+				"height": 0.8,
+				"width": 0.6982
+			}
+		],
+		"drop": []
+	},
+	{
 		"id": "slime",
 		"name": "Slime",
 		"health_points": 16,
@@ -1307,6 +1110,77 @@
 		"drop": []
 	},
 	{
+		"id": "sniffer",
+		"name": "Sniffer",
+		"health_points": 14,
+		"behavior": "Passive",
+		"type": ["Animal"],
+		"speed": 0.1,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.75,
+				"width": 1.9
+			},
+			{
+				"state": "Baby",
+				"height": 0.875,
+				"width": 0.95
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "snow_golem",
+		"name": "Snow Golem",
+		"health_points": 4,
+		"behavior": "Passive",
+		"type": ["Golem"],
+		"speed": 0.2,
+		"hitbox": [
+			{
+				"height": 1.9,
+				"width": 0.7
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "spider",
+		"name": "Spider",
+		"health_points": 16,
+		"behavior": "Neutral",
+		"type": ["Monster", "Arthropod"],
+		"speed": 0.3,
+		"hitbox": [
+			{
+				"height": 0.9,
+				"width": 1.4
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "squid",
+		"name": "Squid",
+		"health_points": 10,
+		"behavior": "Passive",
+		"type": ["Animal", "Aquatic"],
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 0.8,
+				"width": 0.8
+			},
+			{
+				"state": "Baby",
+				"height": 0.4,
+				"width": 0.4
+			}
+		],
+		"drop": []
+	},
+	{
 		"id": "stray",
 		"name": "Stray",
 		"health_points": 20,
@@ -1316,6 +1190,99 @@
 			{
 				"height": 1.99,
 				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "strider",
+		"name": "Strider",
+		"health_points": 20,
+		"behavior": "Passive",
+		"type": ["Animal"],
+		"speed": 0.175,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.7,
+				"width": 0.9
+			},
+			{
+				"state": "Adult",
+				"height": 0.85,
+				"width": 0.45
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "tadpole",
+		"name": "Tadpole",
+		"health_points": 6,
+		"behavior": "Passive",
+		"type": ["Animal", "Aquatic"],
+		"speed": 1,
+		"hitbox": [
+			{
+				"height": 0.3,
+				"width": 0.4
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "trader_llama",
+		"name": "Trader Llama",
+		"health_points": 15,
+		"behavior": "Neutral",
+		"type": ["Animal"],
+		"speed": 0.175,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.87,
+				"width": 0.9
+			},
+			{
+				"state": "Baby",
+				"height": 0.935,
+				"width": 0.45
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "tropical_fish",
+		"name": "Tropical Fish",
+		"health_points": 3,
+		"behavior": "Passive",
+		"type": ["Animal", "Aquatic"],
+		"speed": 0.7,
+		"hitbox": [
+			{
+				"height": 0.4,
+				"width": 0.5
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "turtle",
+		"name": "Turtle",
+		"health_points": 30,
+		"behavior": "Passive",
+		"type": ["Animal", "Aquatic"],
+		"speed": 0.25,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 0.4,
+				"width": 1.2
+			},
+			{
+				"state": "Baby",
+				"height": 0.12,
+				"width": 0.36
 			}
 		],
 		"drop": []
@@ -1335,12 +1302,48 @@
 		"drop": []
 	},
 	{
+		"id": "villager",
+		"name": "Villager",
+		"health_points": 20,
+		"behavior": "Passive",
+		"type": ["NPC"],
+		"speed": 0.5,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.95,
+				"width": 0.6
+			},
+			{
+				"state": "Baby",
+				"height": 0.975,
+				"width": 0.3
+			}
+		],
+		"drop": []
+	},
+	{
 		"id": "vindicator",
 		"name": "Vindicator",
 		"health_points": 24,
 		"behavior": "Hostile",
 		"type": ["Monster", "Illager"],
 		"speed": 5.612,
+		"hitbox": [
+			{
+				"height": 1.95,
+				"width": 0.6
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "wandering_trader",
+		"name": "Wandering Trader",
+		"health_points": 20,
+		"behavior": "Passive",
+		"type": ["NPC"],
+		"speed": 0.7,
 		"hitbox": [
 			{
 				"height": 1.95,
@@ -1379,6 +1382,21 @@
 		"drop": []
 	},
 	{
+		"id": "wither",
+		"name": "Wither",
+		"health_points": 300,
+		"behavior": "Boss",
+		"type": ["Monster"],
+		"speed": 0.6,
+		"hitbox": [
+			{
+				"height": 3.5,
+				"width": 0.9
+			}
+		],
+		"drop": []
+	},
+	{
 		"id": "wither_skeleton",
 		"name": "Wither Skeleton",
 		"health_points": 20,
@@ -1389,6 +1407,27 @@
 			{
 				"height": 2.4,
 				"width": 0.7
+			}
+		],
+		"drop": []
+	},
+	{
+		"id": "wolf",
+		"name": "Wolf",
+		"health_points": 8,
+		"behavior": "Neutral",
+		"type": ["Animal"],
+		"speed": 0.3,
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 0.85,
+				"width": 0.6
+			},
+			{
+				"state": "Baby",
+				"height": 0.425,
+				"width": 0.3
 			}
 		],
 		"drop": []
@@ -1435,6 +1474,26 @@
 		"drop": []
 	},
 	{
+		"id": "zombie_horse",
+		"name": "Zombie Horse",
+		"health_points": 15,
+		"behavior": "Passive",
+		"type": ["Monster", "Animal", "Undead"],
+		"hitbox": [
+			{
+				"state": "Adult",
+				"height": 1.6,
+				"width": 1.3965
+			},
+			{
+				"state": "Baby",
+				"height": 0.8,
+				"width": 0.6982
+			}
+		],
+		"drop": []
+	},
+	{
 		"id": "zombie_villager",
 		"name": "Zombie Villager",
 		"health_points": 20,
@@ -1455,79 +1514,22 @@
 		"drop": []
 	},
 	{
-		"id": "ender_dragon",
-		"name": "Ender Dragon",
-		"health_points": 200,
-		"behavior": "Boss",
-		"type": ["Monster"],
-		"speed": 0.7,
-		"hitbox": [
-			{
-				"height": 8,
-				"width": 16
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "wither",
-		"name": "Wither",
-		"health_points": 300,
-		"behavior": "Boss",
-		"type": ["Monster"],
-		"speed": 0.6,
-		"hitbox": [
-			{
-				"height": 3.5,
-				"width": 0.9
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "giant",
-		"name": "Giant",
-		"health_points": 100,
-		"behavior": "Hostile",
-		"type": ["Monster"],
-		"hitbox": [
-			{
-				"height": 12,
-				"width": 3.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "illusioner",
-		"name": "Illusioner",
-		"health_points": 32,
-		"behavior": "Hostile",
-		"type": ["Monster", "Illager"],
-		"hitbox": [
-			{
-				"height": 1.95,
-				"width": 0.6
-			}
-		],
-		"drop": []
-	},
-	{
-		"id": "zombie_horse",
-		"name": "Zombie Horse",
-		"health_points": 15,
-		"behavior": "Passive",
-		"type": ["Monster", "Animal", "Undead"],
+		"id": "zombifield_piglin",
+		"name": "Zombifield Piglin",
+		"health_points": 20,
+		"behavior": "Neutral",
+		"type": ["Monster", "Undead"],
+		"speed": 0.23,
 		"hitbox": [
 			{
 				"state": "Adult",
-				"height": 1.6,
-				"width": 1.3965
+				"height": 1.95,
+				"width": 0.6
 			},
 			{
 				"state": "Baby",
-				"height": 0.8,
-				"width": 0.6982
+				"height": 0.975,
+				"width": 0.3
 			}
 		],
 		"drop": []

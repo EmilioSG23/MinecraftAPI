@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
 	AlertErrorMessage,
 	AlertImageLoading,
@@ -143,6 +144,8 @@ export function MobsInformation() {
 	const tooltip = useTooltip();
 	const { isAllImageLoaded, addImageLoaded } = useImageLoaded(datas.length);
 
+	const [activeFilter, setActiveFilter] = useState("All");
+
 	return (
 		<>
 			<MCTooltip tooltip={tooltip} />
@@ -161,10 +164,13 @@ export function MobsInformation() {
 							{["All", "Passive", "Neutral", "Hostile", "Boss"].map((type) => (
 								<button
 									key={type}
-									className={`px-1 border w-1/6 cursor-pointer ${getTypeStyle(type).header} ${getTypeStyle(type).hover} border-black text-black!`}
+									className={`px-1 border w-1/6 cursor-pointer
+										${getTypeStyle(type).header} ${getTypeStyle(type).hover} ${activeFilter === type ? "outline" : ""}
+										hover:outline border-black`}
 									onClick={() => {
 										if (type !== "All") setFilter("behavior", type);
 										else setFilter("behavior", "");
+										setActiveFilter(type);
 									}}
 								>
 									{type || "All"}
