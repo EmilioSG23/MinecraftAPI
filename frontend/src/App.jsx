@@ -10,6 +10,7 @@ import { Header } from "./components/Header";
 import { ConfigButton } from "./components/ConfigButton";
 import { useConfigBackground } from "./hooks/useConfigBackground";
 import { ErrorPage } from "./pages/ErrorPage";
+import { GitHubButton } from "./components/GitHubButton";
 
 function SelectionSoundEffect() {
 	useEffect(() => {
@@ -65,6 +66,7 @@ function App() {
 				display={displayMode}
 				setDisplayMode={changeDisplayMode}
 			/>
+			<GitHubButton />
 		</main>
 	);
 }
