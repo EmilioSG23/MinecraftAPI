@@ -6,6 +6,7 @@ import cors from "cors";
 import type { Advancements, Biomes, Blocks, Items, Mobs, Structures } from "./data/interfaces";
 import { advancements, biomes, blocks, items, mobs, structures } from "./validations";
 import path from "node:path";
+import { swaggerSpec, swaggerUi } from "./config/swagger";
 
 const app = express();
 
@@ -22,6 +23,12 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.use(express.static(path.join(__dirname, "../../frontend/dist")));
+
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+app.get("/api-docs-json", (_req, res) => {
+	res.setHeader("Content-Type", "application/json");
+	res.send(swaggerSpec);
+});
 
 app.get("/api", (req: Request, res: Response) => {
 	res.status(200).json({ message: "Welcome to Minecraft API" });
