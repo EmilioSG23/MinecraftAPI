@@ -27,9 +27,11 @@
 
 @theme {
 	--font-main: "Minecraft", "JetBrains Mono", "monospace";
-	--animate-creeper: creeper-scale 1.5s ease-in 1 forwards, creeper-spawn 1.5s steps(1) 1 forwards,
+	--animate-creeper:
+		creeper-scale 1.5s ease-in 1 forwards, creeper-spawn 1.5s steps(1) 1 forwards,
 		creeper-exploting 1.5s steps(4) 1 forwards;
 	--animate-death-screen: death-screen 1.5s steps(1) 1 forwards;
+	--breakpoint-xs: 360px;
 
 	@keyframes creeper-scale {
 		100% {
@@ -143,7 +145,7 @@ span.mc-tooltip {
 }
 
 /* Scrollbar */
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
 	width: 1.5rem;
 }
 ::-webkit-scrollbar-thumb {
@@ -155,7 +157,7 @@ span.mc-tooltip {
 	background-image: url("/gui/scroll-background.png");
 	image-rendering: pixelated;
 	background-size: 100% 100%;
-}
+}*/
 
 @media screen and (max-width: 640px) {
 	::-webkit-scrollbar {

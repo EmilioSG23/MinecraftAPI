@@ -51,7 +51,6 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }) {
 				))}
 			</div>
 			<input
-				id="terminalInput"
 				className="flex-none bg-gray-900 bottom-0 text-white w-full border-t-4 border-gray-400 text-[16px] sm:text-[20px] p-2 focus:outline-none"
 				type="text"
 				placeholder="Write a command..."

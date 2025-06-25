@@ -73,17 +73,17 @@ export function AdvancementsInformation() {
 				<>
 					{!isAllImageLoaded && <AlertImageLoading />}
 					<div
-						className={`flex flex-col items-center justify-center max-w-6xl p-8 mx-auto mc-container mt-7 ${
+						className={`flex flex-col items-center justify-center max-w-6xl p-4 sm:p-8 mx-auto mc-container mt-7 ${
 							isAllImageLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
 						}`}
 					>
-						<h1 className="font-bold text-[40px] text-center">Advancements</h1>
+						<h1 className="font-bold text-[20px] sm:text-[40px] text-center">Advancements</h1>
 						<div className="w-full my-5">
 							<div className="w-full pb-4 justify-center items-center text-center">
 								{["All", "Minecraft", "Nether", "The End", "Adventure", "Husbandry"].map((type) => (
 									<button
 										key={type}
-										className={`px-1 border w-1/6 cursor-pointer ${activeFilter === type ? "outline" : ""} hover:outline ${getTypeStyle(type).style}`}
+										className={`px-1 border w-1/3 sm:w-1/6 cursor-pointer ${activeFilter === type ? "outline" : ""} hover:outline ${getTypeStyle(type).style}`}
 										onClick={() => {
 											if (type !== "All") setFilter("interface", type);
 											else setFilter("interface", "");
@@ -95,7 +95,7 @@ export function AdvancementsInformation() {
 								))}
 							</div>
 							<Filter data="advancement" value={filter} onChange={updateFilter} />
-							<div className="flex flex-col overflow-y-scroll h-[512px] my-5 gap-y-10 px-2">
+							<div className="flex flex-col overflow-y-scroll h-[512px] my-5 gap-y-10 sm:px-2">
 								{filteredDatas.map((data) => {
 									const { bg, bgHover } = getFrame(data.tier);
 									const bgClass = `${bg} ${bgHover}`;
@@ -108,7 +108,7 @@ export function AdvancementsInformation() {
 											}}
 										>
 											<figure
-												className={`flex justify-center items-center p-3 h-[100px] w-[100px] group-hover:scale-110 ${bgClass}`}
+												className={`flex justify-center items-center p-3 size-[60px] sm:size-[100px] group-hover:scale-110 ${bgClass}`}
 												style={{
 													imageRendering: "pixelated",
 													objectFit: "cover",
@@ -117,18 +117,18 @@ export function AdvancementsInformation() {
 											>
 												<img
 													src={data.image}
-													className="h-[64px]"
+													className="h-[32px] sm:h-[64px]"
 													onLoad={addImageLoaded}
 													onError={addImageLoaded}
 													alt={`${data.id} sprite`}
 												/>
 											</figure>
 											<div className="flex-1 [&>*]:px-5">
-												<h2 className="bg-[#046a95] border-4 border-black text-white rounded-lg text-[32px] group-hover:bg-[#aa7e0f] group-hover:border-[#8b670c]">
+												<h2 className="bg-[#046a95] border-4 border-black text-white rounded-lg text-[20px] sm:text-[32px] group-hover:bg-[#aa7e0f] group-hover:border-[#8b670c]">
 													{data.title}
 												</h2>
 												<p
-													className={`bg-[#202020] border-4 border-[#555555] rounded-lg text-[24px] ${data.tier === "Challenge" ? "text-purple-600" : data.tier === "Goal" ? "text-yellow-400" : "text-green-600"}`}
+													className={`bg-[#202020] border-4 border-[#555555] rounded-lg text-[12px] sm:text-[24px] ${data.tier === "Challenge" ? "text-purple-600" : data.tier === "Goal" ? "text-yellow-400" : "text-green-600"}`}
 												>
 													{data.description}
 												</p>
@@ -145,7 +145,7 @@ export function AdvancementsInformation() {
 													navigator.clipboard.writeText(path);
 												}}
 											>
-												<i className="fa-regular fa-copy text-[56px] px-2" />
+												<i className="fa-regular fa-copy text-[28px] sm:text-[56px] px-2" />
 												<span>GET</span>
 											</button>
 										</div>

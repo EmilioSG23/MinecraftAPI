@@ -1,5 +1,9 @@
 export function AlertMessage(props) {
-	const { message, fontSize = "text-[48px]", borderColor = "border-white-900" } = props;
+	const {
+		message,
+		fontSize = "text-[24px] sm:text-[48px]",
+		borderColor = "border-white-900",
+	} = props;
 	return (
 		<div
 			className={`fixed left-1/2 top-1/2 -translate-1/2 bg-black/25
@@ -22,7 +26,7 @@ export function AlertErrorMessage() {
 	return (
 		<AlertMessage
 			message="Error with the fetching of the datas :(, go back and try again..."
-			fontSize="text-[32px]"
+			fontSize="text-[16px] sm:text-[32px]"
 			borderColor="border-red-900"
 		/>
 	);

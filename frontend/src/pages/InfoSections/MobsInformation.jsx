@@ -48,7 +48,7 @@ function getTypeStyle(type) {
 function MobInformation({ data, tooltip, onLoad }) {
 	return (
 		<article
-			className="w-[30%] flex-col rounded-xl border border-black overflow-hidden max-h-[271px]"
+			className="w-full sm:w-[45%] lg:w-[30%] flex-col rounded-xl border border-black overflow-hidden max-h-[271px]"
 			style={{ display: data.hidden ? "none" : "flex" }}
 		>
 			<h2
@@ -56,13 +56,13 @@ function MobInformation({ data, tooltip, onLoad }) {
 			>
 				{data.name}
 			</h2>
-			<div className="w-full flex">
+			<div className="w-full flex flex-col xs:flex-row">
 				<figure
-					className={`flex-1 h-full border-r border-black p-5 ${getTypeStyle(data.behavior).bg}`}
+					className={`flex-1 min-w-1/3 h-full border-b xs:border-b-0 xs:border-r border-black p-1 sm:p-2 flex items-center justify-center ${getTypeStyle(data.behavior).bg}`}
 				>
 					<img
 						src={data.image}
-						className={`object-contain size-48`}
+						className={`object-cover xs:object-contain size-18 xs:size-48 mx-auto`}
 						onLoad={onLoad}
 						onError={onLoad}
 						alt={`${data.name} mob image`}
@@ -155,16 +155,16 @@ export function MobsInformation() {
 				<>
 					{!isAllImageLoaded && <AlertImageLoading />}
 					<div
-						className={`mc-container mx-auto max-w-7xl mt-7 flex flex-col items-center p-8 ${
+						className={`mc-container mx-auto max-w-7xl mt-7 flex flex-col items-center p-4 sm:p-8 ${
 							isAllImageLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
 						}`}
 					>
-						<h1 className="font-bold text-[40px] text-center">Mobs</h1>
+						<h1 className="font-bold text-[20px] sm:text-[40px] text-center">Mobs</h1>
 						<div className="w-full pb-4 justify-center items-center text-center">
 							{["All", "Passive", "Neutral", "Hostile", "Boss"].map((type) => (
 								<button
 									key={type}
-									className={`px-1 border w-1/6 cursor-pointer
+									className={`px-1 border w-1/3 sm:w-1/6 cursor-pointer
 										${getTypeStyle(type).header} ${getTypeStyle(type).hover} ${activeFilter === type ? "outline" : ""}
 										hover:outline border-black`}
 									onClick={() => {

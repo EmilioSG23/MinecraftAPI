@@ -6,7 +6,7 @@ const handleInputChange = (e) => {
 export function Filter({ data, filterBy = "name", value, onChange }) {
 	return (
 		<input
-			className="w-[95%] bg-[#8b8b8b] px-2 text-[24px]"
+			className="w-[95%] bg-[#8b8b8b] px-2 text-[16px] sm:text-[24px]"
 			placeholder={`Search a ${data}...`}
 			aria-label={`Search a ${data}`}
 			type="text"
