@@ -17,8 +17,8 @@ function BiomeItemInformation({ children, label, tooltip }) {
 		<div
 			className="flex relative gap-x-2 border-2 border-white px-1 rounded-lg w-[20%] justify-center items-center"
 			onMouseEnter={() => {
-				tooltip.setVisible(true);
 				tooltip.setContent(<p>{label}</p>);
+				tooltip.setVisible(true);
 			}}
 			onMouseLeave={() => tooltip.setVisible(false)}
 		>

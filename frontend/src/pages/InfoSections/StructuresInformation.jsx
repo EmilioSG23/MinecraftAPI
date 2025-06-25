@@ -35,7 +35,7 @@ export function StructuresInformation() {
 								return (
 									<div
 										key={data.id}
-										className="flex flex-col gap-x-1 w-[32%] mx-1 bg-gray-500 rounded-2xl border-3 border-gray-800 overflow-hidden justify-center"
+										className="flex flex-col max-h-[314px] gap-x-1 w-[32%] mx-1 bg-gray-500 rounded-2xl border-3 border-gray-800 overflow-hidden justify-center"
 										style={{
 											display: data.hidden ? "none" : "flex",
 										}}
