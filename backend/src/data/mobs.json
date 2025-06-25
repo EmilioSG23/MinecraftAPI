@@ -4,7 +4,7 @@
 		"name": "Allay",
 		"health_points": 20,
 		"behavior": "Passive",
-		"type": [],
+		"type": ["Animal"],
 		"speed": 0.4,
 		"hitbox": [
 			{
@@ -397,8 +397,8 @@
 		"drop": []
 	},
 	{
-		"id": "bunny",
-		"name": "Bunny",
+		"id": "rabbit",
+		"name": "Rabbit",
 		"health_points": 3,
 		"behavior": "Passive",
 		"type": ["Animal"],
