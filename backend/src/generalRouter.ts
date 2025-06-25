@@ -2,9 +2,7 @@ import Router from "express";
 import type { Request, Response } from "express";
 import path from "node:path";
 import fs from "node:fs";
-
-const apiURL =
-	process.env.NODE_ENV === "production" ? "" : `http://localhost:${process.env.PORT ?? 4000}`;
+import { API_URL } from "./config/config";
 
 const generalRouter = <T extends { id: string }>(datas: T[], message: string) => {
 	const IMAGE_EXTENSIONS = ["png", "webp", "gif"];
@@ -13,7 +11,7 @@ const generalRouter = <T extends { id: string }>(datas: T[], message: string) =>
 	//Main Page
 	router.get("/", (req: Request, res: Response) => {
 		const dataWithImage = datas.map((data) => {
-			return { ...data, image: `${apiURL}${req.baseUrl}/${data.id}/image` };
+			return { ...data, image: `${API_URL}${req.baseUrl}/${data.id}/image` };
 		});
 		res.status(200).json(dataWithImage);
 	});

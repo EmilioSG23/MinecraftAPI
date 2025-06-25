@@ -7,11 +7,9 @@ import type { Advancements, Biomes, Blocks, Items, Mobs, Structures } from "./da
 import { advancements, biomes, blocks, items, mobs, structures } from "./validations";
 import path from "node:path";
 import { swaggerSpec, swaggerUi } from "./config/swagger";
+import { PORT } from "./config/config";
 
 const app = express();
-
-export const port = process.env.PORT || 4000;
-
 app.use(express.json());
 
 const corsOptions = {
@@ -22,7 +20,7 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-app.use(express.static(path.join(__dirname, "../../frontend/dist")));
+app.use(express.static(path.join(__dirname, "..", "public")));
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.get("/api-docs-json", (_req, res) => {
@@ -46,9 +44,9 @@ app.get("/api/*", (req: Request, res: Response) => {
 });
 
 app.get("*", (req: Request, res: Response) => {
-	res.sendFile(path.join(__dirname, "../../frontend/dist/index.html"));
+	res.sendFile(path.join(__dirname, "..", "public", "index.html"));
 });
 
-app.listen(port, () => {
-	console.log(`Server listening in port: ${port}`);
+app.listen(PORT, () => {
+	console.log(`Server listening in port: ${PORT}`);
 });
