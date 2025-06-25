@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useChangeSection } from "../hooks/useSection";
 import { useCommands } from "../hooks/useCommands";
-import { executeCommand } from "../components/commands";
+import { executeCommand } from "../components/Commands";
 
 export function Terminal({ setPanorama, setBlur, setDisplayMode }) {
 	const {
