@@ -9,6 +9,34 @@ import { useImageLoaded } from "../../hooks/useImageLoaded";
 import { Filter } from "../../components/Filter";
 import { useFilterData } from "../../hooks/useFilterData";
 import { useQueryFilter } from "../../hooks/useQueryFilter";
+import { useState } from "react";
+
+const TYPE_STYLES = {
+	ALL: {
+		style: "bg-gray-600/25 hover:bg-gray-600/50",
+	},
+	MINECRAFT: {
+		style: "bg-lime-300/25 hover:bg-lime-300/50",
+	},
+	NETHER: {
+		style: "bg-red-400/25 hover:bg-red-400/50",
+	},
+	THE_END: {
+		style: "bg-yellow-500/25 hover:bg-yellow-500/50",
+	},
+	ADVENTURE: {
+		style: "bg-orange-500/25 hover:bg-orange-500/50",
+	},
+	HUSBANDRY: {
+		style: "bg-blue-300/25 hover:bg-blue-300/50",
+	},
+};
+
+function getTypeStyle(type) {
+	if (type === "The End") return TYPE_STYLES.THE_END;
+	const key = type?.toUpperCase?.() || "ALL";
+	return TYPE_STYLES[key] || TYPE_STYLES.ALL;
+}
 
 function getFrame(tier) {
 	if (tier === "Challenge") {
@@ -35,6 +63,8 @@ export function AdvancementsInformation() {
 	const { updateFilter } = useQueryFilter("advancement", setFilter);
 	const { isAllImageLoaded, addImageLoaded } = useImageLoaded(datas.length);
 
+	const [activeFilter, setActiveFilter] = useState("All");
+
 	return (
 		<>
 			{status === FETCH_STATUS.LOADING && <AlertLoadingMessage />}
@@ -49,6 +79,21 @@ export function AdvancementsInformation() {
 					>
 						<h1 className="font-bold text-[40px] text-center">Advancements</h1>
 						<div className="w-full my-5">
+							<div className="w-full pb-4 justify-center items-center text-center">
+								{["All", "Minecraft", "Nether", "The End", "Adventure", "Husbandry"].map((type) => (
+									<button
+										key={type}
+										className={`px-1 border w-1/6 cursor-pointer ${activeFilter === type ? "outline" : ""} hover:outline ${getTypeStyle(type).style}`}
+										onClick={() => {
+											if (type !== "All") setFilter("interface", type);
+											else setFilter("interface", "");
+											setActiveFilter(type);
+										}}
+									>
+										{type || "All"}
+									</button>
+								))}
+							</div>
 							<Filter data="advancement" value={filter} onChange={updateFilter} />
 							<div className="flex flex-col overflow-y-scroll h-[512px] my-5 gap-y-10 px-2">
 								{filteredDatas.map((data) => {

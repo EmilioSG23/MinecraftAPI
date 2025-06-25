@@ -13,27 +13,35 @@ import { useTooltip } from "../../hooks/useTooltip";
 import { useMobs } from "../../services/useDatas";
 
 const TYPE_STYLES = {
+	ALL: {
+		header: "bg-gray-600/25",
+		hover: "hover:bg-gray-600/50",
+	},
 	PASSIVE: {
-		header: "text-black bg-black/15",
-		style: "bg-black/10",
+		header: "text-black bg-black/25",
+		bg: "bg-black/10",
+		hover: "hover:bg-black/50",
 	},
 	NEUTRAL: {
 		header: "text-[#ffff55] bg-yellow-700/25",
-		style: "bg-yellow-700/10",
+		bg: "bg-yellow-700/10",
+		hover: "hover:bg-yellow-700/50",
 	},
 	HOSTILE: {
 		header: "text-white bg-red-600/25",
-		style: "bg-red-600/10",
+		bg: "bg-red-600/10",
+		hover: "hover:bg-red-600/50",
 	},
 	BOSS: {
 		header: "text-[#ff55ff] bg-gray-700",
-		style: "bg-gray-700/25",
+		bg: "bg-gray-700/25",
+		hover: "hover:bg-gray-700/50",
 	},
 };
 
 function getTypeStyle(type) {
-	const key = type?.toUpperCase?.() || "BOSS";
-	return TYPE_STYLES[key] || TYPE_STYLES.BOSS;
+	const key = type?.toUpperCase?.() || "ALL";
+	return TYPE_STYLES[key] || TYPE_STYLES.ALL;
 }
 
 function MobInformation({ data, tooltip, onLoad }) {
@@ -49,7 +57,7 @@ function MobInformation({ data, tooltip, onLoad }) {
 			</h2>
 			<div className="w-full flex">
 				<figure
-					className={`flex-1 h-full border-r border-black p-5 ${getTypeStyle(data.behavior).style}`}
+					className={`flex-1 h-full border-r border-black p-5 ${getTypeStyle(data.behavior).bg}`}
 				>
 					<img
 						src={data.image}
@@ -149,8 +157,22 @@ export function MobsInformation() {
 						}`}
 					>
 						<h1 className="font-bold text-[40px] text-center">Mobs</h1>
+						<div className="w-full pb-4 justify-center items-center text-center">
+							{["All", "Passive", "Neutral", "Hostile", "Boss"].map((type) => (
+								<button
+									key={type}
+									className={`px-1 border w-1/6 cursor-pointer ${getTypeStyle(type).header} ${getTypeStyle(type).hover} border-black text-black!`}
+									onClick={() => {
+										if (type !== "All") setFilter("behavior", type);
+										else setFilter("behavior", "");
+									}}
+								>
+									{type || "All"}
+								</button>
+							))}
+						</div>
 						<Filter data="mob" value={filter} onChange={updateFilter} />
-						<div className="w-full flex flex-wrap overflow-y-scroll h-[624px] my-5 gap-4 justify-center">
+						<div className="w-full flex flex-wrap overflow-y-scroll h-[624px] my-4 gap-4 justify-center">
 							{filteredDatas.map((data) => (
 								<MobInformation
 									key={data.id}
