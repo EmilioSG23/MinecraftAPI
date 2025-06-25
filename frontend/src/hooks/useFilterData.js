@@ -4,7 +4,6 @@ export function useFilterData(datas = [], defaultKey = "name") {
 	const [filters, setFilters] = useState({ [defaultKey]: "" });
 
 	const setFilter = (key, value) => {
-		console.log(key, value);
 		setFilters((prev) => ({ ...prev, [key]: value }));
 	};
 

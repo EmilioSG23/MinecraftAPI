@@ -41,7 +41,7 @@ export function Documentation() {
 						because we only give information about Minecraft datas. You can access to the API using
 						the next <b>endpoint</b>.
 					</p>
-					<Code code={`${API_URL}/`} />
+					<Code code={`${window.location.origin + API_URL}/`} />
 				</header>
 				<section className="text-[14px] sm:text-[20px]">
 					<h2 className="font-bold text-[24px] mt-5 underline">⚒ Introduction</h2>

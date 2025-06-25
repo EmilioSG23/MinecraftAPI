@@ -6,7 +6,7 @@ import {
 } from "../../components/AlertMessage";
 import { Filter } from "../../components/Filter";
 import { MCTooltip } from "../../components/MCTooltip";
-import { API_URL, FETCH_STATUS } from "../../consts";
+import { API_URL, FETCH_STATUS, PREFIX_MC } from "../../consts";
 import { useFilterData } from "../../hooks/useFilterData";
 import { useImageLoaded } from "../../hooks/useImageLoaded";
 import { useQueryFilter } from "../../hooks/useQueryFilter";
@@ -48,7 +48,7 @@ function getTypeStyle(type) {
 function MobInformation({ data, tooltip, onLoad }) {
 	return (
 		<article
-			className="w-full sm:w-[45%] lg:w-[30%] flex-col rounded-xl border border-black overflow-hidden max-h-[271px]"
+			className="w-full sm:w-[45%] lg:w-[30%] flex-col rounded-xl border border-black overflow-hidden max-h-[247px]"
 			style={{ display: data.hidden ? "none" : "flex" }}
 		>
 			<h2
@@ -100,7 +100,7 @@ function MobInformation({ data, tooltip, onLoad }) {
 				</figure>
 				<div className="flex flex-2 flex-col justify-between">
 					<div className="p-1 text-sm">
-						<p className="text-gray-800 underline">minecraft:{data.id}</p>
+						<p className="text-gray-800 underline">{PREFIX_MC + data.id}</p>
 						<p>
 							<b>Health: </b>
 							{data.health_points} pts
