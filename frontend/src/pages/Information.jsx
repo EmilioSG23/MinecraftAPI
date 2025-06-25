@@ -5,8 +5,8 @@ import { BiomesInformation } from "./InfoSections/BiomesInformation";
 import { BlocksInformation } from "./InfoSections/BlocksInformation";
 import { ItemsInformation } from "./InfoSections/ItemsInformation";
 import { StructuresInformation } from "./InfoSections/StructuresInformation";
-import { AlertMessage } from "../components/AlertMessage";
 import { useChangeSection } from "../hooks/useSection";
+import { MobsInformation } from "./InfoSections/MobsInformation";
 
 function InfoHomeCard({ id }) {
 	return (
@@ -57,10 +57,7 @@ export function Information() {
 				<Route path="/biomes" element={<BiomesInformation />} />
 				<Route path="/blocks" element={<BlocksInformation />} />
 				<Route path="/items" element={<ItemsInformation />} />
-				<Route
-					path="/mobs"
-					element={<AlertMessage message="There is not information available yet :(" />}
-				/>
+				<Route path="/mobs" element={<MobsInformation />} />
 				<Route path="/structures" element={<StructuresInformation />} />
 			</Routes>
 		</section>
