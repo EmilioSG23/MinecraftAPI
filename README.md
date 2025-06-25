@@ -3,7 +3,8 @@
 Welcome to the **Minecraft API**! This project provides a RESTful API and a frontend interface to access detailed information about Minecraft entities such as blocks, mobs, items, biomes, structures, and more.
 
 > 🚨 **Note:** This is a read-only API. All endpoints are `GET` methods only. The purpose is to provide Minecraft-related data to the community and developers.
-
+> 
+> 🚨 **UNOFFICIAL:** Also, this Minecraft API is not official for the game, it has no relationship with Mojang, it is simply used for informational purposes for the community.
 ---
 
 ## ⚒️ Introduction
