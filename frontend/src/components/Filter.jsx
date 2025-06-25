@@ -3,7 +3,7 @@ const handleInputChange = (e) => {
 	return /^[a-zA-ZÀ-ÿ\s_]*$/.test(value) ? value : null;
 };
 
-export function Filter({ data, value, onChange }) {
+export function Filter({ data, filterBy = "name", value, onChange }) {
 	return (
 		<input
 			className="w-[95%] bg-[#8b8b8b] px-2 text-[24px]"
@@ -13,7 +13,7 @@ export function Filter({ data, value, onChange }) {
 			value={value}
 			onChange={(e) => {
 				const newValue = handleInputChange(e);
-				if (newValue !== null) onChange(newValue);
+				if (newValue !== null) onChange(newValue, filterBy);
 			}}
 		/>
 	);

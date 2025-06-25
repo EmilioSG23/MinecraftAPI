@@ -5,10 +5,11 @@ export function useQueryFilter(paramName, setFilter) {
 	const [searchParams, setSearchParams] = useSearchParams();
 	useEffect(() => {
 		setFilter(searchParams.get(paramName) || "");
-	}, [paramName, searchParams, setFilter]);
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [paramName, searchParams]);
 
-	const updateFilter = (value) => {
-		setFilter(value);
+	const updateFilter = (value, key) => {
+		setFilter(key, value);
 		setSearchParams({ [paramName]: value });
 	};
 	return { updateFilter };
