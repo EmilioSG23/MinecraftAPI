@@ -6,7 +6,9 @@
 	"scripts": {
 		"dev": "pnpm -r dev",
 		"dev:front": "pnpm -F frontend dev",
-		"dev:back": "pnpm -F backend dev"
+		"dev:back": "pnpm -F backend dev",
+		"build": "pnpm -F frontend build",
+		"start": "pnpm -F backend start"
 	},
 	"author": "",
 	"license": "ISC",
