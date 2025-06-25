@@ -35,6 +35,9 @@ importers:
       cors:
         specifier: ^2.8.5
         version: 2.8.5
+      dotenv:
+        specifier: ^16.5.0
+        version: 16.5.0
       express:
         specifier: ^4.21.2
         version: 4.21.2
@@ -72,12 +75,12 @@ importers:
 
   frontend:
     dependencies:
-      '@midudev/tailwind-animations':
-        specifier: ^0.2.0
-        version: 0.2.0(tailwindcss@4.1.10)
       '@tailwindcss/vite':
         specifier: ^4.0.5
         version: 4.1.10(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1))
+      dotenv:
+        specifier: ^16.5.0
+        version: 16.5.0
       font-awesome:
         specifier: ^4.7.0
         version: 4.7.0
@@ -417,11 +420,6 @@ packages:
 
   '@jsdevtools/ono@7.1.3':
     resolution: {integrity: sha512-4JQNk+3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM+c456qOrbbM/5xcR8huNCCcbVt7+UmizG6GuUvPvKUYg==}
-
-  '@midudev/tailwind-animations@0.2.0':
-    resolution: {integrity: sha512-4mktb060dA7SZz0LjMfhBT30HWPmQENwF4AJC7/etESWohe4pukST0ohC2yAePS5GNinhY3MXmZZ8//2ywafOQ==}
-    peerDependencies:
-      tailwindcss: ^3.0.0 || ^4.0.0
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1292,6 +1290,10 @@ packages:
 
   dompurify@3.2.4:
     resolution: {integrity: sha512-ysFSFEDVduQpyhzAob/kkuJjf5zWkZD8/A9ywSp1byueyuCfHamrCBa14/Oc2iiB0e51B+NpxSl5gmzn+Ms/mg==}
+
+  dotenv@16.5.0:
+    resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
+    engines: {node: '>=12'}
 
   drange@1.1.1:
     resolution: {integrity: sha512-pYxfDYpued//QpnLIm4Avk7rsNtAtQkUES2cwAYSvD/wd2pKD71gN2Ebj3e7klzXwjocvE8c5vx/1fxwpqmSxA==}
@@ -3277,10 +3279,6 @@ snapshots:
 
   '@jsdevtools/ono@7.1.3': {}
 
-  '@midudev/tailwind-animations@0.2.0(tailwindcss@4.1.10)':
-    dependencies:
-      tailwindcss: 4.1.10
-
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
       '@nodelib/fs.stat': 2.0.5
@@ -4391,6 +4389,8 @@ snapshots:
   dompurify@3.2.4:
     optionalDependencies:
       '@types/trusted-types': 2.0.7
+
+  dotenv@16.5.0: {}
 
   drange@1.1.1: {}
 
