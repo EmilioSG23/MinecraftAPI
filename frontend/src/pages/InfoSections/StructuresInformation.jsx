@@ -42,7 +42,7 @@ export function StructuresInformation() {
 									>
 										<img
 											src={data.image}
-											className="bg-[#c7c7c7] object-contain h-[200px]"
+											className="bg-[#afafaf] object-contain h-[200px]"
 											onLoad={addImageLoaded}
 											onError={addImageLoaded}
 											alt={`${data.id} sprite`}

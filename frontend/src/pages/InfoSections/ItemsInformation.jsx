@@ -33,38 +33,68 @@ function getTierColor(tier) {
 }
 
 function ItemInformation({ data, tooltip, onLoad }) {
+	const isDesktop = window.matchMedia("(pointer: fine)").matches;
+
+	const handleDesktop = () => {
+		const path = `${API_URL}/items/${data.id}`;
+		navigator.clipboard.writeText(path);
+	};
+	const handleMobile = (event) => {
+		const newContent = getTooltipContent();
+		const isSameContent =
+			tooltip.content?.props?.children?.[0]?.props?.children ===
+			newContent.props.children[0].props.children;
+		if (isSameContent && tooltip.visible) {
+			tooltip.setVisible(false);
+		} else {
+			tooltip.setContent(newContent);
+			tooltip.setVisible(true);
+			const rect = event.currentTarget.getBoundingClientRect();
+			tooltip.setPosition({
+				x: rect.right + 8,
+				y: rect.top + rect.height / 2,
+			});
+		}
+	};
+
+	const handleTooltipContent = () => {
+		tooltip.setContent(getTooltipContent());
+	};
+
+	const getTooltipContent = () => (
+		<div className="text-left">
+			<h3 className={`${getTierColor(data.tier)} text-[16px]`}>{data.name}</h3>
+			<span className="text-[#545454]">
+				{PREFIX_MC}
+				{data.id}
+			</span>
+			<div className="text-[#a0a0a0]">
+				<p>{`Renewable: ${data.renewable ? "Yes" : "No"}`}</p>
+				<p>{`Stackable: ${data.stackable}`}</p>
+			</div>
+			{isDesktop && <footer className="text-[#545454]">Click to GET</footer>}
+		</div>
+	);
+
 	return (
 		<button
 			type="button"
-			className="flex relative group cursor-pointer w-[56px] h-[56px]"
+			className="flex relative group cursor-pointer size-[48px] sm:size-[56px]"
 			style={{ display: data.hidden ? "none" : "flex" }}
 			onMouseEnter={() => {
-				tooltip.setContent(
-					<div className="text-left">
-						<h3 className={`${getTierColor(data.tier)} text-[16px]`}>{data.name}</h3>
-						<span className="text-[#545454]">
-							{PREFIX_MC}
-							{data.id}
-						</span>
-						<div className="text-[#a0a0a0]">
-							<p>{`Renewable: ${data.renewable ? "Yes" : "No"}`}</p>
-							<p>{`Stackable: ${data.stackable}`}</p>
-						</div>
-						<footer className="text-[#545454]">Click to GET</footer>
-					</div>
-				);
 				tooltip.setVisible(true);
+				handleTooltipContent();
 			}}
 			onMouseLeave={() => tooltip.setVisible(false)}
-			onClick={() => {
-				const path = `${API_URL}/items/${data.id}`;
-				navigator.clipboard.writeText(path);
+			onClick={(event) => {
+				if (isDesktop) handleDesktop();
+				else handleMobile(event);
 			}}
 		>
 			<figure className="flex flex-col bg-[#8b8b8b] border-2 border-gray-800 overflow-hidden justify-center">
 				<img
 					src={data.image}
-					className="object-contain w-[48px] h-[48px] m-auto"
+					className="object-contain size-[40px] sm:size-[48px] m-auto"
 					onLoad={onLoad}
 					onError={onLoad}
 					alt={`${data.id} sprite`}
@@ -90,13 +120,13 @@ export function ItemsInformation() {
 				<>
 					{!isAllImageLoaded && <AlertImageLoading />}
 					<div
-						className={`mc-container mx-auto max-w-7xl mt-7 flex flex-col items-center p-8 ${
+						className={`mc-container mx-auto max-w-7xl mt-7 flex flex-col items-center p-4 sm:p-8 ${
 							isAllImageLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
 						}`}
 					>
-						<h1 className="font-bold text-[40px] text-center">Items</h1>
+						<h1 className="font-bold text-[20px] sm:text-[40px] text-center">Items</h1>
 						<Filter data="item" value={filter} onChange={updateFilter} />
-						<div className="w-full flex flex-wrap overflow-y-scroll h-[624px] my-5 gap-y-2 justify-center">
+						<div className="w-full flex flex-wrap overflow-y-scroll h-[624px] my-5 gap-y-2 justify-center items-center">
 							{filteredDatas.map((data) => (
 								<ItemInformation
 									key={data.id}

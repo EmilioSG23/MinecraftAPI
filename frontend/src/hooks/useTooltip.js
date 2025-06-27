@@ -9,10 +9,9 @@ export function useTooltip() {
 		const handleMouseMove = (event) => {
 			setPosition({ x: event.clientX + 5, y: event.clientY - 25 });
 		};
-		if (visible) document.addEventListener("mousemove", handleMouseMove);
-		else document.removeEventListener("mousemove", handleMouseMove);
+		document.addEventListener("mousemove", handleMouseMove);
 		return () => document.removeEventListener("mousemove", handleMouseMove);
 	}, [visible]);
 
-	return { visible, setVisible, content, setContent, position };
+	return { visible, setVisible, content, setContent, position, setPosition };
 }
