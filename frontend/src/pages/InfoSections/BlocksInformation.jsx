@@ -44,16 +44,49 @@ function BlockInformation({ data, tooltip, onLoad }) {
 		const isSameContent =
 			tooltip.content?.props?.children?.[0]?.props?.children ===
 			newContent.props.children[0].props.children;
+
 		if (isSameContent && tooltip.visible) {
 			tooltip.setVisible(false);
 		} else {
 			tooltip.setContent(newContent);
 			tooltip.setVisible(true);
+
 			const rect = event.currentTarget.getBoundingClientRect();
-			tooltip.setPosition({
-				x: rect.right + 8,
-				y: rect.top + rect.height / 2,
-			});
+			// Posición inicial a la derecha
+			let x = rect.right + 8;
+			let y = rect.top + rect.height / 2;
+
+			// Ponemos posición provisional
+			tooltip.setPosition({ x, y });
+
+			// Esperamos un tick para que el tooltip se renderice en el DOM
+			setTimeout(() => {
+				const tooltipEl = document.querySelector(".mc-tooltip");
+				if (!tooltipEl) return;
+
+				const ttRect = tooltipEl.getBoundingClientRect();
+				const viewportWidth = window.innerWidth;
+				const viewportHeight = window.innerHeight;
+				const padding = 8;
+
+				// Ajustar horizontalmente: si se sale por la derecha, poner a la izquierda
+				if (x + ttRect.width > viewportWidth) {
+					x = rect.left - ttRect.width - padding;
+				}
+				if (x < 0) {
+					x = padding;
+				}
+
+				// Ajustar verticalmente: si se sale por abajo, subir
+				if (y + ttRect.height > viewportHeight) {
+					y = viewportHeight - ttRect.height - padding;
+				}
+				if (y < 0) {
+					y = padding;
+				}
+
+				tooltip.setPosition({ x, y });
+			}, 0);
 		}
 	};
 
