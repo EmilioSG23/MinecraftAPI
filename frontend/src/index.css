@@ -31,6 +31,7 @@
 		creeper-scale 1.5s ease-in 1 forwards, creeper-spawn 1.5s steps(1) 1 forwards,
 		creeper-exploting 1.5s steps(4) 1 forwards;
 	--animate-death-screen: death-screen 1.5s steps(1) 1 forwards;
+	--animate-text-menu: text-menu 1s linear infinite alternate both;
 	--breakpoint-xs: 360px;
 
 	@keyframes creeper-scale {
@@ -67,6 +68,14 @@
 		}
 		100% {
 			opacity: 100%;
+		}
+	}
+	@keyframes text-menu {
+		from {
+			transform: scale(1);
+		}
+		to {
+			transform: scale(1.25);
 		}
 	}
 }
