@@ -1,3 +1,5 @@
+import menuText from "./assets/menuTexts.json";
+
 export const API_URL = import.meta.env.VITE_API_URL || "/api";
 
 export const MC_VERSION = "1.19";
@@ -25,3 +27,5 @@ export const DATAS_TYPE = {
 	mobs: "mobs",
 	structures: "structures",
 };
+
+export const MENU_TEXTS = menuText;
