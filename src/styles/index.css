@@ -1,0 +1,181 @@
+@import "tailwindcss";
+
+@font-face {
+	font-family: "Minecraft";
+	font-style: normal;
+	font-weight: normal;
+	src: url("/fonts/MinecraftRegular.otf") format("opentype");
+}
+@font-face {
+	font-family: "Minecraft";
+	font-style: normal;
+	font-weight: bold;
+	src: url("/fonts/MinecraftBold.otf") format("opentype");
+}
+@font-face {
+	font-family: "Minecraft";
+	font-style: italic;
+	font-weight: normal;
+	src: url("/fonts/MinecraftItalic.otf") format("opentype");
+}
+@font-face {
+	font-family: "Minecraft";
+	font-style: italic;
+	font-weight: bold;
+	src: url("/fonts/MinecraftBoldItalic.otf") format("opentype");
+}
+
+@theme {
+	--font-main: "Minecraft", "JetBrains Mono", "monospace";
+	--animate-creeper:
+		creeper-scale 1.5s ease-in 1 forwards, creeper-spawn 1.5s steps(1) 1 forwards,
+		creeper-exploting 1.5s steps(4) 1 forwards;
+	--animate-death-screen: death-screen 1.5s steps(1) 1 forwards;
+	--animate-text-menu: text-menu 1s linear infinite alternate both;
+	--breakpoint-xs: 360px;
+
+	@keyframes creeper-scale {
+		100% {
+			transform: scale(2.5, 2);
+		}
+	}
+	@keyframes creeper-spawn {
+		0% {
+			opacity: 100%;
+		}
+		100% {
+			opacity: 0%;
+		}
+	}
+	@keyframes creeper-exploting {
+		0%,
+		25%,
+		50%,
+		75% {
+			filter: brightness(1);
+		}
+		12.5%,
+		37.5%,
+		62.5%,
+		87.5%,
+		100% {
+			filter: brightness(3); /* se ve más blanco */
+		}
+	}
+	@keyframes death-screen {
+		0% {
+			opacity: 0%;
+		}
+		100% {
+			opacity: 100%;
+		}
+	}
+	@keyframes text-menu {
+		from {
+			transform: scale(1);
+		}
+		to {
+			transform: scale(1.25);
+		}
+	}
+}
+
+:root {
+	font-family: "Minecraft", monospace;
+}
+
+/*Background*/
+div.background {
+	background-image: url("/panorama/panorama_10.webp");
+	animation: moving 120s ease-out infinite alternate;
+}
+
+@keyframes moving {
+	from {
+		background-position: 0 0;
+	}
+	to {
+		background-position: 200% 0;
+	}
+}
+
+/*Selector*/
+a.mc-selector,
+button.mc-selector {
+	background-image: url("/gui/selector.webp");
+	image-rendering: pixelated;
+	object-fit: cover;
+	background-size: 100% 100%;
+	padding: 0.5rem 1.5rem;
+}
+
+a.mc-selector:hover,
+button.mc-selector:hover {
+	background-image: url("/gui/selector-selected.webp");
+	cursor: pointer;
+}
+
+a.mc-mini-selector,
+button.mc-mini-selector {
+	background-image: url("/gui/mini-selector.webp");
+	image-rendering: pixelated;
+	object-fit: cover;
+	background-size: 100% 100%;
+}
+
+a.mc-mini-selector:hover,
+button.mc-mini-selector:hover {
+	background-image: url("/gui/mini-selector-selected.webp");
+}
+
+/*Header*/
+nav a.active {
+	background-color: transparent;
+	text-decoration-line: underline;
+	outline-color: white;
+	margin-top: 3px;
+}
+nav a.active div {
+	@apply py-0.75 sm:py-2;
+}
+
+img {
+	image-rendering: pixelated;
+}
+
+.mc-container {
+	background-image: url("/gui/container.webp");
+	image-rendering: pixelated;
+	object-fit: cover;
+	background-size: 100% 100%;
+}
+
+span.mc-tooltip {
+	@apply z-1 fixed text-center text-white text-[12px] py-1 px-2 rounded-lg bg-black border-2 border-purple-900;
+}
+
+/* Scrollbar */
+/*::-webkit-scrollbar {
+	width: 1.5rem;
+}
+::-webkit-scrollbar-thumb {
+	background-image: url("/gui/scroller.png");
+	image-rendering: pixelated;
+	background-size: 100% 100%;
+}
+::-webkit-scrollbar-track {
+	background-image: url("/gui/scroll-background.png");
+	image-rendering: pixelated;
+	background-size: 100% 100%;
+}*/
+
+@media screen and (max-width: 640px) {
+	::-webkit-scrollbar {
+		width: 1rem;
+	}
+}
+
+/* Custom cursor using public asset to avoid Tailwind generating relative URLs */
+.cursor-flint {
+	cursor: url("/flint_and_steel.png"), auto;
+}

@@ -1,10 +1,24 @@
 # 💎⛏️ Minecraft API - Documentation 💎⛏️
 
+> **📝 UPDATE:** This project has been migrated to **NextJS**! Both frontend and backend are now in a single project. See [MIGRATION.md](./MIGRATION.md) for details.
+
 Welcome to the **Minecraft API**! This project provides a RESTful API and a frontend interface to access detailed information about Minecraft entities such as blocks, mobs, items, biomes, structures, and more.
 
 > 🚨 **Note:** This is a read-only API. All endpoints are `GET` methods only. The purpose is to provide Minecraft-related data to the community and developers.
-> 
+>
 > 🚨 **UNOFFICIAL:** Also, this Minecraft API is not official for the game, it has no relationship with Mojang, it is simply used for informational purposes for the community.
+
+---
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
 ---
 
 ## ⚒️ Introduction
@@ -18,10 +32,12 @@ The Minecraft API allows you to retrieve structured data on several Minecraft el
 - Mobs
 - Structures
 
-The project consists of two parts:
+The project consists of:
 
-- A **frontend** application to explore and visualize the data.
-- A **backend** API that serves the data.
+- A **frontend** application to explore and visualize the data (in `src/pages` & `app/`)
+- A **backend** API that serves the data (in `app/api/`)
+
+Both are now integrated into a single NextJS application.
 
 ---
 
@@ -30,6 +46,7 @@ The project consists of two parts:
 The following routes are available for each Minecraft entity:
 
 ### Entity endpoints
+
 - `/api/advancements`
 - `/api/biomes`
 - `/api/blocks`
@@ -38,6 +55,7 @@ The following routes are available for each Minecraft entity:
 - `/api/structures`
 
 ### Generic sub-endpoints for each entity
+
 - `/` – Get all data entries
 - `/count` – Get the total count
 - `/keys` – Show available keys
@@ -47,7 +65,8 @@ The following routes are available for each Minecraft entity:
 - `/all/:key/:value` – Filter entries by key and value
 - `/:id/:key` – Get the value of a key for a specific entry
 
-Example:  
+Example:
+
 ```bash
 GET /api/blocks/stone
 ```
@@ -55,6 +74,7 @@ GET /api/blocks/stone
 ---
 
 ## ⚔️ Examples of Use
+
 Go to the documentation [here](https://minecraftapi-5h0j.onrender.com/api-docs).
 
 Or use it from the browser or tools like `curl`, Postman, etc.:
@@ -153,4 +173,3 @@ We welcome contributions! Here's how to do it:
 - **[anish-shanbhag/minecraft-api](https://github.com/anish-shanbhag/minecraft-api)**: Inspiration and reference for some of the data and values used.
 
 ---
-
