@@ -17,6 +17,7 @@ export function Filter({ data, filterBy = "name", value, onChange }: FilterProps
 			placeholder={`Search a ${data}...`}
 			aria-label={`Search a ${data}`}
 			type="text"
+			maxLength={100}
 			value={value}
 			onChange={(e) => {
 				const newValue = handleInputChange(e);

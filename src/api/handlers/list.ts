@@ -1,6 +1,9 @@
+import { okJson } from "@/api/utils/response";
 import { NextRequest } from "next/server";
-import { okJson } from "../utils/response";
 
+/**
+ * Returns all entities adding their image endpoint URL.
+ */
 export async function listHandler<T extends { id: string }>(
 	req: NextRequest,
 	datas: T[],

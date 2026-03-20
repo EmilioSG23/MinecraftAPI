@@ -22,23 +22,32 @@ function getStorageItem(key: string, fallback: string): string {
 	return window.localStorage.getItem(key) ?? fallback;
 }
 
+function setStorageItem(key: string, value: string): void {
+	if (typeof window === "undefined") return;
+	window.localStorage.setItem(key, value);
+}
+
+/**
+ * Handles panorama, blur and display mode persisted configuration.
+ */
 export function useConfigBackground() {
-	const [panorama, setPanorama] = useState(() =>
-		Number(getStorageItem(VALUES.PANORAMA, String(DEFAULT.panorama))),
-	);
-	const [displayMode, setDisplayMode] = useState(() =>
-		getStorageItem(VALUES.DISPLAY_MODE, DEFAULT.displayMode),
-	);
-	const [blur, setBlur] = useState(() => Number(getStorageItem(VALUES.BLUR, String(DEFAULT.blur))));
+	const [panorama, setPanorama] = useState<number>(DEFAULT.panorama);
+	const [displayMode, setDisplayMode] = useState<string>(DEFAULT.displayMode);
+	const [blur, setBlur] = useState<number>(DEFAULT.blur);
+
+	useEffect(() => {
+		setPanorama(Number(getStorageItem(VALUES.PANORAMA, String(DEFAULT.panorama))));
+		setDisplayMode(getStorageItem(VALUES.DISPLAY_MODE, DEFAULT.displayMode));
+		setBlur(Number(getStorageItem(VALUES.BLUR, String(DEFAULT.blur))));
+	}, []);
 
 	const changePanorama = (panorama: number) => {
 		setPanorama(panorama);
-		if (displayMode === DISPLAY_MODE.SELECT)
-			window.localStorage.setItem(VALUES.PANORAMA, panorama.toString());
+		if (displayMode === DISPLAY_MODE.SELECT) setStorageItem(VALUES.PANORAMA, panorama.toString());
 	};
 	const changeDisplayMode = (newMode: string) => {
 		setDisplayMode(newMode);
-		window.localStorage.setItem(VALUES.DISPLAY_MODE, newMode);
+		setStorageItem(VALUES.DISPLAY_MODE, newMode);
 		if (newMode === DISPLAY_MODE.SELECT) {
 			const saved = Number(getStorageItem(VALUES.PANORAMA, String(DEFAULT.panorama)));
 			setPanorama(saved);
@@ -46,7 +55,7 @@ export function useConfigBackground() {
 	};
 	const changeBlur = (blur: number) => {
 		setBlur(blur);
-		window.localStorage.setItem(VALUES.BLUR, blur.toString());
+		setStorageItem(VALUES.BLUR, blur.toString());
 	};
 
 	useEffect(() => {

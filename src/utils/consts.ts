@@ -26,6 +26,19 @@ export const DATAS_TYPE = {
 	items: "items",
 	mobs: "mobs",
 	structures: "structures",
+} as const;
+
+export const ENTITY_TYPES = DATAS_TYPE;
+
+export const ENTITY_LABELS: Record<keyof typeof ENTITY_TYPES, string> = {
+	advancements: "Advancements",
+	biomes: "Biomes",
+	blocks: "Blocks",
+	items: "Items",
+	mobs: "Mobs",
+	structures: "Structures",
 };
+
+export type EntityType = keyof typeof ENTITY_TYPES;
 
 export const MENU_TEXTS = menuText;

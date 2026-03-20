@@ -1,15 +1,28 @@
-"use client";
-
 import { Layout } from "@/layout/Layout";
-import { BlocksInformation } from "@/views/InfoSections/BlocksInformation";
-import { Suspense } from "react";
+import { BlocksInformationClient } from "@/views/information/BlocksInformationClient";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Blocks - Minecraft API",
+	description: "Browse all Minecraft blocks with properties and API endpoints.",
+};
 
 export default function BlocksPage() {
+	const jsonLd = {
+		"@context": "https://schema.org",
+		"@type": "WebPage",
+		name: "Minecraft Blocks",
+		description: "Browse all Minecraft blocks with properties and API endpoints.",
+		url: "/information/blocks",
+	};
+
 	return (
 		<Layout>
-			<Suspense>
-				<BlocksInformation />
-			</Suspense>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+			/>
+			<BlocksInformationClient />
 		</Layout>
 	);
 }

@@ -5,6 +5,9 @@ const TIER_COLOR: Record<string, string> = {
 	EPIC: "text-[#ff55ff]",
 };
 
+/**
+ * Returns Tailwind text color class for a minecraft rarity tier.
+ */
 export function getTierColor(tier: string): string {
 	switch (tier.toLowerCase()) {
 		case "uncommon":

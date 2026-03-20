@@ -1,6 +1,6 @@
 import { Container } from "@/components/Container";
-import { API_URL } from "@/consts";
 import { useChangeSection } from "@/hooks/useSection";
+import { API_URL } from "@/utils/consts";
 import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 
@@ -49,7 +49,7 @@ function ApiUrlCode() {
 export function Documentation() {
 	useChangeSection("documentation");
 	return (
-		<Container className="max-h-[85vh]">
+		<Container className="max-h-[85vh]" width="w-full">
 			<h1 className="font-bold text-[20px] sm:text-[32px] text-center p-2!">
 				💎⛏️ Minecraft API - Documentation 💎⛏️
 			</h1>

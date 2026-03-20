@@ -5,12 +5,37 @@ import "@/styles/index.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import type { Metadata } from "next";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
+
 export const metadata: Metadata = {
 	title: "Minecraft API",
 	description:
 		"Minecraft API with information of blocks, mobs, items, structures, advancements and biomes.",
+	metadataBase: new URL(siteUrl),
 	icons: {
-		icon: "/flint_and_steel.png",
+		icon: "/page.png",
+	},
+	openGraph: {
+		title: "Minecraft API",
+		description:
+			"Minecraft API with information of blocks, mobs, items, structures, advancements and biomes.",
+		type: "website",
+		url: "/",
+		images: [
+			{
+				url: "/page.png",
+				width: 512,
+				height: 512,
+				alt: "Minecraft API icon",
+			},
+		],
+	},
+	twitter: {
+		card: "summary_large_image",
+		title: "Minecraft API",
+		description:
+			"Minecraft API with information of blocks, mobs, items, structures, advancements and biomes.",
+		images: ["/page.png"],
 	},
 };
 

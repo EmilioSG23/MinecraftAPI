@@ -1,15 +1,28 @@
-"use client";
-
 import { Layout } from "@/layout/Layout";
-import { MobsInformation } from "@/views/InfoSections/MobsInformation";
-import { Suspense } from "react";
+import { MobsInformationClient } from "@/views/information/MobsInformationClient";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Mobs - Minecraft API",
+	description: "Browse all Minecraft mobs with behavior and API endpoints.",
+};
 
 export default function MobsPage() {
+	const jsonLd = {
+		"@context": "https://schema.org",
+		"@type": "WebPage",
+		name: "Minecraft Mobs",
+		description: "Browse all Minecraft mobs with behavior and API endpoints.",
+		url: "/information/mobs",
+	};
+
 	return (
 		<Layout>
-			<Suspense>
-				<MobsInformation />
-			</Suspense>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+			/>
+			<MobsInformationClient />
 		</Layout>
 	);
 }

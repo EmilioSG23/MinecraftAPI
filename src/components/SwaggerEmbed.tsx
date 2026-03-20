@@ -1,4 +1,4 @@
-import { API_URL } from "@/consts";
+import { API_URL } from "@/utils/consts";
 import SwaggerUI from "swagger-ui-react";
 import "swagger-ui-react/swagger-ui.css";
 

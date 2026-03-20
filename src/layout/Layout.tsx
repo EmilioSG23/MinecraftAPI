@@ -50,7 +50,7 @@ export function Layout({ children, className = "", childrenWidth = "max-w-6xl" }
 			<Background panorama={panorama} blur={blur} />
 			<Header />
 			<main className="w-full flex items-center justify-center my-4! py-4!">
-				<div className={`w-full ${childrenWidth}`}>
+				<div className={`w-full ${childrenWidth} items-center justify-center flex`}>
 					{typeof children === "function" ? children(config) : children}
 				</div>
 			</main>

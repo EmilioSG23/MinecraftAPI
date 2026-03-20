@@ -7,6 +7,7 @@ interface HeaderContextType {
 
 export const HeaderContext = createContext<HeaderContextType | undefined>(undefined);
 
+/** Returns active header section context. */
 export function useActiveSection() {
 	const context = useContext(HeaderContext);
 	if (!context) {
@@ -15,10 +16,10 @@ export function useActiveSection() {
 	return context;
 }
 
+/** Updates the active section when current view mounts. */
 export function useChangeSection(section: string) {
 	const { changeActiveSection } = useActiveSection();
 	useEffect(() => {
-		console.log(`Active section changed to: ${section}`);
 		changeActiveSection(section);
 	}, [changeActiveSection, section]);
 }

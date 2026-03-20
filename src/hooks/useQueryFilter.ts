@@ -3,6 +3,9 @@
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 
+/**
+ * Synchronizes a filter value with URL query parameters.
+ */
 export function useQueryFilter(
 	paramName: string,
 	setFilter: (key: string, value: string) => void,

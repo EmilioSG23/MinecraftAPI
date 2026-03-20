@@ -1,5 +1,8 @@
 import type { ReactNode } from "react";
 
+/**
+ * Shared tooltip contract used by information cards.
+ */
 export interface TooltipType {
 	setContent: (content: ReactNode) => void;
 	setVisible: (visible: boolean) => void;

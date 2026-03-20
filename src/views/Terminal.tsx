@@ -26,7 +26,7 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }: TerminalProps
 	const scrollRef = useRef<HTMLDivElement>(null);
 	useEffect(() => {
 		if (scrollRef.current) scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
-	}, []);
+	}, [displayCommands]);
 
 	const executeInputCommand = async (command: string) => {
 		addHistoryCommand(command);
@@ -49,10 +49,9 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }: TerminalProps
 				Minecraft API - Terminal
 			</h2>
 			<div ref={scrollRef} className="flex-1 w-full p-1! overflow-y-scroll text-left">
-				{displayCommands.map((display, index) => (
-					// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
-					<article className="mb-1 text-[12px] sm:text-[16px]" key={index}>
-						{display}
+				{displayCommands.map((display) => (
+					<article className="mb-1 text-[12px] sm:text-[16px]" key={display.id}>
+						{display.content}
 					</article>
 				))}
 			</div>

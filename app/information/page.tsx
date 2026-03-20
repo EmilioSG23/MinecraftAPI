@@ -1,12 +1,43 @@
-"use client";
+import { DATAS_TYPE } from "@/utils/consts";
+import { InformationPageClient } from "@/views/information/InformationPageClient";
+import type { Metadata } from "next";
 
-import { Layout } from "@/layout/Layout";
-import { Information } from "@/views/Information";
+export const metadata: Metadata = {
+	title: "Information - Minecraft API",
+	description: "Explore all Minecraft API information sections.",
+};
 
 export default function InformationPage() {
+	const jsonLd = {
+		"@context": "https://schema.org",
+		"@type": "WebPage",
+		name: "Minecraft API Information",
+		description: "Explore all Minecraft API information sections.",
+		url: "/information",
+	};
+
+	const itemListJsonLd = {
+		"@context": "https://schema.org",
+		"@type": "ItemList",
+		itemListElement: Object.values(DATAS_TYPE).map((entity, index) => ({
+			"@type": "ListItem",
+			position: index + 1,
+			name: entity,
+			url: `/information/${entity}`,
+		})),
+	};
+
 	return (
-		<Layout childrenWidth="max-w-3xl">
-			<Information />
-		</Layout>
+		<>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+			/>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+			/>
+			<InformationPageClient />
+		</>
 	);
 }

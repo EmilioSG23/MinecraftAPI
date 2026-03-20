@@ -25,7 +25,7 @@ export function ErrorPage() {
 		<div className={`${!finishAnimation ? "cursor-flint" : ""}`}>
 			{!finishAnimation && (
 				<>
-					<div className="fixed -z-10 bg-red-500/0 h-full w-full" />
+					<div className="fixed -z-10 bg-red-500/0" />
 					<div
 						className="fixed left-1/2 top-[20%] -translate-1/2 bg-black/25
 				border-4 text-white text-center w-[90%] sm:w-3/4 xl:w-1/2 py-4 px-8 lg:py-8 lg:px-16 text-[24px] lg:text-[32px] border-white"
@@ -44,7 +44,7 @@ export function ErrorPage() {
 			)}
 			{finishAnimation && (
 				<>
-					<div className="fixed -z-10 bg-red-500/15 h-full w-full" />
+					<div className="absolute -z-10 bg-red-500/15 h-screen w-screen top-0 left-0" />
 					<div className="flex flex-col text-white w-full h-[82vh] justify-center items-center p-10 gap-y-10 text-center">
 						<h1 className="text-5xl sm:text-7xl">You Died!</h1>
 						<h2 className="text-xl sm:text-3xl">Steve was blown up by Creeper</h2>

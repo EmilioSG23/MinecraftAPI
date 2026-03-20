@@ -1,18 +1,27 @@
-"use client";
+import { TerminalPageClient } from "@/views/information/TerminalPageClient";
+import type { Metadata } from "next";
 
-import { Layout } from "@/layout/Layout";
-import { Terminal } from "@/views/Terminal";
+export const metadata: Metadata = {
+	title: "Terminal - Minecraft API",
+	description: "Interactive terminal to query the Minecraft API with commands.",
+};
 
 export default function TerminalPage() {
+	const jsonLd = {
+		"@context": "https://schema.org",
+		"@type": "WebPage",
+		name: "Minecraft API Terminal",
+		description: "Interactive terminal to query the Minecraft API with commands.",
+		url: "/terminal",
+	};
+
 	return (
-		<Layout childrenWidth="w-full max-w-6xl">
-			{({ changePanorama, changeBlur, changeDisplayMode }) => (
-				<Terminal
-					setPanorama={changePanorama}
-					setBlur={changeBlur}
-					setDisplayMode={changeDisplayMode}
-				/>
-			)}
-		</Layout>
+		<>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+			/>
+			<TerminalPageClient />
+		</>
 	);
 }

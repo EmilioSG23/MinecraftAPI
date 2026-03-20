@@ -8,6 +8,9 @@ interface FilteredData extends FilterableData {
 	hidden: boolean;
 }
 
+/**
+ * Filters an in-memory data list by key/value pairs and marks each item visibility.
+ */
 export function useFilterData<T extends FilterableData>(datas: T[] = [], defaultKey = "name") {
 	const [filters, setFilters] = useState<Record<string, string>>({ [defaultKey]: "" });
 

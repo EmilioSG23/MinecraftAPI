@@ -1,7 +1,8 @@
 "use client";
 
 import { Container } from "@/components/Container";
-import { DATAS_TYPE } from "@/consts";
+import { DATAS_TYPE } from "@/utils/consts";
+import Image from "next/image";
 import Link from "next/link";
 
 interface InfoHomeCardProps {
@@ -15,9 +16,11 @@ function InfoHomeCard({ id }: InfoHomeCardProps) {
 			className="flex items-center p-1 bg-green-500 border-green-900 rounded-lg gap-x-5 border-3 hover:bg-green-400 hover:border-green-700"
 		>
 			<div className="mx-2">
-				<img
+				<Image
 					src={`/information/${id}.png`}
 					className="info-card size-12 sm:size-18 lg:size-20"
+					width={80}
+					height={80}
 					alt={id}
 				/>
 			</div>

@@ -1,9 +1,10 @@
-import { API_VERSION, DATAS_TYPE, MC_VERSION, PREFIX_MC } from "@/consts";
+import type { DisplayCommandEntry } from "@/hooks/useCommands";
 import { DISPLAY_MODE } from "@/hooks/useConfigBackground";
 import { obtainDatasByURL } from "@/services/useDatas";
+import { API_VERSION, DATAS_TYPE, MC_VERSION, PREFIX_MC } from "@/utils/consts";
 
 interface CommandContext {
-	setDisplayCommands?: React.Dispatch<React.SetStateAction<React.ReactNode[]>>;
+	setDisplayCommands?: React.Dispatch<React.SetStateAction<DisplayCommandEntry[]>>;
 	setBlur?: (value: number) => void;
 	setDisplayMode?: (mode: string) => void;
 	setPanorama?: (panorama: number) => void;
@@ -64,7 +65,6 @@ async function executeGet(args: string[]) {
 		);
 	}
 	const { data, status } = await obtainDatasByURL(`${args.join("/")}`);
-	console.log(data, status);
 
 	return (
 		(status === 200 && (
@@ -182,7 +182,9 @@ function executeHelp() {
 }
 
 // - /clear Limpia terminal
-function executeClear(setDisplayCommands: React.Dispatch<React.SetStateAction<React.ReactNode[]>>) {
+function executeClear(
+	setDisplayCommands: React.Dispatch<React.SetStateAction<DisplayCommandEntry[]>>,
+) {
 	setDisplayCommands([]);
 	return null;
 }

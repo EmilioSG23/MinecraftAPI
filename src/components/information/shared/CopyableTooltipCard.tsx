@@ -1,7 +1,7 @@
+import type { TooltipType } from "@/types/tooltip.interface";
 import type { MouseEvent, ReactNode, SyntheticEvent } from "react";
-import type { TooltipType } from "./types";
 
-interface CopyableTooltipCardProps<T extends { id: string; hidden?: boolean }> {
+interface CopyableTooltipCardProps<T extends { id: string }> {
 	data: T;
 	tooltip: TooltipType;
 	onLoad: (event: SyntheticEvent<HTMLImageElement>) => void;
@@ -15,7 +15,10 @@ interface CopyableTooltipCardProps<T extends { id: string; hidden?: boolean }> {
 	className: string;
 }
 
-export function CopyableTooltipCard<T extends { id: string; hidden?: boolean }>({
+/**
+ * Generic card wrapper for items that copy endpoint on click and show tooltip.
+ */
+export function CopyableTooltipCard<T extends { id: string }>({
 	data,
 	tooltip,
 	onLoad,
@@ -81,7 +84,6 @@ export function CopyableTooltipCard<T extends { id: string; hidden?: boolean }>(
 		<button
 			type="button"
 			className={className}
-			style={{ display: data.hidden ? "none" : "flex" }}
 			onMouseEnter={() => {
 				tooltip.setVisible(true);
 				tooltip.setContent(getTooltipContent());

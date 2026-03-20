@@ -8,6 +8,9 @@ interface CopyGetButtonProps {
 	labelClassName?: string;
 }
 
+/**
+ * Renders a button that copies an API endpoint to clipboard.
+ */
 export function CopyGetButton({
 	path,
 	className,

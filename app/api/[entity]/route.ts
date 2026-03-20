@@ -1,56 +1,21 @@
 import { handleDataRequest } from "@/api/handler";
-import fs from "fs";
+import { isEntityDataType, loadEntityData } from "@/api/utils/data";
 import { NextRequest } from "next/server";
-import path from "path";
 
-const ENTITY_DATA_FILES: Record<string, string> = {
-	blocks: "blocks.json",
-	items: "items.json",
-	mobs: "mobs.json",
-	biomes: "biomes.json",
-	advancements: "advancements.json",
-	structures: "structures.json",
-};
+interface EntityRouteContext {
+	params: Promise<{ entity: string }>;
+}
 
-export async function GET(req: NextRequest, context: any) {
-	const { params } = await context;
-	const entity = params?.entity;
-	if (!ENTITY_DATA_FILES[entity]) {
+/** Handles /api/[entity] requests. */
+export async function GET(req: NextRequest, context: EntityRouteContext) {
+	const { entity } = await context.params;
+	if (!isEntityDataType(entity)) {
 		return new Response(JSON.stringify({ message: `Entity type '${entity}' not found.` }), {
 			status: 404,
 		});
 	}
 
-	const candidate = path.join(process.cwd(), "data", ENTITY_DATA_FILES[entity]);
-	let datas: any[] = [];
-
-	if (fs.existsSync(candidate)) {
-		const raw = fs.readFileSync(candidate, "utf8");
-		datas = JSON.parse(raw);
-	} else {
-		// Fallback to single data.json which may contain all collections
-		const rootDataPaths = [
-			path.join(process.cwd(), "data.json"),
-			path.join(process.cwd(), "data", "data.json"),
-		];
-		let loaded: any = null;
-		for (const p of rootDataPaths) {
-			if (fs.existsSync(p)) {
-				const raw = fs.readFileSync(p, "utf8");
-				loaded = JSON.parse(raw);
-				break;
-			}
-		}
-		if (loaded) {
-			if (Array.isArray(loaded)) {
-				datas = loaded;
-			} else if (loaded[entity]) {
-				datas = loaded[entity];
-			} else if (loaded[entity + "s"]) {
-				datas = loaded[entity + "s"];
-			}
-		}
-	}
+	const datas = await loadEntityData(entity);
 
 	if (!datas || datas.length === 0) {
 		return new Response(JSON.stringify({ message: `Data file for '${entity}' not found.` }), {

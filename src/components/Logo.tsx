@@ -1,4 +1,4 @@
-import { MENU_TEXTS } from "@/consts";
+import { MENU_TEXTS } from "@/utils/consts";
 import { useEffect, useState } from "react";
 
 export function Logo() {

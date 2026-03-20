@@ -99,6 +99,12 @@ div.background {
 	}
 }
 
+@media (prefers-reduced-motion: reduce) {
+	div.background {
+		animation: none;
+	}
+}
+
 /*Selector*/
 a.mc-selector,
 button.mc-selector {
