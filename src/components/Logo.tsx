@@ -8,7 +8,7 @@ export function Logo() {
 	}, []);
 
 	return (
-		<div className="relative mx-auto w-[95%] sm:w-[75%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%] mt-5 mb-10 pointer-events-none">
+		<div className="relative mx-auto mt-5 mb-10 pointer-events-none">
 			<img src="minecraft.webp" alt="Minecraft API Logo" />
 			<span
 				className="absolute -right-28 bottom-0 text-yellow-300 text-center

@@ -3,6 +3,7 @@ import {
 	AlertImageLoading,
 	AlertLoadingMessage,
 } from "@/components/AlertMessage";
+import { Container } from "@/components/Container";
 import { Filter } from "@/components/Filter";
 import { Tooltip } from "@/components/Tooltip";
 import { API_URL, FETCH_STATUS, PREFIX_MC } from "@/consts";
@@ -86,24 +87,26 @@ export function BlocksInformation() {
 			{status === FETCH_STATUS.LOADED && (
 				<>
 					{!isAllImageLoaded && <AlertImageLoading />}
-					<div
-						className={`mc-container mx-auto max-w-7xl mt-7 flex flex-col items-center p-4 sm:p-8 ${
+					<Container
+						className={`${
 							isAllImageLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
 						}`}
 					>
-						<h1 className="font-bold text-[20px] sm:text-[40px] text-center">Blocks</h1>
-						<Filter data="block" value={filters.name || ""} onChange={updateFilter} />
-						<div className="w-full flex flex-wrap overflow-y-scroll h-156 my-5 gap-y-2 justify-center items-center">
-							{filteredDatas.map((data) => (
-								<BlockInformation
-									key={data.id}
-									data={data}
-									tooltip={tooltip}
-									onLoad={addImageLoaded}
-								/>
-							))}
+						<div className="w-full flex flex-col justify-center items-center gap-4">
+							<h1 className="font-bold text-[20px] sm:text-[40px] text-center">Blocks</h1>
+							<Filter data="block" value={filters.name || ""} onChange={updateFilter} />
+							<div className="w-full flex flex-wrap overflow-y-scroll h-156 my-5 gap-y-2 justify-center items-center">
+								{filteredDatas.map((data) => (
+									<BlockInformation
+										key={data.id}
+										data={data}
+										tooltip={tooltip}
+										onLoad={addImageLoaded}
+									/>
+								))}
+							</div>
 						</div>
-					</div>
+					</Container>
 				</>
 			)}
 		</>

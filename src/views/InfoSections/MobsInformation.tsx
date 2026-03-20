@@ -3,6 +3,7 @@ import {
 	AlertImageLoading,
 	AlertLoadingMessage,
 } from "@/components/AlertMessage";
+import { Container } from "@/components/Container";
 import { Filter } from "@/components/Filter";
 import { Tooltip } from "@/components/Tooltip";
 import { API_URL, FETCH_STATUS, PREFIX_MC } from "@/consts";
@@ -168,42 +169,44 @@ export function MobsInformation() {
 			{status === FETCH_STATUS.LOADED && (
 				<>
 					{!isAllImageLoaded && <AlertImageLoading />}
-					<div
-						className={`mc-container mx-auto max-w-7xl mt-7 flex flex-col items-center p-4 sm:p-8 ${
+					<Container
+						className={`max-h-[85vh] ${
 							isAllImageLoaded ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
 						}`}
 					>
-						<h1 className="font-bold text-[20px] sm:text-[40px] text-center">Mobs</h1>
-						<div className="w-full pb-4 justify-center items-center text-center">
-							{["All", "Passive", "Neutral", "Hostile", "Boss"].map((type) => (
-								<button
-									key={type}
-									type="button"
-									className={`px-1 border w-1/3 sm:w-1/6 cursor-pointer
+						<div className="w-full flex flex-col justify-center items-center gap-4 overflow-hidden">
+							<h1 className="font-bold text-[20px] sm:text-[40px] text-center">Mobs</h1>
+							<div className="w-full pb-4 justify-center items-center text-center">
+								{["All", "Passive", "Neutral", "Hostile", "Boss"].map((type) => (
+									<button
+										key={type}
+										type="button"
+										className={`px-1 border w-1/3 sm:w-1/6 cursor-pointer
 										${getTypeStyle(type).header} ${getTypeStyle(type).hover} ${activeFilter === type ? "outline" : ""}
 										hover:outline border-black`}
-									onClick={() => {
-										if (type !== "All") setFilter("behavior", type);
-										else setFilter("behavior", "");
-										setActiveFilter(type);
-									}}
-								>
-									{type || "All"}
-								</button>
-							))}
+										onClick={() => {
+											if (type !== "All") setFilter("behavior", type);
+											else setFilter("behavior", "");
+											setActiveFilter(type);
+										}}
+									>
+										{type || "All"}
+									</button>
+								))}
+							</div>
+							<Filter data="mob" value={filters.name || ""} onChange={updateFilter} />
+							<div className="w-full flex flex-wrap overflow-y-scroll h-156 my-4 gap-4 justify-center">
+								{filteredDatas.map((data) => (
+									<MobInformation
+										key={data.id}
+										data={data}
+										tooltip={tooltip}
+										onLoad={addImageLoaded}
+									/>
+								))}
+							</div>
 						</div>
-						<Filter data="mob" value={filters.name || ""} onChange={updateFilter} />
-						<div className="w-full flex flex-wrap overflow-y-scroll h-156 my-4 gap-4 justify-center">
-							{filteredDatas.map((data) => (
-								<MobInformation
-									key={data.id}
-									data={data}
-									tooltip={tooltip}
-									onLoad={addImageLoaded}
-								/>
-							))}
-						</div>
-					</div>
+					</Container>
 				</>
 			)}
 		</>

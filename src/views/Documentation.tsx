@@ -15,11 +15,11 @@ interface CodeProps {
 
 function Code({ code }: CodeProps) {
 	return (
-		<code className="flex items-center justify-center p-2 text-white text-[10px] sm:text-[12px] bg-black border-2 border-purple-700 gap-x-2 rounded-xl">
+		<code className="flex items-center justify-center p-2! text-white text-[10px] sm:text-[12px] bg-black border-2 border-purple-700 gap-x-2 rounded-xl">
 			<p className="overflow-x-auto">{code}</p>
 			<button
 				type="button"
-				className="flex flex-col items-center justify-center p-1 text-center border-2 border-black rounded-lg bg-white/25 hover:bg-white/50 cursor-pointer"
+				className="flex flex-col items-center justify-center p-1! text-center border-2 border-black rounded-lg bg-white/25 hover:bg-white/50 cursor-pointer"
 				onClick={() => {
 					navigator.clipboard.writeText(code);
 				}}
@@ -30,7 +30,7 @@ function Code({ code }: CodeProps) {
 				href={code}
 				target="_blank"
 				rel="noreferrer"
-				className="flex flex-col items-center justify-center p-1 text-center border-2 border-black rounded-lg bg-white/25 hover:bg-white/50 cursor-pointer"
+				className="flex flex-col items-center justify-center p-1! text-center border-2 border-black rounded-lg bg-white/25 hover:bg-white/50 cursor-pointer"
 			>
 				<i className="fa-regular fa-eye text-[14px] sm:text-[20px]" />
 			</a>
@@ -50,10 +50,10 @@ export function Documentation() {
 	useChangeSection("documentation");
 	return (
 		<Container className="max-h-[85vh]">
-			<h1 className="font-bold text-[20px] sm:text-[32px] text-center p-2">
+			<h1 className="font-bold text-[20px] sm:text-[32px] text-center p-2!">
 				💎⛏️ Minecraft API - Documentation 💎⛏️
 			</h1>
-			<div className="overflow-x-hidden overflow-y-scroll px-2">
+			<div className="overflow-x-hidden overflow-y-scroll px-2!">
 				<header className="flex flex-col items-center justify-center">
 					<p className="text-[14px] sm:text-[20px]">
 						Welcome to the <b>Minecraft API</b> documentation. Here you will find all the
@@ -64,7 +64,7 @@ export function Documentation() {
 					<ApiUrlCode />
 				</header>
 				<section className="text-[14px] sm:text-[20px]">
-					<h2 className="font-bold text-[24px] mt-5 underline">⚒ Introduction</h2>
+					<h2 className="font-bold text-[24px] mt-5! underline">⚒ Introduction</h2>
 					<p>
 						The Minecraft API allows you to access various data types related to the game, such as
 						advancements, biomes, blocks, items, mobs, and structures. There are two components:
@@ -79,7 +79,7 @@ export function Documentation() {
 					</p>
 				</section>
 				<section className="text-[14px] sm:text-[20px]">
-					<h2 className="font-bold text-[24px] mt-5 underline">💎 API Routes</h2>
+					<h2 className="font-bold text-[24px] mt-5! underline">💎 API Routes</h2>
 					<p>Here are the available API routes:</p>
 					<ul className="">
 						{["advancements", "biomes", "blocks", "items", "mobs", "structures"].map((entity) => {
@@ -87,7 +87,7 @@ export function Documentation() {
 								<li key={entity}>
 									<a
 										href={`${API_URL}/${entity}`}
-										className="font-bold bg-black/15 rounded p-1 cursor-pointer"
+										className="font-bold bg-black/15 rounded p-1! cursor-pointer"
 									>
 										/api/{entity}
 									</a>{" "}
@@ -115,7 +115,7 @@ export function Documentation() {
 						].map((entity) => {
 							return (
 								<li key={entity.endpoint}>
-									<span className="font-bold bg-black/15 rounded p-1">{entity.endpoint}</span>{" "}
+									<span className="font-bold bg-black/15 rounded p-1!">{entity.endpoint}</span>{" "}
 									{entity.description}
 								</li>
 							);
@@ -124,7 +124,7 @@ export function Documentation() {
 				</section>
 
 				<section className="text-[14px] sm:text-[20px]">
-					<h2 className="font-bold text-[24px] mt-5 underline">⚔️ Examples of Use</h2>
+					<h2 className="font-bold text-[24px] mt-5! underline">⚔️ Examples of Use</h2>
 					<p>
 						You can test the Minecraft API using the Swagger Documentation{" "}
 						<a className="text-blue-600 hover:underline" href={`${API_URL}-docs`}>
@@ -139,7 +139,7 @@ export function Documentation() {
 				</section>
 
 				<section className="text-[14px] sm:text-[20px]">
-					<h2 className="font-bold text-[24px] mt-5 underline">⛏ Issues</h2>
+					<h2 className="font-bold text-[24px] mt-5! underline">⛏ Issues</h2>
 					<p>
 						If you found some bugs with the application and the API, you can open a Issue in the{" "}
 						<a
@@ -155,7 +155,7 @@ export function Documentation() {
 				</section>
 
 				<section className="text-[14px] sm:text-[20px]">
-					<h2 className="font-bold text-[24px] mt-5 underline">👷 Community</h2>
+					<h2 className="font-bold text-[24px] mt-5! underline">👷 Community</h2>
 					<p>
 						Because the application manages <b>large amounts</b> of data and variables of the
 						entities present in Minecraft, many of the data presented in the application{" "}
@@ -191,7 +191,7 @@ export function Documentation() {
 				</section>
 
 				<section className="text-[14px] sm:text-[20px]">
-					<h2 className="font-bold text-[24px] mt-5 underline">🏹 Special Thanks</h2>
+					<h2 className="font-bold text-[24px] mt-5! underline">🏹 Special Thanks</h2>
 					<ul className="list-disc list-inside">
 						<li>
 							<b>Minecraft Wiki:</b> Some of the assets provides by the API has been obtained from
