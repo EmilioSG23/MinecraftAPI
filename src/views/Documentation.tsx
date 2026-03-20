@@ -1,18 +1,20 @@
+import { ApiDocsExplorer } from "@/components/ApiDocsExplorer";
 import { Container } from "@/components/Container";
 import { useChangeSection } from "@/hooks/useSection";
 import { API_URL } from "@/utils/consts";
-import dynamic from "next/dynamic";
+import Link from "next/link";
 import { useEffect, useState } from "react";
-
-const SwaggerEmbed = dynamic(() => import("@/components/SwaggerEmbed"), {
-	ssr: false,
-	loading: () => <p className="text-center p-4">Loading Swagger...</p>,
-});
 
 interface CodeProps {
 	code: string;
 }
 
+/**
+ * Displays a copyable code block with quick actions for opening the URL.
+ *
+ * @param props.code URL or endpoint example that should be copied/opened.
+ * @returns Formatted code snippet with action buttons.
+ */
 function Code({ code }: CodeProps) {
 	return (
 		<code className="flex items-center justify-center p-2! text-white text-[10px] sm:text-[12px] bg-black border-2 border-purple-700 gap-x-2 rounded-xl">
@@ -38,6 +40,11 @@ function Code({ code }: CodeProps) {
 	);
 }
 
+/**
+ * Resolves the current deployment origin so the docs can show a fully qualified base URL.
+ *
+ * @returns Base API endpoint rendered as an actionable code block.
+ */
 function ApiUrlCode() {
 	const [origin, setOrigin] = useState("");
 	useEffect(() => {
@@ -46,6 +53,11 @@ function ApiUrlCode() {
 	return <Code code={`${origin}${API_URL}/`} />;
 }
 
+/**
+ * Renders the long-form project documentation page embedded in /documentation.
+ *
+ * @returns Overview, route reference, community notes and an integrated API playground.
+ */
 export function Documentation() {
 	useChangeSection("documentation");
 	return (
@@ -70,12 +82,11 @@ export function Documentation() {
 						advancements, biomes, blocks, items, mobs, and structures. There are two components:
 						This that show all information of the game where you can access to this with the
 						information section or with the terminal, and the API which you can use into your
-						projects. If you have problems to understand the API documentation from here, you can
-						access to the Swagger Doc{" "}
-						<a className="text-blue-600 hover:underline" href={`${API_URL}-docs`}>
-							here
-						</a>
-						.
+						projects. The dedicated API reference now lives in{" "}
+						<Link className="text-blue-600 hover:underline" href="/docs">
+							/docs
+						</Link>
+						, where you can inspect the available route templates and execute real requests.
 					</p>
 				</section>
 				<section className="text-[14px] sm:text-[20px]">
@@ -126,15 +137,20 @@ export function Documentation() {
 				<section className="text-[14px] sm:text-[20px]">
 					<h2 className="font-bold text-[24px] mt-5! underline">⚔️ Examples of Use</h2>
 					<p>
-						You can test the Minecraft API using the Swagger Documentation{" "}
-						<a className="text-blue-600 hover:underline" href={`${API_URL}-docs`}>
-							here
-						</a>
-						.
+						You can test the Minecraft API directly from this page or open the dedicated endpoint
+						explorer in{" "}
+						<Link className="text-blue-600 hover:underline" href="/docs">
+							/docs
+						</Link>
+						. Both experiences are backed by the same live routes and the generated OpenAPI
+						specification exposed in /api/openapi.
 					</p>
-					<div className="hidden xs:block">
-						<p>Or try below:</p>
-						<SwaggerEmbed />
+					<div className="mt-4 hidden xs:block">
+						<ApiDocsExplorer
+							compact
+							title="Try the API"
+							description="Pick an entity, adjust the path parameters and inspect the live response body or asset route."
+						/>
 					</div>
 				</section>
 

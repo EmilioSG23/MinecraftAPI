@@ -1,3 +1,6 @@
+/**
+ * Root application layout that loads global styles, metadata and the header section context.
+ */
 import { HeaderProvider } from "@/contexts/HeaderProvider";
 import "@/styles/App.css";
 import "@/styles/globals.css";
@@ -7,6 +10,7 @@ import type { Metadata } from "next";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
+/** SEO metadata shared by the entire application. */
 export const metadata: Metadata = {
 	title: "Minecraft API",
 	description:
@@ -39,6 +43,12 @@ export const metadata: Metadata = {
 	},
 };
 
+/**
+ * Wraps every route with the shared section provider required by the header/navigation system.
+ *
+ * @param props.children Route content rendered by the App Router.
+ * @returns Root HTML structure for the application.
+ */
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en">

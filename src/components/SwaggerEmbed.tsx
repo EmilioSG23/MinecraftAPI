@@ -1,11 +1,18 @@
-import { API_URL } from "@/utils/consts";
-import SwaggerUI from "swagger-ui-react";
-import "swagger-ui-react/swagger-ui.css";
+import { ApiDocsExplorer } from "@/components/ApiDocsExplorer";
 
+/**
+ * Legacy compatibility wrapper kept after removing the broken Swagger dependency flow.
+ *
+ * @returns The first-party API explorer used across documentation pages.
+ */
 export default function SwaggerEmbed() {
 	return (
-		<div className="w-full max-h-128 overflow-auto bg-white/50 border">
-			<SwaggerUI url={`${API_URL}-docs-json`} />
+		<div className="w-full">
+			<ApiDocsExplorer
+				compact
+				title="API Playground"
+				description="Execute the same GET routes exposed by the public API without depending on Swagger UI."
+			/>
 		</div>
 	);
 }

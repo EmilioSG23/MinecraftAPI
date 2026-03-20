@@ -1,3 +1,4 @@
+/** Detailed card used to render biome information. */
 import { CopyGetButton } from "@/components/information/shared/CopyGetButton";
 import type { EntityWithImage } from "@/services/useDatas";
 import type { Biome } from "@/types/biome.interface";
@@ -17,6 +18,14 @@ interface BiomeItemInformationProps {
 	tooltip: TooltipType;
 }
 
+/**
+ * Renders a small biome stat pill that exposes its label through the shared tooltip.
+ *
+ * @param props.children Visible stat content.
+ * @param props.label Tooltip label shown on hover.
+ * @param props.tooltip Shared tooltip controller.
+ * @returns Tooltip-aware biome stat element.
+ */
 function BiomeItemInformation({ children, label, tooltip }: BiomeItemInformationProps) {
 	return (
 		<div

@@ -1,5 +1,6 @@
 "use client";
 
+/** Generic entity list renderer shared by all information detail pages. */
 import { AlertErrorMessage, AlertLoadingMessage } from "@/components/AlertMessage";
 import { Container } from "@/components/Container";
 import { Filter } from "@/components/Filter";
@@ -37,6 +38,19 @@ interface EntityListViewProps<T extends { id: string }> {
 
 /**
  * Generic information list renderer used by all entity pages.
+ *
+ * @param props.title Section title shown above the list.
+ * @param props.filterDataName Singular entity name used by the search placeholder.
+ * @param props.queryParam Query-string key synchronized with the main filter.
+ * @param props.useData Hook that fetches the entity collection.
+ * @param props.renderCard Renderer used to build each card.
+ * @param props.filterKey Primary property used for the text search.
+ * @param props.containerClassName Optional classes for the outer container.
+ * @param props.listClassName Optional classes for the cards list.
+ * @param props.showTooltip Whether the shared tooltip component should be rendered.
+ * @param props.onRenderTopControls Optional renderer for extra controls above the search input.
+ * @param props.sectionName Header section id to activate.
+ * @returns Loading, error or loaded entity list UI.
  */
 export function EntityListView<T extends { id: string }>({
 	title,

@@ -1,3 +1,4 @@
+/** Asset module declarations for static image imports. */
 declare module "*.svg" {
 	const content: string;
 	export default content;

@@ -1,6 +1,13 @@
+/** Floating configuration button used to customize the background experience. */
 import { DISPLAY_MODE } from "@/hooks/useConfigBackground";
 import { useEffect, useState } from "react";
 
+/**
+ * Closes the configuration panel when the user clicks outside of it.
+ *
+ * @param event Browser click event.
+ * @param setDisplayOption State setter controlling the panel visibility.
+ */
 const handleDisplay = (event: MouseEvent, setDisplayOption: (value: boolean) => void) => {
 	const configuration = document.getElementById("configuration");
 	if (configuration && !configuration.contains(event.target as Node)) {
@@ -17,6 +24,17 @@ interface ConfigButtonProps {
 	setDisplayMode: (value: string) => void;
 }
 
+/**
+ * Renders the floating configuration panel for panorama mode, selected panorama and blur.
+ *
+ * @param props.panorama Current panorama index.
+ * @param props.blur Current blur intensity.
+ * @param props.display Current display mode.
+ * @param props.setPanorama Callback used to update the panorama index.
+ * @param props.setBlur Callback used to update the blur intensity.
+ * @param props.setDisplayMode Callback used to update the display mode.
+ * @returns Floating settings button and conditional configuration panel.
+ */
 export function ConfigButton({
 	panorama,
 	blur,

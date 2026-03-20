@@ -1,7 +1,14 @@
+/** Handler for id-based entity lookups and field extraction. */
 import { errorJson, okJson } from "@/api/utils/response";
 
 /**
  * Returns a full entity by id or a specific key from that entity.
+ *
+ * @param datas Entity collection to search.
+ * @param id Entity identifier to resolve.
+ * @param key Optional top-level property to extract from the entity.
+ * @param entityType Optional entity label used in error messages.
+ * @returns JSON response with the entity payload, projected field or a not found error.
  */
 export async function itemHandler<T extends { id: string }>(
 	datas: T[],

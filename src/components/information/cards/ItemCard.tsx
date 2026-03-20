@@ -1,3 +1,4 @@
+/** Compact item card used inside the item catalogue grid. */
 import { CopyableTooltipCard } from "@/components/information/shared/CopyableTooltipCard";
 import type { EntityWithImage } from "@/services/useDatas";
 import type { Item } from "@/types/item.interface";
@@ -12,7 +13,14 @@ interface ItemCardProps {
 	onLoad: (event: SyntheticEvent<HTMLImageElement>) => void;
 }
 
-/** Renders a compact item card with tooltip and copy action. */
+/**
+ * Renders a compact item card with tooltip and copy action.
+ *
+ * @param props.data Item payload enriched with its image URL.
+ * @param props.tooltip Shared tooltip controller.
+ * @param props.onLoad Image load callback propagated by the list view.
+ * @returns Clickable item card.
+ */
 export function ItemCard({ data, tooltip, onLoad }: ItemCardProps) {
 	return (
 		<CopyableTooltipCard

@@ -1,5 +1,11 @@
+/** Floating button that links to the public GitHub repository. */
 import { GitHubIcon } from "@/icons/GitHubIcon";
 
+/**
+ * Renders the fixed GitHub shortcut shown in the layout.
+ *
+ * @returns External repository link button.
+ */
 export function GitHubButton() {
 	return (
 		<a

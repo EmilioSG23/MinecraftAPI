@@ -1,5 +1,6 @@
 "use client";
 
+/** Shared layout that applies background configuration, header and fixed action buttons. */
 import { Background } from "@/components/Background";
 import { ConfigButton } from "@/components/buttons/ConfigButton";
 import { GitHubButton } from "@/components/buttons/GitHubButton";
@@ -7,6 +8,11 @@ import { Header } from "@/components/Header";
 import { useConfigBackground } from "@/hooks/useConfigBackground";
 import { useEffect } from "react";
 
+/**
+ * Plays the selector sound effect when the user clicks links or buttons.
+ *
+ * @returns Null because the component only installs a side effect.
+ */
 function SelectionSoundEffect() {
 	useEffect(() => {
 		const sound = new Audio("/gui/selection.m4a");
@@ -26,6 +32,7 @@ function SelectionSoundEffect() {
 	return null;
 }
 
+/** Background manipulation callbacks exposed to child render props. */
 export interface BackgroundConfig {
 	changePanorama: (panorama: number) => void;
 	changeBlur: (blur: number) => void;
@@ -38,6 +45,14 @@ interface LayoutProps {
 	childrenWidth?: string;
 }
 
+/**
+ * Wraps route content with the common app chrome and background controls.
+ *
+ * @param props.children Child nodes or a render prop receiving background callbacks.
+ * @param props.className Optional class names applied to the root main element.
+ * @param props.childrenWidth Width class applied to the inner content wrapper.
+ * @returns Shared application layout.
+ */
 export function Layout({ children, className = "", childrenWidth = "max-w-6xl" }: LayoutProps) {
 	const { panorama, blur, displayMode, changePanorama, changeBlur, changeDisplayMode } =
 		useConfigBackground();
@@ -70,6 +85,8 @@ export function Layout({ children, className = "", childrenWidth = "max-w-6xl" }
 /**
  * Returns the config callbacks needed by Terminal page.
  * Usage: const { ref, ...config } = useLayoutConfig();
+ *
+ * @returns Same configuration API exposed internally by the layout component.
  */
 export function useLayoutConfig() {
 	return useConfigBackground();

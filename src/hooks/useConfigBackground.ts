@@ -1,5 +1,7 @@
+/** Persistent background configuration hook used by the shared layout. */
 import { useEffect, useState } from "react";
 
+/** Supported startup behaviors for panorama selection. */
 export const DISPLAY_MODE = {
 	RANDOM: "random",
 	SELECT: "select",
@@ -17,11 +19,24 @@ const VALUES = {
 	BLUR: "blur",
 };
 
+/**
+ * Reads a localStorage value while remaining safe during server rendering.
+ *
+ * @param key Storage key to read.
+ * @param fallback Value returned when the key is not available.
+ * @returns Persisted string value or the fallback.
+ */
 function getStorageItem(key: string, fallback: string): string {
 	if (typeof window === "undefined") return fallback;
 	return window.localStorage.getItem(key) ?? fallback;
 }
 
+/**
+ * Persists a string value in localStorage when running in the browser.
+ *
+ * @param key Storage key to write.
+ * @param value Value to persist.
+ */
 function setStorageItem(key: string, value: string): void {
 	if (typeof window === "undefined") return;
 	window.localStorage.setItem(key, value);
@@ -29,6 +44,8 @@ function setStorageItem(key: string, value: string): void {
 
 /**
  * Handles panorama, blur and display mode persisted configuration.
+ *
+ * @returns Current background settings together with their update callbacks.
  */
 export function useConfigBackground() {
 	const [panorama, setPanorama] = useState<number>(DEFAULT.panorama);
@@ -41,10 +58,20 @@ export function useConfigBackground() {
 		setBlur(Number(getStorageItem(VALUES.BLUR, String(DEFAULT.blur))));
 	}, []);
 
+	/**
+	 * Updates the panorama index and persists it when selector mode is active.
+	 *
+	 * @param panorama Panorama index between 1 and 10.
+	 */
 	const changePanorama = (panorama: number) => {
 		setPanorama(panorama);
 		if (displayMode === DISPLAY_MODE.SELECT) setStorageItem(VALUES.PANORAMA, panorama.toString());
 	};
+	/**
+	 * Changes the panorama startup mode and restores the saved panorama when selector mode is chosen.
+	 *
+	 * @param newMode Requested display mode.
+	 */
 	const changeDisplayMode = (newMode: string) => {
 		setDisplayMode(newMode);
 		setStorageItem(VALUES.DISPLAY_MODE, newMode);
@@ -53,6 +80,11 @@ export function useConfigBackground() {
 			setPanorama(saved);
 		}
 	};
+	/**
+	 * Updates and persists the background blur intensity.
+	 *
+	 * @param blur Blur level between 0 and 10.
+	 */
 	const changeBlur = (blur: number) => {
 		setBlur(blur);
 		setStorageItem(VALUES.BLUR, blur.toString());

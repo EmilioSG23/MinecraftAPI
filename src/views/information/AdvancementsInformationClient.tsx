@@ -1,5 +1,6 @@
 "use client";
 
+/** Client view that renders the advancements catalogue and its category filters. */
 import { AdvancementCard } from "@/components/information/cards/AdvancementCard";
 import { EntityListView } from "@/components/information/EntityListView";
 import { useAdvancements } from "@/services/useDatas";
@@ -18,13 +19,23 @@ const TYPE_STYLES: Record<string, TypeStyle> = {
 	HUSBANDRY: { style: "bg-blue-300/25 hover:bg-blue-300/50" },
 };
 
+/**
+ * Maps an advancement interface label to its button styling.
+ *
+ * @param type Advancement interface name.
+ * @returns Visual style definition for the filter button.
+ */
 function getTypeStyle(type: string): TypeStyle {
 	if (type === "The End") return TYPE_STYLES.THE_END;
 	const key = type?.toUpperCase?.() || "ALL";
 	return TYPE_STYLES[key] || TYPE_STYLES.ALL;
 }
 
-/** Client view for advancements information. */
+/**
+ * Renders the advancements page with interface-based quick filters.
+ *
+ * @returns Advancements entity list view.
+ */
 export function AdvancementsInformationClient() {
 	const [activeFilter, setActiveFilter] = useState<string>("All");
 

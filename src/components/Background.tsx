@@ -1,3 +1,4 @@
+/** Full-screen panoramic background used by the shared layout. */
 import { useActiveSection } from "@/hooks/useSection";
 
 interface BackgroundProps {
@@ -5,6 +6,13 @@ interface BackgroundProps {
 	blur: number;
 }
 
+/**
+ * Renders the layered backdrop and blur overlay for the active layout.
+ *
+ * @param props.panorama Panorama index used to select the background image.
+ * @param props.blur Blur intensity applied outside the home route.
+ * @returns Fixed background layers.
+ */
 export function Background({ panorama, blur }: BackgroundProps) {
 	const { activeSection } = useActiveSection();
 	return (

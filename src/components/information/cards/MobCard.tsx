@@ -1,3 +1,4 @@
+/** Detailed card used to render mob information and hitbox tooltips. */
 import { CopyGetButton } from "@/components/information/shared/CopyGetButton";
 import type { EntityWithImage } from "@/services/useDatas";
 import type { Mob } from "@/types/mob.interface";
@@ -37,12 +38,25 @@ const TYPE_STYLES: Record<string, TypeStyle> = {
 	},
 };
 
+/**
+ * Returns the visual style associated with a mob behavior category.
+ *
+ * @param type Mob behavior label.
+ * @returns Header, background and hover classes for the card.
+ */
 export function getMobTypeStyle(type: string): TypeStyle {
 	const key = type?.toUpperCase?.() || "ALL";
 	return TYPE_STYLES[key] || TYPE_STYLES.ALL;
 }
 
-/** Renders a mob detail card with hover tooltip for hitboxes. */
+/**
+ * Renders a mob detail card with hover tooltip for hitboxes.
+ *
+ * @param props.data Mob payload enriched with its image URL.
+ * @param props.tooltip Shared tooltip controller.
+ * @param props.onLoad Image load callback propagated by the list view.
+ * @returns Mob card with copy action and hoverable hitbox details.
+ */
 export function MobCard({ data, tooltip, onLoad }: MobCardProps) {
 	return (
 		<article className="w-full sm:w-[45%] lg:w-[30%] flex-col rounded-xl border border-black overflow-hidden max-h-61.75 flex">

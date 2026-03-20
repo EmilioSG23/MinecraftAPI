@@ -1,10 +1,15 @@
 "use client";
 
+/** Client view that renders the biomes catalogue. */
 import { BiomeCard } from "@/components/information/cards/BiomeCard";
 import { EntityListView } from "@/components/information/EntityListView";
 import { useBiomes } from "@/services/useDatas";
 
-/** Client view for biomes information. */
+/**
+ * Renders the biomes information list.
+ *
+ * @returns Biomes entity list view.
+ */
 export function BiomesInformationClient() {
 	return (
 		<EntityListView

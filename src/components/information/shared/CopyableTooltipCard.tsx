@@ -1,3 +1,4 @@
+/** Generic wrapper for small information cards with tooltip and copy interactions. */
 import type { TooltipType } from "@/types/tooltip.interface";
 import type { MouseEvent, ReactNode, SyntheticEvent } from "react";
 
@@ -17,6 +18,15 @@ interface CopyableTooltipCardProps<T extends { id: string }> {
 
 /**
  * Generic card wrapper for items that copy endpoint on click and show tooltip.
+ *
+ * @param props.data Entity payload rendered by the card.
+ * @param props.tooltip Shared tooltip controller.
+ * @param props.onLoad Image load callback forwarded to the child renderer.
+ * @param props.getCopyPath Callback that computes the copied endpoint path.
+ * @param props.renderTooltipContent Callback that renders the tooltip content.
+ * @param props.children Render prop that produces the visible card UI.
+ * @param props.className CSS classes applied to the outer button.
+ * @returns Interactive card button with hover and click behaviors.
  */
 export function CopyableTooltipCard<T extends { id: string }>({
 	data,
@@ -29,12 +39,19 @@ export function CopyableTooltipCard<T extends { id: string }>({
 }: CopyableTooltipCardProps<T>) {
 	const isDesktop = typeof window !== "undefined" && window.matchMedia("(pointer: fine)").matches;
 
+	/** Builds the tooltip content lazily so desktop and mobile paths share the same renderer. */
 	const getTooltipContent = (): ReactNode => renderTooltipContent(data, isDesktop);
 
+	/** Copies the endpoint directly when the user has a fine pointer device. */
 	const handleDesktop = (): void => {
 		navigator.clipboard.writeText(getCopyPath(data));
 	};
 
+	/**
+	 * Shows a tap-friendly tooltip on mobile devices and keeps it inside the viewport.
+	 *
+	 * @param event Click event used to compute the tooltip anchor position.
+	 */
 	const handleMobile = (event: MouseEvent<HTMLButtonElement>): void => {
 		const newContent = getTooltipContent();
 		const isSameContent = tooltip.visible && tooltip.content !== null;

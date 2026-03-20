@@ -1,3 +1,4 @@
+/** Tooltip state hook shared by hoverable information cards. */
 import { useEffect, useState } from "react";
 
 interface Position {
@@ -7,6 +8,8 @@ interface Position {
 
 /**
  * Manages tooltip content, visibility, and cursor-following position.
+ *
+ * @returns Tooltip state and setters consumed by card components.
  */
 export function useTooltip() {
 	const [visible, setVisible] = useState(false);

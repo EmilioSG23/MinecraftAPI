@@ -1,3 +1,12 @@
+/** Reusable centered container with the Minecraft UI framing styles. */
+/**
+ * Wraps content inside the project-standard framed container.
+ *
+ * @param props.children Nested content.
+ * @param props.width Optional width utility classes for the outer wrapper.
+ * @param props.className Optional extra utility classes.
+ * @returns Styled container element.
+ */
 export function Container({
 	children,
 	width,

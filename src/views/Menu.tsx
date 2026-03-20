@@ -1,3 +1,4 @@
+/** Main menu shown on the homepage. */
 import { Logo } from "@/components/Logo";
 import { useChangeSection } from "@/hooks/useSection";
 import Link from "next/link";
@@ -7,6 +8,13 @@ interface SelectorProps {
 	name: string;
 }
 
+/**
+ * Renders a single menu selector button.
+ *
+ * @param props.id Target route segment.
+ * @param props.name Label shown to the user.
+ * @returns Link styled as a Minecraft selector.
+ */
 function Selector({ id, name }: SelectorProps) {
 	return (
 		<>
@@ -20,6 +28,11 @@ function Selector({ id, name }: SelectorProps) {
 	);
 }
 
+/**
+ * Renders the landing menu and marks the home section as active.
+ *
+ * @returns Home menu with logo and navigation shortcuts.
+ */
 export function Menu() {
 	useChangeSection("home");
 	return (

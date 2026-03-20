@@ -1,5 +1,6 @@
 "use client";
 
+/** Sticky top navigation shared by all non-home routes. */
 import { useActiveSection } from "@/hooks/useSection";
 import Link from "next/link";
 
@@ -11,6 +12,16 @@ interface HeaderLinkProps {
 	width?: string;
 }
 
+/**
+ * Renders a single navigation link and highlights it when its section is active.
+ *
+ * @param props.path Target route path.
+ * @param props.section Section identifier tracked by the header context.
+ * @param props.icon Font Awesome icon class.
+ * @param props.text Optional desktop label.
+ * @param props.width Width classes for the link container.
+ * @returns Styled navigation link.
+ */
 function HeaderLink({
 	path,
 	section,
@@ -48,6 +59,11 @@ function HeaderLink({
 	);
 }
 
+/**
+ * Renders the application header except on the homepage.
+ *
+ * @returns Sticky navigation bar or null when the home section is active.
+ */
 export function Header() {
 	const { activeSection } = useActiveSection();
 

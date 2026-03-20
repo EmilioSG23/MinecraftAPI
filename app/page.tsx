@@ -1,12 +1,19 @@
+/** Home route for the Minecraft API web application. */
 import { HomePageClient } from "@/views/information/HomePageClient";
 import type { Metadata } from "next";
 
+/** SEO metadata for the landing page. */
 export const metadata: Metadata = {
 	title: "Home - Minecraft API",
 	description:
 		"Minecraft API home page with quick access to information, terminal, and documentation.",
 };
 
+/**
+ * Renders the homepage and injects JSON-LD metadata for search engines.
+ *
+ * @returns Landing page client view.
+ */
 export default function Home() {
 	const jsonLd = {
 		"@context": "https://schema.org",

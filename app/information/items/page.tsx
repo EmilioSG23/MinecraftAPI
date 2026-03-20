@@ -1,12 +1,19 @@
+/** Items information route. */
 import { Layout } from "@/layout/Layout";
 import { ItemsInformationClient } from "@/views/information/ItemsInformationClient";
 import type { Metadata } from "next";
 
+/** SEO metadata for the items page. */
 export const metadata: Metadata = {
 	title: "Items - Minecraft API",
 	description: "Browse all Minecraft items with properties and API endpoints.",
 };
 
+/**
+ * Renders the items catalogue page.
+ *
+ * @returns Layout-wrapped items client view.
+ */
 export default function ItemsPage() {
 	const jsonLd = {
 		"@context": "https://schema.org",

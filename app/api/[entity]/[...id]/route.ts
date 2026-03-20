@@ -1,3 +1,4 @@
+/** Route handler for nested entity endpoints such as /api/blocks/stone/image. */
 import { handleDataRequest } from "@/api/handler";
 import { isEntityDataType, loadEntityData } from "@/api/utils/data";
 import { NextRequest } from "next/server";
@@ -6,7 +7,13 @@ interface EntityPathRouteContext {
 	params: Promise<{ entity: string; id?: string[] }>;
 }
 
-/** Handles /api/[entity]/[...id] requests. */
+/**
+ * Normalizes nested path segments and dispatches the request to the shared entity router.
+ *
+ * @param req Incoming Next.js request.
+ * @param context Route parameters containing the entity and optional nested path segments.
+ * @returns Item response, metadata response, image response or an error payload.
+ */
 export async function GET(req: NextRequest, context: EntityPathRouteContext) {
 	const { entity, id } = await context.params;
 	if (!isEntityDataType(entity)) {
@@ -23,7 +30,7 @@ export async function GET(req: NextRequest, context: EntityPathRouteContext) {
 		});
 	}
 
-	// Normalize id: if undefined or [""] treat as empty array
+	/** Normalizes empty catch-all parameters to the same shape used by the base collection route. */
 	let pathSegments: string[] = [];
 	if (id && !(id.length === 1 && id[0] === "")) {
 		pathSegments = id;

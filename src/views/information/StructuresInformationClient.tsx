@@ -1,10 +1,15 @@
 "use client";
 
+/** Client view that renders the structures catalogue. */
 import { EntityListView } from "@/components/information/EntityListView";
 import { StructureCard } from "@/components/information/cards/StructureCard";
 import { useStructures } from "@/services/useDatas";
 
-/** Client view for structures information. */
+/**
+ * Renders the structures information grid.
+ *
+ * @returns Structures entity list view.
+ */
 export function StructuresInformationClient() {
 	return (
 		<EntityListView

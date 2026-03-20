@@ -1,3 +1,4 @@
+/** Compact block card used inside the block catalogue grid. */
 import { CopyableTooltipCard } from "@/components/information/shared/CopyableTooltipCard";
 import type { EntityWithImage } from "@/services/useDatas";
 import type { Block } from "@/types/block.interface";
@@ -12,7 +13,14 @@ interface BlockCardProps {
 	onLoad: (event: SyntheticEvent<HTMLImageElement>) => void;
 }
 
-/** Renders a compact block card with tooltip and copy action. */
+/**
+ * Renders a compact block card with tooltip and copy action.
+ *
+ * @param props.data Block payload enriched with its image URL.
+ * @param props.tooltip Shared tooltip controller.
+ * @param props.onLoad Image load callback propagated by the list view.
+ * @returns Clickable block card.
+ */
 export function BlockCard({ data, tooltip, onLoad }: BlockCardProps) {
 	return (
 		<CopyableTooltipCard

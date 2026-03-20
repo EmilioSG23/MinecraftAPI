@@ -1,7 +1,10 @@
+/** Domain types describing block dataset entries. */
 import { Tier } from "@/types/tier";
 
+/** Allowed tool names for harvesting blocks. */
 type Tool = "Axe" | "Hoe" | "Pickaxe" | "Shears" | "Sword" | "Shovel" | "";
 
+/** Canonical block payload shape served by the API. */
 export interface Block {
 	id: string;
 	name: string;

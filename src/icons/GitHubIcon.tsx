@@ -1,7 +1,14 @@
+/** SVG icon component used by the floating GitHub button. */
 import React from "react";
 
 type Props = React.SVGProps<SVGSVGElement>;
 
+/**
+ * Renders the GitHub logo as an inline SVG.
+ *
+ * @param props Standard SVG props forwarded to the root svg element.
+ * @returns GitHub SVG icon.
+ */
 export function GitHubIcon(props: Props) {
 	return (
 		<svg viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg" {...props}>

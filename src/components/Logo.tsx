@@ -1,6 +1,12 @@
+/** Homepage logo component with a randomized Minecraft-style splash text. */
 import { MENU_TEXTS } from "@/utils/consts";
 import { useEffect, useState } from "react";
 
+/**
+ * Renders the project logo and chooses a random splash message on mount.
+ *
+ * @returns Logo image with animated splash text.
+ */
 export function Logo() {
 	const [splash, setSplash] = useState<string>("");
 	useEffect(() => {

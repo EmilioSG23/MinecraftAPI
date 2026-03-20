@@ -1,3 +1,10 @@
+/** Search input used by entity list pages. */
+/**
+ * Sanitizes the filter input, allowing letters, accents, spaces and underscores only.
+ *
+ * @param e Change event from the search input.
+ * @returns Sanitized value or null when invalid characters are present.
+ */
 const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>): string | null => {
 	const value = e.target.value;
 	return /^[a-zA-ZÀ-ÿ\s_]*$/.test(value) ? value : null;
@@ -10,6 +17,15 @@ interface FilterProps {
 	onChange: (value: string, key: string) => void;
 }
 
+/**
+ * Renders the text input used to filter entity collections.
+ *
+ * @param props.data Human-readable entity name used in labels and placeholders.
+ * @param props.filterBy Entity property updated when the user types.
+ * @param props.value Current input value.
+ * @param props.onChange Callback invoked with the sanitized input value.
+ * @returns Search input element.
+ */
 export function Filter({ data, filterBy = "name", value, onChange }: FilterProps) {
 	return (
 		<input

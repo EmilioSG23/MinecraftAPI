@@ -1,11 +1,16 @@
 "use client";
 
+/** Client view that renders the mobs catalogue and behavior filters. */
 import { EntityListView } from "@/components/information/EntityListView";
 import { MobCard, getMobTypeStyle } from "@/components/information/cards/MobCard";
 import { useMobs } from "@/services/useDatas";
 import { useState } from "react";
 
-/** Client view for mobs information. */
+/**
+ * Renders the mobs page with behavior-based quick filters.
+ *
+ * @returns Mobs entity list view.
+ */
 export function MobsInformationClient() {
 	const [activeFilter, setActiveFilter] = useState<string>("All");
 

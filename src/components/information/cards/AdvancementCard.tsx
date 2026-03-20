@@ -1,3 +1,4 @@
+/** Row card used to render an advancement entry. */
 import { CopyGetButton } from "@/components/information/shared/CopyGetButton";
 import type { EntityWithImage } from "@/services/useDatas";
 import type { Advancement } from "@/types/advancement.interface";
@@ -14,6 +15,12 @@ interface FrameStyle {
 	bgHover: string;
 }
 
+/**
+ * Resolves the correct advancement frame sprites based on the advancement tier.
+ *
+ * @param tier Advancement rarity category.
+ * @returns Base and hover background classes.
+ */
 function getFrame(tier: string): FrameStyle {
 	if (tier === "Challenge") {
 		return {

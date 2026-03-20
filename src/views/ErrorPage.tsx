@@ -1,7 +1,13 @@
+/** Creeper-themed error page used by the custom 404 route. */
 import { useChangeSection } from "@/hooks/useSection";
 import Link from "next/link";
 import { useCallback, useRef, useState } from "react";
 
+/**
+ * Renders the interactive error screen and triggers the explosion animation/audio effect.
+ *
+ * @returns Animated Minecraft-style error page.
+ */
 export function ErrorPage() {
 	useChangeSection("error");
 
@@ -10,6 +16,7 @@ export function ErrorPage() {
 	const [enableAnimation, setEnableAnimation] = useState(false);
 	const [finishAnimation, setFinishAnimation] = useState(false);
 
+	/** Plays the creeper sound and advances the staged death animation. */
 	const animate = useCallback(() => {
 		if (!soundRef.current) {
 			soundRef.current = new Audio("/creeper_explosion.mp3");

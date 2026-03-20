@@ -1,6 +1,8 @@
+/** Disk-loading helpers for the read-only JSON datasets used by the API. */
 import { readFile } from "fs/promises";
 import path from "path";
 
+/** Maps each supported entity type to the JSON file that stores its dataset. */
 export const ENTITY_DATA_FILES = {
 	blocks: "blocks.json",
 	items: "items.json",
@@ -12,11 +14,18 @@ export const ENTITY_DATA_FILES = {
 
 export type EntityDataType = keyof typeof ENTITY_DATA_FILES;
 
+/** Generic shape required by the entity router. */
 export type EntityDataItem = { id: string; [key: string]: unknown };
 type DataCollection = Record<string, unknown> | EntityDataItem[];
 
 const dataCache = new Map<string, EntityDataItem[]>();
 
+/**
+ * Safely reads and parses a JSON file, returning null when the file is absent or invalid.
+ *
+ * @param filePath Absolute path to the JSON file.
+ * @returns Parsed JSON payload or null when the operation fails.
+ */
 async function safeReadJson(filePath: string): Promise<DataCollection | null> {
 	try {
 		const raw = await readFile(filePath, "utf8");
@@ -28,6 +37,9 @@ async function safeReadJson(filePath: string): Promise<DataCollection | null> {
 
 /**
  * Loads and caches entity JSON data from data directory.
+ *
+ * @param entity Entity collection name requested by the API route.
+ * @returns Cached entity list, resolved dataset from disk or null when unsupported.
  */
 export async function loadEntityData(entity: string): Promise<EntityDataItem[] | null> {
 	if (!(entity in ENTITY_DATA_FILES)) {
@@ -76,7 +88,12 @@ export async function loadEntityData(entity: string): Promise<EntityDataItem[] |
 	return null;
 }
 
-/** Runtime guard for supported entity names. */
+/**
+ * Runtime guard that narrows a raw path segment to a supported entity type.
+ *
+ * @param entity Raw entity segment extracted from the route.
+ * @returns True when the entity has a mapped dataset file.
+ */
 export function isEntityDataType(entity: string): entity is EntityDataType {
 	return entity in ENTITY_DATA_FILES;
 }

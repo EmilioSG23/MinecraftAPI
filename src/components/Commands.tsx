@@ -1,3 +1,4 @@
+/** Terminal command executors used by the in-app command console. */
 import type { DisplayCommandEntry } from "@/hooks/useCommands";
 import { DISPLAY_MODE } from "@/hooks/useConfigBackground";
 import { obtainDatasByURL } from "@/services/useDatas";
@@ -15,6 +16,7 @@ type CommandFunction = (
 	context: CommandContext,
 ) => React.ReactNode | Promise<React.ReactNode>;
 
+/** Lookup table from command names to their execution handlers. */
 const COMMANDS: Record<string, CommandFunction> = {
 	"/list": () => executeList(),
 	"/get": (args) => executeGet(args),
@@ -31,6 +33,13 @@ const COMMANDS: Record<string, CommandFunction> = {
 	"/setpanorama": (args, { setPanorama }) => executePanorama(args, setPanorama!),
 };
 
+/**
+ * Parses a terminal input string and dispatches it to the matching command implementation.
+ *
+ * @param inputCommand Raw command line entered by the user.
+ * @param context Mutable UI callbacks available to command executors.
+ * @returns Renderable command result node.
+ */
 export function executeCommand(
 	inputCommand: string,
 	context: CommandContext,
@@ -46,7 +55,11 @@ export function executeCommand(
 	);
 }
 
-// - /list Obtiene todos los tipos de datos: advancements, biomes, ...
+/**
+ * Lists every supported entity type exposed by the API.
+ *
+ * @returns Rendered paragraph containing the available entity collections.
+ */
 function executeList() {
 	return (
 		<>
@@ -55,7 +68,12 @@ function executeList() {
 	);
 }
 
-// - /find o /get <type> <id> Obtiene la información de un dato en formato JSON
+/**
+ * Fetches a single entity by type and id.
+ *
+ * @param args Command arguments in the form [type, id].
+ * @returns Rendered result or validation error node.
+ */
 async function executeGet(args: string[]) {
 	if (args.length !== 2) {
 		return (
@@ -82,7 +100,12 @@ async function executeGet(args: string[]) {
 	);
 }
 
-// - /key <type> <id> <key> Obtiene la información de esa key
+/**
+ * Fetches a specific top-level field from one entity.
+ *
+ * @param args Command arguments in the form [type, id, key].
+ * @returns Rendered result or validation error node.
+ */
 async function executeKey(args: string[]) {
 	if (args.length !== 3) {
 		return (
@@ -112,12 +135,22 @@ async function executeKey(args: string[]) {
 	);
 }
 
-// - /filter <type> <filter> Devuelve ids de datos de cierto tipo que cumplan con el filtro
+/**
+ * Placeholder for a future server-side filtering command.
+ *
+ * @param _args Command arguments reserved for a future implementation.
+ * @returns Informational message indicating that the command is unavailable.
+ */
 function executeFilter(_args: string[]) {
 	return <p>This command is not available at this moment.</p>;
 }
 
-// - /count <type> Cantidad de elementos de tipo de dato
+/**
+ * Returns the number of elements available for a given entity collection.
+ *
+ * @param args Command arguments in the form [type].
+ * @returns Rendered count or validation error node.
+ */
 async function executeCount(args: string[]) {
 	if (args.length !== 1) {
 		return (
@@ -137,7 +170,12 @@ async function executeCount(args: string[]) {
 	);
 }
 
-// - /keys <type> Claves de tipo de dato
+/**
+ * Returns the top-level keys available for a given entity collection.
+ *
+ * @param args Command arguments in the form [type].
+ * @returns Rendered key list or validation error node.
+ */
 async function executeKeys(args: string[]) {
 	if (args.length !== 1) {
 		return (
@@ -156,7 +194,11 @@ async function executeKeys(args: string[]) {
 	);
 }
 
-// - /help Muestra los comandos
+/**
+ * Prints the list of supported terminal commands.
+ *
+ * @returns Rendered help output.
+ */
 function executeHelp() {
 	return (
 		<>
@@ -181,7 +223,12 @@ function executeHelp() {
 	);
 }
 
-// - /clear Limpia terminal
+/**
+ * Clears the rendered terminal output.
+ *
+ * @param setDisplayCommands React state setter for the terminal output list.
+ * @returns Null because the command only mutates state.
+ */
 function executeClear(
 	setDisplayCommands: React.Dispatch<React.SetStateAction<DisplayCommandEntry[]>>,
 ) {
@@ -189,7 +236,11 @@ function executeClear(
 	return null;
 }
 
-// - /status Muestra estado API
+/**
+ * Verifies whether the API root endpoint is reachable.
+ *
+ * @returns Rendered connectivity status message.
+ */
 async function executeStatus() {
 	// Execute command
 	const { status } = await obtainDatasByURL("");
@@ -200,7 +251,12 @@ async function executeStatus() {
 	);
 }
 
-// - /version <mc|api> Muestra versión de api o versión de hasta donde hay datos de MC
+/**
+ * Displays either the API version or the latest Minecraft version covered by the data.
+ *
+ * @param args Command arguments in the form [mc|api].
+ * @returns Rendered version message or validation error node.
+ */
 function executeVersion(args: string[]) {
 	if (args.length !== 1) {
 		return (
@@ -221,7 +277,13 @@ function executeVersion(args: string[]) {
 	);
 }
 
-// - /setblur <value>
+/**
+ * Updates the background blur from the terminal.
+ *
+ * @param args Command arguments in the form [value].
+ * @param setBlur Callback that persists the selected blur level.
+ * @returns Rendered success or validation error node.
+ */
 function executeBlur(args: string[], setBlur: (value: number) => void) {
 	if (args.length !== 1) {
 		return (
@@ -244,7 +306,13 @@ function executeBlur(args: string[], setBlur: (value: number) => void) {
 	);
 }
 
-// - /setdisplay <mode>
+/**
+ * Changes the terminal background display mode.
+ *
+ * @param args Command arguments in the form [random|select].
+ * @param setDisplayMode Callback that updates the display mode.
+ * @returns Rendered success or validation error node.
+ */
 function executeDisplay(args: string[], setDisplayMode: (mode: string) => void) {
 	if (args.length !== 1) {
 		return (
@@ -267,7 +335,13 @@ function executeDisplay(args: string[], setDisplayMode: (mode: string) => void) 
 	);
 }
 
-// - /setpanorama <panorama>
+/**
+ * Updates the selected panorama background from the terminal.
+ *
+ * @param args Command arguments in the form [panorama].
+ * @param setPanorama Callback that updates the panorama index.
+ * @returns Rendered success or validation error node.
+ */
 function executePanorama(args: string[], setPanorama: (panorama: number) => void) {
 	if (args.length !== 1) {
 		return (

@@ -1,12 +1,19 @@
+/** Mobs information route. */
 import { Layout } from "@/layout/Layout";
 import { MobsInformationClient } from "@/views/information/MobsInformationClient";
 import type { Metadata } from "next";
 
+/** SEO metadata for the mobs page. */
 export const metadata: Metadata = {
 	title: "Mobs - Minecraft API",
 	description: "Browse all Minecraft mobs with behavior and API endpoints.",
 };
 
+/**
+ * Renders the mobs catalogue page.
+ *
+ * @returns Layout-wrapped mobs client view.
+ */
 export default function MobsPage() {
 	const jsonLd = {
 		"@context": "https://schema.org",

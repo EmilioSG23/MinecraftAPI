@@ -1,3 +1,4 @@
+/** Floating tooltip renderer shared by the information cards. */
 interface TooltipProps {
 	tooltip: {
 		visible: boolean;
@@ -9,6 +10,12 @@ interface TooltipProps {
 	};
 }
 
+/**
+ * Renders the current tooltip content at the tracked pointer position.
+ *
+ * @param props.tooltip Tooltip state returned by useTooltip.
+ * @returns Tooltip element or null when hidden.
+ */
 export function Tooltip({ tooltip }: TooltipProps) {
 	if (!tooltip.visible || !tooltip.content) return null;
 

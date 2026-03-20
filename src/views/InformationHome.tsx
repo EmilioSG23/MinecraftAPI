@@ -1,5 +1,6 @@
 "use client";
 
+/** Grid of entity shortcuts displayed on the information hub route. */
 import { Container } from "@/components/Container";
 import { DATAS_TYPE } from "@/utils/consts";
 import Image from "next/image";
@@ -9,6 +10,12 @@ interface InfoHomeCardProps {
 	id: string;
 }
 
+/**
+ * Displays a single information hub card that links to an entity section.
+ *
+ * @param props.id Entity identifier used for the route and preview image.
+ * @returns Clickable entity shortcut card.
+ */
 function InfoHomeCard({ id }: InfoHomeCardProps) {
 	return (
 		<Link
@@ -37,6 +44,11 @@ function InfoHomeCard({ id }: InfoHomeCardProps) {
 	);
 }
 
+/**
+ * Renders the full set of information shortcuts for each supported entity type.
+ *
+ * @returns Container with all information section cards.
+ */
 export function InformationHome() {
 	return (
 		<Container>

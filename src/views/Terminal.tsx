@@ -1,3 +1,4 @@
+/** Interactive terminal view that executes client-side helper commands against the API. */
 import { executeCommand } from "@/components/Commands";
 import { useCommands } from "@/hooks/useCommands";
 import { useChangeSection } from "@/hooks/useSection";
@@ -9,6 +10,14 @@ interface TerminalProps {
 	setDisplayMode: (value: string) => void;
 }
 
+/**
+ * Renders the terminal interface and wires command execution to UI/background controls.
+ *
+ * @param props.setPanorama Callback that updates the selected panorama background.
+ * @param props.setBlur Callback that updates blur intensity.
+ * @param props.setDisplayMode Callback that changes the panorama selection mode.
+ * @returns Terminal UI with history and command input.
+ */
 export function Terminal({ setPanorama, setBlur, setDisplayMode }: TerminalProps) {
 	const {
 		inputCommand,
@@ -28,6 +37,12 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }: TerminalProps
 		if (scrollRef.current) scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
 	}, [displayCommands]);
 
+	/**
+	 * Executes the current terminal command, stores it in history and appends the rendered result.
+	 *
+	 * @param command Raw command text entered by the user.
+	 * @returns Promise resolved once the command output has been appended.
+	 */
 	const executeInputCommand = async (command: string) => {
 		addHistoryCommand(command);
 		setHistoryIndex(historyCommands.length + 1);

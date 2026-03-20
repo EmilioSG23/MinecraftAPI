@@ -1,10 +1,15 @@
 "use client";
 
+/** Client view that renders the items catalogue. */
 import { EntityListView } from "@/components/information/EntityListView";
 import { ItemCard } from "@/components/information/cards/ItemCard";
 import { useItems } from "@/services/useDatas";
 
-/** Client view for items information. */
+/**
+ * Renders the items information grid.
+ *
+ * @returns Items entity list view.
+ */
 export function ItemsInformationClient() {
 	return (
 		<EntityListView
