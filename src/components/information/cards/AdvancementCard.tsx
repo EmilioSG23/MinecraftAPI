@@ -50,13 +50,12 @@ export function AdvancementCard({ data, onLoad }: AdvancementCardProps) {
 			>
 				<img
 					src={data.image}
-					className="h-8 sm:h-16"
+					className="w-8 h-8 sm:w-16 sm:h-16 object-contain"
 					loading="lazy"
 					onLoad={onLoad}
 					onError={onLoad}
-					width={64}
-					height={64}
 					alt={`${data.id} sprite`}
+					style={{ imageRendering: "pixelated" }}
 				/>
 			</figure>
 			<div className="flex-1 *:px-5">

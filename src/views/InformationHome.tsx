@@ -18,10 +18,11 @@ function InfoHomeCard({ id }: InfoHomeCardProps) {
 			<div className="mx-2">
 				<Image
 					src={`/information/${id}.png`}
-					className="info-card size-12 sm:size-18 lg:size-20"
+					className="info-card size-12 sm:size-18 lg:size-20 object-contain"
 					width={80}
 					height={80}
 					alt={id}
+					style={{ objectFit: "contain", imageRendering: "pixelated" }}
 				/>
 			</div>
 			<div className="text-left">
