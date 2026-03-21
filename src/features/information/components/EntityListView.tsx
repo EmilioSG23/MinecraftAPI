@@ -92,7 +92,7 @@ export function EntityListView<T extends { id: string }>({
 								data={filterDataName}
 								value={filters[filterKey] || ""}
 								onChange={updateFilter}
-								filterBy="title"
+								filterBy={filterKey}
 							/>
 							<div className={listClassName}>
 								{filteredDatas
