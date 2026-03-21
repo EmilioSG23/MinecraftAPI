@@ -68,7 +68,7 @@ export function MobCard({ data, tooltip, onLoad }: MobCardProps) {
 			</h2>
 			<div className="w-full flex flex-col xs:flex-row">
 				<figure
-					className={`flex-1 min-w-1/3 h-full border-b xs:border-b-0 xs:border-r border-black p-1 sm:p-2 flex items-center justify-center ${getMobTypeStyle(data.behavior).bg}`}
+					className={`flex-1 min-w-1/3 h-full border-b xs:border-b-0 xs:border-r border-black p-1! sm:p-2! flex items-center justify-center ${getMobTypeStyle(data.behavior).bg}`}
 				>
 					<img
 						src={data.image}
@@ -112,7 +112,7 @@ export function MobCard({ data, tooltip, onLoad }: MobCardProps) {
 					/>
 				</figure>
 				<div className="flex flex-2 flex-col justify-between">
-					<div className="p-1 text-sm">
+					<div className="p-1! text-sm">
 						<p className="text-gray-800 underline">{PREFIX_MC + data.id}</p>
 						<p>
 							<b>Health: </b>
@@ -135,8 +135,9 @@ export function MobCard({ data, tooltip, onLoad }: MobCardProps) {
 					</div>
 					<CopyGetButton
 						path={`${API_URL}/mobs/${data.id}`}
-						className="flex items-center self-center justify-center w-2/3 mb-2 text-center bg-gray-300 border-2 border-black rounded-lg cursor-pointer hover:border-white"
-						iconClassName="fa-regular fa-copy text-[16px] px-2"
+						className="flex items-center self-center justify-center w-2/3 mb-2! text-center bg-gray-300 border-2 border-black
+						rounded-lg cursor-pointer hover:border-white"
+						iconClassName="fa-regular fa-copy text-[16px] px-2!"
 						labelClassName="text-[20px]"
 					/>
 				</div>
