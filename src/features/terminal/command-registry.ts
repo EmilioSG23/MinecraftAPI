@@ -14,6 +14,7 @@ import { executeDisplay } from "@/features/terminal/commands/ui/setdisplay";
 import { executePanorama } from "@/features/terminal/commands/ui/setpanorama";
 import type { TerminalCommandDefinition } from "@/features/terminal/types";
 
+/** Canonical list of commands exposed by the in-app terminal. */
 export const COMMAND_REGISTRY: TerminalCommandDefinition[] = [
 	{
 		name: "/list",

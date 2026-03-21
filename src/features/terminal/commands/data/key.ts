@@ -6,6 +6,12 @@ import {
 import { obtainDatasByURL } from "@/services/useDatas";
 import { PREFIX_MC } from "@/utils/consts";
 
+/**
+ * Fetches a specific top-level key from an entity payload.
+ *
+ * @param args Command arguments containing the entity type, entity id and key name.
+ * @returns A JSON response with the requested key value or an error when it cannot be resolved.
+ */
 export async function executeKey(args: string[]) {
 	const err = validateArgs(3, args, '/key "<type> <id> <key>"');
 	if (err) return err;

@@ -1,6 +1,6 @@
 /** Mobs information route. */
-import { Layout } from "@/layout/Layout";
-import { MobsInformationClient } from "@/pages/information/MobsInformationClient";
+import { Layout } from "@/shared/layout/Layout";
+import { MobsInformationClient } from "@/features/information/entry/MobsInformationClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the mobs page. */
@@ -33,3 +33,4 @@ export default function MobsPage() {
 		</Layout>
 	);
 }
+

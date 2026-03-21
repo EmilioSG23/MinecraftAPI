@@ -1,8 +1,8 @@
 "use client";
 
 /** Custom 404 route rendered for unknown URLs. */
-import { Layout } from "@/layout/Layout";
-import { ErrorPage } from "@/views/ErrorPage";
+import { ErrorPage } from "@/features/not-found/ErrorPage";
+import { Layout } from "@/shared/layout/Layout";
 
 /**
  * Renders the Minecraft-themed not found experience.

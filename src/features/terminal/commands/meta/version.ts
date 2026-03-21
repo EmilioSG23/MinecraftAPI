@@ -5,6 +5,12 @@ import {
 } from "@/features/terminal/command-helpers";
 import { API_VERSION, MC_VERSION } from "@/utils/consts";
 
+/**
+ * Returns either the Minecraft dataset version or the API version.
+ *
+ * @param args Command arguments containing the requested version target: mc or api.
+ * @returns A text response with the version information or a syntax error for invalid input.
+ */
 export function executeVersion(args: string[]) {
 	const err = validateArgs(1, args, '/version "mc|api"');
 	if (err) return err;

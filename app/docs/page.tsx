@@ -1,4 +1,4 @@
-import { ApiDocsPageClient } from "@/views/docs/ApiDocsPageClient";
+import { ApiDocsPageClient } from "@/features/documentation/entry/ApiDocsPageClient";
 import type { Metadata } from "next";
 
 /** Metadata for the dedicated API documentation route. */
@@ -31,3 +31,4 @@ export default function DocumentationPage() {
 		</>
 	);
 }
+

@@ -4,6 +4,13 @@ import {
 	validateArgs,
 } from "@/features/terminal/command-helpers";
 
+/**
+ * Selects the panorama image used by the terminal background.
+ *
+ * @param args Command arguments containing the panorama number.
+ * @param setPanorama Callback used to update the selected panorama in UI state.
+ * @returns A confirmation message or an error when the panorama number is invalid.
+ */
 export function executePanorama(args: string[], setPanorama: (panorama: number) => void) {
 	const err = validateArgs(1, args, '/setpanorama "<panorama>" (1-10)');
 	if (err) return err;

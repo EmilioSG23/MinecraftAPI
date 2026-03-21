@@ -1,5 +1,5 @@
 /** Information index route that links all entity sections. */
-import { InformationPageClient } from "@/pages/InformationPageClient";
+import { InformationPageClient } from "@/features/information/entry/InformationPageClient";
 import { DATAS_TYPE } from "@/utils/consts";
 import type { Metadata } from "next";
 
@@ -48,3 +48,4 @@ export default function InformationPage() {
 		</>
 	);
 }
+

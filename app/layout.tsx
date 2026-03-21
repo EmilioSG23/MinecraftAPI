@@ -1,7 +1,7 @@
 /**
  * Root application layout that loads global styles, metadata and the header section context.
  */
-import { HeaderProvider } from "@/contexts/HeaderProvider";
+import { HeaderProvider } from "@/shared/contexts/HeaderProvider";
 import "@/styles/App.css";
 import "@/styles/globals.css";
 import "@/styles/index.css";
@@ -58,3 +58,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 		</html>
 	);
 }
+

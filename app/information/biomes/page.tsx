@@ -1,6 +1,6 @@
 /** Biomes information route. */
-import { Layout } from "@/layout/Layout";
-import { BiomesInformationClient } from "@/pages/information/BiomesInformationClient";
+import { Layout } from "@/shared/layout/Layout";
+import { BiomesInformationClient } from "@/features/information/entry/BiomesInformationClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the biomes page. */
@@ -33,3 +33,4 @@ export default function BiomesPage() {
 		</Layout>
 	);
 }
+

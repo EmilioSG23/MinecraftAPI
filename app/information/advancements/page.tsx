@@ -1,6 +1,6 @@
 /** Advancements information route. */
-import { Layout } from "@/layout/Layout";
-import { AdvancementsInformationClient } from "@/pages/information/AdvancementsInformationClient";
+import { Layout } from "@/shared/layout/Layout";
+import { AdvancementsInformationClient } from "@/features/information/entry/AdvancementsInformationClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the advancements page. */
@@ -33,3 +33,4 @@ export default function AdvancementsPage() {
 		</Layout>
 	);
 }
+

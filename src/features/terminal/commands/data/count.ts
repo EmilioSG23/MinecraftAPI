@@ -5,6 +5,12 @@ import {
 } from "@/features/terminal/command-helpers";
 import { obtainDatasByURL } from "@/services/useDatas";
 
+/**
+ * Retrieves the total amount of entities available for a given data type.
+ *
+ * @param args Command arguments where the first value is the requested entity type.
+ * @returns A text response with the total count or an error when the type is invalid.
+ */
 export async function executeCount(args: string[]) {
 	const err = validateArgs(1, args, '/count "<type>"');
 	if (err) return err;

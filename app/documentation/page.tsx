@@ -1,5 +1,5 @@
 /** Long-form project documentation route. */
-import { DocumentationPageClient } from "@/pages/DocumentationPageClient";
+import { DocumentationPageClient } from "@/features/documentation/entry/DocumentationPageClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the documentation overview route. */
@@ -32,3 +32,4 @@ export default function DocumentationPage() {
 		</>
 	);
 }
+

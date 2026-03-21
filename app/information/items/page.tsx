@@ -1,6 +1,6 @@
 /** Items information route. */
-import { Layout } from "@/layout/Layout";
-import { ItemsInformationClient } from "@/pages/information/ItemsInformationClient";
+import { Layout } from "@/shared/layout/Layout";
+import { ItemsInformationClient } from "@/features/information/entry/ItemsInformationClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the items page. */
@@ -33,3 +33,4 @@ export default function ItemsPage() {
 		</Layout>
 	);
 }
+

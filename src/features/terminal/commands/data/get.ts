@@ -6,6 +6,12 @@ import {
 import { obtainDatasByURL } from "@/services/useDatas";
 import { PREFIX_MC } from "@/utils/consts";
 
+/**
+ * Fetches a full entity payload and formats it as JSON output for the terminal.
+ *
+ * @param args Command arguments containing the entity type and entity id.
+ * @returns A JSON response with the entity payload or an error message for invalid requests.
+ */
 export async function executeGet(args: string[]) {
 	const err = validateArgs(2, args, '/get "<type> <id>"');
 	if (err) return err;
