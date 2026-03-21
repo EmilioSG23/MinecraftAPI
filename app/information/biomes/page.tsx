@@ -4,8 +4,10 @@ import {
 	createInformationMetadata,
 	renderInformationRoute,
 } from "@/features/information/lib/route";
+import { Fallback } from "@/shared/components/Fallback";
 import { Layout } from "@/shared/layout/Layout";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 /** SEO metadata for the biomes page. */
 export const metadata: Metadata = createInformationMetadata({
@@ -30,7 +32,21 @@ export default function BiomesPage() {
 					path: "/information/biomes",
 					pageName: "Minecraft Biomes",
 				},
-				<BiomesInformationClient />,
+				<Suspense
+					fallback={
+						<Fallback
+							definition={{
+								title: "Biomes",
+								description: "Browse all Minecraft biomes with weather and API endpoints.",
+								path: "/information/biomes",
+								pageName: "Minecraft Biomes",
+							}}
+							message="Loading page..."
+						/>
+					}
+				>
+					<BiomesInformationClient />
+				</Suspense>,
 			)}
 		</Layout>
 	);

@@ -4,8 +4,10 @@ import {
 	createInformationMetadata,
 	renderInformationRoute,
 } from "@/features/information/lib/route";
+import { Fallback } from "@/shared/components/Fallback";
 import { Layout } from "@/shared/layout/Layout";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 /** SEO metadata for the mobs page. */
 export const metadata: Metadata = createInformationMetadata({
@@ -30,7 +32,21 @@ export default function MobsPage() {
 					path: "/information/mobs",
 					pageName: "Minecraft Mobs",
 				},
-				<MobsInformationClient />,
+				<Suspense
+					fallback={
+						<Fallback
+							definition={{
+								title: "Mobs",
+								description: "Browse all Minecraft mobs with behavior and API endpoints.",
+								path: "/information/mobs",
+								pageName: "Minecraft Mobs",
+							}}
+							message="Loading page..."
+						/>
+					}
+				>
+					<MobsInformationClient />
+				</Suspense>,
 			)}
 		</Layout>
 	);

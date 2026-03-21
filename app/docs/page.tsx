@@ -1,5 +1,7 @@
 import { ApiDocsPageClient } from "@/features/documentation/entry/ApiDocsPageClient";
+import { Fallback } from "@/shared/components/Fallback";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 /** Metadata for the dedicated API documentation route. */
 export const metadata: Metadata = {
@@ -27,8 +29,9 @@ export default function DocumentationPage() {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
 			/>
-			<ApiDocsPageClient />
+			<Suspense fallback={<Fallback message="Loading page..." />}>
+				<ApiDocsPageClient />
+			</Suspense>
 		</>
 	);
 }
-

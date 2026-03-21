@@ -4,8 +4,10 @@ import {
 	createInformationMetadata,
 	renderInformationRoute,
 } from "@/features/information/lib/route";
+import { Fallback } from "@/shared/components/Fallback";
 import { Layout } from "@/shared/layout/Layout";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 /** SEO metadata for the advancements page. */
 export const metadata: Metadata = createInformationMetadata({
@@ -30,7 +32,21 @@ export default function AdvancementsPage() {
 					path: "/information/advancements",
 					pageName: "Minecraft Advancements",
 				},
-				<AdvancementsInformationClient />,
+				<Suspense
+					fallback={
+						<Fallback
+							definition={{
+								title: "Advancements",
+								description: "Browse all Minecraft advancements and API endpoints.",
+								path: "/information/advancements",
+								pageName: "Minecraft Advancements",
+							}}
+							message="Loading page..."
+						/>
+					}
+				>
+					<AdvancementsInformationClient />
+				</Suspense>,
 			)}
 		</Layout>
 	);

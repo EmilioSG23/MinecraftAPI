@@ -1,6 +1,8 @@
 /** Home route for the Minecraft API web application. */
 import { HomePageClient } from "@/features/home/entry/HomePageClient";
+import { Fallback } from "@/shared/components/Fallback";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 /** SEO metadata for the landing page. */
 export const metadata: Metadata = {
@@ -30,8 +32,9 @@ export default function Home() {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
 			/>
-			<HomePageClient />
+			<Suspense fallback={<Fallback message="Loading page..." />}>
+				<HomePageClient />
+			</Suspense>
 		</>
 	);
 }
-

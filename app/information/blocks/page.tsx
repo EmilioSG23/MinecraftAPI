@@ -4,8 +4,10 @@ import {
 	createInformationMetadata,
 	renderInformationRoute,
 } from "@/features/information/lib/route";
+import { Fallback } from "@/shared/components/Fallback";
 import { Layout } from "@/shared/layout/Layout";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 /** SEO metadata for the blocks page. */
 export const metadata: Metadata = createInformationMetadata({
@@ -30,7 +32,21 @@ export default function BlocksPage() {
 					path: "/information/blocks",
 					pageName: "Minecraft Blocks",
 				},
-				<BlocksInformationClient />,
+				<Suspense
+					fallback={
+						<Fallback
+							definition={{
+								title: "Blocks",
+								description: "Browse all Minecraft blocks with properties and API endpoints.",
+								path: "/information/blocks",
+								pageName: "Minecraft Blocks",
+							}}
+							message="Loading page..."
+						/>
+					}
+				>
+					<BlocksInformationClient />
+				</Suspense>,
 			)}
 		</Layout>
 	);

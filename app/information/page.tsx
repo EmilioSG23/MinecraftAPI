@@ -1,7 +1,9 @@
 /** Information index route that links all entity sections. */
 import { InformationPageClient } from "@/features/information/entry/InformationPageClient";
+import { Fallback } from "@/shared/components/Fallback";
 import { MINECRAFT_ENTITY_TYPES } from "@/shared/minecraft/constants";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 /** SEO metadata for the information hub route. */
 export const metadata: Metadata = {
@@ -44,7 +46,21 @@ export default function InformationPage() {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
 			/>
-			<InformationPageClient />
+			<Suspense
+				fallback={
+					<Fallback
+						definition={{
+							title: "Information",
+							description: "Explore all Minecraft API information sections.",
+							path: "/information",
+							pageName: "Information",
+						}}
+						message="Loading page..."
+					/>
+				}
+			>
+				<InformationPageClient />
+			</Suspense>
 		</>
 	);
 }

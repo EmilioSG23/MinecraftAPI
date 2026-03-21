@@ -4,8 +4,10 @@ import {
 	createInformationMetadata,
 	renderInformationRoute,
 } from "@/features/information/lib/route";
+import { Fallback } from "@/shared/components/Fallback";
 import { Layout } from "@/shared/layout/Layout";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 /** SEO metadata for the structures page. */
 export const metadata: Metadata = createInformationMetadata({
@@ -30,7 +32,21 @@ export default function StructuresPage() {
 					path: "/information/structures",
 					pageName: "Minecraft Structures",
 				},
-				<StructuresInformationClient />,
+				<Suspense
+					fallback={
+						<Fallback
+							definition={{
+								title: "Structures",
+								description: "Browse all Minecraft structures and API endpoints.",
+								path: "/information/structures",
+								pageName: "Minecraft Structures",
+							}}
+							message="Loading page..."
+						/>
+					}
+				>
+					<StructuresInformationClient />
+				</Suspense>,
 			)}
 		</Layout>
 	);

@@ -4,8 +4,10 @@ import {
 	createInformationMetadata,
 	renderInformationRoute,
 } from "@/features/information/lib/route";
+import { Fallback } from "@/shared/components/Fallback";
 import { Layout } from "@/shared/layout/Layout";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 /** SEO metadata for the items page. */
 export const metadata: Metadata = createInformationMetadata({
@@ -30,7 +32,21 @@ export default function ItemsPage() {
 					path: "/information/items",
 					pageName: "Minecraft Items",
 				},
-				<ItemsInformationClient />,
+				<Suspense
+					fallback={
+						<Fallback
+							definition={{
+								title: "Items",
+								description: "Browse all Minecraft items with properties and API endpoints.",
+								path: "/information/items",
+								pageName: "Minecraft Items",
+							}}
+							message="Loading page..."
+						/>
+					}
+				>
+					<ItemsInformationClient />
+				</Suspense>,
 			)}
 		</Layout>
 	);

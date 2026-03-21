@@ -1,6 +1,8 @@
 /** Terminal route that exposes the interactive command interface. */
 import { TerminalPageClient } from "@/features/terminal/entry/TerminalPageClient";
+import { Fallback } from "@/shared/components/Fallback";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 /** SEO metadata for the terminal page. */
 export const metadata: Metadata = {
@@ -28,8 +30,9 @@ export default function TerminalPage() {
 				type="application/ld+json"
 				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
 			/>
-			<TerminalPageClient />
+			<Suspense fallback={<Fallback message="Loading page..." />}>
+				<TerminalPageClient />
+			</Suspense>
 		</>
 	);
 }
-
