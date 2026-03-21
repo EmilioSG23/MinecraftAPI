@@ -129,7 +129,7 @@ export function ApiDocsExplorer({
 				<p className="text-[14px] sm:text-[18px] text-black/90">{description}</p>
 				<p className="text-[12px] sm:text-[16px] text-black/75">
 					Machine-readable contract available at{" "}
-					<Link className="underline text-blue-300" href="/api/openapi" target="_blank">
+					<Link className="text-blue-500 hover:underline" href="/api/openapi" target="_blank">
 						/api/openapi
 					</Link>
 					.

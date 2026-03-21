@@ -76,10 +76,10 @@ export function ConfigButton({
 			</button>
 			<div
 				id="configuration"
-				className={`${displayOption ? "fixed" : "hidden"} bg-[#a0a0a0] bottom-19 left-5 p-2 text-center border-3 border-black`}
+				className={`${displayOption ? "fixed" : "hidden"} bg-[#a0a0a0] bottom-19 left-5 p-2! text-center border-3 border-black`}
 			>
 				<h1 className="font-bold">Configuration</h1>
-				<section className="mb-2">
+				<section className="mb-2!">
 					<h2 className="underline">Initial Display Mode</h2>
 					<div className="flex justify-center w-full px-1 gap-x-1">
 						<button
@@ -103,7 +103,7 @@ export function ConfigButton({
 					</div>
 				</section>
 				<section
-					className={`mb-2 ${display === DISPLAY_MODE.SELECT ? "opacity-100" : "opacity-50"}`}
+					className={`mb-2! ${display === DISPLAY_MODE.SELECT ? "opacity-100" : "opacity-50"}`}
 				>
 					<h2 className="underline">Select Panorama</h2>
 					<div className="flex justify-center">
@@ -138,7 +138,6 @@ export function ConfigButton({
 				</section>
 				<section className="items-center justify-center">
 					<h2 className="underline">Config Blur</h2>
-					<small className="italic text-[60%] text-gray-700">(not display in Menu)</small>
 					<div className="flex w-full">
 						<input
 							className="mx-auto w-[200%]"
@@ -152,9 +151,9 @@ export function ConfigButton({
 						/>
 						<p className="w-full text-center text-black">{blur}</p>
 					</div>
+					<small className="italic text-[60%] text-gray-700">(not display in Menu)</small>
 				</section>
 			</div>
 		</>
 	);
 }
-

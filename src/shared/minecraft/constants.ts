@@ -4,7 +4,7 @@ import menuText from "@/assets/menuTexts.json";
 /** Latest Minecraft version covered by the bundled datasets. */
 export const MC_VERSION = "1.19";
 /** Public version identifier for the API contract. */
-export const API_VERSION = "1.0";
+export const API_VERSION = "1.1";
 
 /** Prefix prepended to Minecraft ids when shown to the user. */
 export const PREFIX_MC = "minecraft:";
