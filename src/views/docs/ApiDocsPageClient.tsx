@@ -1,7 +1,7 @@
 "use client";
 
-import { ApiDocsExplorer } from "@/components/ApiDocsExplorer";
 import { Layout } from "@/layout/Layout";
+import { ApiDocsExplorer } from "@/views/docs/ApiDocsExplorer";
 
 /**
  * Client entrypoint for the dedicated API documentation route.

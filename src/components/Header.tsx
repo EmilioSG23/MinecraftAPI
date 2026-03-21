@@ -36,7 +36,7 @@ function HeaderLink({
 		<Link
 			href={path}
 			className={`group ${width} flex items-center justify-center
-				text-white text-center bg-black/50 text-[16px] xl:text-[24px]
+				text-white text-center text-[16px] xl:text-[24px]
 				${isActive ? "border-t-2 border-x-2 border-white h-full" : "h-3/4"} outline-2 outline-gray-400/25 py-1`}
 		>
 			<div

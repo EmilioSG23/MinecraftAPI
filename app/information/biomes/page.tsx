@@ -1,6 +1,6 @@
 /** Biomes information route. */
 import { Layout } from "@/layout/Layout";
-import { BiomesInformationClient } from "@/views/information/BiomesInformationClient";
+import { BiomesInformationClient } from "@/pages/information/BiomesInformationClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the biomes page. */

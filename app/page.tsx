@@ -1,5 +1,5 @@
 /** Home route for the Minecraft API web application. */
-import { HomePageClient } from "@/views/information/HomePageClient";
+import { HomePageClient } from "@/pages/HomePageClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the landing page. */

@@ -1,4 +1,4 @@
-import { ApiDocsPageClient } from "@/views/information/ApiDocsPageClient";
+import { ApiDocsPageClient } from "@/views/docs/ApiDocsPageClient";
 import type { Metadata } from "next";
 
 /** Metadata for the dedicated API documentation route. */

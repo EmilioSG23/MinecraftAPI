@@ -1,6 +1,6 @@
 /** Blocks information route. */
 import { Layout } from "@/layout/Layout";
-import { BlocksInformationClient } from "@/views/information/BlocksInformationClient";
+import { BlocksInformationClient } from "@/pages/information/BlocksInformationClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the blocks page. */

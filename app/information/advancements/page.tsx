@@ -1,6 +1,6 @@
 /** Advancements information route. */
 import { Layout } from "@/layout/Layout";
-import { AdvancementsInformationClient } from "@/views/information/AdvancementsInformationClient";
+import { AdvancementsInformationClient } from "@/pages/information/AdvancementsInformationClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the advancements page. */

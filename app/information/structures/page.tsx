@@ -1,6 +1,6 @@
 /** Structures information route. */
 import { Layout } from "@/layout/Layout";
-import { StructuresInformationClient } from "@/views/information/StructuresInformationClient";
+import { StructuresInformationClient } from "@/pages/information/StructuresInformationClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the structures page. */

@@ -1,6 +1,7 @@
 /** Interactive terminal view that executes client-side helper commands against the API. */
-import { executeCommand } from "@/components/Commands";
-import { useCommands } from "@/hooks/useCommands";
+import { executeCommand } from "@/features/terminal/command-executor";
+import { TerminalOutputRenderer } from "@/features/terminal/TerminalOutputRenderer";
+import { useTerminalSession } from "@/features/terminal/useTerminalSession";
 import { useChangeSection } from "@/hooks/useSection";
 import { useEffect, useRef } from "react";
 
@@ -22,15 +23,13 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }: TerminalProps
 	const {
 		inputCommand,
 		setInputCommand,
-		historyCommands,
 		displayCommands,
-		setDisplayCommands,
 		addHistoryCommand,
 		addResultCommand,
-		setHistoryIndex,
+		clearOutput,
 		previousHistoryCommand,
 		nextHistoryCommand,
-	} = useCommands();
+	} = useTerminalSession();
 
 	const scrollRef = useRef<HTMLDivElement>(null);
 	useEffect(() => {
@@ -38,16 +37,18 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }: TerminalProps
 	}, [displayCommands]);
 
 	/**
-	 * Executes the current terminal command, stores it in history and appends the rendered result.
+	 * Executes the current terminal command, stores it in history and appends the structured result.
 	 *
 	 * @param command Raw command text entered by the user.
 	 * @returns Promise resolved once the command output has been appended.
 	 */
 	const executeInputCommand = async (command: string) => {
-		addHistoryCommand(command);
-		setHistoryIndex(historyCommands.length + 1);
+		const normalizedCommand = command.trim();
+		if (!normalizedCommand) return;
+
+		addHistoryCommand(normalizedCommand);
 		const result = await executeCommand(command, {
-			setDisplayCommands,
+			clearOutput,
 			setBlur,
 			setDisplayMode,
 			setPanorama,
@@ -65,8 +66,8 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }: TerminalProps
 			</h2>
 			<div ref={scrollRef} className="flex-1 w-full p-1! overflow-y-scroll text-left">
 				{displayCommands.map((display) => (
-					<article className="mb-1 text-[12px] sm:text-[16px]" key={display.id}>
-						{display.content}
+					<article className="*:font-main! mb-1 text-[12px] sm:text-[16px]" key={display.id}>
+						<TerminalOutputRenderer output={display.content} />
 					</article>
 				))}
 			</div>
@@ -78,9 +79,11 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }: TerminalProps
 				onChange={(e) => setInputCommand(e.target.value)}
 				onKeyDown={(e) => {
 					if (e.key === "Enter") {
+						e.preventDefault();
 						executeInputCommand(e.currentTarget.value);
 					}
 					if (e.key === "ArrowUp") {
+						e.preventDefault();
 						previousHistoryCommand();
 						setTimeout(() => {
 							const target = e.target as HTMLInputElement;
@@ -88,6 +91,7 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }: TerminalProps
 						}, 0);
 					}
 					if (e.key === "ArrowDown") {
+						e.preventDefault();
 						nextHistoryCommand();
 						setTimeout(() => {
 							const target = e.target as HTMLInputElement;

@@ -1,6 +1,6 @@
 /** Information index route that links all entity sections. */
+import { InformationPageClient } from "@/pages/InformationPageClient";
 import { DATAS_TYPE } from "@/utils/consts";
-import { InformationPageClient } from "@/views/information/InformationPageClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the information hub route. */

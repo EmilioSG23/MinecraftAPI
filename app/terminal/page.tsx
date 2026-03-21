@@ -1,5 +1,5 @@
 /** Terminal route that exposes the interactive command interface. */
-import { TerminalPageClient } from "@/views/information/TerminalPageClient";
+import { TerminalPageClient } from "@/pages/TerminalPageClient";
 import type { Metadata } from "next";
 
 /** SEO metadata for the terminal page. */

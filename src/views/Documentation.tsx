@@ -1,7 +1,7 @@
-import { ApiDocsExplorer } from "@/components/ApiDocsExplorer";
 import { Container } from "@/components/Container";
 import { useChangeSection } from "@/hooks/useSection";
 import { API_URL } from "@/utils/consts";
+import { ApiDocsExplorer } from "@/views/docs/ApiDocsExplorer";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
