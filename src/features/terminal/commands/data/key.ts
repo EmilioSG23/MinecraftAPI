@@ -2,9 +2,9 @@ import {
 	createErrorOutput,
 	createJsonOutput,
 	validateArgs,
-} from "@/features/terminal/command-helpers";
-import { obtainDatasByURL } from "@/services/useDatas";
-import { PREFIX_MC } from "@/utils/consts";
+} from "@/features/terminal/commands/command-helpers";
+import { fetchApiResource } from "@/shared/lib/api-client";
+import { PREFIX_MC } from "@/shared/minecraft/constants";
 
 /**
  * Fetches a specific top-level key from an entity payload.
@@ -16,7 +16,7 @@ export async function executeKey(args: string[]) {
 	const err = validateArgs(3, args, '/key "<type> <id> <key>"');
 	if (err) return err;
 
-	const { data, status } = await obtainDatasByURL(`${args.join("/")}`);
+	const { data, status } = await fetchApiResource(`${args.join("/")}`);
 
 	if (status === 200) {
 		const reqKey = args[2];

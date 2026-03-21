@@ -1,14 +1,15 @@
 /** Detailed card used to render mob information and hitbox tooltips. */
-import { CopyGetButton } from "@/features/information/components/shared/CopyGetButton";
-import type { EntityWithImage } from "@/services/useDatas";
-import type { Mob } from "@/types/mob.interface";
-import type { TooltipType } from "@/types/tooltip.interface";
-import { API_URL, PREFIX_MC } from "@/utils/consts";
+import { API_URL } from "@/config/config";
+import { CopyGetButton } from "@/features/information/components/common/CopyGetButton";
+import type { EntityWithImage } from "@/features/information/hooks/useInformationData";
+import type { TooltipState } from "@/features/information/types";
+import { PREFIX_MC } from "@/shared/minecraft/constants";
+import type { Mob } from "@/shared/minecraft/types";
 import type { SyntheticEvent } from "react";
 
 interface MobCardProps {
 	data: EntityWithImage<Mob>;
-	tooltip: TooltipType;
+	tooltip: TooltipState;
 	onLoad: (event: SyntheticEvent<HTMLImageElement>) => void;
 }
 
@@ -143,4 +144,3 @@ export function MobCard({ data, tooltip, onLoad }: MobCardProps) {
 		</article>
 	);
 }
-

@@ -1,4 +1,4 @@
-import { createTextOutput } from "@/features/terminal/command-helpers";
+import { createTextOutput } from "@/features/terminal/commands/command-helpers";
 
 /**
  * Returns the temporary placeholder response for the filter command.

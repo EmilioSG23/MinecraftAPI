@@ -1,13 +1,19 @@
 /** Structures information route. */
-import { Layout } from "@/shared/layout/Layout";
 import { StructuresInformationClient } from "@/features/information/entry/StructuresInformationClient";
+import {
+	createInformationMetadata,
+	renderInformationRoute,
+} from "@/features/information/lib/route";
+import { Layout } from "@/shared/layout/Layout";
 import type { Metadata } from "next";
 
 /** SEO metadata for the structures page. */
-export const metadata: Metadata = {
-	title: "Structures - Minecraft API",
+export const metadata: Metadata = createInformationMetadata({
+	title: "Structures",
 	description: "Browse all Minecraft structures and API endpoints.",
-};
+	path: "/information/structures",
+	pageName: "Minecraft Structures",
+});
 
 /**
  * Renders the structures catalogue page.
@@ -15,22 +21,17 @@ export const metadata: Metadata = {
  * @returns Layout-wrapped structures client view.
  */
 export default function StructuresPage() {
-	const jsonLd = {
-		"@context": "https://schema.org",
-		"@type": "WebPage",
-		name: "Minecraft Structures",
-		description: "Browse all Minecraft structures and API endpoints.",
-		url: "/information/structures",
-	};
-
 	return (
 		<Layout>
-			<script
-				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-			/>
-			<StructuresInformationClient />
+			{renderInformationRoute(
+				{
+					title: "Structures",
+					description: "Browse all Minecraft structures and API endpoints.",
+					path: "/information/structures",
+					pageName: "Minecraft Structures",
+				},
+				<StructuresInformationClient />,
+			)}
 		</Layout>
 	);
 }
-

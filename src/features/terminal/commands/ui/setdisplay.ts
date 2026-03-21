@@ -2,7 +2,7 @@ import {
 	createErrorOutput,
 	createTextOutput,
 	validateArgs,
-} from "@/features/terminal/command-helpers";
+} from "@/features/terminal/commands/command-helpers";
 import { DISPLAY_MODE } from "@/shared/hooks/useConfigBackground";
 
 /**

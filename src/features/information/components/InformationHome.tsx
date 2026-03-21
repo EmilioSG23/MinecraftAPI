@@ -2,7 +2,7 @@
 
 /** Grid of entity shortcuts displayed on the information hub route. */
 import { Container } from "@/shared/components/Container";
-import { DATAS_TYPE } from "@/utils/consts";
+import { MINECRAFT_ENTITY_TYPES } from "@/shared/minecraft/constants";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -56,11 +56,10 @@ export function InformationHome() {
 				Choose a section for information
 			</h1>
 			<article className="flex flex-col mt-2 sm:mt-5 gap-y-2">
-				{Object.values(DATAS_TYPE).map((dataType) => (
+				{Object.values(MINECRAFT_ENTITY_TYPES).map((dataType) => (
 					<InfoHomeCard key={dataType} id={dataType} />
 				))}
 			</article>
 		</Container>
 	);
 }
-

@@ -1,8 +1,8 @@
 /** Row card used to render an advancement entry. */
-import { CopyGetButton } from "@/features/information/components/shared/CopyGetButton";
-import type { EntityWithImage } from "@/services/useDatas";
-import type { Advancement } from "@/types/advancement.interface";
-import { API_URL } from "@/utils/consts";
+import { API_URL } from "@/config/config";
+import { CopyGetButton } from "@/features/information/components/common/CopyGetButton";
+import type { EntityWithImage } from "@/features/information/hooks/useInformationData";
+import type { Advancement } from "@/shared/minecraft/types";
 import type { SyntheticEvent } from "react";
 
 interface AdvancementCardProps {
@@ -89,4 +89,3 @@ export function AdvancementCard({ data, onLoad }: AdvancementCardProps) {
 		</div>
 	);
 }
-

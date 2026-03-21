@@ -1,5 +1,5 @@
 /** Homepage logo component with a randomized Minecraft-style splash text. */
-import { MENU_TEXTS } from "@/utils/consts";
+import { MENU_TEXTS } from "@/features/home/constants";
 import { useEffect, useState } from "react";
 
 /**

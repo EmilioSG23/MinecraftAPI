@@ -1,6 +1,6 @@
 /** Terminal command executors used by the in-app command console. */
-import { createErrorOutput } from "@/features/terminal/command-helpers";
-import { COMMAND_REGISTRY } from "@/features/terminal/command-registry";
+import { createErrorOutput } from "@/features/terminal/commands/command-helpers";
+import { COMMAND_REGISTRY } from "@/features/terminal/commands/command-registry";
 import type { TerminalCommandContext, TerminalCommandExecutor } from "@/features/terminal/types";
 
 const COMMANDS: Record<string, TerminalCommandExecutor> = Object.fromEntries(

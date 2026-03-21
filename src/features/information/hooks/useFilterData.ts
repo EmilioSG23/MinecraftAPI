@@ -46,5 +46,8 @@ export function useFilterData<T extends FilterableData>(datas: T[] = [], default
 		});
 	}, [datas, filters]);
 
+	console.log(filteredDatas);
+	console.log(filters);
+
 	return { filteredDatas, filters, setFilter };
 }

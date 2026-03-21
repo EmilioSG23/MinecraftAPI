@@ -1,17 +1,20 @@
 "use client";
 
 /** Generic entity list renderer shared by all information detail pages. */
-import { AlertErrorMessage, AlertLoadingMessage } from "@/shared/components/AlertMessage";
-import { Container } from "@/shared/components/Container";
 import { Filter } from "@/features/information/components/Filter";
 import { Tooltip } from "@/features/information/components/Tooltip";
+import { FETCH_STATUS } from "@/features/information/constants";
 import { useFilterData } from "@/features/information/hooks/useFilterData";
+import type {
+	EntityWithImage,
+	UseFetchResult,
+} from "@/features/information/hooks/useInformationData";
 import { useQueryFilter } from "@/features/information/hooks/useQueryFilter";
-import { useChangeSection } from "@/shared/hooks/useSection";
 import { useTooltip } from "@/features/information/hooks/useTooltip";
-import type { EntityWithImage, UseFetchResult } from "@/services/useDatas";
-import type { TooltipType } from "@/types/tooltip.interface";
-import { FETCH_STATUS } from "@/utils/consts";
+import type { TooltipState } from "@/features/information/types";
+import { AlertErrorMessage, AlertLoadingMessage } from "@/shared/components/AlertMessage";
+import { Container } from "@/shared/components/Container";
+import { useChangeSection } from "@/shared/hooks/useSection";
 
 interface EntityListViewProps<T extends { id: string }> {
 	title: string;
@@ -21,7 +24,7 @@ interface EntityListViewProps<T extends { id: string }> {
 	renderCard: (params: {
 		data: EntityWithImage<T>;
 		onLoad: (event: React.SyntheticEvent<HTMLImageElement>) => void;
-		tooltip: TooltipType;
+		tooltip: TooltipState;
 	}) => React.ReactNode;
 	filterKey?: string;
 	containerClassName?: string;
@@ -89,11 +92,14 @@ export function EntityListView<T extends { id: string }>({
 								data={filterDataName}
 								value={filters[filterKey] || ""}
 								onChange={updateFilter}
+								filterBy="title"
 							/>
 							<div className={listClassName}>
-								{filteredDatas.map((data) => (
-									<>{renderCard({ data, onLoad: () => {}, tooltip })}</>
-								))}
+								{filteredDatas
+									.filter((d) => !(d as any).hidden)
+									.map((data) => (
+										<>{renderCard({ data, onLoad: () => {}, tooltip })}</>
+									))}
 							</div>
 						</div>
 					</Container>
@@ -102,4 +108,3 @@ export function EntityListView<T extends { id: string }>({
 		</>
 	);
 }
-

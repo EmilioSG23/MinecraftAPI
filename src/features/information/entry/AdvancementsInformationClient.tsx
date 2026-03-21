@@ -3,7 +3,7 @@
 /** Client view that renders the advancements catalogue and its category filters. */
 import { AdvancementCard } from "@/features/information/components/cards/AdvancementCard";
 import { EntityListView } from "@/features/information/components/EntityListView";
-import { useAdvancements } from "@/services/useDatas";
+import { useAdvancements } from "@/features/information/hooks/useInformationData";
 import { useState } from "react";
 
 interface TypeStyle {
@@ -69,4 +69,3 @@ export function AdvancementsInformationClient() {
 		/>
 	);
 }
-

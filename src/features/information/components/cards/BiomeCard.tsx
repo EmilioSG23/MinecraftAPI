@@ -1,21 +1,22 @@
 /** Detailed card used to render biome information. */
-import { CopyGetButton } from "@/features/information/components/shared/CopyGetButton";
-import type { EntityWithImage } from "@/services/useDatas";
-import type { Biome } from "@/types/biome.interface";
-import type { TooltipType } from "@/types/tooltip.interface";
-import { API_URL, PREFIX_MC } from "@/utils/consts";
+import { API_URL } from "@/config/config";
+import { CopyGetButton } from "@/features/information/components/common/CopyGetButton";
+import type { EntityWithImage } from "@/features/information/hooks/useInformationData";
+import type { TooltipState } from "@/features/information/types";
+import { PREFIX_MC } from "@/shared/minecraft/constants";
+import type { Biome } from "@/shared/minecraft/types";
 import type { ReactNode, SyntheticEvent } from "react";
 
 interface BiomeCardProps {
 	data: EntityWithImage<Biome>;
-	tooltip: TooltipType;
+	tooltip: TooltipState;
 	onLoad: (event: SyntheticEvent<HTMLImageElement>) => void;
 }
 
 interface BiomeItemInformationProps {
 	children: ReactNode;
 	label: string;
-	tooltip: TooltipType;
+	tooltip: TooltipState;
 }
 
 /**
@@ -82,4 +83,3 @@ export function BiomeCard({ data, tooltip, onLoad }: BiomeCardProps) {
 		</article>
 	);
 }
-

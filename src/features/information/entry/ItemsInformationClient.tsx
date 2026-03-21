@@ -3,7 +3,7 @@
 /** Client view that renders the items catalogue. */
 import { EntityListView } from "@/features/information/components/EntityListView";
 import { ItemCard } from "@/features/information/components/cards/ItemCard";
-import { useItems } from "@/services/useDatas";
+import { useItems } from "@/features/information/hooks/useInformationData";
 
 /**
  * Renders the items information grid.
@@ -24,4 +24,3 @@ export function ItemsInformationClient() {
 		/>
 	);
 }
-

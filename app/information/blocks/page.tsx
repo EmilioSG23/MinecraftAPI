@@ -1,13 +1,19 @@
 /** Blocks information route. */
-import { Layout } from "@/shared/layout/Layout";
 import { BlocksInformationClient } from "@/features/information/entry/BlocksInformationClient";
+import {
+	createInformationMetadata,
+	renderInformationRoute,
+} from "@/features/information/lib/route";
+import { Layout } from "@/shared/layout/Layout";
 import type { Metadata } from "next";
 
 /** SEO metadata for the blocks page. */
-export const metadata: Metadata = {
-	title: "Blocks - Minecraft API",
+export const metadata: Metadata = createInformationMetadata({
+	title: "Blocks",
 	description: "Browse all Minecraft blocks with properties and API endpoints.",
-};
+	path: "/information/blocks",
+	pageName: "Minecraft Blocks",
+});
 
 /**
  * Renders the blocks catalogue page.
@@ -15,22 +21,17 @@ export const metadata: Metadata = {
  * @returns Layout-wrapped blocks client view.
  */
 export default function BlocksPage() {
-	const jsonLd = {
-		"@context": "https://schema.org",
-		"@type": "WebPage",
-		name: "Minecraft Blocks",
-		description: "Browse all Minecraft blocks with properties and API endpoints.",
-		url: "/information/blocks",
-	};
-
 	return (
 		<Layout>
-			<script
-				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-			/>
-			<BlocksInformationClient />
+			{renderInformationRoute(
+				{
+					title: "Blocks",
+					description: "Browse all Minecraft blocks with properties and API endpoints.",
+					path: "/information/blocks",
+					pageName: "Minecraft Blocks",
+				},
+				<BlocksInformationClient />,
+			)}
 		</Layout>
 	);
 }
-

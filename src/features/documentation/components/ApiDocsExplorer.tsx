@@ -8,7 +8,7 @@ import {
 } from "@/api/openapi";
 import { Container } from "@/shared/components/Container";
 import { useChangeSection } from "@/shared/hooks/useSection";
-import { ENTITY_LABELS, type EntityType } from "@/utils/consts";
+import { ENTITY_LABELS, type EntityType } from "@/shared/minecraft/constants";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
@@ -257,4 +257,3 @@ export function ApiDocsExplorer({
 }
 
 export default ApiDocsExplorer;
-

@@ -3,7 +3,7 @@
 /** Client view that renders the structures catalogue. */
 import { EntityListView } from "@/features/information/components/EntityListView";
 import { StructureCard } from "@/features/information/components/cards/StructureCard";
-import { useStructures } from "@/services/useDatas";
+import { useStructures } from "@/features/information/hooks/useInformationData";
 
 /**
  * Renders the structures information grid.
@@ -22,4 +22,3 @@ export function StructuresInformationClient() {
 		/>
 	);
 }
-

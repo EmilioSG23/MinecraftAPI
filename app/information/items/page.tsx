@@ -1,13 +1,19 @@
 /** Items information route. */
-import { Layout } from "@/shared/layout/Layout";
 import { ItemsInformationClient } from "@/features/information/entry/ItemsInformationClient";
+import {
+	createInformationMetadata,
+	renderInformationRoute,
+} from "@/features/information/lib/route";
+import { Layout } from "@/shared/layout/Layout";
 import type { Metadata } from "next";
 
 /** SEO metadata for the items page. */
-export const metadata: Metadata = {
-	title: "Items - Minecraft API",
+export const metadata: Metadata = createInformationMetadata({
+	title: "Items",
 	description: "Browse all Minecraft items with properties and API endpoints.",
-};
+	path: "/information/items",
+	pageName: "Minecraft Items",
+});
 
 /**
  * Renders the items catalogue page.
@@ -15,22 +21,17 @@ export const metadata: Metadata = {
  * @returns Layout-wrapped items client view.
  */
 export default function ItemsPage() {
-	const jsonLd = {
-		"@context": "https://schema.org",
-		"@type": "WebPage",
-		name: "Minecraft Items",
-		description: "Browse all Minecraft items with properties and API endpoints.",
-		url: "/information/items",
-	};
-
 	return (
 		<Layout>
-			<script
-				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-			/>
-			<ItemsInformationClient />
+			{renderInformationRoute(
+				{
+					title: "Items",
+					description: "Browse all Minecraft items with properties and API endpoints.",
+					path: "/information/items",
+					pageName: "Minecraft Items",
+				},
+				<ItemsInformationClient />,
+			)}
 		</Layout>
 	);
 }
-

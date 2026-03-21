@@ -1,8 +1,9 @@
 /** Card used to render structure information. */
-import { CopyGetButton } from "@/features/information/components/shared/CopyGetButton";
-import type { EntityWithImage } from "@/services/useDatas";
-import type { Structure } from "@/types/structure.interface";
-import { API_URL, PREFIX_MC } from "@/utils/consts";
+import { API_URL } from "@/config/config";
+import { CopyGetButton } from "@/features/information/components/common/CopyGetButton";
+import type { EntityWithImage } from "@/features/information/hooks/useInformationData";
+import { PREFIX_MC } from "@/shared/minecraft/constants";
+import type { Structure } from "@/shared/minecraft/types";
 import type { SyntheticEvent } from "react";
 
 interface StructureCardProps {
@@ -42,4 +43,3 @@ export function StructureCard({ data, onLoad }: StructureCardProps) {
 		</div>
 	);
 }
-

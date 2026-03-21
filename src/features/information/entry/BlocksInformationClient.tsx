@@ -3,7 +3,7 @@
 /** Client view that renders the blocks catalogue. */
 import { BlockCard } from "@/features/information/components/cards/BlockCard";
 import { EntityListView } from "@/features/information/components/EntityListView";
-import { useBlocks } from "@/services/useDatas";
+import { useBlocks } from "@/features/information/hooks/useInformationData";
 
 /**
  * Renders the blocks information grid.
@@ -24,4 +24,3 @@ export function BlocksInformationClient() {
 		/>
 	);
 }
-

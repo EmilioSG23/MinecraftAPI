@@ -1,9 +1,8 @@
+import { API_URL } from "@/config/config";
+import { ApiDocsExplorer } from "@/features/documentation/components/ApiDocsExplorer";
 import { Container } from "@/shared/components/Container";
 import { useChangeSection } from "@/shared/hooks/useSection";
-import { API_URL } from "@/utils/consts";
-import { ApiDocsExplorer } from "@/features/documentation/components/ApiDocsExplorer";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
 interface CodeProps {
 	code: string;
@@ -46,11 +45,7 @@ function Code({ code }: CodeProps) {
  * @returns Base API endpoint rendered as an actionable code block.
  */
 function ApiUrlCode() {
-	const [origin, setOrigin] = useState("");
-	useEffect(() => {
-		setOrigin(window.location.origin);
-	}, []);
-	return <Code code={`${origin}${API_URL}/`} />;
+	return <Code code={`${API_URL}/`} />;
 }
 
 /**
@@ -251,4 +246,3 @@ export function Documentation() {
 		</Container>
 	);
 }
-

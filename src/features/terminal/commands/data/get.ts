@@ -2,9 +2,9 @@ import {
 	createErrorOutput,
 	createJsonOutput,
 	validateArgs,
-} from "@/features/terminal/command-helpers";
-import { obtainDatasByURL } from "@/services/useDatas";
-import { PREFIX_MC } from "@/utils/consts";
+} from "@/features/terminal/commands/command-helpers";
+import { fetchApiResource } from "@/shared/lib/api-client";
+import { PREFIX_MC } from "@/shared/minecraft/constants";
 
 /**
  * Fetches a full entity payload and formats it as JSON output for the terminal.
@@ -16,7 +16,7 @@ export async function executeGet(args: string[]) {
 	const err = validateArgs(2, args, '/get "<type> <id>"');
 	if (err) return err;
 
-	const { data, status } = await obtainDatasByURL(`${args.join("/")}`);
+	const { data, status } = await fetchApiResource(`${args.join("/")}`);
 
 	if (status === 200) {
 		return createJsonOutput(`${PREFIX_MC + data.id} has the next information:`, data);

@@ -25,10 +25,10 @@ export function AlertMessage(props: AlertMessageProps) {
 	return (
 		<div
 			className={`fixed left-1/2 top-1/2 -translate-1/2 bg-black/25
-				border-4 text-white text-center py-10 px-20 ${fontSize} ${borderColor}`}
+				border-4 text-white text-center py-10! px-20! ${fontSize} ${borderColor}`}
 		>
 			{message}
-			{actions && <div className="mt-4 flex justify-center">{actions}</div>}
+			{actions && <div className="mt-4! flex justify-center">{actions}</div>}
 		</div>
 	);
 }

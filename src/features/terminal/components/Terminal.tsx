@@ -1,7 +1,7 @@
 /** Interactive terminal view that executes client-side helper commands against the API. */
-import { executeCommand } from "@/features/terminal/command-executor";
+import { executeCommand } from "@/features/terminal/commands/command-executor";
 import { TerminalOutputRenderer } from "@/features/terminal/components/TerminalOutputRenderer";
-import { useTerminalSession } from "@/features/terminal/useTerminalSession";
+import { useTerminalSession } from "@/features/terminal/hooks/useTerminalSession";
 import { useChangeSection } from "@/shared/hooks/useSection";
 import { useEffect, useRef } from "react";
 
@@ -103,4 +103,3 @@ export function Terminal({ setPanorama, setBlur, setDisplayMode }: TerminalProps
 		</section>
 	);
 }
-

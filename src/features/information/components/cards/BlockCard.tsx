@@ -1,15 +1,16 @@
 /** Compact block card used inside the block catalogue grid. */
-import { CopyableTooltipCard } from "@/features/information/components/shared/CopyableTooltipCard";
-import type { EntityWithImage } from "@/services/useDatas";
-import type { Block } from "@/types/block.interface";
-import type { TooltipType } from "@/types/tooltip.interface";
-import { API_URL, PREFIX_MC } from "@/utils/consts";
-import { getTierColor } from "@/utils/tier";
+import { API_URL } from "@/config/config";
+import { CopyableTooltipCard } from "@/features/information/components/common/CopyableTooltipCard";
+import type { EntityWithImage } from "@/features/information/hooks/useInformationData";
+import { getTierColor } from "@/features/information/lib/get-tier-color";
+import type { TooltipState } from "@/features/information/types";
+import { PREFIX_MC } from "@/shared/minecraft/constants";
+import type { Block } from "@/shared/minecraft/types";
 import type { SyntheticEvent } from "react";
 
 interface BlockCardProps {
 	data: EntityWithImage<Block>;
-	tooltip: TooltipType;
+	tooltip: TooltipState;
 	onLoad: (event: SyntheticEvent<HTMLImageElement>) => void;
 }
 
@@ -68,4 +69,3 @@ export function BlockCard({ data, tooltip, onLoad }: BlockCardProps) {
 		</CopyableTooltipCard>
 	);
 }
-

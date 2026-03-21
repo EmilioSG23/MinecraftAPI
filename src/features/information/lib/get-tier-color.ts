@@ -1,4 +1,4 @@
-/** Helpers for styling Minecraft rarity tiers in the UI. */
+/** Helpers for styling Minecraft rarity tiers in information UIs. */
 const TIER_COLOR: Record<string, string> = {
 	COMMON: "text-white",
 	UNCOMMON: "text-[#ffff55]",
@@ -7,7 +7,7 @@ const TIER_COLOR: Record<string, string> = {
 };
 
 /**
- * Returns Tailwind text color class for a minecraft rarity tier.
+ * Returns Tailwind text color class for a Minecraft rarity tier.
  *
  * @param tier Rarity tier string coming from an item or block dataset entry.
  * @returns Tailwind class that colors the tier label consistently.

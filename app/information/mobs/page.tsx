@@ -1,13 +1,19 @@
 /** Mobs information route. */
-import { Layout } from "@/shared/layout/Layout";
 import { MobsInformationClient } from "@/features/information/entry/MobsInformationClient";
+import {
+	createInformationMetadata,
+	renderInformationRoute,
+} from "@/features/information/lib/route";
+import { Layout } from "@/shared/layout/Layout";
 import type { Metadata } from "next";
 
 /** SEO metadata for the mobs page. */
-export const metadata: Metadata = {
-	title: "Mobs - Minecraft API",
+export const metadata: Metadata = createInformationMetadata({
+	title: "Mobs",
 	description: "Browse all Minecraft mobs with behavior and API endpoints.",
-};
+	path: "/information/mobs",
+	pageName: "Minecraft Mobs",
+});
 
 /**
  * Renders the mobs catalogue page.
@@ -15,22 +21,17 @@ export const metadata: Metadata = {
  * @returns Layout-wrapped mobs client view.
  */
 export default function MobsPage() {
-	const jsonLd = {
-		"@context": "https://schema.org",
-		"@type": "WebPage",
-		name: "Minecraft Mobs",
-		description: "Browse all Minecraft mobs with behavior and API endpoints.",
-		url: "/information/mobs",
-	};
-
 	return (
 		<Layout>
-			<script
-				type="application/ld+json"
-				dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-			/>
-			<MobsInformationClient />
+			{renderInformationRoute(
+				{
+					title: "Mobs",
+					description: "Browse all Minecraft mobs with behavior and API endpoints.",
+					path: "/information/mobs",
+					pageName: "Minecraft Mobs",
+				},
+				<MobsInformationClient />,
+			)}
 		</Layout>
 	);
 }
-

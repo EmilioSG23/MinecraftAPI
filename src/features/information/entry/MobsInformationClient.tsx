@@ -3,7 +3,7 @@
 /** Client view that renders the mobs catalogue and behavior filters. */
 import { EntityListView } from "@/features/information/components/EntityListView";
 import { MobCard, getMobTypeStyle } from "@/features/information/components/cards/MobCard";
-import { useMobs } from "@/services/useDatas";
+import { useMobs } from "@/features/information/hooks/useInformationData";
 import { useState } from "react";
 
 /**
@@ -49,4 +49,3 @@ export function MobsInformationClient() {
 		/>
 	);
 }
-

@@ -38,7 +38,8 @@ export function useQueryFilter(
 		const params = new URLSearchParams(searchParams?.toString() || "");
 		if (value) params.set(paramName, value);
 		else params.delete(paramName);
-		router.replace(`${pathname}?${params.toString()}`);
+		const query = params.toString();
+		router.replace(query ? `${pathname}?${query}` : pathname);
 	};
 	return { updateFilter };
 }

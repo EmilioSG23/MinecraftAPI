@@ -1,4 +1,4 @@
-import { createErrorOutput } from "@/features/terminal/command-helpers";
+import { createErrorOutput } from "@/features/terminal/commands/command-helpers";
 import { executeCount } from "@/features/terminal/commands/data/count";
 import { executeFilter } from "@/features/terminal/commands/data/filter";
 import { executeGet } from "@/features/terminal/commands/data/get";

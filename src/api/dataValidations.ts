@@ -6,12 +6,7 @@ import itemsData from "#/items.json";
 import mobsData from "#/mobs.json";
 import structuresData from "#/structures.json";
 
-import { Advancement } from "@/types/advancement.interface";
-import { Biome } from "@/types/biome.interface";
-import { Block } from "@/types/block.interface";
-import { Item } from "@/types/item.interface";
-import { Mob } from "@/types/mob.interface";
-import { Structure } from "@/types/structure.interface";
+import type { Advancement, Biome, Block, Item, Mob, Structure } from "@/shared/minecraft/types";
 
 /** Typed advancements dataset loaded from the bundled JSON file. */
 export const advancements = advancementsData as Advancement[];

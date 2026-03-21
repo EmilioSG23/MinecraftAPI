@@ -3,7 +3,7 @@
 /** Client view that renders the biomes catalogue. */
 import { BiomeCard } from "@/features/information/components/cards/BiomeCard";
 import { EntityListView } from "@/features/information/components/EntityListView";
-import { useBiomes } from "@/services/useDatas";
+import { useBiomes } from "@/features/information/hooks/useInformationData";
 
 /**
  * Renders the biomes information list.
@@ -25,4 +25,3 @@ export function BiomesInformationClient() {
 		/>
 	);
 }
-

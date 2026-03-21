@@ -4,7 +4,7 @@ import {
 	ENTITY_TYPES,
 	MC_VERSION,
 	type EntityType,
-} from "@/utils/consts";
+} from "@/shared/minecraft/constants";
 
 /** Describes a path parameter exposed by a documented endpoint. */
 export interface ApiEndpointParameter {

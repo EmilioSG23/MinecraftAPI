@@ -1,6 +1,6 @@
 /** Information index route that links all entity sections. */
 import { InformationPageClient } from "@/features/information/entry/InformationPageClient";
-import { DATAS_TYPE } from "@/utils/consts";
+import { MINECRAFT_ENTITY_TYPES } from "@/shared/minecraft/constants";
 import type { Metadata } from "next";
 
 /** SEO metadata for the information hub route. */
@@ -26,7 +26,7 @@ export default function InformationPage() {
 	const itemListJsonLd = {
 		"@context": "https://schema.org",
 		"@type": "ItemList",
-		itemListElement: Object.values(DATAS_TYPE).map((entity, index) => ({
+		itemListElement: Object.values(MINECRAFT_ENTITY_TYPES).map((entity, index) => ({
 			"@type": "ListItem",
 			position: index + 1,
 			name: entity,
@@ -48,4 +48,3 @@ export default function InformationPage() {
 		</>
 	);
 }
-

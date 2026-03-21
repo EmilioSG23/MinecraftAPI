@@ -2,8 +2,8 @@ import {
 	createErrorOutput,
 	createTextOutput,
 	validateArgs,
-} from "@/features/terminal/command-helpers";
-import { obtainDatasByURL } from "@/services/useDatas";
+} from "@/features/terminal/commands/command-helpers";
+import { fetchApiResource } from "@/shared/lib/api-client";
 
 /**
  * Retrieves the total amount of entities available for a given data type.
@@ -15,7 +15,7 @@ export async function executeCount(args: string[]) {
 	const err = validateArgs(1, args, '/count "<type>"');
 	if (err) return err;
 
-	const { data, status } = await obtainDatasByURL(`${args[0]}/count`);
+	const { data, status } = await fetchApiResource(`${args[0]}/count`);
 
 	if (status === 200) {
 		return createTextOutput(`There are ${data} elements available for ${args[0]}`);

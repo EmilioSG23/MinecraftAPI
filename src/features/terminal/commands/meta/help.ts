@@ -1,5 +1,5 @@
-import { createCommandListOutput } from "@/features/terminal/command-helpers";
-import { COMMAND_REGISTRY } from "@/features/terminal/command-registry";
+import { createCommandListOutput } from "@/features/terminal/commands/command-helpers";
+import { COMMAND_REGISTRY } from "@/features/terminal/commands/command-registry";
 
 /**
  * Returns the list of commands available in the terminal.

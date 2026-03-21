@@ -2,8 +2,8 @@ import {
 	createErrorOutput,
 	createTextOutput,
 	validateArgs,
-} from "@/features/terminal/command-helpers";
-import { API_VERSION, MC_VERSION } from "@/utils/consts";
+} from "@/features/terminal/commands/command-helpers";
+import { API_VERSION, MC_VERSION } from "@/shared/minecraft/constants";
 
 /**
  * Returns either the Minecraft dataset version or the API version.
