@@ -1,8 +1,10 @@
+import { Container } from "@/shared/components/Container";
+
 /** Shared alert overlays used for loading and error states. */
 interface AlertMessageProps {
 	message: string;
 	fontSize?: string;
-	borderColor?: string;
+	textColor?: string;
 	actions?: React.ReactNode;
 }
 
@@ -11,7 +13,7 @@ interface AlertMessageProps {
  *
  * @param props.message Main message shown to the user.
  * @param props.fontSize Optional typography classes.
- * @param props.borderColor Optional border color classes.
+ * @param props.textColor Optional text color classes.
  * @param props.actions Optional action buttons rendered below the message.
  * @returns Overlay alert box.
  */
@@ -19,17 +21,17 @@ export function AlertMessage(props: AlertMessageProps) {
 	const {
 		message,
 		fontSize = "text-[24px] sm:text-[48px]",
-		borderColor = "border-white-900",
+		textColor = "text-black",
 		actions,
 	} = props;
 	return (
-		<div
-			className={`fixed left-1/2 top-1/2 -translate-1/2 bg-black/25
-				border-4 text-white text-center py-10! px-20! ${fontSize} ${borderColor}`}
+		<Container
+			className={`fixed left-1/2 top-1/2 -translate-1/2
+				${textColor} text-center p-10! ${fontSize}`}
 		>
 			{message}
 			{actions && <div className="mt-4! flex justify-center">{actions}</div>}
-		</div>
+		</Container>
 	);
 }
 
@@ -68,7 +70,7 @@ export function AlertErrorMessage({ onRetry, message }: AlertErrorMessageProps =
 		<AlertMessage
 			message={message || "Error with the fetching of the datas :(, go back and try again..."}
 			fontSize="text-[16px] sm:text-[32px]"
-			borderColor="border-red-900"
+			textColor="text-red-900"
 			actions={
 				onRetry ? (
 					<button type="button" className="mc-selector text-white px-4! py-2!" onClick={onRetry}>
